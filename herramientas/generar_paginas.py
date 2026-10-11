@@ -35,7 +35,7 @@ TPL = '''<!doctype html>
   <meta property="og:title" content="{title}">
   <meta property="og:description" content="{desc}">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="{base}img/hero-iglesia.jpg">{abs}
+  <meta property="og:image" content="{base}{og}">{abs}
   <meta name="theme-color" content="#4e5f58">
   <link rel="icon" type="image/png" href="img/favicon.png">
   <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
@@ -88,7 +88,7 @@ for f, page, title, desc in todas:
     else:
         abs_ = ''
     open(os.path.join(OUT, f), 'w', encoding='utf-8').write(TPL.format(
-        title=title, desc=desc, page=page, extra=extra, base=url, abs=abs_, fuentes=fuentes,
+        title=title, desc=desc, page=page, og='img/academia/og-academia.jpg' if page == 'academia' else 'img/hero-iglesia.jpg', extra=extra, base=url, abs=abs_, fuentes=fuentes,
         basetag=BASE_404 if page == 'noencontrado' else ''))
 
 # la dirección vieja de la Academia redirige a la nueva

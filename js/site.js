@@ -54,6 +54,39 @@
       '<g transform="translate(25 27) scale(.5)"><path d="' + ISO_D + '" transform="translate(0 -10)" fill="none" stroke="currentColor" stroke-width="2.42" stroke-linecap="round" stroke-linejoin="round"/></g></svg>';
   }
 
+  /* insignias de las cumbres: doble anillo como el sello, con un ícono de trazo en el centro */
+  var CUMBRES_INS = {
+    sacramentos: { num: "01", corto: "Los sacramentos", icono: '<path d="M50 30 C50 30 38 45 38 54 a12 12 0 0 0 24 0 C62 45 50 30 50 30 Z"/><path d="M45 55 a6 6 0 0 0 5 5"/>' },
+    misa: { num: "02", corto: "La misa", icono: '<circle cx="50" cy="31" r="5.5"/><path d="M47.5 31 H52.5 M50 28.5 V33.5"/><path d="M39 40 H61 C61 51 56 57 50 57 C44 57 39 51 39 40 Z"/><path d="M50 57 V65"/><path d="M42 68 Q50 64.5 58 68"/>' },
+    coordinador: { num: "03", corto: "Coordinador", icono: '<circle cx="50" cy="50" r="17"/><path d="M50 36 L54 50 L50 64 L46 50 Z"/><path d="M36 50 L50 47.5 L64 50 L50 52.5 Z"/>' },
+    "hablar-de-jesus": { num: "04", corto: "Hablar de Jesús", icono: '<path d="M50 30 C56 38 62 43 61 52 C60 60 55 65 50 65 C45 65 40 60 39 53 C38 46 43 42 45.5 37 C46.5 43 48.5 45.5 51 45.5 C53 41 52.5 35 50 30 Z"/>' }
+  };
+  var EMOJI_CUMBRE = { "🕯️": "sacramentos", "🕯": "sacramentos", "⛪": "misa", "🧭": "coordinador", "💬": "hablar-de-jesus" };
+  var insN = 0;
+  /* mini = solo el ícono en un círculo (para tamaños chicos, como el ranking) */
+  function insigniaSVG(id, alcanzada, cls, mini) {
+    var c = CUMBRES_INS[id]; if (!c) return "";
+    var acento = alcanzada ? "#2F7FE0" : "currentColor", etiqueta = "Cumbre " + c.num + " · " + c.corto + (alcanzada ? " (alcanzada)" : "");
+    var dibujo = '<g fill="none" stroke="' + acento + '" stroke-width="' + (mini ? 3.2 : 2) + '" stroke-linecap="round" stroke-linejoin="round">' + c.icono + "</g>";
+    if (mini) return '<svg class="' + cls + '" viewBox="14 14 72 72" role="img" aria-label="' + esc(etiqueta) + '"><circle cx="50" cy="50" r="33" fill="none" stroke="' + acento + '" stroke-width="2.6"/>' + dibujo + "</svg>";
+    var pid = "ins-c" + (++insN);
+    return '<svg class="' + cls + '" viewBox="0 0 100 100" role="img" aria-label="' + esc(etiqueta) + '"><defs><path id="' + pid + '" d="M50 50 m-38 0 a38 38 0 1 1 76 0 a38 38 0 1 1 -76 0"/></defs>' +
+      '<circle cx="50" cy="50" r="47" fill="none" stroke="' + acento + '" stroke-width="1.6"/>' +
+      '<circle cx="50" cy="50" r="31" fill="none" stroke="currentColor" stroke-width="1.1"' + (alcanzada ? "" : ' stroke-dasharray="2 2.4"') + "/>" +
+      '<text fill="currentColor" stroke="none" font-family="Lora, Georgia, serif" font-size="6.6" letter-spacing="1"><textPath href="#' + pid + '" textLength="235" lengthAdjust="spacing">CUMBRE ' + c.num + " · " + c.corto.toUpperCase() + " · ACADEMIA FRASSATI ·</textPath></text>" + dibujo + "</svg>";
+  }
+
+  /* estadísticas anónimas de visitas (GoatCounter): solo se activa si contenido.js tiene el código */
+  function contar(evento) {
+    try { if (window.goatcounter && window.goatcounter.count) window.goatcounter.count({ path: "evento/" + evento, title: evento, event: true }); } catch (e) {}
+  }
+  if (C.estadisticas && !/^(localhost|127\.)/.test(location.hostname)) {
+    var gc = document.createElement("script");
+    gc.async = true; gc.src = "https://gc.zgo.at/count.js";
+    gc.setAttribute("data-goatcounter", "https://" + C.estadisticas + ".goatcounter.com/count");
+    document.head.appendChild(gc);
+  }
+
   /* podio de la semana pasada, del ranking parroquial */
   function podioHtml(podio) {
     if (!podio || !podio.length) return "";
@@ -843,7 +876,7 @@
           "<strong>Si no iniciás sesión:</strong> no guardamos nada sobre vos. Tu progreso en los juegos (rachas, récords, partidas del día) y en los cursos queda solo en tu navegador, en tu celular o compu. No lo vemos ni sale de tu dispositivo.",
           "<strong>Si iniciás sesión con Google o con un código del ranking:</strong> guardamos tu nombre y tu mail de Google (o el nombre que te asignamos), el nombre que aparece en el ranking, tu grupo, los puntos de los desafíos diarios y los cursos de la Academia que aprobaste, con su fecha y nota.",
           "<strong>Nunca</strong> recibimos tu contraseña: el inicio de sesión lo hace Google. No pedimos teléfono, documento, dirección ni fecha de nacimiento."]) +
-        sec("Para qué los usamos", ["Solo para que puedas entrar, mostrar el ranking parroquial y registrar tus cursos y certificados. No los vendemos ni los compartimos, no hacemos publicidad y no usamos cookies de seguimiento ni herramientas de análisis que te identifiquen."]) +
+        sec("Para qué los usamos", ["Solo para que puedas entrar, mostrar el ranking parroquial y registrar tus cursos y certificados. No los vendemos ni los compartimos, no hacemos publicidad y no usamos cookies de seguimiento ni herramientas de análisis que te identifiquen." + (C.estadisticas ? " Para saber cuánta gente visita la web usamos GoatCounter, que cuenta visitas de forma anónima: no usa cookies ni guarda datos que permitan identificarte." : "")]) +
         sec("Qué es público", ["En el ranking se muestran únicamente el nombre visible que elegimos con vos, tu grupo, tus puntos y tus insignias. Tu mail nunca se muestra en la web."]) +
         sec("Dónde se guardan y quién los ve", ["En una planilla privada de Google Drive de la cuenta de la Academia Frassati. Solo acceden los administradores de la web de la parroquia. Google procesa esos datos según su propia política de privacidad."]) +
         sec("Menores de edad", ["Muchos de nuestros participantes son menores. Por eso guardamos lo mínimo indispensable, y la participación en el ranking y la Academia se hace con conocimiento de la parroquia. Si sos madre, padre o tutor y querés consultar o borrar los datos de tu hijo o hija, escribinos."]) +
@@ -1502,7 +1535,7 @@
       if (!filas || !filas.length) return '<p class="muted">Todavía no hay puntajes. ¡Sé el primero!</p>';
       return '<ol class="rk__tabla">' + filas.map(function (x) {
         return '<li class="' + (x.yo ? "is-yo" : "") + '"><span class="rk__pos">' + x.pos + '</span><span class="rk__nombre">' + esc(x.nombre) + grupoRK(x.grupo) +
-          ((x.insignias || []).length ? ' <span class="rk__ins" title="Cumbres de la Academia Frassati">' + x.insignias.map(esc).join("") + "</span>" : "") +
+          ((x.insignias || []).length ? ' <span class="rk__ins" title="Cumbres de la Academia Frassati">' + x.insignias.map(function (e) { return EMOJI_CUMBRE[e] ? insigniaSVG(EMOJI_CUMBRE[e], true, "rk-ins", true) : esc(e); }).join("") + "</span>" : "") +
           (x.oculto ? ' <span class="rk__oculto">solo lo ves vos</span>' : "") + '</span><span class="rk__pts">' + x.puntos + "</span></li>";
       }).join("") + "</ol>";
     };
@@ -1624,6 +1657,7 @@
     var lista = function () {
       var alcanzadas = FD.cursos.filter(function (c) { return estado(c.id).aprobado; }).length;
       cont.innerHTML =
+        '<div class="ac-ruta-cta">' + (CUENTA.datos() ? "<span>Hola, <strong>" + esc(CUENTA.datos().nombre) + "</strong>.</span>" : "<span>¿Ya subiste alguna cumbre?</span>") + '<a class="ac-link" href="#ruta">Mi cuaderno de ruta →</a></div>' +
         '<div class="ac-sec"><p class="ac-rotulo">El camino</p><h2 class="ac-h2">Cómo se sube</h2>' +
         '<ol class="ac-pasos3"><li><span>01</span><h3>Leé</h3><p>Cada cumbre tiene su lectura, con una guía de qué buscar.</p></li>' +
         "<li><span>02</span><h3>Rendí</h3><p>" + N_PREG + " preguntas sobre la lectura, a libro abierto. Se aprueba con " + APRUEBA + ".</p></li>" +
@@ -1631,7 +1665,7 @@
         '<div class="ac-sec"><p class="ac-rotulo">Las cumbres' + (alcanzadas ? " · alcanzaste " + alcanzadas + " de " + FD.cursos.length : "") + '</p><h2 class="ac-h2">Elegí tu próxima subida</h2>' +
         '<div class="ac-cumbres">' + FD.cursos.map(function (c) {
           var e = estado(c.id);
-          return '<a class="ac-cumbre' + (e.aprobado ? " is-ok" : "") + '" href="#' + esc(c.id) + '"><p class="ac-rotulo">Cumbre ' + numero(c) + "</p>" +
+          return '<a class="ac-cumbre' + (e.aprobado ? " is-ok" : "") + '" href="#' + esc(c.id) + '">' + insigniaSVG(c.id, !!e.aprobado, "ac-cumbre__ins") + '<p class="ac-rotulo">Cumbre ' + numero(c) + "</p>" +
             '<h3 class="ac-h3">' + esc(c.titulo) + "</h3><p>" + esc(c.resumen) + "</p>" +
             '<p class="ac-meta">' + (e.aprobado ? isoSVG("ac-iso-mini") + " Cumbre alcanzada · " + e.aprobado.nota + "/10" : "Unos " + c.minutos + " minutos de lectura · examen de " + N_PREG + " preguntas") + "</p>" +
             '<span class="ac-link">' + (e.aprobado ? "Ver mi certificado" : "Empezar el ascenso") + " →</span></a>";
@@ -1644,7 +1678,7 @@
     var detalle = function (c) {
       var e = estado(c.id), falloHoy = !e.aprobado && e.ultimoIntento === hoyF;
       cont.innerHTML = '<a class="ac-volver" href="#">← Todas las cumbres</a>' +
-        '<header class="ac-det-head"><p class="ac-rotulo">Cumbre ' + numero(c) + '</p><h2 class="ac-h1 ac-h1--det">' + esc(c.titulo) + '</h2><p class="ac-lead">' + esc(c.resumen) + " " + esc(c.para) + "</p></header>" +
+        '<header class="ac-det-head">' + insigniaSVG(c.id, !!e.aprobado, "ac-det-ins") + '<div><p class="ac-rotulo">Cumbre ' + numero(c) + '</p><h2 class="ac-h1 ac-h1--det">' + esc(c.titulo) + '</h2><p class="ac-lead">' + esc(c.resumen) + " " + esc(c.para) + "</p></div></header>" +
         '<ol class="ac-tramos">' +
           '<li><p class="ac-rotulo">Tramo 01</p><h3 class="ac-h3">Leé</h3><ul class="ac-lecturas">' + c.lecturas.map(function (l) {
             return "<li>" + ext(l.url, "ac-link", esc(l.texto) + " →") + "<p>" + esc(l.guia) + "</p></li>";
@@ -1667,7 +1701,7 @@
         '<div class="ac-fila"><input id="cert-nombre" type="text" maxlength="60" required value="' + esc(e.nombre || "") + '" placeholder="Ej.: Juliana Rodríguez">' +
         '<button type="submit" class="ac-btn">Descargar certificado</button></div>' +
         '<p class="ac-ayuda">Se abre para imprimir: elegí <strong>Guardar como PDF</strong>. En el celular, desde Compartir → Imprimir.</p></form>' +
-        '<p class="ac-compartir">' + ext("https://wa.me/?text=" + encodeURIComponent("Alcancé la cumbre «" + c.titulo + "» de la Academia Frassati (" + e.aprobado.nota + "/10). Hacia lo alto.\n" + location.href.split("#")[0]), "ac-link", "Compartir por WhatsApp →") + "</p>" +
+        '<p class="ac-compartir"><button type="button" class="ac-btn ac-btn--claro" data-f="tarjeta">Tarjeta para Instagram</button> ' + ext("https://wa.me/?text=" + encodeURIComponent("Alcancé la cumbre «" + c.titulo + "» de la Academia Frassati (" + e.aprobado.nota + "/10). Hacia lo alto.\n" + location.href.split("#")[0]), "ac-link", "Compartir por WhatsApp →") + "</p>" +
         (yo ? '<p class="ac-ayuda">' + (e.enviada ? "La cumbre ya quedó registrada en tu cuenta." : "La cumbre se está registrando en tu cuenta.") + "</p>"
             : '<p class="ac-ayuda">Entrá con tu cuenta de Google para que la cumbre quede registrada a tu nombre.</p><div id="f-google"></div><p class="rk__msg" id="f-msg" aria-live="polite"></p>');
     };
@@ -1690,11 +1724,11 @@
       });
       var e = estado(c.id), aprobo = bien >= APRUEBA;
       e.ultimoIntento = hoyF; e.ultimaNota = bien;
-      if (aprobo) e.aprobado = { nota: bien, fecha: hoyF };
+      if (aprobo) { e.aprobado = { nota: bien, fecha: hoyF }; contar("cumbre-" + c.id); }
       guardarE(c.id, e);
       if (aprobo) enviarInsignia(c);
       detalle(c);
-      $("examen").innerHTML = '<div class="ac-res ' + (aprobo ? "is-ok" : "is-bad") + '">' + (aprobo ? isoSVG("ac-iso-res") : "") +
+      $("examen").innerHTML = '<div class="ac-res ' + (aprobo ? "is-ok" : "is-bad") + '">' + (aprobo ? insigniaSVG(c.id, true, "ac-ins-res") : "") +
         '<p class="ac-nota">' + bien + "<span>/10</span></p>" +
         '<p class="ac-lead">' + (aprobo ? "¡Llegaste a la cumbre! Ya podés descargar tu certificado." : "Esta vez no alcanzó. Repasá lo que te marcamos y volvé a intentarlo mañana.") + "</p></div>" +
         '<ol class="ac-repaso">' + res.map(function (r) {
@@ -1721,13 +1755,123 @@
       setTimeout(function () { window.print(); setTimeout(fin, 1000); }, 300);
     };
 
+    /* trae de la planilla las cumbres de la cuenta (así se ven en cualquier celular o compu) */
+    var sincronizar = function (cb) {
+      if (!CUENTA.url || !CUENTA.datos()) { cb(null); return; }
+      CUENTA.post("ranking", {}, function (err, d) {
+        if (err || !d || !d.ok) { cb(null); return; }
+        (d.misCumbres || []).forEach(function (m) {
+          if (!curso(m.curso)) return;
+          var e = estado(m.curso);
+          if (!e.aprobado || e.aprobado.nota < m.nota) e.aprobado = { nota: m.nota, fecha: m.fecha };
+          e.enviada = true; guardarE(m.curso, e);
+        });
+        if (d.miEstado) CUENTA.actualizar(d.miEstado);
+        cb(d);
+      });
+    };
+
+    var ruta = function () {
+      var yo = CUENTA.datos();
+      var cab = '<a class="ac-volver" href="#">← Todas las cumbres</a><header class="ac-det-head ac-det-head--ruta"><div><p class="ac-rotulo">Mi cuaderno de ruta</p>';
+      if (!yo) {
+        cont.innerHTML = cab + '<h2 class="ac-h1 ac-h1--det">Tu camino, en cualquier dispositivo</h2>' +
+          '<p class="ac-lead">Entrá con tu cuenta de Google para ver tus cumbres, volver a descargar tus certificados y seguir tus puntos de los juegos desde cualquier celular o compu.</p></div></header>' +
+          '<div id="f-google"></div><p class="rk__msg" id="f-msg" aria-live="polite"></p><p class="ac-ayuda">Solo guardamos tu nombre, tu mail y lo que vas logrando. <a class="ac-link" href="privacidad.html">Privacidad</a></p>';
+        CUENTA.boton($("f-google"), function (estadoC, nombre) {
+          if (CUENTA.datos()) ruta(); else $("f-msg").innerHTML = CUENTA.mensaje(estadoC, nombre);
+        });
+        return;
+      }
+      cont.innerHTML = cab + '<h2 class="ac-h1 ac-h1--det">' + esc(yo.nombre) + "</h2></div></header><p class=\"ac-ayuda\">Cargando tu camino…</p>";
+      sincronizar(function (d) {
+        var hechas = FD.cursos.filter(function (c) { return estado(c.id).aprobado; });
+        var racha = mejorRacha();
+        var dato = function (num, txt) { return '<div class="ac-dato"><strong>' + num + "</strong><span>" + txt + "</span></div>"; };
+        var puesto = function (k) { return d && d.yo && d.yo[k] ? d.yo[k].pos + "° · " + d.yo[k].puntos + " pts" : "—"; };
+        cont.innerHTML = cab + '<h2 class="ac-h1 ac-h1--det">' + esc(yo.nombre) + "</h2>" +
+            (yo.grupo ? '<p class="ac-lead">' + esc(yo.grupo) + "</p>" : "") + "</div></header>" +
+          (yo.estado === "pendiente" ? '<p class="rk__msg">' + CUENTA.mensaje("pendiente") + "</p>" : "") +
+          '<div class="ac-datos">' + dato(hechas.length + "<small>/" + FD.cursos.length + "</small>", "cumbres alcanzadas") +
+            dato(puesto("semana"), "ranking de esta semana") + dato(puesto("historico"), "ranking histórico") +
+            dato(racha ? racha + (racha === 1 ? " día" : " días") : "—", "racha en los juegos") + "</div>" +
+          '<div class="ac-sec"><p class="ac-rotulo">Mis cumbres</p><div class="ac-mis">' + FD.cursos.map(function (c) {
+            var e = estado(c.id);
+            return '<a class="ac-mi' + (e.aprobado ? " is-ok" : "") + '" href="#' + esc(c.id) + '">' + insigniaSVG(c.id, !!e.aprobado, "ac-mi__ins") +
+              '<span class="ac-rotulo">Cumbre ' + numero(c) + "</span><strong>" + esc(c.titulo) + "</strong>" +
+              "<span>" + (e.aprobado ? "Alcanzada el " + fechaLarga(e.aprobado.fecha) + " · " + e.aprobado.nota + "/10" : "Todavía sin subir") + "</span>" +
+              '<span class="ac-link">' + (e.aprobado ? "Certificado y tarjeta →" : "Empezar el ascenso →") + "</span></a>";
+          }).join("") + "</div></div>" +
+          '<p class="ac-ayuda"><button type="button" class="link" data-f="salir">Salir de mi cuenta</button></p>';
+        if (!d) cont.insertAdjacentHTML("beforeend", '<p class="ac-ayuda">No se pudo conectar para traer tu ranking: lo que ves es lo de este dispositivo.</p>');
+      });
+    };
+
+    /* tarjeta de 1080 × 1350 para Instagram, con el diseño del manual */
+    var tarjeta = function (c, e, nombre) {
+      var W = 1080, H = 1350, cv = document.createElement("canvas"); cv.width = W; cv.height = H;
+      var x = cv.getContext("2d");
+      var fuentes = ['400 96px "Cormorant Garamond"', 'italic 400 54px "Cormorant Garamond"', '400 30px "Lora"', '600 30px "Lora"'];
+      var svg = insigniaSVG(c.id, true, "x").replace('<svg class="x"', '<svg xmlns="http://www.w3.org/2000/svg" width="460" height="460" color="#ffffff"').replace(/currentColor/g, "#ffffff");
+      var img = new Image();
+      var listo = Promise.all(fuentes.map(function (f) { return document.fonts.load(f); }).concat([new Promise(function (ok) { img.onload = ok; img.onerror = ok; img.src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(svg); })]));
+      listo.then(function () {
+        x.fillStyle = "#0F1F3C"; x.fillRect(0, 0, W, H);
+        x.strokeStyle = "rgba(127,176,242,.45)"; x.lineWidth = 2; x.strokeRect(36, 36, W - 72, H - 72);
+        x.fillStyle = "#7fb0f2"; x.font = '400 26px "Lora"'; if ("letterSpacing" in x) x.letterSpacing = "9px";
+        x.textAlign = "left"; x.fillText("ACADEMIA FRASSATI", 96, 130); x.textAlign = "right"; x.fillText("HACIA LO ALTO", W - 96, 130);
+        if ("letterSpacing" in x) x.letterSpacing = "0px";
+        x.drawImage(img, (W - 460) / 2, 210, 460, 460);
+        x.textAlign = "center"; x.fillStyle = "#7fb0f2"; x.font = 'italic 400 54px "Cormorant Garamond"'; x.fillText("Alcancé la cumbre", W / 2, 790);
+        x.fillStyle = "#ffffff"; x.font = '400 96px "Cormorant Garamond"';
+        var palabras = c.titulo.split(" "), lineas = [], l = "";
+        palabras.forEach(function (p) { var t = l ? l + " " + p : p; if (x.measureText(t).width > W - 200 && l) { lineas.push(l); l = p; } else l = t; });
+        lineas.push(l);
+        lineas.forEach(function (ln, i) { x.fillText(ln, W / 2, 900 + i * 100); });
+        var y = 900 + lineas.length * 100 + 30;
+        x.font = '400 30px "Lora"'; x.fillStyle = "rgba(255,255,255,.86)";
+        if (nombre) { x.fillText(nombre, W / 2, y); y += 50; }
+        x.fillStyle = "rgba(255,255,255,.6)"; x.font = '400 26px "Lora"'; x.fillText(fechaLarga(e.aprobado.fecha), W / 2, y);
+        x.strokeStyle = "rgba(127,176,242,.45)"; x.beginPath(); x.moveTo(96, H - 170); x.lineTo(W - 96, H - 170); x.stroke();
+        x.fillStyle = "rgba(255,255,255,.75)"; x.font = '400 26px "Lora"'; x.fillText("Jóvenes Sagrada Familia · sagradafamiliajoven.github.io/academia", W / 2, H - 112);
+        cv.toBlob(function (blob) { mostrarTarjeta(blob, c); }, "image/png");
+      });
+    };
+    var mostrarTarjeta = function (blob, c) {
+      var url = URL.createObjectURL(blob), nombreArch = "academia-frassati-cumbre-" + numero(c) + ".png";
+      var dlg = document.createElement("dialog"); dlg.className = "ac-dlg";
+      var archivo = (window.File ? new File([blob], nombreArch, { type: "image/png" }) : null);
+      var puedeCompartir = archivo && navigator.canShare && navigator.canShare({ files: [archivo] });
+      dlg.innerHTML = '<div class="ac-dlg__box"><button type="button" class="viewer__close evdlg__close" aria-label="Cerrar">×</button>' +
+        '<img src="' + url + '" alt="Tarjeta: alcancé la cumbre ' + esc(c.titulo) + '">' +
+        '<div class="ac-dlg__btns">' + (puedeCompartir ? '<button type="button" class="ac-btn" data-t="compartir">Compartir</button>' : "") +
+        '<a class="ac-btn' + (puedeCompartir ? " ac-btn--claro" : "") + '" href="' + url + '" download="' + nombreArch + '">Descargar imagen</a></div>' +
+        '<p class="ac-ayuda">Subila a tu historia o a un posteo de Instagram y etiquetá a la Academia.</p></div>';
+      document.body.appendChild(dlg);
+      dlg.addEventListener("click", function (ev) {
+        if (ev.target === dlg || ev.target.closest(".evdlg__close")) { dlg.close(); dlg.remove(); URL.revokeObjectURL(url); }
+        if (ev.target.closest('[data-t="compartir"]')) navigator.share({ files: [archivo], title: "Academia Frassati" }).catch(function () {});
+      });
+      dlg.showModal();
+    };
+
     var pintar = function () {
-      var c = curso(location.hash.slice(1));
+      var h = location.hash.slice(1);
+      if (h === "ruta") { ruta(); return; }
+      var c = curso(h);
       if (c) detalle(c); else lista();
     };
     cont.addEventListener("click", function (ev) {
       var b = ev.target.closest("[data-f]"); if (!b) return;
-      if (b.getAttribute("data-f") === "empezar") empezar(curso(location.hash.slice(1)));
+      var accion = b.getAttribute("data-f");
+      if (accion === "empezar") empezar(curso(location.hash.slice(1)));
+      if (accion === "salir") CUENTA.salir(pintar);
+      if (accion === "tarjeta") {
+        contar("tarjeta-instagram");
+        var ct = curso(location.hash.slice(1)), et = estado(ct.id), yo = CUENTA.datos();
+        var nom = ($("cert-nombre") && $("cert-nombre").value.trim()) || et.nombre || (yo && yo.nombre) || "";
+        if (et.aprobado) tarjeta(ct, et, nom);
+      }
     });
     cont.addEventListener("submit", function (ev) {
       var f = ev.target; ev.preventDefault();
@@ -1745,6 +1889,7 @@
     window.addEventListener("hashchange", function () { pintar(); window.scrollTo(0, 0); });
     FD.cursos.forEach(function (c) { enviarInsignia(c); }); /* por si aprobó antes de entrar con su cuenta */
     pintar();
+    if (location.hash.slice(1) !== "ruta") sincronizar(function (d) { if (d && (d.misCumbres || []).length) pintar(); });
   })();
 
   /* ---------- quiz ---------- */

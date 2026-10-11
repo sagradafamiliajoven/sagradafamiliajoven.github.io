@@ -296,6 +296,13 @@ function insigniasPorJugador() {
   return out;
 }
 
+/* Las cumbres de una persona, para su cuaderno de ruta (y para volver a descargar el certificado en otro dispositivo). */
+function cumbresDe(id) {
+  return hojaInsignias().getDataRange().getValues().slice(1)
+    .filter(function (f) { return String(f[1]) === id && CURSOS.hasOwnProperty(f[2]); })
+    .map(function (f) { return { curso: String(f[2]), nota: Number(f[4]) || 0, fecha: textoFecha(f[0]) }; });
+}
+
 function tabla(totales, js) {
   var filas = Object.keys(totales).filter(function (c) { return js[c]; })
     .map(function (c) { return { id: c, nombre: js[c].nombre, grupo: js[c].grupo, puntos: totales[c] }; })
@@ -384,5 +391,5 @@ function ranking(yo) {
   };
   return { ok: true, semana: publico(semanaV), historico: publico(historicoV), podio: publico(soloPublicos(r.pasada || [], false).filter(function (f) { return f.pos <= 3 && f.puntos > 0; })),
            grupos: tablaGrupos(totalesDe(r.semana, visibles), visibles), yo: mio, miEstado: yo ? yo.estado : '',
-           misInsignias: yo ? (ins[yo.id] || []) : [] };
+           misInsignias: yo ? (ins[yo.id] || []) : [], misCumbres: yo ? cumbresDe(yo.id) : [] };
 }

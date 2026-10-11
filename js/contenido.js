@@ -345,6 +345,9 @@ window.CONTENIDO = {
     imagen: "img/bautismo.jpg"
   },
 
+  /* estadísticas anónimas de visitas: el código de GoatCounter (ej. "sagradafamiliajoven"). Vacío = sin estadísticas. */
+  estadisticas: "",
+
   /* ---------- Ranking parroquial de los juegos ----------
      url: la dirección de la aplicación web de Google Apps Script (ver herramientas/ranking/LEEME.md).
      clientId: el ID de cliente de Google (público, no es secreto).
