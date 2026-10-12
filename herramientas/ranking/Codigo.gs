@@ -313,6 +313,7 @@ function tabla(totales, js) {
 }
 
 /* Nombre "oficial" del grupo, para que "faro", "Faro" o "FARO" cuenten como el mismo. */
+var SIN_GRUPO = 'Sin grupo';
 var GRUPOS = [['faro', 'FARO'], ['confir', 'Confirmación'], ['post', 'Post'], ['hpp', 'HPP'], ['puente', 'Puente a María'], ['naza', 'Nazaret']];
 function grupoOficial(texto) {
   var t = String(texto || '').trim(), n = t.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
@@ -326,8 +327,7 @@ function tablaGrupos(totales, js) {
   var g = {};
   Object.keys(totales).forEach(function (c) {
     if (!js[c] || !totales[c]) return;
-    var nombre = grupoOficial(js[c].grupo);
-    if (!nombre) return;
+    var nombre = grupoOficial(js[c].grupo) || SIN_GRUPO; /* los que no son de ningún grupo compiten juntos */
     g[nombre] = g[nombre] || { suma: 0, jugadores: 0 };
     g[nombre].suma += totales[c];
     g[nombre].jugadores++;
