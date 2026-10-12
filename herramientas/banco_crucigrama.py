@@ -232,7 +232,7 @@ B = [
  ("PIEDAD", "Don del Espíritu Santo de amar a Dios como Padre", "Fe"),
  ("CONSEJO", "Don del Espíritu Santo para elegir bien", "Fe"),
  ("HUMILDAD", "Virtud de reconocerse pequeño ante Dios", "Fe"),
- ("PACIENCIA", "«El amor es ___»", "Fe"),
+ ("PACIENCIA", "Virtud de quien sabe esperar", "Fe"),
  ("MISERICORDIA", "Amor de Dios que perdona", "Fe"),
  ("PECADO", "Ofensa a Dios y al prójimo", "Fe"),
  ("CONVERSION", "Volver el corazón a Dios", "Fe"),
