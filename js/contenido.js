@@ -564,6 +564,7 @@ window.CONTENIDO = {
       { titulo: "Peter Kreeft", detalle: "Filósofo católico. En su web hay charlas en audio gratis, y aparece como invitado en muchos podcasts: buscá su nombre en Spotify o YouTube (en inglés).", pilar: "intelectual", formato: "Podcast", nivel: "Profundo", link: "https://www.peterkreeft.com" },
       { titulo: "Fr. Mike Schmitz Catholic Podcast", detalle: "Homilías y reflexiones del P. Mike Schmitz (en inglés).", pilar: "espiritual", formato: "Podcast", nivel: "Inicial", link: "https://open.spotify.com/show/2oQATctoAaFiS8bT596v9G" },
       { titulo: "Playlist de Sagrada Familia", detalle: "La música que cantamos en Sagrada, en Spotify.", pilar: "espiritual", formato: "Música", nivel: "Inicial", link: "https://open.spotify.com/playlist/1GEGCMIcV6tEZccLno1TWH" },
+      { titulo: "Cancionero de Sagrada Familia", detalle: "Las canciones que cantamos en Sagrada, con letra y acordes. Recopilado por Juan Manuel Simó. Para el celular o para imprimir.", pilar: "espiritual", formato: "Música", nivel: "Inicial", link: "docs/cancionero-sagrada-familia.pdf" },
       { titulo: "Música para rezar", detalle: "Br. Isaiah, Matt Maher, Hillsong, Vertical Worship, Elevation Worship, Third Day, Bethel, Athenas, Maxi Larghi, Fragua Worship (Joaco Bullrich), Soaking Worship Instrumental (Marcelo Domínguez) y Tobías Buteler.", pilar: "espiritual", formato: "Música", nivel: "Inicial", link: "" }
     ]
   },
