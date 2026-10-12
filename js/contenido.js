@@ -346,7 +346,7 @@ window.CONTENIDO = {
   },
 
   /* estadísticas anónimas de visitas: el código de GoatCounter (ej. "sagradafamiliajoven"). Vacío = sin estadísticas. */
-  estadisticas: "",
+  estadisticas: "sagradafamiliajoven",
 
   /* ---------- Ranking parroquial de los juegos ----------
      url: la dirección de la aplicación web de Google Apps Script (ver herramientas/ranking/LEEME.md).

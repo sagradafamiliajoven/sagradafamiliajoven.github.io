@@ -870,7 +870,7 @@
     var mail = '<a href="mailto:academiafrassati@gmail.com">academiafrassati@gmail.com</a>';
     return pagehead("Privacidad", "Política de privacidad", "Qué datos guardamos, para qué y cómo podés pedir que los borremos.") +
       '<section class="section section--first"><div class="wrap legal">' +
-        '<p class="muted">Última actualización: 10 de octubre de 2026.</p>' +
+        '<p class="muted">Última actualización: 12 de octubre de 2026.</p>' +
         sec("Quiénes somos", ["Esta web es de Jóvenes Sagrada Familia, la pastoral de jóvenes de la Parroquia Sagrada Familia (Nordelta, Buenos Aires), e incluye la Academia Frassati, su espacio de formación. Para cualquier consulta sobre tus datos escribinos a " + mail + "."]) +
         sec("Qué datos guardamos", [
           "<strong>Si no iniciás sesión:</strong> no guardamos nada sobre vos. Tu progreso en los juegos (rachas, récords, partidas del día) y en los cursos queda solo en tu navegador, en tu celular o compu. No lo vemos ni sale de tu dispositivo.",
