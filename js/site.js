@@ -1594,7 +1594,7 @@
           '<button type="button" role="tab" class="fchip' + (vistaRK === "grupos" ? " is-on" : "") + '" data-rk="grupos" aria-selected="' + (vistaRK === "grupos") + '">Por grupos</button></div>' +
           (vistaRK === "grupos" ? tablaGruposRK(d.grupos) : tablaRK(d[vistaRK])) +
           (d.yo && d.yo[vistaRK] && d.yo[vistaRK].pos > (d[vistaRK] || []).length ? '<p class="rk__mio">Tu puesto: <strong>' + d.yo[vistaRK].pos + "°</strong> con " + d.yo[vistaRK].puntos + " puntos</p>" : "") +
-          '<p class="rk__nota">' + (vistaRK === "grupos" ? "Promedio de puntos de esta semana por cada jugador del grupo que sumó algo. Así no gana el grupo con más chicos. Los que no son de ningún grupo suman juntos en «Sin grupo»." : (vistaRK === "semana" ? "La semana va de lunes a domingo." : "Desde el lanzamiento.") + " Cada desafío suma hasta 100 puntos por día.") + "</p>";
+          '<p class="rk__nota">' + (vistaRK === "grupos" ? "Promedio de puntos de esta semana por cada jugador del grupo que sumó algo. Así no gana el grupo con más chicos. Los que no son de ningún grupo suman juntos en «Comunidad»." : (vistaRK === "semana" ? "La semana va de lunes a domingo." : "Desde el lanzamiento.") + " Cada desafío suma hasta 100 puntos por día.") + "</p>";
         if ($("rk-podio")) $("rk-podio").innerHTML = podioHtml(d.podio);
       });
     };

@@ -313,7 +313,7 @@ function tabla(totales, js) {
 }
 
 /* Nombre "oficial" del grupo, para que "faro", "Faro" o "FARO" cuenten como el mismo. */
-var SIN_GRUPO = 'Sin grupo';
+var SIN_GRUPO = 'Comunidad';
 var GRUPOS = [['faro', 'FARO'], ['confir', 'Confirmación'], ['post', 'Post'], ['hpp', 'HPP'], ['puente', 'Puente a María'], ['naza', 'Nazaret']];
 function grupoOficial(texto) {
   var t = String(texto || '').trim(), n = t.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
