@@ -116,7 +116,7 @@ B = [
  ("CRISTO", "«Ungido» en griego", "Biblia"),
  ("EMANUEL", "Nombre que significa «Dios con nosotros»", "Biblia"),
  ("ALIANZA", "Pacto de amor entre Dios y su pueblo", "Biblia"),
- ("PROMESA", "Dios la cumple: la Tierra ___", "Biblia"),
+ ("PROMESA", "La que Dios le hizo a Abraham", "Biblia"),
  ("PATRIARCA", "Título de Abraham, Isaac y Jacob", "Biblia"),
  # --- Objetos y símbolos ---
  ("ARCA", "Barco de Noé", "Biblia"),
