@@ -669,9 +669,13 @@
         }).join("") + "</div></div></section>";
     }
     if (g.patronos && g.patronos.length) {
+      var pc = g.patronoCiclo && santo(g.patronoCiclo.santo), cards = g.patronos.map(santo).filter(Boolean);
+      if (pc) cards.push(Object.assign({}, pc, { etiqueta: (/^Santa\b/.test(pc.nombre) ? "Patrona" : "Patrono") + " del ciclo " + g.patronoCiclo.ciclo }));
       html += '<section class="section"><div class="wrap">' +
-        head("Patronos", "Nuestros santos patronos", "Dos jóvenes que se tomaron en serio la santidad. Conocé su historia.") +
-        '<div class="saints saints--2">' + g.patronos.map(santo).filter(Boolean).map(santoCard).join("") + "</div>" +
+        head("Patronos", "Nuestros santos patronos", pc
+          ? "Carlo y Pier Giorgio nos acompañan siempre. Además, cada ciclo el grupo elige un patrono más: este año es " + pc.nombre + "."
+          : "Dos jóvenes que se tomaron en serio la santidad. Conocé su historia.") +
+        '<div class="saints' + (cards.length === 2 ? " saints--2" : "") + '">' + cards.map(santoCard).join("") + "</div>" +
         '<div class="library-cta"><div><p class="eyebrow">Biblioteca HPP</p><h3>¿Querés aprender más?</h3>' +
         "<p>Lecturas, podcasts, pelis y santos ordenados por los cuatro pilares de formación: espiritual, intelectual, humano-afectivo y apostólico-moral.</p></div>" +
         '<a class="btn" href="recursos.html">Ir a la biblioteca</a></div></div></section>';

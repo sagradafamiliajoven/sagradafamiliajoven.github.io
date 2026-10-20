@@ -183,6 +183,9 @@ window.CONTENIDO = {
         { texto: "Es el lugar perfecto para prepararse para lo que viene en el futuro.", nombre: "Sofía", anio: "" }
       ],
       patronos: ["carlo-acutis", "pier-giorgio-frassati"],
+      /* patrono rotativo: el grupo elige uno nuevo cada ciclo (de mitad de año a mitad de año).
+         Para cambiarlo: poné el id del santo (de la lista santos, más abajo) y el ciclo. */
+      patronoCiclo: { santo: "teresita", ciclo: "2026-27" },
       siguiente: ["puente", "nazaret"]
     },
     {
