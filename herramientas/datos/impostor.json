@@ -1,9 +1,467 @@
 [
  {
+  "c": "Nombres de papas",
+  "f": [
+   {
+    "w": "INOCENCIO",
+    "ok": 1
+   },
+   {
+    "w": "GREGORIO",
+    "ok": 1
+   },
+   {
+    "w": "LEÓN",
+    "ok": 1
+   },
+   {
+    "w": "FRANCISCO",
+    "ok": 1
+   },
+   {
+    "w": "CLEMENTE",
+    "ok": 1
+   },
+   {
+    "w": "PÍO",
+    "ok": 1
+   },
+   {
+    "w": "BENEDICTO",
+    "ok": 1
+   },
+   {
+    "w": "URBANO",
+    "ok": 1
+   },
+   {
+    "w": "CARLO ACUTIS",
+    "ok": 0
+   },
+   {
+    "w": "RONCALLI",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Cosas de Navidad",
+  "f": [
+   {
+    "w": "ESTRELLA",
+    "ok": 1
+   },
+   {
+    "w": "PESEBRE",
+    "ok": 1
+   },
+   {
+    "w": "REYES MAGOS",
+    "ok": 1
+   },
+   {
+    "w": "NOCHEBUENA",
+    "ok": 1
+   },
+   {
+    "w": "ÁRBOL",
+    "ok": 1
+   },
+   {
+    "w": "VILLANCICO",
+    "ok": 1
+   },
+   {
+    "w": "GUIRNALDA",
+    "ok": 1
+   },
+   {
+    "w": "CÁLIZ",
+    "ok": 0
+   },
+   {
+    "w": "RANAS",
+    "ok": 0
+   },
+   {
+    "w": "GRANIZO",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Obras de misericordia corporales",
+  "f": [
+   {
+    "w": "DAR POSADA",
+    "ok": 1
+   },
+   {
+    "w": "ENTERRAR MUERTOS",
+    "ok": 1
+   },
+   {
+    "w": "VESTIR AL DESNUDO",
+    "ok": 1
+   },
+   {
+    "w": "DAR DE COMER",
+    "ok": 1
+   },
+   {
+    "w": "VISITAR ENFERMOS",
+    "ok": 1
+   },
+   {
+    "w": "VISITAR PRESOS",
+    "ok": 1
+   },
+   {
+    "w": "DAR DE BEBER",
+    "ok": 1
+   },
+   {
+    "w": "QUÉDATE SEÑOR",
+    "ok": 0
+   },
+   {
+    "w": "LÁZARO",
+    "ok": 0
+   },
+   {
+    "w": "VINE A ADORARTE",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Escritores católicos",
+  "f": [
+   {
+    "w": "NEWMAN",
+    "ok": 1
+   },
+   {
+    "w": "TOLKIEN",
+    "ok": 1
+   },
+   {
+    "w": "PÉGUY",
+    "ok": 1
+   },
+   {
+    "w": "CLAUDEL",
+    "ok": 1
+   },
+   {
+    "w": "PAPINI",
+    "ok": 1
+   },
+   {
+    "w": "MARECHAL",
+    "ok": 1
+   },
+   {
+    "w": "CHESTERTON",
+    "ok": 1
+   },
+   {
+    "w": "BERNANOS",
+    "ok": 1
+   },
+   {
+    "w": "CLEMENTE",
+    "ok": 0
+   },
+   {
+    "w": "POLICARPO",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Dones del Espíritu Santo",
+  "f": [
+   {
+    "w": "FORTALEZA",
+    "ok": 1
+   },
+   {
+    "w": "PIEDAD",
+    "ok": 1
+   },
+   {
+    "w": "CONSEJO",
+    "ok": 1
+   },
+   {
+    "w": "TEMOR DE DIOS",
+    "ok": 1
+   },
+   {
+    "w": "ENTENDIMIENTO",
+    "ok": 1
+   },
+   {
+    "w": "SABIDURÍA",
+    "ok": 1
+   },
+   {
+    "w": "CIENCIA",
+    "ok": 1
+   },
+   {
+    "w": "FARISEO",
+    "ok": 0
+   },
+   {
+    "w": "PACIENTES",
+    "ok": 0
+   },
+   {
+    "w": "PESCADOR",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Montes de la Biblia",
+  "f": [
+   {
+    "w": "CARMELO",
+    "ok": 1
+   },
+   {
+    "w": "SION",
+    "ok": 1
+   },
+   {
+    "w": "CALVARIO",
+    "ok": 1
+   },
+   {
+    "w": "HOREB",
+    "ok": 1
+   },
+   {
+    "w": "SINAÍ",
+    "ok": 1
+   },
+   {
+    "w": "TABOR",
+    "ok": 1
+   },
+   {
+    "w": "OLIVOS",
+    "ok": 1
+   },
+   {
+    "w": "MORIA",
+    "ok": 1
+   },
+   {
+    "w": "ARARAT",
+    "ok": 1
+   },
+   {
+    "w": "MAR MUERTO",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Pecados capitales",
+  "f": [
+   {
+    "w": "IRA",
+    "ok": 1
+   },
+   {
+    "w": "LUJURIA",
+    "ok": 1
+   },
+   {
+    "w": "ENVIDIA",
+    "ok": 1
+   },
+   {
+    "w": "SOBERBIA",
+    "ok": 1
+   },
+   {
+    "w": "AVARICIA",
+    "ok": 1
+   },
+   {
+    "w": "GULA",
+    "ok": 1
+   },
+   {
+    "w": "PEREZA",
+    "ok": 1
+   },
+   {
+    "w": "EMANUEL",
+    "ok": 0
+   },
+   {
+    "w": "PASTOR",
+    "ok": 0
+   },
+   {
+    "w": "PESCADOR",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Obras de misericordia espirituales",
+  "f": [
+   {
+    "w": "PERDONAR",
+    "ok": 1
+   },
+   {
+    "w": "TENER PACIENCIA",
+    "ok": 1
+   },
+   {
+    "w": "CONSOLAR",
+    "ok": 1
+   },
+   {
+    "w": "ENSEÑAR",
+    "ok": 1
+   },
+   {
+    "w": "ACONSEJAR",
+    "ok": 1
+   },
+   {
+    "w": "CORREGIR",
+    "ok": 1
+   },
+   {
+    "w": "REZAR POR OTROS",
+    "ok": 1
+   },
+   {
+    "w": "BODAS DE CANÁ",
+    "ok": 0
+   },
+   {
+    "w": "ALÁBENLO",
+    "ok": 0
+   },
+   {
+    "w": "MAR ADENTRO",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Oficios y cargos en el Evangelio",
+  "f": [
+   {
+    "w": "SUMO SACERDOTE",
+    "ok": 1
+   },
+   {
+    "w": "PUBLICANO",
+    "ok": 1
+   },
+   {
+    "w": "PASTOR",
+    "ok": 1
+   },
+   {
+    "w": "ESCRIBA",
+    "ok": 1
+   },
+   {
+    "w": "CENTURIÓN",
+    "ok": 1
+   },
+   {
+    "w": "CARPINTERO",
+    "ok": 1
+   },
+   {
+    "w": "FARISEO",
+    "ok": 1
+   },
+   {
+    "w": "PESCADOR",
+    "ok": 1
+   },
+   {
+    "w": "PEREZA",
+    "ok": 0
+   },
+   {
+    "w": "BONDAD",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Apóstoles",
+  "f": [
+   {
+    "w": "BARTOLOMÉ",
+    "ok": 1
+   },
+   {
+    "w": "TADEO",
+    "ok": 1
+   },
+   {
+    "w": "MATÍAS",
+    "ok": 1
+   },
+   {
+    "w": "SIMÓN",
+    "ok": 1
+   },
+   {
+    "w": "JUDAS",
+    "ok": 1
+   },
+   {
+    "w": "ANDRÉS",
+    "ok": 1
+   },
+   {
+    "w": "SANTIAGO",
+    "ok": 1
+   },
+   {
+    "w": "JUAN",
+    "ok": 1
+   },
+   {
+    "w": "TOMÁS",
+    "ok": 1
+   },
+   {
+    "w": "PILATOS",
+    "ok": 0
+   }
+  ]
+ },
+ {
   "c": "Personajes de la Pasión",
   "f": [
    {
     "w": "BARRABÁS",
+    "ok": 1
+   },
+   {
+    "w": "CAIFÁS",
+    "ok": 1
+   },
+   {
+    "w": "NICODEMO",
     "ok": 1
    },
    {
@@ -15,18 +473,6 @@
     "ok": 1
    },
    {
-    "w": "PILATOS",
-    "ok": 1
-   },
-   {
-    "w": "NICODEMO",
-    "ok": 1
-   },
-   {
-    "w": "CAIFÁS",
-    "ok": 1
-   },
-   {
     "w": "VERÓNICA",
     "ok": 1
    },
@@ -35,56 +481,285 @@
     "ok": 1
    },
    {
-    "w": "GAD",
+    "w": "PILATOS",
+    "ok": 1
+   },
+   {
+    "w": "CAÍN",
     "ok": 0
    },
    {
-    "w": "TOMÁS",
+    "w": "SALOMÉ",
     "ok": 0
    }
   ]
  },
  {
-  "c": "Apellidos de papas",
+  "c": "Advocaciones de la Virgen",
   "f": [
    {
-    "w": "PREVOST",
+    "w": "LOURDES",
     "ok": 1
    },
    {
-    "w": "PACELLI",
+    "w": "COPACABANA",
     "ok": 1
    },
    {
-    "w": "LUCIANI",
+    "w": "GUADALUPE",
     "ok": 1
    },
    {
-    "w": "RONCALLI",
+    "w": "LUJÁN",
     "ok": 1
    },
    {
-    "w": "WOJTYLA",
+    "w": "LORETO",
     "ok": 1
    },
    {
-    "w": "MONTINI",
+    "w": "ITATÍ",
     "ok": 1
    },
    {
-    "w": "BERGOGLIO",
+    "w": "FÁTIMA",
     "ok": 1
    },
    {
-    "w": "RATZINGER",
+    "w": "POMPEYA",
     "ok": 1
    },
    {
-    "w": "JACINTA",
+    "w": "ROMA",
     "ok": 0
    },
    {
-    "w": "PÍO",
+    "w": "SAN JUAN",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Vestiduras litúrgicas",
+  "f": [
+   {
+    "w": "ALBA",
+    "ok": 1
+   },
+   {
+    "w": "ESTOLA",
+    "ok": 1
+   },
+   {
+    "w": "DALMÁTICA",
+    "ok": 1
+   },
+   {
+    "w": "CÍNGULO",
+    "ok": 1
+   },
+   {
+    "w": "CASULLA",
+    "ok": 1
+   },
+   {
+    "w": "AMITO",
+    "ok": 1
+   },
+   {
+    "w": "CAMELLO",
+    "ok": 0
+   },
+   {
+    "w": "CÍTARA",
+    "ok": 0
+   },
+   {
+    "w": "PESTE",
+    "ok": 0
+   },
+   {
+    "w": "MIEL",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Nombres de Jesús",
+  "f": [
+   {
+    "w": "EMANUEL",
+    "ok": 1
+   },
+   {
+    "w": "MESÍAS",
+    "ok": 1
+   },
+   {
+    "w": "NAZARENO",
+    "ok": 1
+   },
+   {
+    "w": "MAESTRO",
+    "ok": 1
+   },
+   {
+    "w": "VERBO",
+    "ok": 1
+   },
+   {
+    "w": "BUEN PASTOR",
+    "ok": 1
+   },
+   {
+    "w": "REDENTOR",
+    "ok": 1
+   },
+   {
+    "w": "TEMPLANZA",
+    "ok": 0
+   },
+   {
+    "w": "PACÍFICOS",
+    "ok": 0
+   },
+   {
+    "w": "ARCA DE LA ALIANZA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Instrumentos de la Pasión",
+  "f": [
+   {
+    "w": "CORONA DE ESPINAS",
+    "ok": 1
+   },
+   {
+    "w": "TREINTA MONEDAS",
+    "ok": 1
+   },
+   {
+    "w": "CLAVOS",
+    "ok": 1
+   },
+   {
+    "w": "ESPONJA",
+    "ok": 1
+   },
+   {
+    "w": "LANZA",
+    "ok": 1
+   },
+   {
+    "w": "TÚNICA",
+    "ok": 1
+   },
+   {
+    "w": "LÁTIGO",
+    "ok": 1
+   },
+   {
+    "w": "DADOS",
+    "ok": 1
+   },
+   {
+    "w": "BANCOS",
+    "ok": 0
+   },
+   {
+    "w": "CONEJO",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Comidas de la Biblia",
+  "f": [
+   {
+    "w": "HIGOS",
+    "ok": 1
+   },
+   {
+    "w": "CODORNICES",
+    "ok": 1
+   },
+   {
+    "w": "MANÁ",
+    "ok": 1
+   },
+   {
+    "w": "PECES",
+    "ok": 1
+   },
+   {
+    "w": "LENTEJAS",
+    "ok": 1
+   },
+   {
+    "w": "DÁTILES",
+    "ok": 1
+   },
+   {
+    "w": "MIEL",
+    "ok": 1
+   },
+   {
+    "w": "CAMPANARIO",
+    "ok": 0
+   },
+   {
+    "w": "CUERVO",
+    "ok": 0
+   },
+   {
+    "w": "CÍTARA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Gestos en misa",
+  "f": [
+   {
+    "w": "INCLINARSE",
+    "ok": 1
+   },
+   {
+    "w": "PERSIGNARSE",
+    "ok": 1
+   },
+   {
+    "w": "DAR LA PAZ",
+    "ok": 1
+   },
+   {
+    "w": "GENUFLEXIÓN",
+    "ok": 1
+   },
+   {
+    "w": "PONERSE DE PIE",
+    "ok": 1
+   },
+   {
+    "w": "SENTARSE",
+    "ok": 1
+   },
+   {
+    "w": "ARRODILLARSE",
+    "ok": 1
+   },
+   {
+    "w": "HOMILÍA",
+    "ok": 0
+   },
+   {
+    "w": "BAUTISMO",
+    "ok": 0
+   },
+   {
+    "w": "VIERNES SANTO",
     "ok": 0
    }
   ]
@@ -93,7 +768,11 @@
   "c": "Cosas que hay en una iglesia",
   "f": [
    {
-    "w": "VITRALES",
+    "w": "PÚLPITO",
+    "ok": 1
+   },
+   {
+    "w": "PILA BAUTISMAL",
     "ok": 1
    },
    {
@@ -105,15 +784,11 @@
     "ok": 1
    },
    {
+    "w": "VITRALES",
+    "ok": 1
+   },
+   {
     "w": "BANCOS",
-    "ok": 1
-   },
-   {
-    "w": "PÚLPITO",
-    "ok": 1
-   },
-   {
-    "w": "PILA BAUTISMAL",
     "ok": 1
    },
    {
@@ -121,11 +796,1721 @@
     "ok": 1
    },
    {
-    "w": "MOSTAZA",
+    "w": "LENTEJAS",
     "ok": 0
    },
    {
-    "w": "VILLANCICO",
+    "w": "ACACIA",
+    "ok": 0
+   },
+   {
+    "w": "HUEVO",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Cosas de un campamento",
+  "f": [
+   {
+    "w": "GUITARRA",
+    "ok": 1
+   },
+   {
+    "w": "MOCHILA",
+    "ok": 1
+   },
+   {
+    "w": "MATE",
+    "ok": 1
+   },
+   {
+    "w": "BOLSA DE DORMIR",
+    "ok": 1
+   },
+   {
+    "w": "LINTERNA",
+    "ok": 1
+   },
+   {
+    "w": "FOGÓN",
+    "ok": 1
+   },
+   {
+    "w": "CARPA",
+    "ok": 1
+   },
+   {
+    "w": "CÍNGULO",
+    "ok": 0
+   },
+   {
+    "w": "PESEBRE",
+    "ok": 0
+   },
+   {
+    "w": "MOSQUITOS",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Cosas que se usan en misa",
+  "f": [
+   {
+    "w": "PATENA",
+    "ok": 1
+   },
+   {
+    "w": "LECCIONARIO",
+    "ok": 1
+   },
+   {
+    "w": "INCENSARIO",
+    "ok": 1
+   },
+   {
+    "w": "COPÓN",
+    "ok": 1
+   },
+   {
+    "w": "CORPORAL",
+    "ok": 1
+   },
+   {
+    "w": "PALIA",
+    "ok": 1
+   },
+   {
+    "w": "MISAL",
+    "ok": 1
+   },
+   {
+    "w": "VINAJERAS",
+    "ok": 1
+   },
+   {
+    "w": "PURIFICADOR",
+    "ok": 1
+   },
+   {
+    "w": "CÍTARA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Plagas de Egipto",
+  "f": [
+   {
+    "w": "ÚLCERAS",
+    "ok": 1
+   },
+   {
+    "w": "TINIEBLAS",
+    "ok": 1
+   },
+   {
+    "w": "LANGOSTAS",
+    "ok": 1
+   },
+   {
+    "w": "SANGRE",
+    "ok": 1
+   },
+   {
+    "w": "RANAS",
+    "ok": 1
+   },
+   {
+    "w": "PESTE",
+    "ok": 1
+   },
+   {
+    "w": "GRANIZO",
+    "ok": 1
+   },
+   {
+    "w": "TÁBANOS",
+    "ok": 1
+   },
+   {
+    "w": "MOSQUITOS",
+    "ok": 1
+   },
+   {
+    "w": "SEPULCRO VACÍO",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "«Felices los…» (Bienaventuranzas)",
+  "f": [
+   {
+    "w": "MISERICORDIOSOS",
+    "ok": 1
+   },
+   {
+    "w": "AFLIGIDOS",
+    "ok": 1
+   },
+   {
+    "w": "PACIENTES",
+    "ok": 1
+   },
+   {
+    "w": "PERSEGUIDOS",
+    "ok": 1
+   },
+   {
+    "w": "HAMBRIENTOS",
+    "ok": 1
+   },
+   {
+    "w": "POBRES",
+    "ok": 1
+   },
+   {
+    "w": "PUROS",
+    "ok": 1
+   },
+   {
+    "w": "PACÍFICOS",
+    "ok": 1
+   },
+   {
+    "w": "CASA DE ORO",
+    "ok": 0
+   },
+   {
+    "w": "ESCRIBA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Partes de la misa",
+  "f": [
+   {
+    "w": "ALELUYA",
+    "ok": 1
+   },
+   {
+    "w": "BENDICIÓN",
+    "ok": 1
+   },
+   {
+    "w": "CREDO",
+    "ok": 1
+   },
+   {
+    "w": "COMUNIÓN",
+    "ok": 1
+   },
+   {
+    "w": "KYRIE",
+    "ok": 1
+   },
+   {
+    "w": "OFERTORIO",
+    "ok": 1
+   },
+   {
+    "w": "GLORIA",
+    "ok": 1
+   },
+   {
+    "w": "CONSAGRACIÓN",
+    "ok": 1
+   },
+   {
+    "w": "SANCTUS",
+    "ok": 1
+   },
+   {
+    "w": "TODOS LOS SANTOS",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Oraciones",
+  "f": [
+   {
+    "w": "REGINA COELI",
+    "ok": 1
+   },
+   {
+    "w": "ACORDAOS",
+    "ok": 1
+   },
+   {
+    "w": "PADRENUESTRO",
+    "ok": 1
+   },
+   {
+    "w": "MAGNÍFICAT",
+    "ok": 1
+   },
+   {
+    "w": "AVEMARÍA",
+    "ok": 1
+   },
+   {
+    "w": "SALVE",
+    "ok": 1
+   },
+   {
+    "w": "ÁNGELUS",
+    "ok": 1
+   },
+   {
+    "w": "VISITACIÓN",
+    "ok": 0
+   },
+   {
+    "w": "ASUNCIÓN",
+    "ok": 0
+   },
+   {
+    "w": "PONERSE DE PIE",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Ríos y mares de la Biblia",
+  "f": [
+   {
+    "w": "NILO",
+    "ok": 1
+   },
+   {
+    "w": "MAR MUERTO",
+    "ok": 1
+   },
+   {
+    "w": "TIGRIS",
+    "ok": 1
+   },
+   {
+    "w": "MAR ROJO",
+    "ok": 1
+   },
+   {
+    "w": "ÉUFRATES",
+    "ok": 1
+   },
+   {
+    "w": "JORDÁN",
+    "ok": 1
+   },
+   {
+    "w": "BETANIA",
+    "ok": 0
+   },
+   {
+    "w": "CARMELO",
+    "ok": 0
+   },
+   {
+    "w": "ASÍS",
+    "ok": 0
+   },
+   {
+    "w": "SINAÍ",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Parábolas de Jesús",
+  "f": [
+   {
+    "w": "GRANO DE MOSTAZA",
+    "ok": 1
+   },
+   {
+    "w": "BUEN SAMARITANO",
+    "ok": 1
+   },
+   {
+    "w": "SEMBRADOR",
+    "ok": 1
+   },
+   {
+    "w": "VIÑADORES",
+    "ok": 1
+   },
+   {
+    "w": "PERLA",
+    "ok": 1
+   },
+   {
+    "w": "HIJO PRÓDIGO",
+    "ok": 1
+   },
+   {
+    "w": "LEVADURA",
+    "ok": 1
+   },
+   {
+    "w": "TALENTOS",
+    "ok": 1
+   },
+   {
+    "w": "OVEJA PERDIDA",
+    "ok": 1
+   },
+   {
+    "w": "BODAS DE CANÁ",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Personajes del Éxodo",
+  "f": [
+   {
+    "w": "JOSUÉ",
+    "ok": 1
+   },
+   {
+    "w": "FARAÓN",
+    "ok": 1
+   },
+   {
+    "w": "JETRÓ",
+    "ok": 1
+   },
+   {
+    "w": "AARÓN",
+    "ok": 1
+   },
+   {
+    "w": "SÉFORA",
+    "ok": 1
+   },
+   {
+    "w": "MIRIAM",
+    "ok": 1
+   },
+   {
+    "w": "MOISÉS",
+    "ok": 1
+   },
+   {
+    "w": "GAD",
+    "ok": 0
+   },
+   {
+    "w": "PILATOS",
+    "ok": 0
+   },
+   {
+    "w": "OTONIEL",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Pueblos vecinos de Israel",
+  "f": [
+   {
+    "w": "MOABITAS",
+    "ok": 1
+   },
+   {
+    "w": "PERSAS",
+    "ok": 1
+   },
+   {
+    "w": "BABILONIOS",
+    "ok": 1
+   },
+   {
+    "w": "CANANEOS",
+    "ok": 1
+   },
+   {
+    "w": "ASIRIOS",
+    "ok": 1
+   },
+   {
+    "w": "FILISTEOS",
+    "ok": 1
+   },
+   {
+    "w": "AMALECITAS",
+    "ok": 1
+   },
+   {
+    "w": "EGIPCIOS",
+    "ok": 1
+   },
+   {
+    "w": "SALESIANOS",
+    "ok": 0
+   },
+   {
+    "w": "SERAFINES",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Obras de misericordia espirituales",
+  "f": [
+   {
+    "w": "ENSEÑAR",
+    "ok": 1
+   },
+   {
+    "w": "CORREGIR",
+    "ok": 1
+   },
+   {
+    "w": "ACONSEJAR",
+    "ok": 1
+   },
+   {
+    "w": "PERDONAR",
+    "ok": 1
+   },
+   {
+    "w": "CONSOLAR",
+    "ok": 1
+   },
+   {
+    "w": "TENER PACIENCIA",
+    "ok": 1
+   },
+   {
+    "w": "REZAR POR OTROS",
+    "ok": 1
+   },
+   {
+    "w": "VIÑADORES",
+    "ok": 0
+   },
+   {
+    "w": "LEVADURA",
+    "ok": 0
+   },
+   {
+    "w": "TEMPESTAD CALMADA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Mujeres del Antiguo Testamento",
+  "f": [
+   {
+    "w": "JUDIT",
+    "ok": 1
+   },
+   {
+    "w": "RAQUEL",
+    "ok": 1
+   },
+   {
+    "w": "SARA",
+    "ok": 1
+   },
+   {
+    "w": "ANA",
+    "ok": 1
+   },
+   {
+    "w": "ESTER",
+    "ok": 1
+   },
+   {
+    "w": "DÉBORA",
+    "ok": 1
+   },
+   {
+    "w": "RUT",
+    "ok": 1
+   },
+   {
+    "w": "LÍA",
+    "ok": 1
+   },
+   {
+    "w": "REBECA",
+    "ok": 1
+   },
+   {
+    "w": "BARRABÁS",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Coros de ángeles",
+  "f": [
+   {
+    "w": "TRONOS",
+    "ok": 1
+   },
+   {
+    "w": "ARCÁNGELES",
+    "ok": 1
+   },
+   {
+    "w": "DOMINACIONES",
+    "ok": 1
+   },
+   {
+    "w": "ÁNGELES",
+    "ok": 1
+   },
+   {
+    "w": "VIRTUDES",
+    "ok": 1
+   },
+   {
+    "w": "POTESTADES",
+    "ok": 1
+   },
+   {
+    "w": "QUERUBINES",
+    "ok": 1
+   },
+   {
+    "w": "PRINCIPADOS",
+    "ok": 1
+   },
+   {
+    "w": "SERAFINES",
+    "ok": 1
+   },
+   {
+    "w": "ASIRIOS",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Mujeres del Nuevo Testamento",
+  "f": [
+   {
+    "w": "ISABEL",
+    "ok": 1
+   },
+   {
+    "w": "LIDIA",
+    "ok": 1
+   },
+   {
+    "w": "SALOMÉ",
+    "ok": 1
+   },
+   {
+    "w": "TABITA",
+    "ok": 1
+   },
+   {
+    "w": "PRISCILA",
+    "ok": 1
+   },
+   {
+    "w": "JUANA",
+    "ok": 1
+   },
+   {
+    "w": "SUSANA",
+    "ok": 1
+   },
+   {
+    "w": "MARTA",
+    "ok": 1
+   },
+   {
+    "w": "BARRABÁS",
+    "ok": 0
+   },
+   {
+    "w": "ADÁN",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Personajes del Génesis",
+  "f": [
+   {
+    "w": "ABRAHAM",
+    "ok": 1
+   },
+   {
+    "w": "ISAAC",
+    "ok": 1
+   },
+   {
+    "w": "LOT",
+    "ok": 1
+   },
+   {
+    "w": "ESAÚ",
+    "ok": 1
+   },
+   {
+    "w": "ABEL",
+    "ok": 1
+   },
+   {
+    "w": "CAÍN",
+    "ok": 1
+   },
+   {
+    "w": "NOÉ",
+    "ok": 1
+   },
+   {
+    "w": "EVA",
+    "ok": 1
+   },
+   {
+    "w": "ADÁN",
+    "ok": 1
+   },
+   {
+    "w": "JOEL",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Frutos del Espíritu Santo",
+  "f": [
+   {
+    "w": "MODESTIA",
+    "ok": 1
+   },
+   {
+    "w": "BONDAD",
+    "ok": 1
+   },
+   {
+    "w": "MANSEDUMBRE",
+    "ok": 1
+   },
+   {
+    "w": "FIDELIDAD",
+    "ok": 1
+   },
+   {
+    "w": "BENIGNIDAD",
+    "ok": 1
+   },
+   {
+    "w": "ALEGRÍA",
+    "ok": 1
+   },
+   {
+    "w": "LONGANIMIDAD",
+    "ok": 1
+   },
+   {
+    "w": "AMOR",
+    "ok": 1
+   },
+   {
+    "w": "VERBO",
+    "ok": 0
+   },
+   {
+    "w": "AVARICIA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Plantas de la Biblia",
+  "f": [
+   {
+    "w": "ZARZA",
+    "ok": 1
+   },
+   {
+    "w": "MOSTAZA",
+    "ok": 1
+   },
+   {
+    "w": "PALMERA",
+    "ok": 1
+   },
+   {
+    "w": "OLIVO",
+    "ok": 1
+   },
+   {
+    "w": "VID",
+    "ok": 1
+   },
+   {
+    "w": "CEDRO",
+    "ok": 1
+   },
+   {
+    "w": "HIGUERA",
+    "ok": 1
+   },
+   {
+    "w": "ACACIA",
+    "ok": 1
+   },
+   {
+    "w": "PALIA",
+    "ok": 0
+   },
+   {
+    "w": "CÁLIZ",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Lugares de peregrinación",
+  "f": [
+   {
+    "w": "CZESTOCHOWA",
+    "ok": 1
+   },
+   {
+    "w": "TIERRA SANTA",
+    "ok": 1
+   },
+   {
+    "w": "ROMA",
+    "ok": 1
+   },
+   {
+    "w": "ASÍS",
+    "ok": 1
+   },
+   {
+    "w": "PADUA",
+    "ok": 1
+   },
+   {
+    "w": "COMPOSTELA",
+    "ok": 1
+   },
+   {
+    "w": "SINAÍ",
+    "ok": 0
+   },
+   {
+    "w": "JERICÓ",
+    "ok": 0
+   },
+   {
+    "w": "SAN FERNANDO",
+    "ok": 0
+   },
+   {
+    "w": "BETANIA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Milagros de Jesús",
+  "f": [
+   {
+    "w": "LÁZARO",
+    "ok": 1
+   },
+   {
+    "w": "CIEGO DE NACIMIENTO",
+    "ok": 1
+   },
+   {
+    "w": "HIJA DE JAIRO",
+    "ok": 1
+   },
+   {
+    "w": "PESCA MILAGROSA",
+    "ok": 1
+   },
+   {
+    "w": "PANES Y PECES",
+    "ok": 1
+   },
+   {
+    "w": "BODAS DE CANÁ",
+    "ok": 1
+   },
+   {
+    "w": "TEMPESTAD CALMADA",
+    "ok": 1
+   },
+   {
+    "w": "DAR DE COMER",
+    "ok": 0
+   },
+   {
+    "w": "VISITAR ENFERMOS",
+    "ok": 0
+   },
+   {
+    "w": "OVEJA PERDIDA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Santos jóvenes",
+  "f": [
+   {
+    "w": "JACINTA",
+    "ok": 1
+   },
+   {
+    "w": "FRANCISCO MARTO",
+    "ok": 1
+   },
+   {
+    "w": "LAURA VICUÑA",
+    "ok": 1
+   },
+   {
+    "w": "LUIS GONZAGA",
+    "ok": 1
+   },
+   {
+    "w": "DOMINGO SAVIO",
+    "ok": 1
+   },
+   {
+    "w": "CARLO ACUTIS",
+    "ok": 1
+   },
+   {
+    "w": "FRASSATI",
+    "ok": 1
+   },
+   {
+    "w": "INÉS",
+    "ok": 1
+   },
+   {
+    "w": "MAMA ANTULA",
+    "ok": 0
+   },
+   {
+    "w": "WOJTYLA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Órdenes religiosas",
+  "f": [
+   {
+    "w": "CARMELITAS",
+    "ok": 1
+   },
+   {
+    "w": "FRANCISCANOS",
+    "ok": 1
+   },
+   {
+    "w": "JESUITAS",
+    "ok": 1
+   },
+   {
+    "w": "TRAPENSES",
+    "ok": 1
+   },
+   {
+    "w": "DOMINICOS",
+    "ok": 1
+   },
+   {
+    "w": "AGUSTINOS",
+    "ok": 1
+   },
+   {
+    "w": "BENEDICTINOS",
+    "ok": 1
+   },
+   {
+    "w": "SALESIANOS",
+    "ok": 1
+   },
+   {
+    "w": "ARCÁNGELES",
+    "ok": 0
+   },
+   {
+    "w": "VIRTUDES",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Ciudades argentinas con nombre de santo",
+  "f": [
+   {
+    "w": "SAN RAFAEL",
+    "ok": 1
+   },
+   {
+    "w": "SAN ISIDRO",
+    "ok": 1
+   },
+   {
+    "w": "SAN NICOLÁS",
+    "ok": 1
+   },
+   {
+    "w": "SANTA ROSA",
+    "ok": 1
+   },
+   {
+    "w": "SAN JUAN",
+    "ok": 1
+   },
+   {
+    "w": "SAN LUIS",
+    "ok": 1
+   },
+   {
+    "w": "SAN FERNANDO",
+    "ok": 1
+   },
+   {
+    "w": "MAR MUERTO",
+    "ok": 0
+   },
+   {
+    "w": "GETSEMANÍ",
+    "ok": 0
+   },
+   {
+    "w": "BELÉN",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Cosas de un campamento",
+  "f": [
+   {
+    "w": "MOCHILA",
+    "ok": 1
+   },
+   {
+    "w": "BOLSA DE DORMIR",
+    "ok": 1
+   },
+   {
+    "w": "FOGÓN",
+    "ok": 1
+   },
+   {
+    "w": "GUITARRA",
+    "ok": 1
+   },
+   {
+    "w": "MATE",
+    "ok": 1
+   },
+   {
+    "w": "CARPA",
+    "ok": 1
+   },
+   {
+    "w": "LINTERNA",
+    "ok": 1
+   },
+   {
+    "w": "PAN",
+    "ok": 0
+   },
+   {
+    "w": "PÚLPITO",
+    "ok": 0
+   },
+   {
+    "w": "PALOMA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Instrumentos de la Pasión",
+  "f": [
+   {
+    "w": "TREINTA MONEDAS",
+    "ok": 1
+   },
+   {
+    "w": "CORONA DE ESPINAS",
+    "ok": 1
+   },
+   {
+    "w": "CLAVOS",
+    "ok": 1
+   },
+   {
+    "w": "ESPONJA",
+    "ok": 1
+   },
+   {
+    "w": "LANZA",
+    "ok": 1
+   },
+   {
+    "w": "LÁTIGO",
+    "ok": 1
+   },
+   {
+    "w": "TÚNICA",
+    "ok": 1
+   },
+   {
+    "w": "DADOS",
+    "ok": 1
+   },
+   {
+    "w": "PALIA",
+    "ok": 0
+   },
+   {
+    "w": "MOSQUITOS",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Lugares de la vida de Jesús",
+  "f": [
+   {
+    "w": "JERUSALÉN",
+    "ok": 1
+   },
+   {
+    "w": "CANÁ",
+    "ok": 1
+   },
+   {
+    "w": "CAFARNAÚM",
+    "ok": 1
+   },
+   {
+    "w": "NAZARET",
+    "ok": 1
+   },
+   {
+    "w": "EMAÚS",
+    "ok": 1
+   },
+   {
+    "w": "JERICÓ",
+    "ok": 1
+   },
+   {
+    "w": "GETSEMANÍ",
+    "ok": 1
+   },
+   {
+    "w": "BELÉN",
+    "ok": 1
+   },
+   {
+    "w": "BETANIA",
+    "ok": 1
+   },
+   {
+    "w": "ÉUFRATES",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Profetas menores",
+  "f": [
+   {
+    "w": "MIQUEAS",
+    "ok": 1
+   },
+   {
+    "w": "HABACUC",
+    "ok": 1
+   },
+   {
+    "w": "OSEAS",
+    "ok": 1
+   },
+   {
+    "w": "JONÁS",
+    "ok": 1
+   },
+   {
+    "w": "AMÓS",
+    "ok": 1
+   },
+   {
+    "w": "NAHÚM",
+    "ok": 1
+   },
+   {
+    "w": "SOFONÍAS",
+    "ok": 1
+   },
+   {
+    "w": "ABDÍAS",
+    "ok": 1
+   },
+   {
+    "w": "AGEO",
+    "ok": 1
+   },
+   {
+    "w": "MARTA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Sacramentos",
+  "f": [
+   {
+    "w": "ORDEN",
+    "ok": 1
+   },
+   {
+    "w": "UNCIÓN",
+    "ok": 1
+   },
+   {
+    "w": "CONFIRMACIÓN",
+    "ok": 1
+   },
+   {
+    "w": "MATRIMONIO",
+    "ok": 1
+   },
+   {
+    "w": "RECONCILIACIÓN",
+    "ok": 1
+   },
+   {
+    "w": "EUCARISTÍA",
+    "ok": 1
+   },
+   {
+    "w": "BAUTISMO",
+    "ok": 1
+   },
+   {
+    "w": "PENTECOSTÉS",
+    "ok": 0
+   },
+   {
+    "w": "CONSAGRACIÓN",
+    "ok": 0
+   },
+   {
+    "w": "MAGNÍFICAT",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Ríos y mares de la Biblia",
+  "f": [
+   {
+    "w": "JORDÁN",
+    "ok": 1
+   },
+   {
+    "w": "MAR ROJO",
+    "ok": 1
+   },
+   {
+    "w": "NILO",
+    "ok": 1
+   },
+   {
+    "w": "TIGRIS",
+    "ok": 1
+   },
+   {
+    "w": "ÉUFRATES",
+    "ok": 1
+   },
+   {
+    "w": "MAR MUERTO",
+    "ok": 1
+   },
+   {
+    "w": "EMAÚS",
+    "ok": 0
+   },
+   {
+    "w": "SAN FERNANDO",
+    "ok": 0
+   },
+   {
+    "w": "COPACABANA",
+    "ok": 0
+   },
+   {
+    "w": "BETANIA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Montes de la Biblia",
+  "f": [
+   {
+    "w": "HOREB",
+    "ok": 1
+   },
+   {
+    "w": "ARARAT",
+    "ok": 1
+   },
+   {
+    "w": "TABOR",
+    "ok": 1
+   },
+   {
+    "w": "OLIVOS",
+    "ok": 1
+   },
+   {
+    "w": "SION",
+    "ok": 1
+   },
+   {
+    "w": "CARMELO",
+    "ok": 1
+   },
+   {
+    "w": "CALVARIO",
+    "ok": 1
+   },
+   {
+    "w": "MORIA",
+    "ok": 1
+   },
+   {
+    "w": "SINAÍ",
+    "ok": 1
+   },
+   {
+    "w": "GUADALUPE",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Mártires de los primeros siglos",
+  "f": [
+   {
+    "w": "LUCÍA",
+    "ok": 1
+   },
+   {
+    "w": "PERPETUA",
+    "ok": 1
+   },
+   {
+    "w": "ÁGUEDA",
+    "ok": 1
+   },
+   {
+    "w": "TARCISIO",
+    "ok": 1
+   },
+   {
+    "w": "LORENZO",
+    "ok": 1
+   },
+   {
+    "w": "POLICARPO",
+    "ok": 1
+   },
+   {
+    "w": "SEBASTIÁN",
+    "ok": 1
+   },
+   {
+    "w": "CECILIA",
+    "ok": 1
+   },
+   {
+    "w": "TERESITA",
+    "ok": 0
+   },
+   {
+    "w": "LUIS GONZAGA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Libros sapienciales",
+  "f": [
+   {
+    "w": "ECLESIÁSTICO",
+    "ok": 1
+   },
+   {
+    "w": "JOB",
+    "ok": 1
+   },
+   {
+    "w": "PROVERBIOS",
+    "ok": 1
+   },
+   {
+    "w": "CANTAR DE LOS CANTARES",
+    "ok": 1
+   },
+   {
+    "w": "ECLESIASTÉS",
+    "ok": 1
+   },
+   {
+    "w": "SALMOS",
+    "ok": 1
+   },
+   {
+    "w": "NÚMEROS",
+    "ok": 0
+   },
+   {
+    "w": "FILEMÓN",
+    "ok": 0
+   },
+   {
+    "w": "ROMANOS",
+    "ok": 0
+   },
+   {
+    "w": "TESALONICENSES",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "«Felices los…» (Bienaventuranzas)",
+  "f": [
+   {
+    "w": "PUROS",
+    "ok": 1
+   },
+   {
+    "w": "MISERICORDIOSOS",
+    "ok": 1
+   },
+   {
+    "w": "PACIENTES",
+    "ok": 1
+   },
+   {
+    "w": "HAMBRIENTOS",
+    "ok": 1
+   },
+   {
+    "w": "PERSEGUIDOS",
+    "ok": 1
+   },
+   {
+    "w": "AFLIGIDOS",
+    "ok": 1
+   },
+   {
+    "w": "POBRES",
+    "ok": 1
+   },
+   {
+    "w": "PACÍFICOS",
+    "ok": 1
+   },
+   {
+    "w": "SUMO SACERDOTE",
+    "ok": 0
+   },
+   {
+    "w": "FIDELIDAD",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Pecados capitales",
+  "f": [
+   {
+    "w": "LUJURIA",
+    "ok": 1
+   },
+   {
+    "w": "SOBERBIA",
+    "ok": 1
+   },
+   {
+    "w": "PEREZA",
+    "ok": 1
+   },
+   {
+    "w": "IRA",
+    "ok": 1
+   },
+   {
+    "w": "GULA",
+    "ok": 1
+   },
+   {
+    "w": "ENVIDIA",
+    "ok": 1
+   },
+   {
+    "w": "AVARICIA",
+    "ok": 1
+   },
+   {
+    "w": "BENIGNIDAD",
+    "ok": 0
+   },
+   {
+    "w": "PUBLICANO",
+    "ok": 0
+   },
+   {
+    "w": "FORTALEZA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Comidas de la Biblia",
+  "f": [
+   {
+    "w": "DÁTILES",
+    "ok": 1
+   },
+   {
+    "w": "PECES",
+    "ok": 1
+   },
+   {
+    "w": "CODORNICES",
+    "ok": 1
+   },
+   {
+    "w": "HIGOS",
+    "ok": 1
+   },
+   {
+    "w": "MANÁ",
+    "ok": 1
+   },
+   {
+    "w": "MIEL",
+    "ok": 1
+   },
+   {
+    "w": "LENTEJAS",
+    "ok": 1
+   },
+   {
+    "w": "BOLSA DE DORMIR",
+    "ok": 0
+   },
+   {
+    "w": "ÓLEO",
+    "ok": 0
+   },
+   {
+    "w": "LÁTIGO",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Fiestas de la Virgen",
+  "f": [
+   {
+    "w": "NATIVIDAD DE MARÍA",
+    "ok": 1
+   },
+   {
+    "w": "PRESENTACIÓN",
+    "ok": 1
+   },
+   {
+    "w": "ANUNCIACIÓN",
+    "ok": 1
+   },
+   {
+    "w": "CANDELARIA",
+    "ok": 1
+   },
+   {
+    "w": "VISITACIÓN",
+    "ok": 1
+   },
+   {
+    "w": "INMACULADA",
+    "ok": 1
+   },
+   {
+    "w": "ASUNCIÓN",
+    "ok": 1
+   },
+   {
+    "w": "ORDEN",
+    "ok": 0
+   },
+   {
+    "w": "TRINIDAD",
+    "ok": 0
+   },
+   {
+    "w": "PONERSE DE PIE",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Jueces de Israel",
+  "f": [
+   {
+    "w": "SAMUEL",
+    "ok": 1
+   },
+   {
+    "w": "JEFTÉ",
+    "ok": 1
+   },
+   {
+    "w": "SANSÓN",
+    "ok": 1
+   },
+   {
+    "w": "EHUD",
+    "ok": 1
+   },
+   {
+    "w": "GEDEÓN",
+    "ok": 1
+   },
+   {
+    "w": "DÉBORA",
+    "ok": 1
+   },
+   {
+    "w": "OTONIEL",
+    "ok": 1
+   },
+   {
+    "w": "SIMEÓN",
+    "ok": 0
+   },
+   {
+    "w": "MIRIAM",
+    "ok": 0
+   },
+   {
+    "w": "ISAÍAS",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Reyes de Israel y Judá",
+  "f": [
+   {
+    "w": "JEROBOAM",
+    "ok": 1
+   },
+   {
+    "w": "SAÚL",
+    "ok": 1
+   },
+   {
+    "w": "EZEQUÍAS",
+    "ok": 1
+   },
+   {
+    "w": "ROBOAM",
+    "ok": 1
+   },
+   {
+    "w": "AJAB",
+    "ok": 1
+   },
+   {
+    "w": "SALOMÓN",
+    "ok": 1
+   },
+   {
+    "w": "JOSÍAS",
+    "ok": 1
+   },
+   {
+    "w": "DAVID",
+    "ok": 1
+   },
+   {
+    "w": "FELIPE",
+    "ok": 0
+   },
+   {
+    "w": "DAN",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Animales de la Biblia",
+  "f": [
+   {
+    "w": "SERPIENTE",
+    "ok": 1
+   },
+   {
+    "w": "CORDERO",
+    "ok": 1
+   },
+   {
+    "w": "CAMELLO",
+    "ok": 1
+   },
+   {
+    "w": "BURRO",
+    "ok": 1
+   },
+   {
+    "w": "CUERVO",
+    "ok": 1
+   },
+   {
+    "w": "PALOMA",
+    "ok": 1
+   },
+   {
+    "w": "PANDERO",
+    "ok": 0
+   },
+   {
+    "w": "ARPA",
+    "ok": 0
+   },
+   {
+    "w": "GRANIZO",
     "ok": 0
    },
    {
@@ -135,1642 +2520,14 @@
   ]
  },
  {
-  "c": "Mujeres del Antiguo Testamento",
-  "f": [
-   {
-    "w": "REBECA",
-    "ok": 1
-   },
-   {
-    "w": "RAQUEL",
-    "ok": 1
-   },
-   {
-    "w": "JUDIT",
-    "ok": 1
-   },
-   {
-    "w": "SARA",
-    "ok": 1
-   },
-   {
-    "w": "ANA",
-    "ok": 1
-   },
-   {
-    "w": "RUT",
-    "ok": 1
-   },
-   {
-    "w": "NOEMÍ",
-    "ok": 1
-   },
-   {
-    "w": "DÉBORA",
-    "ok": 1
-   },
-   {
-    "w": "LÍA",
-    "ok": 1
-   },
-   {
-    "w": "CAÍN",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Sacramentos",
-  "f": [
-   {
-    "w": "CONFIRMACIÓN",
-    "ok": 1
-   },
-   {
-    "w": "BAUTISMO",
-    "ok": 1
-   },
-   {
-    "w": "MATRIMONIO",
-    "ok": 1
-   },
-   {
-    "w": "EUCARISTÍA",
-    "ok": 1
-   },
-   {
-    "w": "UNCIÓN",
-    "ok": 1
-   },
-   {
-    "w": "ORDEN",
-    "ok": 1
-   },
-   {
-    "w": "RECONCILIACIÓN",
-    "ok": 1
-   },
-   {
-    "w": "TRINIDAD",
-    "ok": 0
-   },
-   {
-    "w": "GENUFLEXIÓN",
-    "ok": 0
-   },
-   {
-    "w": "SÁBADO SANTO",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Personajes del Éxodo",
-  "f": [
-   {
-    "w": "JETRÓ",
-    "ok": 1
-   },
-   {
-    "w": "FARAÓN",
-    "ok": 1
-   },
-   {
-    "w": "MIRIAM",
-    "ok": 1
-   },
-   {
-    "w": "MOISÉS",
-    "ok": 1
-   },
-   {
-    "w": "AARÓN",
-    "ok": 1
-   },
-   {
-    "w": "JOSUÉ",
-    "ok": 1
-   },
-   {
-    "w": "SÉFORA",
-    "ok": 1
-   },
-   {
-    "w": "SARA",
-    "ok": 0
-   },
-   {
-    "w": "GAD",
-    "ok": 0
-   },
-   {
-    "w": "MATEO",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Santos jóvenes",
-  "f": [
-   {
-    "w": "INÉS",
-    "ok": 1
-   },
-   {
-    "w": "DOMINGO SAVIO",
-    "ok": 1
-   },
-   {
-    "w": "FRASSATI",
-    "ok": 1
-   },
-   {
-    "w": "LUIS GONZAGA",
-    "ok": 1
-   },
-   {
-    "w": "FRANCISCO MARTO",
-    "ok": 1
-   },
-   {
-    "w": "LAURA VICUÑA",
-    "ok": 1
-   },
-   {
-    "w": "CARLO ACUTIS",
-    "ok": 1
-   },
-   {
-    "w": "JACINTA",
-    "ok": 1
-   },
-   {
-    "w": "CRESCENCIA",
-    "ok": 0
-   },
-   {
-    "w": "URBANO",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Advocaciones de la Virgen",
-  "f": [
-   {
-    "w": "ITATÍ",
-    "ok": 1
-   },
-   {
-    "w": "LORETO",
-    "ok": 1
-   },
-   {
-    "w": "GUADALUPE",
-    "ok": 1
-   },
-   {
-    "w": "FÁTIMA",
-    "ok": 1
-   },
-   {
-    "w": "COPACABANA",
-    "ok": 1
-   },
-   {
-    "w": "LOURDES",
-    "ok": 1
-   },
-   {
-    "w": "LUJÁN",
-    "ok": 1
-   },
-   {
-    "w": "POMPEYA",
-    "ok": 1
-   },
-   {
-    "w": "MAR MUERTO",
-    "ok": 0
-   },
-   {
-    "w": "SAN LUIS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Instrumentos de la Biblia",
-  "f": [
-   {
-    "w": "FLAUTA",
-    "ok": 1
-   },
-   {
-    "w": "CÍTARA",
-    "ok": 1
-   },
-   {
-    "w": "ARPA",
-    "ok": 1
-   },
-   {
-    "w": "SALTERIO",
-    "ok": 1
-   },
-   {
-    "w": "PANDERO",
-    "ok": 1
-   },
-   {
-    "w": "SHOFAR",
-    "ok": 1
-   },
-   {
-    "w": "CÍMBALO",
-    "ok": 1
-   },
-   {
-    "w": "TROMPETA",
-    "ok": 1
-   },
-   {
-    "w": "MOSQUITOS",
-    "ok": 0
-   },
-   {
-    "w": "PALIA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Comidas de la Biblia",
-  "f": [
-   {
-    "w": "PECES",
-    "ok": 1
-   },
-   {
-    "w": "CODORNICES",
-    "ok": 1
-   },
-   {
-    "w": "DÁTILES",
-    "ok": 1
-   },
-   {
-    "w": "LENTEJAS",
-    "ok": 1
-   },
-   {
-    "w": "HIGOS",
-    "ok": 1
-   },
-   {
-    "w": "MIEL",
-    "ok": 1
-   },
-   {
-    "w": "MANÁ",
-    "ok": 1
-   },
-   {
-    "w": "CAMPANARIO",
-    "ok": 0
-   },
-   {
-    "w": "LINTERNA",
-    "ok": 0
-   },
-   {
-    "w": "SALTERIO",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Pueblos vecinos de Israel",
-  "f": [
-   {
-    "w": "FILISTEOS",
-    "ok": 1
-   },
-   {
-    "w": "EGIPCIOS",
-    "ok": 1
-   },
-   {
-    "w": "MOABITAS",
-    "ok": 1
-   },
-   {
-    "w": "BABILONIOS",
-    "ok": 1
-   },
-   {
-    "w": "PERSAS",
-    "ok": 1
-   },
-   {
-    "w": "AMALECITAS",
-    "ok": 1
-   },
-   {
-    "w": "CANANEOS",
-    "ok": 1
-   },
-   {
-    "w": "ASIRIOS",
-    "ok": 1
-   },
-   {
-    "w": "SERAFINES",
-    "ok": 0
-   },
-   {
-    "w": "AGUSTINOS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Fiestas de la Virgen",
-  "f": [
-   {
-    "w": "PRESENTACIÓN",
-    "ok": 1
-   },
-   {
-    "w": "VISITACIÓN",
-    "ok": 1
-   },
-   {
-    "w": "NATIVIDAD DE MARÍA",
-    "ok": 1
-   },
-   {
-    "w": "ANUNCIACIÓN",
-    "ok": 1
-   },
-   {
-    "w": "CANDELARIA",
-    "ok": 1
-   },
-   {
-    "w": "ASUNCIÓN",
-    "ok": 1
-   },
-   {
-    "w": "INMACULADA",
-    "ok": 1
-   },
-   {
-    "w": "TERCIA",
-    "ok": 0
-   },
-   {
-    "w": "SEXTA",
-    "ok": 0
-   },
-   {
-    "w": "GLORIA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Reyes de Israel y Judá",
-  "f": [
-   {
-    "w": "DAVID",
-    "ok": 1
-   },
-   {
-    "w": "JEROBOAM",
-    "ok": 1
-   },
-   {
-    "w": "JOSÍAS",
-    "ok": 1
-   },
-   {
-    "w": "SAÚL",
-    "ok": 1
-   },
-   {
-    "w": "ROBOAM",
-    "ok": 1
-   },
-   {
-    "w": "AJAB",
-    "ok": 1
-   },
-   {
-    "w": "EZEQUÍAS",
-    "ok": 1
-   },
-   {
-    "w": "SALOMÓN",
-    "ok": 1
-   },
-   {
-    "w": "OTONIEL",
-    "ok": 0
-   },
-   {
-    "w": "JUDIT",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Cosas de Navidad",
-  "f": [
-   {
-    "w": "ESTRELLA",
-    "ok": 1
-   },
-   {
-    "w": "PESEBRE",
-    "ok": 1
-   },
-   {
-    "w": "REYES MAGOS",
-    "ok": 1
-   },
-   {
-    "w": "NOCHEBUENA",
-    "ok": 1
-   },
-   {
-    "w": "ÁRBOL",
-    "ok": 1
-   },
-   {
-    "w": "VILLANCICO",
-    "ok": 1
-   },
-   {
-    "w": "GUIRNALDA",
-    "ok": 1
-   },
-   {
-    "w": "CÁLIZ",
-    "ok": 0
-   },
-   {
-    "w": "RANAS",
-    "ok": 0
-   },
-   {
-    "w": "GRANIZO",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Obras de misericordia espirituales",
-  "f": [
-   {
-    "w": "CONSOLAR",
-    "ok": 1
-   },
-   {
-    "w": "ENSEÑAR",
-    "ok": 1
-   },
-   {
-    "w": "TENER PACIENCIA",
-    "ok": 1
-   },
-   {
-    "w": "REZAR POR OTROS",
-    "ok": 1
-   },
-   {
-    "w": "CORREGIR",
-    "ok": 1
-   },
-   {
-    "w": "PERDONAR",
-    "ok": 1
-   },
-   {
-    "w": "ACONSEJAR",
-    "ok": 1
-   },
-   {
-    "w": "VISITAR ENFERMOS",
-    "ok": 0
-   },
-   {
-    "w": "TALENTOS",
-    "ok": 0
-   },
-   {
-    "w": "PESCA MILAGROSA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Coros de ángeles",
-  "f": [
-   {
-    "w": "PRINCIPADOS",
-    "ok": 1
-   },
-   {
-    "w": "QUERUBINES",
-    "ok": 1
-   },
-   {
-    "w": "TRONOS",
-    "ok": 1
-   },
-   {
-    "w": "VIRTUDES",
-    "ok": 1
-   },
-   {
-    "w": "ARCÁNGELES",
-    "ok": 1
-   },
-   {
-    "w": "DOMINACIONES",
-    "ok": 1
-   },
-   {
-    "w": "POTESTADES",
-    "ok": 1
-   },
-   {
-    "w": "ÁNGELES",
-    "ok": 1
-   },
-   {
-    "w": "SERAFINES",
-    "ok": 1
-   },
-   {
-    "w": "CARMELITAS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Pecados capitales",
-  "f": [
-   {
-    "w": "IRA",
-    "ok": 1
-   },
-   {
-    "w": "LUJURIA",
-    "ok": 1
-   },
-   {
-    "w": "ENVIDIA",
-    "ok": 1
-   },
-   {
-    "w": "SOBERBIA",
-    "ok": 1
-   },
-   {
-    "w": "AVARICIA",
-    "ok": 1
-   },
-   {
-    "w": "GULA",
-    "ok": 1
-   },
-   {
-    "w": "PEREZA",
-    "ok": 1
-   },
-   {
-    "w": "EMANUEL",
-    "ok": 0
-   },
-   {
-    "w": "PASTOR",
-    "ok": 0
-   },
-   {
-    "w": "PESCADOR",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Canciones de misa en Sagrada",
-  "f": [
-   {
-    "w": "DIME REY",
-    "ok": 1
-   },
-   {
-    "w": "SUMÉRGEME",
-    "ok": 1
-   },
-   {
-    "w": "CRISTO REINA",
-    "ok": 1
-   },
-   {
-    "w": "DAME TUS OJOS",
-    "ok": 1
-   },
-   {
-    "w": "RECIBE MI CORAZÓN",
-    "ok": 1
-   },
-   {
-    "w": "OCÉANOS",
-    "ok": 1
-   },
-   {
-    "w": "HIJO AMADO",
-    "ok": 1
-   },
-   {
-    "w": "VINE A ADORARTE",
-    "ok": 1
-   },
-   {
-    "w": "MAR ADENTRO",
-    "ok": 1
-   },
-   {
-    "w": "SEMBRADOR",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Mujeres del Nuevo Testamento",
-  "f": [
-   {
-    "w": "TABITA",
-    "ok": 1
-   },
-   {
-    "w": "SALOMÉ",
-    "ok": 1
-   },
-   {
-    "w": "JUANA",
-    "ok": 1
-   },
-   {
-    "w": "PRISCILA",
-    "ok": 1
-   },
-   {
-    "w": "MARTA",
-    "ok": 1
-   },
-   {
-    "w": "ISABEL",
-    "ok": 1
-   },
-   {
-    "w": "SUSANA",
-    "ok": 1
-   },
-   {
-    "w": "LIDIA",
-    "ok": 1
-   },
-   {
-    "w": "AGEO",
-    "ok": 0
-   },
-   {
-    "w": "SAÚL",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Personajes del Génesis",
-  "f": [
-   {
-    "w": "LOT",
-    "ok": 1
-   },
-   {
-    "w": "ABRAHAM",
-    "ok": 1
-   },
-   {
-    "w": "NOÉ",
-    "ok": 1
-   },
-   {
-    "w": "ESAÚ",
-    "ok": 1
-   },
-   {
-    "w": "ADÁN",
-    "ok": 1
-   },
-   {
-    "w": "ISAAC",
-    "ok": 1
-   },
-   {
-    "w": "EVA",
-    "ok": 1
-   },
-   {
-    "w": "ABEL",
-    "ok": 1
-   },
-   {
-    "w": "CAÍN",
-    "ok": 1
-   },
-   {
-    "w": "OSEAS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Ciudades argentinas con nombre de santo",
-  "f": [
-   {
-    "w": "SAN JUAN",
-    "ok": 1
-   },
-   {
-    "w": "SAN ISIDRO",
-    "ok": 1
-   },
-   {
-    "w": "SAN NICOLÁS",
-    "ok": 1
-   },
-   {
-    "w": "SAN FERNANDO",
-    "ok": 1
-   },
-   {
-    "w": "SAN RAFAEL",
-    "ok": 1
-   },
-   {
-    "w": "SANTA ROSA",
-    "ok": 1
-   },
-   {
-    "w": "SAN LUIS",
-    "ok": 1
-   },
-   {
-    "w": "CANÁ",
-    "ok": 0
-   },
-   {
-    "w": "NAZARET",
-    "ok": 0
-   },
-   {
-    "w": "TIERRA SANTA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Dones del Espíritu Santo",
-  "f": [
-   {
-    "w": "FORTALEZA",
-    "ok": 1
-   },
-   {
-    "w": "PIEDAD",
-    "ok": 1
-   },
-   {
-    "w": "CONSEJO",
-    "ok": 1
-   },
-   {
-    "w": "TEMOR DE DIOS",
-    "ok": 1
-   },
-   {
-    "w": "ENTENDIMIENTO",
-    "ok": 1
-   },
-   {
-    "w": "SABIDURÍA",
-    "ok": 1
-   },
-   {
-    "w": "CIENCIA",
-    "ok": 1
-   },
-   {
-    "w": "FARISEO",
-    "ok": 0
-   },
-   {
-    "w": "PACIENTES",
-    "ok": 0
-   },
-   {
-    "w": "PESCADOR",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Nombres de Jesús",
-  "f": [
-   {
-    "w": "MAESTRO",
-    "ok": 1
-   },
-   {
-    "w": "BUEN PASTOR",
-    "ok": 1
-   },
-   {
-    "w": "MESÍAS",
-    "ok": 1
-   },
-   {
-    "w": "REDENTOR",
-    "ok": 1
-   },
-   {
-    "w": "VERBO",
-    "ok": 1
-   },
-   {
-    "w": "NAZARENO",
-    "ok": 1
-   },
-   {
-    "w": "EMANUEL",
-    "ok": 1
-   },
-   {
-    "w": "CARPINTERO",
-    "ok": 0
-   },
-   {
-    "w": "CENTURIÓN",
-    "ok": 0
-   },
-   {
-    "w": "TRONO DE LA SABIDURÍA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Plagas de Egipto",
-  "f": [
-   {
-    "w": "SANGRE",
-    "ok": 1
-   },
-   {
-    "w": "PESTE",
-    "ok": 1
-   },
-   {
-    "w": "LANGOSTAS",
-    "ok": 1
-   },
-   {
-    "w": "TINIEBLAS",
-    "ok": 1
-   },
-   {
-    "w": "TÁBANOS",
-    "ok": 1
-   },
-   {
-    "w": "ÚLCERAS",
-    "ok": 1
-   },
-   {
-    "w": "MOSQUITOS",
-    "ok": 1
-   },
-   {
-    "w": "GRANIZO",
-    "ok": 1
-   },
-   {
-    "w": "RANAS",
-    "ok": 1
-   },
-   {
-    "w": "PALIA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Lugares de la vida de Jesús",
-  "f": [
-   {
-    "w": "CAFARNAÚM",
-    "ok": 1
-   },
-   {
-    "w": "GETSEMANÍ",
-    "ok": 1
-   },
-   {
-    "w": "EMAÚS",
-    "ok": 1
-   },
-   {
-    "w": "BETANIA",
-    "ok": 1
-   },
-   {
-    "w": "JERUSALÉN",
-    "ok": 1
-   },
-   {
-    "w": "JERICÓ",
-    "ok": 1
-   },
-   {
-    "w": "BELÉN",
-    "ok": 1
-   },
-   {
-    "w": "NAZARET",
-    "ok": 1
-   },
-   {
-    "w": "CANÁ",
-    "ok": 1
-   },
-   {
-    "w": "SAN NICOLÁS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Parábolas de Jesús",
-  "f": [
-   {
-    "w": "GRANO DE MOSTAZA",
-    "ok": 1
-   },
-   {
-    "w": "LEVADURA",
-    "ok": 1
-   },
-   {
-    "w": "HIJO PRÓDIGO",
-    "ok": 1
-   },
-   {
-    "w": "BUEN SAMARITANO",
-    "ok": 1
-   },
-   {
-    "w": "OVEJA PERDIDA",
-    "ok": 1
-   },
-   {
-    "w": "VIÑADORES",
-    "ok": 1
-   },
-   {
-    "w": "SEMBRADOR",
-    "ok": 1
-   },
-   {
-    "w": "PERLA",
-    "ok": 1
-   },
-   {
-    "w": "TALENTOS",
-    "ok": 1
-   },
-   {
-    "w": "HIJO AMADO",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Oraciones",
-  "f": [
-   {
-    "w": "AVEMARÍA",
-    "ok": 1
-   },
-   {
-    "w": "MAGNÍFICAT",
-    "ok": 1
-   },
-   {
-    "w": "ÁNGELUS",
-    "ok": 1
-   },
-   {
-    "w": "ACORDAOS",
-    "ok": 1
-   },
-   {
-    "w": "REGINA COELI",
-    "ok": 1
-   },
-   {
-    "w": "SALVE",
-    "ok": 1
-   },
-   {
-    "w": "PADRENUESTRO",
-    "ok": 1
-   },
-   {
-    "w": "DOMINGO DE RAMOS",
-    "ok": 0
-   },
-   {
-    "w": "VÍSPERAS",
-    "ok": 0
-   },
-   {
-    "w": "CANDELARIA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Cosas que se usan en misa",
-  "f": [
-   {
-    "w": "PURIFICADOR",
-    "ok": 1
-   },
-   {
-    "w": "VINAJERAS",
-    "ok": 1
-   },
-   {
-    "w": "CORPORAL",
-    "ok": 1
-   },
-   {
-    "w": "MISAL",
-    "ok": 1
-   },
-   {
-    "w": "PATENA",
-    "ok": 1
-   },
-   {
-    "w": "COPÓN",
-    "ok": 1
-   },
-   {
-    "w": "INCENSARIO",
-    "ok": 1
-   },
-   {
-    "w": "LECCIONARIO",
-    "ok": 1
-   },
-   {
-    "w": "CÁLIZ",
-    "ok": 1
-   },
-   {
-    "w": "TINIEBLAS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Liturgia de las Horas",
-  "f": [
-   {
-    "w": "OFICIO DE LECTURA",
-    "ok": 1
-   },
-   {
-    "w": "LAUDES",
-    "ok": 1
-   },
-   {
-    "w": "NONA",
-    "ok": 1
-   },
-   {
-    "w": "COMPLETAS",
-    "ok": 1
-   },
-   {
-    "w": "TERCIA",
-    "ok": 1
-   },
-   {
-    "w": "VÍSPERAS",
-    "ok": 1
-   },
-   {
-    "w": "SEXTA",
-    "ok": 1
-   },
-   {
-    "w": "MATRIMONIO",
-    "ok": 0
-   },
-   {
-    "w": "HOMILÍA",
-    "ok": 0
-   },
-   {
-    "w": "PERSIGNARSE",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Santos jóvenes",
-  "f": [
-   {
-    "w": "DOMINGO SAVIO",
-    "ok": 1
-   },
-   {
-    "w": "LAURA VICUÑA",
-    "ok": 1
-   },
-   {
-    "w": "INÉS",
-    "ok": 1
-   },
-   {
-    "w": "CARLO ACUTIS",
-    "ok": 1
-   },
-   {
-    "w": "FRANCISCO MARTO",
-    "ok": 1
-   },
-   {
-    "w": "JACINTA",
-    "ok": 1
-   },
-   {
-    "w": "FRASSATI",
-    "ok": 1
-   },
-   {
-    "w": "LUIS GONZAGA",
-    "ok": 1
-   },
-   {
-    "w": "BERNANOS",
-    "ok": 0
-   },
-   {
-    "w": "BERGOGLIO",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Mártires de los primeros siglos",
-  "f": [
-   {
-    "w": "LORENZO",
-    "ok": 1
-   },
-   {
-    "w": "SEBASTIÁN",
-    "ok": 1
-   },
-   {
-    "w": "CECILIA",
-    "ok": 1
-   },
-   {
-    "w": "PERPETUA",
-    "ok": 1
-   },
-   {
-    "w": "TARCISIO",
-    "ok": 1
-   },
-   {
-    "w": "POLICARPO",
-    "ok": 1
-   },
-   {
-    "w": "ÁGUEDA",
-    "ok": 1
-   },
-   {
-    "w": "LUCÍA",
-    "ok": 1
-   },
-   {
-    "w": "URBANO",
-    "ok": 0
-   },
-   {
-    "w": "CRESCENCIA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Montes de la Biblia",
-  "f": [
-   {
-    "w": "CALVARIO",
-    "ok": 1
-   },
-   {
-    "w": "SION",
-    "ok": 1
-   },
-   {
-    "w": "CARMELO",
-    "ok": 1
-   },
-   {
-    "w": "OLIVOS",
-    "ok": 1
-   },
-   {
-    "w": "MORIA",
-    "ok": 1
-   },
-   {
-    "w": "HOREB",
-    "ok": 1
-   },
-   {
-    "w": "TABOR",
-    "ok": 1
-   },
-   {
-    "w": "ARARAT",
-    "ok": 1
-   },
-   {
-    "w": "SINAÍ",
-    "ok": 1
-   },
-   {
-    "w": "BETANIA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Frutos del Espíritu Santo",
-  "f": [
-   {
-    "w": "BENIGNIDAD",
-    "ok": 1
-   },
-   {
-    "w": "ALEGRÍA",
-    "ok": 1
-   },
-   {
-    "w": "FIDELIDAD",
-    "ok": 1
-   },
-   {
-    "w": "BONDAD",
-    "ok": 1
-   },
-   {
-    "w": "AMOR",
-    "ok": 1
-   },
-   {
-    "w": "MODESTIA",
-    "ok": 1
-   },
-   {
-    "w": "LONGANIMIDAD",
-    "ok": 1
-   },
-   {
-    "w": "MANSEDUMBRE",
-    "ok": 1
-   },
-   {
-    "w": "AVARICIA",
-    "ok": 0
-   },
-   {
-    "w": "NAZARENO",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Instrumentos de la Pasión",
-  "f": [
-   {
-    "w": "CORONA DE ESPINAS",
-    "ok": 1
-   },
-   {
-    "w": "TREINTA MONEDAS",
-    "ok": 1
-   },
-   {
-    "w": "DADOS",
-    "ok": 1
-   },
-   {
-    "w": "LANZA",
-    "ok": 1
-   },
-   {
-    "w": "TÚNICA",
-    "ok": 1
-   },
-   {
-    "w": "CLAVOS",
-    "ok": 1
-   },
-   {
-    "w": "ESPONJA",
-    "ok": 1
-   },
-   {
-    "w": "LÁTIGO",
-    "ok": 1
-   },
-   {
-    "w": "PALMERA",
-    "ok": 0
-   },
-   {
-    "w": "CORPORAL",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Obras de misericordia corporales",
-  "f": [
-   {
-    "w": "DAR DE BEBER",
-    "ok": 1
-   },
-   {
-    "w": "ENTERRAR MUERTOS",
-    "ok": 1
-   },
-   {
-    "w": "VISITAR PRESOS",
-    "ok": 1
-   },
-   {
-    "w": "DAR DE COMER",
-    "ok": 1
-   },
-   {
-    "w": "VESTIR AL DESNUDO",
-    "ok": 1
-   },
-   {
-    "w": "DAR POSADA",
-    "ok": 1
-   },
-   {
-    "w": "VISITAR ENFERMOS",
-    "ok": 1
-   },
-   {
-    "w": "LÁZARO",
-    "ok": 0
-   },
-   {
-    "w": "HAZME POBRE",
-    "ok": 0
-   },
-   {
-    "w": "ENSEÑAR",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Órdenes religiosas",
-  "f": [
-   {
-    "w": "BENEDICTINOS",
-    "ok": 1
-   },
-   {
-    "w": "FRANCISCANOS",
-    "ok": 1
-   },
-   {
-    "w": "TRAPENSES",
-    "ok": 1
-   },
-   {
-    "w": "DOMINICOS",
-    "ok": 1
-   },
-   {
-    "w": "JESUITAS",
-    "ok": 1
-   },
-   {
-    "w": "SALESIANOS",
-    "ok": 1
-   },
-   {
-    "w": "AGUSTINOS",
-    "ok": 1
-   },
-   {
-    "w": "CARMELITAS",
-    "ok": 1
-   },
-   {
-    "w": "TITO",
-    "ok": 0
-   },
-   {
-    "w": "MOABITAS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Apóstoles",
-  "f": [
-   {
-    "w": "SANTIAGO",
-    "ok": 1
-   },
-   {
-    "w": "FELIPE",
-    "ok": 1
-   },
-   {
-    "w": "ANDRÉS",
-    "ok": 1
-   },
-   {
-    "w": "JUAN",
-    "ok": 1
-   },
-   {
-    "w": "PEDRO",
-    "ok": 1
-   },
-   {
-    "w": "MATÍAS",
-    "ok": 1
-   },
-   {
-    "w": "SIMÓN",
-    "ok": 1
-   },
-   {
-    "w": "BARTOLOMÉ",
-    "ok": 1
-   },
-   {
-    "w": "TADEO",
-    "ok": 1
-   },
-   {
-    "w": "PILATOS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Cartas de san Pablo",
-  "f": [
-   {
-    "w": "GÁLATAS",
-    "ok": 1
-   },
-   {
-    "w": "TIMOTEO",
-    "ok": 1
-   },
-   {
-    "w": "CORINTIOS",
-    "ok": 1
-   },
-   {
-    "w": "FILEMÓN",
-    "ok": 1
-   },
-   {
-    "w": "FILIPENSES",
-    "ok": 1
-   },
-   {
-    "w": "ROMANOS",
-    "ok": 1
-   },
-   {
-    "w": "TESALONICENSES",
-    "ok": 1
-   },
-   {
-    "w": "EFESIOS",
-    "ok": 1
-   },
-   {
-    "w": "COLOSENSES",
-    "ok": 1
-   },
-   {
-    "w": "FRANCISCANOS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "«Felices los…» (Bienaventuranzas)",
-  "f": [
-   {
-    "w": "MISERICORDIOSOS",
-    "ok": 1
-   },
-   {
-    "w": "HAMBRIENTOS",
-    "ok": 1
-   },
-   {
-    "w": "PUROS",
-    "ok": 1
-   },
-   {
-    "w": "PERSEGUIDOS",
-    "ok": 1
-   },
-   {
-    "w": "POBRES",
-    "ok": 1
-   },
-   {
-    "w": "AFLIGIDOS",
-    "ok": 1
-   },
-   {
-    "w": "PACÍFICOS",
-    "ok": 1
-   },
-   {
-    "w": "PACIENTES",
-    "ok": 1
-   },
-   {
-    "w": "AMOR",
-    "ok": 0
-   },
-   {
-    "w": "MODESTIA",
-    "ok": 0
-   }
-  ]
- },
- {
   "c": "Escritores católicos",
   "f": [
    {
-    "w": "PAPINI",
-    "ok": 1
-   },
-   {
-    "w": "NEWMAN",
+    "w": "PÉGUY",
     "ok": 1
    },
    {
     "w": "TOLKIEN",
-    "ok": 1
-   },
-   {
-    "w": "CLAUDEL",
     "ok": 1
    },
    {
@@ -1782,7 +2539,11 @@
     "ok": 1
    },
    {
-    "w": "PÉGUY",
+    "w": "CLAUDEL",
+    "ok": 1
+   },
+   {
+    "w": "PAPINI",
     "ok": 1
    },
    {
@@ -1790,1991 +2551,15 @@
     "ok": 1
    },
    {
-    "w": "DOMINGO SAVIO",
-    "ok": 0
-   },
-   {
-    "w": "CECILIA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Personajes del Génesis",
-  "f": [
-   {
-    "w": "ADÁN",
-    "ok": 1
-   },
-   {
-    "w": "ABEL",
-    "ok": 1
-   },
-   {
-    "w": "LOT",
-    "ok": 1
-   },
-   {
-    "w": "ABRAHAM",
-    "ok": 1
-   },
-   {
-    "w": "ESAÚ",
-    "ok": 1
-   },
-   {
-    "w": "CAÍN",
-    "ok": 1
-   },
-   {
-    "w": "NOÉ",
-    "ok": 1
-   },
-   {
-    "w": "ISAAC",
-    "ok": 1
-   },
-   {
-    "w": "EVA",
-    "ok": 1
-   },
-   {
-    "w": "ANDRÉS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Milagros de Jesús",
-  "f": [
-   {
-    "w": "PANES Y PECES",
-    "ok": 1
-   },
-   {
-    "w": "TEMPESTAD CALMADA",
-    "ok": 1
-   },
-   {
-    "w": "HIJA DE JAIRO",
-    "ok": 1
-   },
-   {
-    "w": "CIEGO DE NACIMIENTO",
-    "ok": 1
-   },
-   {
-    "w": "LÁZARO",
-    "ok": 1
-   },
-   {
-    "w": "BODAS DE CANÁ",
-    "ok": 1
-   },
-   {
-    "w": "PESCA MILAGROSA",
-    "ok": 1
-   },
-   {
-    "w": "PERLA",
-    "ok": 0
-   },
-   {
-    "w": "DAR DE BEBER",
-    "ok": 0
-   },
-   {
-    "w": "GRANO DE MOSTAZA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Mujeres del Nuevo Testamento",
-  "f": [
-   {
-    "w": "MARTA",
-    "ok": 1
-   },
-   {
-    "w": "SALOMÉ",
-    "ok": 1
-   },
-   {
-    "w": "LIDIA",
-    "ok": 1
-   },
-   {
-    "w": "JUANA",
-    "ok": 1
-   },
-   {
-    "w": "SUSANA",
-    "ok": 1
-   },
-   {
-    "w": "TABITA",
-    "ok": 1
-   },
-   {
-    "w": "ISABEL",
-    "ok": 1
-   },
-   {
-    "w": "PRISCILA",
-    "ok": 1
-   },
-   {
-    "w": "DAVID",
-    "ok": 0
-   },
-   {
-    "w": "ZABULÓN",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Dones del Espíritu Santo",
-  "f": [
-   {
-    "w": "CIENCIA",
-    "ok": 1
-   },
-   {
-    "w": "ENTENDIMIENTO",
-    "ok": 1
-   },
-   {
-    "w": "TEMOR DE DIOS",
-    "ok": 1
-   },
-   {
-    "w": "PIEDAD",
-    "ok": 1
-   },
-   {
-    "w": "SABIDURÍA",
-    "ok": 1
-   },
-   {
-    "w": "FORTALEZA",
-    "ok": 1
-   },
-   {
-    "w": "CONSEJO",
-    "ok": 1
-   },
-   {
-    "w": "MODESTIA",
-    "ok": 0
-   },
-   {
-    "w": "PERSEGUIDOS",
-    "ok": 0
-   },
-   {
-    "w": "MANSEDUMBRE",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Oficios y cargos en el Evangelio",
-  "f": [
-   {
-    "w": "SUMO SACERDOTE",
-    "ok": 1
-   },
-   {
-    "w": "PUBLICANO",
-    "ok": 1
-   },
-   {
-    "w": "ESCRIBA",
-    "ok": 1
-   },
-   {
-    "w": "CARPINTERO",
-    "ok": 1
-   },
-   {
-    "w": "FARISEO",
-    "ok": 1
-   },
-   {
-    "w": "CENTURIÓN",
-    "ok": 1
-   },
-   {
-    "w": "PASTOR",
-    "ok": 1
-   },
-   {
-    "w": "PESCADOR",
-    "ok": 1
-   },
-   {
-    "w": "BONDAD",
-    "ok": 0
-   },
-   {
-    "w": "CASA DE ORO",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Ciudades argentinas con nombre de santo",
-  "f": [
-   {
-    "w": "SAN RAFAEL",
-    "ok": 1
-   },
-   {
-    "w": "SAN JUAN",
-    "ok": 1
-   },
-   {
-    "w": "SAN FERNANDO",
-    "ok": 1
-   },
-   {
-    "w": "SANTA ROSA",
-    "ok": 1
-   },
-   {
-    "w": "SAN ISIDRO",
-    "ok": 1
-   },
-   {
-    "w": "SAN LUIS",
-    "ok": 1
-   },
-   {
-    "w": "SAN NICOLÁS",
-    "ok": 1
-   },
-   {
-    "w": "MORIA",
-    "ok": 0
-   },
-   {
-    "w": "ASÍS",
-    "ok": 0
-   },
-   {
-    "w": "ARARAT",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Comidas de la Biblia",
-  "f": [
-   {
-    "w": "MIEL",
-    "ok": 1
-   },
-   {
-    "w": "CODORNICES",
-    "ok": 1
-   },
-   {
-    "w": "PECES",
-    "ok": 1
-   },
-   {
-    "w": "HIGOS",
-    "ok": 1
-   },
-   {
-    "w": "DÁTILES",
-    "ok": 1
-   },
-   {
-    "w": "MANÁ",
-    "ok": 1
-   },
-   {
-    "w": "LENTEJAS",
-    "ok": 1
-   },
-   {
-    "w": "LINTERNA",
-    "ok": 0
-   },
-   {
-    "w": "FLAUTA",
-    "ok": 0
-   },
-   {
-    "w": "ESTOLA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Nombres de papas",
-  "f": [
-   {
-    "w": "LEÓN",
-    "ok": 1
-   },
-   {
-    "w": "FRANCISCO",
-    "ok": 1
-   },
-   {
-    "w": "BENEDICTO",
-    "ok": 1
-   },
-   {
-    "w": "GREGORIO",
-    "ok": 1
-   },
-   {
-    "w": "CLEMENTE",
-    "ok": 1
-   },
-   {
-    "w": "INOCENCIO",
-    "ok": 1
-   },
-   {
-    "w": "PÍO",
-    "ok": 1
-   },
-   {
-    "w": "URBANO",
-    "ok": 1
-   },
-   {
-    "w": "CARLO ACUTIS",
-    "ok": 0
-   },
-   {
-    "w": "CHESTERTON",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Personajes del Éxodo",
-  "f": [
-   {
-    "w": "MIRIAM",
-    "ok": 1
-   },
-   {
-    "w": "JOSUÉ",
-    "ok": 1
-   },
-   {
-    "w": "SÉFORA",
-    "ok": 1
-   },
-   {
-    "w": "FARAÓN",
-    "ok": 1
-   },
-   {
-    "w": "AARÓN",
-    "ok": 1
-   },
-   {
-    "w": "MOISÉS",
-    "ok": 1
-   },
-   {
-    "w": "JETRÓ",
-    "ok": 1
-   },
-   {
-    "w": "LIDIA",
-    "ok": 0
-   },
-   {
-    "w": "CAÍN",
-    "ok": 0
-   },
-   {
-    "w": "ABEL",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Cosas de un campamento",
-  "f": [
-   {
-    "w": "CARPA",
-    "ok": 1
-   },
-   {
-    "w": "MATE",
-    "ok": 1
-   },
-   {
-    "w": "BOLSA DE DORMIR",
-    "ok": 1
-   },
-   {
-    "w": "GUITARRA",
-    "ok": 1
-   },
-   {
-    "w": "FOGÓN",
-    "ok": 1
-   },
-   {
-    "w": "MOCHILA",
-    "ok": 1
-   },
-   {
-    "w": "LINTERNA",
-    "ok": 1
-   },
-   {
-    "w": "SANGRE",
-    "ok": 0
-   },
-   {
-    "w": "CAMPANARIO",
-    "ok": 0
-   },
-   {
-    "w": "ARPA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Profetas menores",
-  "f": [
-   {
-    "w": "MALAQUÍAS",
-    "ok": 1
-   },
-   {
-    "w": "JONÁS",
-    "ok": 1
-   },
-   {
-    "w": "ABDÍAS",
-    "ok": 1
-   },
-   {
-    "w": "HABACUC",
-    "ok": 1
-   },
-   {
-    "w": "SOFONÍAS",
-    "ok": 1
-   },
-   {
-    "w": "MIQUEAS",
-    "ok": 1
-   },
-   {
-    "w": "AMÓS",
-    "ok": 1
-   },
-   {
-    "w": "JOEL",
-    "ok": 1
-   },
-   {
-    "w": "NAHÚM",
-    "ok": 1
-   },
-   {
-    "w": "FARAÓN",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Títulos de María en las letanías",
-  "f": [
-   {
-    "w": "TORRE DE MARFIL",
-    "ok": 1
-   },
-   {
-    "w": "PUERTA DEL CIELO",
-    "ok": 1
-   },
-   {
-    "w": "ESPEJO DE JUSTICIA",
-    "ok": 1
-   },
-   {
-    "w": "ESTRELLA DE LA MAÑANA",
-    "ok": 1
-   },
-   {
-    "w": "ARCA DE LA ALIANZA",
-    "ok": 1
-   },
-   {
-    "w": "ROSA MÍSTICA",
-    "ok": 1
-   },
-   {
-    "w": "TRONO DE LA SABIDURÍA",
-    "ok": 1
-   },
-   {
-    "w": "CASA DE ORO",
-    "ok": 1
-   },
-   {
-    "w": "PIEDAD",
-    "ok": 0
-   },
-   {
-    "w": "GULA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Mujeres del Antiguo Testamento",
-  "f": [
-   {
-    "w": "ESTER",
-    "ok": 1
-   },
-   {
-    "w": "DÉBORA",
-    "ok": 1
-   },
-   {
-    "w": "REBECA",
-    "ok": 1
-   },
-   {
-    "w": "RUT",
-    "ok": 1
-   },
-   {
-    "w": "NOEMÍ",
-    "ok": 1
-   },
-   {
-    "w": "LÍA",
-    "ok": 1
-   },
-   {
-    "w": "ANA",
-    "ok": 1
-   },
-   {
-    "w": "JUDIT",
-    "ok": 1
-   },
-   {
-    "w": "RAQUEL",
-    "ok": 1
-   },
-   {
-    "w": "AJAB",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Plantas de la Biblia",
-  "f": [
-   {
-    "w": "VID",
-    "ok": 1
-   },
-   {
-    "w": "ZARZA",
-    "ok": 1
-   },
-   {
-    "w": "OLIVO",
-    "ok": 1
-   },
-   {
-    "w": "ACACIA",
-    "ok": 1
-   },
-   {
-    "w": "HIGUERA",
-    "ok": 1
-   },
-   {
-    "w": "CEDRO",
-    "ok": 1
-   },
-   {
-    "w": "PALMERA",
-    "ok": 1
-   },
-   {
-    "w": "MOSTAZA",
-    "ok": 1
-   },
-   {
-    "w": "ALBA",
-    "ok": 0
-   },
-   {
-    "w": "MOSQUITOS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Jueces de Israel",
-  "f": [
-   {
-    "w": "GEDEÓN",
-    "ok": 1
-   },
-   {
-    "w": "JEFTÉ",
-    "ok": 1
-   },
-   {
-    "w": "SAMUEL",
-    "ok": 1
-   },
-   {
-    "w": "SANSÓN",
-    "ok": 1
-   },
-   {
-    "w": "EHUD",
-    "ok": 1
-   },
-   {
-    "w": "OTONIEL",
-    "ok": 1
-   },
-   {
-    "w": "DÉBORA",
-    "ok": 1
-   },
-   {
-    "w": "DAN",
-    "ok": 0
-   },
-   {
-    "w": "TOMÁS",
-    "ok": 0
-   },
-   {
-    "w": "JOSÉ DE ARIMATEA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Cosas que hay en una iglesia",
-  "f": [
-   {
-    "w": "VITRALES",
-    "ok": 1
-   },
-   {
-    "w": "BANCOS",
-    "ok": 1
-   },
-   {
-    "w": "ATRIO",
-    "ok": 1
-   },
-   {
-    "w": "PILA BAUTISMAL",
-    "ok": 1
-   },
-   {
-    "w": "CONFESIONARIO",
-    "ok": 1
-   },
-   {
-    "w": "PÚLPITO",
-    "ok": 1
-   },
-   {
-    "w": "CAMPANARIO",
-    "ok": 1
-   },
-   {
-    "w": "CRISMA",
-    "ok": 0
-   },
-   {
-    "w": "GUITARRA",
-    "ok": 0
-   },
-   {
-    "w": "CLAVOS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Órdenes religiosas",
-  "f": [
-   {
-    "w": "SALESIANOS",
-    "ok": 1
-   },
-   {
-    "w": "TRAPENSES",
-    "ok": 1
-   },
-   {
-    "w": "BENEDICTINOS",
-    "ok": 1
-   },
-   {
-    "w": "JESUITAS",
-    "ok": 1
-   },
-   {
-    "w": "DOMINICOS",
-    "ok": 1
-   },
-   {
-    "w": "FRANCISCANOS",
-    "ok": 1
-   },
-   {
-    "w": "AGUSTINOS",
-    "ok": 1
-   },
-   {
-    "w": "CARMELITAS",
-    "ok": 1
-   },
-   {
-    "w": "DOMINACIONES",
-    "ok": 0
-   },
-   {
-    "w": "GÁLATAS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Partes de la misa",
-  "f": [
-   {
-    "w": "COMUNIÓN",
-    "ok": 1
-   },
-   {
-    "w": "OFERTORIO",
-    "ok": 1
-   },
-   {
-    "w": "KYRIE",
-    "ok": 1
-   },
-   {
-    "w": "ALELUYA",
-    "ok": 1
-   },
-   {
-    "w": "CREDO",
-    "ok": 1
-   },
-   {
-    "w": "BENDICIÓN",
-    "ok": 1
-   },
-   {
-    "w": "CONSAGRACIÓN",
-    "ok": 1
-   },
-   {
-    "w": "AGNUS DEI",
-    "ok": 1
-   },
-   {
-    "w": "SANCTUS",
-    "ok": 1
-   },
-   {
-    "w": "OFICIO DE LECTURA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Frutos del Espíritu Santo",
-  "f": [
-   {
-    "w": "LONGANIMIDAD",
-    "ok": 1
-   },
-   {
-    "w": "BENIGNIDAD",
-    "ok": 1
-   },
-   {
-    "w": "BONDAD",
-    "ok": 1
-   },
-   {
-    "w": "ALEGRÍA",
-    "ok": 1
-   },
-   {
-    "w": "FIDELIDAD",
-    "ok": 1
-   },
-   {
-    "w": "AMOR",
-    "ok": 1
-   },
-   {
-    "w": "MANSEDUMBRE",
-    "ok": 1
-   },
-   {
-    "w": "MODESTIA",
-    "ok": 1
-   },
-   {
-    "w": "AFLIGIDOS",
-    "ok": 0
-   },
-   {
-    "w": "FARISEO",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Obras de misericordia corporales",
-  "f": [
-   {
-    "w": "DAR DE COMER",
-    "ok": 1
-   },
-   {
-    "w": "ENTERRAR MUERTOS",
-    "ok": 1
-   },
-   {
-    "w": "VISITAR PRESOS",
-    "ok": 1
-   },
-   {
-    "w": "VESTIR AL DESNUDO",
-    "ok": 1
-   },
-   {
-    "w": "DAR POSADA",
-    "ok": 1
-   },
-   {
-    "w": "VISITAR ENFERMOS",
-    "ok": 1
-   },
-   {
-    "w": "DAR DE BEBER",
-    "ok": 1
-   },
-   {
-    "w": "SEMBRADOR",
-    "ok": 0
-   },
-   {
-    "w": "TALENTOS",
-    "ok": 0
-   },
-   {
-    "w": "PESCA MILAGROSA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Canciones de misa en Sagrada",
-  "f": [
-   {
-    "w": "QUÉDATE SEÑOR",
-    "ok": 1
-   },
-   {
-    "w": "ALÁBENLO",
-    "ok": 1
-   },
-   {
-    "w": "NUEVA MAÑANA",
-    "ok": 1
-   },
-   {
-    "w": "CARA A CARA",
-    "ok": 1
-   },
-   {
-    "w": "CRISTO REINA",
-    "ok": 1
-   },
-   {
-    "w": "MAR ADENTRO",
-    "ok": 1
-   },
-   {
-    "w": "VINE A ADORARTE",
-    "ok": 1
-   },
-   {
-    "w": "OCÉANOS",
-    "ok": 1
-   },
-   {
-    "w": "HAZME POBRE",
-    "ok": 1
-   },
-   {
-    "w": "HIJA DE JAIRO",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Instrumentos de la Biblia",
-  "f": [
-   {
-    "w": "CÍMBALO",
-    "ok": 1
-   },
-   {
-    "w": "TROMPETA",
-    "ok": 1
-   },
-   {
-    "w": "SHOFAR",
-    "ok": 1
-   },
-   {
-    "w": "FLAUTA",
-    "ok": 1
-   },
-   {
-    "w": "PANDERO",
-    "ok": 1
-   },
-   {
-    "w": "CÍTARA",
-    "ok": 1
-   },
-   {
-    "w": "SALTERIO",
-    "ok": 1
-   },
-   {
-    "w": "ARPA",
-    "ok": 1
-   },
-   {
-    "w": "BOLSA DE DORMIR",
-    "ok": 0
-   },
-   {
-    "w": "VID",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Nombres de Jesús",
-  "f": [
-   {
-    "w": "REDENTOR",
-    "ok": 1
-   },
-   {
-    "w": "MESÍAS",
-    "ok": 1
-   },
-   {
-    "w": "BUEN PASTOR",
-    "ok": 1
-   },
-   {
-    "w": "VERBO",
-    "ok": 1
-   },
-   {
-    "w": "MAESTRO",
-    "ok": 1
-   },
-   {
-    "w": "EMANUEL",
-    "ok": 1
-   },
-   {
-    "w": "NAZARENO",
-    "ok": 1
-   },
-   {
-    "w": "TEMPLANZA",
-    "ok": 0
-   },
-   {
-    "w": "CASA DE ORO",
-    "ok": 0
-   },
-   {
-    "w": "CENTURIÓN",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Fiestas del año litúrgico",
-  "f": [
-   {
-    "w": "EPIFANÍA",
-    "ok": 1
-   },
-   {
-    "w": "CORPUS CHRISTI",
-    "ok": 1
-   },
-   {
-    "w": "ASCENSIÓN",
-    "ok": 1
-   },
-   {
-    "w": "PENTECOSTÉS",
-    "ok": 1
-   },
-   {
-    "w": "CRISTO REY",
-    "ok": 1
-   },
-   {
-    "w": "TODOS LOS SANTOS",
-    "ok": 1
-   },
-   {
-    "w": "TRINIDAD",
-    "ok": 1
-   },
-   {
-    "w": "MAGNÍFICAT",
-    "ok": 0
-   },
-   {
-    "w": "GLORIA",
-    "ok": 0
-   },
-   {
-    "w": "COMPLETAS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Instrumentos de la Pasión",
-  "f": [
-   {
-    "w": "ESPONJA",
-    "ok": 1
-   },
-   {
-    "w": "TREINTA MONEDAS",
-    "ok": 1
-   },
-   {
-    "w": "TÚNICA",
-    "ok": 1
-   },
-   {
-    "w": "DADOS",
-    "ok": 1
-   },
-   {
-    "w": "LANZA",
-    "ok": 1
-   },
-   {
-    "w": "CORONA DE ESPINAS",
-    "ok": 1
-   },
-   {
-    "w": "LÁTIGO",
-    "ok": 1
-   },
-   {
-    "w": "CLAVOS",
-    "ok": 1
-   },
-   {
-    "w": "PESTE",
-    "ok": 0
-   },
-   {
-    "w": "CIRIO PASCUAL",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Cartas de san Pablo",
-  "f": [
-   {
-    "w": "TESALONICENSES",
-    "ok": 1
-   },
-   {
-    "w": "CORINTIOS",
-    "ok": 1
-   },
-   {
-    "w": "COLOSENSES",
-    "ok": 1
-   },
-   {
-    "w": "FILEMÓN",
-    "ok": 1
-   },
-   {
-    "w": "TIMOTEO",
-    "ok": 1
-   },
-   {
-    "w": "TITO",
-    "ok": 1
-   },
-   {
-    "w": "FILIPENSES",
-    "ok": 1
-   },
-   {
-    "w": "ROMANOS",
-    "ok": 1
-   },
-   {
-    "w": "EFESIOS",
-    "ok": 1
-   },
-   {
-    "w": "TRAPENSES",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Mártires de los primeros siglos",
-  "f": [
-   {
-    "w": "SEBASTIÁN",
-    "ok": 1
-   },
-   {
-    "w": "PERPETUA",
-    "ok": 1
-   },
-   {
-    "w": "LUCÍA",
-    "ok": 1
-   },
-   {
-    "w": "LORENZO",
-    "ok": 1
-   },
-   {
-    "w": "TARCISIO",
-    "ok": 1
-   },
-   {
-    "w": "POLICARPO",
-    "ok": 1
-   },
-   {
-    "w": "CECILIA",
-    "ok": 1
-   },
-   {
-    "w": "ÁGUEDA",
-    "ok": 1
-   },
-   {
-    "w": "HILDEGARDA",
-    "ok": 0
-   },
-   {
-    "w": "FRANCISCO MARTO",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Santos jóvenes",
-  "f": [
-   {
-    "w": "LAURA VICUÑA",
-    "ok": 1
-   },
-   {
-    "w": "LUIS GONZAGA",
-    "ok": 1
-   },
-   {
-    "w": "FRASSATI",
-    "ok": 1
-   },
-   {
-    "w": "INÉS",
-    "ok": 1
-   },
-   {
-    "w": "JACINTA",
-    "ok": 1
-   },
-   {
-    "w": "FRANCISCO MARTO",
-    "ok": 1
-   },
-   {
-    "w": "CARLO ACUTIS",
-    "ok": 1
-   },
-   {
-    "w": "DOMINGO SAVIO",
-    "ok": 1
-   },
-   {
-    "w": "MAMA ANTULA",
-    "ok": 0
-   },
-   {
-    "w": "PREVOST",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Oraciones",
-  "f": [
-   {
-    "w": "SALVE",
-    "ok": 1
-   },
-   {
-    "w": "ACORDAOS",
-    "ok": 1
-   },
-   {
-    "w": "REGINA COELI",
-    "ok": 1
-   },
-   {
-    "w": "AVEMARÍA",
-    "ok": 1
-   },
-   {
-    "w": "ÁNGELUS",
-    "ok": 1
-   },
-   {
-    "w": "MAGNÍFICAT",
-    "ok": 1
-   },
-   {
-    "w": "PADRENUESTRO",
-    "ok": 1
-   },
-   {
-    "w": "SEXTA",
-    "ok": 0
-   },
-   {
-    "w": "EUCARISTÍA",
-    "ok": 0
-   },
-   {
-    "w": "INMACULADA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Comidas de la Biblia",
-  "f": [
-   {
-    "w": "LENTEJAS",
-    "ok": 1
-   },
-   {
-    "w": "PECES",
-    "ok": 1
-   },
-   {
-    "w": "MIEL",
-    "ok": 1
-   },
-   {
-    "w": "DÁTILES",
-    "ok": 1
-   },
-   {
-    "w": "CODORNICES",
-    "ok": 1
-   },
-   {
-    "w": "MANÁ",
-    "ok": 1
-   },
-   {
-    "w": "HIGOS",
-    "ok": 1
-   },
-   {
-    "w": "DALMÁTICA",
-    "ok": 0
-   },
-   {
-    "w": "TÚNICA",
-    "ok": 0
-   },
-   {
-    "w": "TROMPETA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Nombres de papas",
-  "f": [
-   {
-    "w": "GREGORIO",
-    "ok": 1
-   },
-   {
-    "w": "CLEMENTE",
-    "ok": 1
-   },
-   {
-    "w": "INOCENCIO",
-    "ok": 1
-   },
-   {
-    "w": "BENEDICTO",
-    "ok": 1
-   },
-   {
-    "w": "LEÓN",
-    "ok": 1
-   },
-   {
-    "w": "FRANCISCO",
-    "ok": 1
-   },
-   {
-    "w": "PÍO",
-    "ok": 1
-   },
-   {
-    "w": "URBANO",
-    "ok": 1
-   },
-   {
-    "w": "CARLO ACUTIS",
-    "ok": 0
-   },
-   {
-    "w": "LUCIANI",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Cosas que se usan en misa",
-  "f": [
-   {
-    "w": "PATENA",
-    "ok": 1
-   },
-   {
-    "w": "MISAL",
-    "ok": 1
-   },
-   {
-    "w": "INCENSARIO",
-    "ok": 1
-   },
-   {
-    "w": "VINAJERAS",
-    "ok": 1
-   },
-   {
-    "w": "PURIFICADOR",
-    "ok": 1
-   },
-   {
-    "w": "LECCIONARIO",
-    "ok": 1
-   },
-   {
-    "w": "PALIA",
-    "ok": 1
-   },
-   {
-    "w": "COPÓN",
-    "ok": 1
-   },
-   {
-    "w": "CORPORAL",
-    "ok": 1
-   },
-   {
-    "w": "CARPA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Cosas de un campamento",
-  "f": [
-   {
-    "w": "FOGÓN",
-    "ok": 1
-   },
-   {
-    "w": "MATE",
-    "ok": 1
-   },
-   {
-    "w": "GUITARRA",
-    "ok": 1
-   },
-   {
-    "w": "MOCHILA",
-    "ok": 1
-   },
-   {
-    "w": "CARPA",
-    "ok": 1
-   },
-   {
-    "w": "BOLSA DE DORMIR",
-    "ok": 1
-   },
-   {
-    "w": "LINTERNA",
-    "ok": 1
-   },
-   {
-    "w": "SEPULCRO VACÍO",
-    "ok": 0
-   },
-   {
-    "w": "SHOFAR",
-    "ok": 0
-   },
-   {
-    "w": "LANZA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Gestos en misa",
-  "f": [
-   {
-    "w": "DAR LA PAZ",
-    "ok": 1
-   },
-   {
-    "w": "PONERSE DE PIE",
-    "ok": 1
-   },
-   {
-    "w": "SENTARSE",
-    "ok": 1
-   },
-   {
-    "w": "GENUFLEXIÓN",
-    "ok": 1
-   },
-   {
-    "w": "ARRODILLARSE",
-    "ok": 1
-   },
-   {
-    "w": "INCLINARSE",
-    "ok": 1
-   },
-   {
-    "w": "PERSIGNARSE",
-    "ok": 1
-   },
-   {
-    "w": "ADVIENTO",
-    "ok": 0
-   },
-   {
-    "w": "CANDELARIA",
-    "ok": 0
-   },
-   {
-    "w": "NATIVIDAD DE MARÍA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "«Felices los…» (Bienaventuranzas)",
-  "f": [
-   {
-    "w": "HAMBRIENTOS",
-    "ok": 1
-   },
-   {
-    "w": "POBRES",
-    "ok": 1
-   },
-   {
-    "w": "MISERICORDIOSOS",
-    "ok": 1
-   },
-   {
-    "w": "PACÍFICOS",
-    "ok": 1
-   },
-   {
-    "w": "PERSEGUIDOS",
-    "ok": 1
-   },
-   {
-    "w": "AFLIGIDOS",
-    "ok": 1
-   },
-   {
-    "w": "PUROS",
-    "ok": 1
-   },
-   {
-    "w": "PACIENTES",
-    "ok": 1
-   },
-   {
-    "w": "LONGANIMIDAD",
-    "ok": 0
-   },
-   {
-    "w": "ENVIDIA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Pueblos vecinos de Israel",
-  "f": [
-   {
-    "w": "PERSAS",
-    "ok": 1
-   },
-   {
-    "w": "BABILONIOS",
-    "ok": 1
-   },
-   {
-    "w": "ASIRIOS",
-    "ok": 1
-   },
-   {
-    "w": "AMALECITAS",
-    "ok": 1
-   },
-   {
-    "w": "CANANEOS",
-    "ok": 1
-   },
-   {
-    "w": "EGIPCIOS",
-    "ok": 1
-   },
-   {
-    "w": "FILISTEOS",
-    "ok": 1
-   },
-   {
-    "w": "MOABITAS",
-    "ok": 1
-   },
-   {
-    "w": "TITO",
-    "ok": 0
-   },
-   {
-    "w": "CORINTIOS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Fiestas de la Virgen",
-  "f": [
-   {
-    "w": "VISITACIÓN",
-    "ok": 1
-   },
-   {
-    "w": "ASUNCIÓN",
-    "ok": 1
-   },
-   {
-    "w": "ANUNCIACIÓN",
-    "ok": 1
-   },
-   {
-    "w": "PRESENTACIÓN",
-    "ok": 1
-   },
-   {
-    "w": "NATIVIDAD DE MARÍA",
-    "ok": 1
-   },
-   {
-    "w": "INMACULADA",
-    "ok": 1
-   },
-   {
-    "w": "CANDELARIA",
-    "ok": 1
-   },
-   {
-    "w": "DOMINGO DE PASCUA",
-    "ok": 0
-   },
-   {
-    "w": "DOMINGO DE RAMOS",
-    "ok": 0
-   },
-   {
-    "w": "SENTARSE",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Personajes de la Pasión",
-  "f": [
-   {
-    "w": "BARRABÁS",
-    "ok": 1
-   },
-   {
-    "w": "SIMÓN DE CIRENE",
-    "ok": 1
-   },
-   {
-    "w": "MALCO",
-    "ok": 1
-   },
-   {
-    "w": "NICODEMO",
-    "ok": 1
-   },
-   {
-    "w": "CAIFÁS",
-    "ok": 1
-   },
-   {
-    "w": "VERÓNICA",
-    "ok": 1
-   },
-   {
-    "w": "JOSÉ DE ARIMATEA",
-    "ok": 1
-   },
-   {
-    "w": "PILATOS",
-    "ok": 1
-   },
-   {
-    "w": "NOÉ",
-    "ok": 0
-   },
-   {
-    "w": "RAQUEL",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Hijos de Jacob",
-  "f": [
-   {
-    "w": "NEFTALÍ",
-    "ok": 1
-   },
-   {
-    "w": "ISACAR",
-    "ok": 1
-   },
-   {
-    "w": "LEVÍ",
-    "ok": 1
-   },
-   {
-    "w": "ASER",
-    "ok": 1
-   },
-   {
-    "w": "BENJAMÍN",
-    "ok": 1
-   },
-   {
-    "w": "ZABULÓN",
-    "ok": 1
-   },
-   {
-    "w": "JOSÉ",
-    "ok": 1
-   },
-   {
-    "w": "SIMEÓN",
-    "ok": 1
-   },
-   {
-    "w": "JUDÁ",
-    "ok": 1
-   },
-   {
-    "w": "JEREMÍAS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Advocaciones de la Virgen",
-  "f": [
-   {
-    "w": "LOURDES",
-    "ok": 1
-   },
-   {
-    "w": "COPACABANA",
-    "ok": 1
-   },
-   {
-    "w": "GUADALUPE",
-    "ok": 1
-   },
-   {
-    "w": "LUJÁN",
-    "ok": 1
-   },
-   {
-    "w": "LORETO",
-    "ok": 1
-   },
-   {
-    "w": "ITATÍ",
-    "ok": 1
-   },
-   {
-    "w": "FÁTIMA",
-    "ok": 1
-   },
-   {
-    "w": "POMPEYA",
-    "ok": 1
-   },
-   {
-    "w": "ROMA",
-    "ok": 0
-   },
-   {
-    "w": "SAN JUAN",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Plantas de la Biblia",
-  "f": [
-   {
-    "w": "ZARZA",
-    "ok": 1
-   },
-   {
-    "w": "HIGUERA",
-    "ok": 1
-   },
-   {
-    "w": "CEDRO",
-    "ok": 1
-   },
-   {
-    "w": "OLIVO",
-    "ok": 1
-   },
-   {
-    "w": "ACACIA",
-    "ok": 1
-   },
-   {
-    "w": "VID",
-    "ok": 1
-   },
-   {
-    "w": "PALMERA",
-    "ok": 1
-   },
-   {
-    "w": "MOSTAZA",
-    "ok": 1
-   },
-   {
-    "w": "ÚLCERAS",
-    "ok": 0
-   },
-   {
-    "w": "CRISMA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Oficios y cargos en el Evangelio",
-  "f": [
-   {
-    "w": "ESCRIBA",
-    "ok": 1
-   },
-   {
-    "w": "SUMO SACERDOTE",
-    "ok": 1
-   },
-   {
-    "w": "PUBLICANO",
-    "ok": 1
-   },
-   {
-    "w": "PASTOR",
-    "ok": 1
-   },
-   {
-    "w": "CARPINTERO",
-    "ok": 1
-   },
-   {
-    "w": "CENTURIÓN",
-    "ok": 1
-   },
-   {
-    "w": "FARISEO",
-    "ok": 1
-   },
-   {
-    "w": "PESCADOR",
-    "ok": 1
-   },
-   {
-    "w": "EMANUEL",
-    "ok": 0
-   },
-   {
-    "w": "PACIENTES",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Obras de misericordia espirituales",
-  "f": [
-   {
-    "w": "CORREGIR",
-    "ok": 1
-   },
-   {
-    "w": "ACONSEJAR",
-    "ok": 1
-   },
-   {
-    "w": "CONSOLAR",
-    "ok": 1
-   },
-   {
-    "w": "TENER PACIENCIA",
-    "ok": 1
-   },
-   {
-    "w": "REZAR POR OTROS",
-    "ok": 1
-   },
-   {
-    "w": "PERDONAR",
-    "ok": 1
-   },
-   {
-    "w": "ENSEÑAR",
+    "w": "NEWMAN",
     "ok": 1
-   },
-   {
-    "w": "VISITAR PRESOS",
-    "ok": 0
    },
    {
-    "w": "ENTERRAR MUERTOS",
+    "w": "RONCALLI",
     "ok": 0
-   },
-   {
-    "w": "PANES Y PECES",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Apóstoles",
-  "f": [
-   {
-    "w": "JUDAS",
-    "ok": 1
-   },
-   {
-    "w": "FELIPE",
-    "ok": 1
-   },
-   {
-    "w": "MATEO",
-    "ok": 1
-   },
-   {
-    "w": "MATÍAS",
-    "ok": 1
-   },
-   {
-    "w": "PEDRO",
-    "ok": 1
-   },
-   {
-    "w": "SANTIAGO",
-    "ok": 1
-   },
-   {
-    "w": "SIMÓN",
-    "ok": 1
-   },
-   {
-    "w": "JUAN",
-    "ok": 1
-   },
-   {
-    "w": "TADEO",
-    "ok": 1
    },
    {
-    "w": "ESAÚ",
+    "w": "CATALINA DE SIENA",
     "ok": 0
    }
   ]
@@ -3782,6 +2567,30 @@
  {
   "c": "Apellidos de papas",
   "f": [
+   {
+    "w": "BERGOGLIO",
+    "ok": 1
+   },
+   {
+    "w": "RATZINGER",
+    "ok": 1
+   },
+   {
+    "w": "PREVOST",
+    "ok": 1
+   },
+   {
+    "w": "MONTINI",
+    "ok": 1
+   },
+   {
+    "w": "PACELLI",
+    "ok": 1
+   },
+   {
+    "w": "LUCIANI",
+    "ok": 1
+   },
    {
     "w": "WOJTYLA",
     "ok": 1
@@ -3791,1070 +2600,11 @@
     "ok": 1
    },
    {
-    "w": "PACELLI",
-    "ok": 1
-   },
-   {
-    "w": "RATZINGER",
-    "ok": 1
-   },
-   {
-    "w": "MONTINI",
-    "ok": 1
-   },
-   {
-    "w": "PREVOST",
-    "ok": 1
-   },
-   {
-    "w": "LUCIANI",
-    "ok": 1
-   },
-   {
-    "w": "BERGOGLIO",
-    "ok": 1
-   },
-   {
-    "w": "FRANCISCO MARTO",
-    "ok": 0
-   },
-   {
-    "w": "BENEDICTO",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Coros de ángeles",
-  "f": [
-   {
-    "w": "TRONOS",
-    "ok": 1
-   },
-   {
-    "w": "ÁNGELES",
-    "ok": 1
-   },
-   {
-    "w": "DOMINACIONES",
-    "ok": 1
-   },
-   {
-    "w": "SERAFINES",
-    "ok": 1
-   },
-   {
-    "w": "ARCÁNGELES",
-    "ok": 1
-   },
-   {
-    "w": "POTESTADES",
-    "ok": 1
-   },
-   {
-    "w": "VIRTUDES",
-    "ok": 1
-   },
-   {
-    "w": "PRINCIPADOS",
-    "ok": 1
-   },
-   {
-    "w": "QUERUBINES",
-    "ok": 1
-   },
-   {
-    "w": "AMALECITAS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Plagas de Egipto",
-  "f": [
-   {
-    "w": "LANGOSTAS",
-    "ok": 1
-   },
-   {
-    "w": "TÁBANOS",
-    "ok": 1
-   },
-   {
-    "w": "TINIEBLAS",
-    "ok": 1
-   },
-   {
-    "w": "ÚLCERAS",
-    "ok": 1
-   },
-   {
-    "w": "PESTE",
-    "ok": 1
-   },
-   {
-    "w": "GRANIZO",
-    "ok": 1
-   },
-   {
-    "w": "SANGRE",
-    "ok": 1
-   },
-   {
-    "w": "RANAS",
-    "ok": 1
-   },
-   {
-    "w": "MOSQUITOS",
-    "ok": 1
-   },
-   {
-    "w": "FLAUTA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Escritores católicos",
-  "f": [
-   {
-    "w": "NEWMAN",
-    "ok": 1
-   },
-   {
-    "w": "TOLKIEN",
-    "ok": 1
-   },
-   {
-    "w": "PÉGUY",
-    "ok": 1
-   },
-   {
     "w": "CLAUDEL",
-    "ok": 1
-   },
-   {
-    "w": "PAPINI",
-    "ok": 1
-   },
-   {
-    "w": "MARECHAL",
-    "ok": 1
-   },
-   {
-    "w": "CHESTERTON",
-    "ok": 1
-   },
-   {
-    "w": "BERNANOS",
-    "ok": 1
-   },
-   {
-    "w": "CLEMENTE",
     "ok": 0
-   },
-   {
-    "w": "POLICARPO",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Cosas de Navidad",
-  "f": [
-   {
-    "w": "GUIRNALDA",
-    "ok": 1
-   },
-   {
-    "w": "ESTRELLA",
-    "ok": 1
-   },
-   {
-    "w": "ÁRBOL",
-    "ok": 1
-   },
-   {
-    "w": "PESEBRE",
-    "ok": 1
-   },
-   {
-    "w": "REYES MAGOS",
-    "ok": 1
-   },
-   {
-    "w": "NOCHEBUENA",
-    "ok": 1
-   },
-   {
-    "w": "VILLANCICO",
-    "ok": 1
-   },
-   {
-    "w": "PECES",
-    "ok": 0
-   },
-   {
-    "w": "TÚNICA",
-    "ok": 0
-   },
-   {
-    "w": "CAMPANARIO",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Partes de la misa",
-  "f": [
-   {
-    "w": "OFERTORIO",
-    "ok": 1
-   },
-   {
-    "w": "ALELUYA",
-    "ok": 1
-   },
-   {
-    "w": "CONSAGRACIÓN",
-    "ok": 1
-   },
-   {
-    "w": "SANCTUS",
-    "ok": 1
-   },
-   {
-    "w": "HOMILÍA",
-    "ok": 1
-   },
-   {
-    "w": "KYRIE",
-    "ok": 1
-   },
-   {
-    "w": "COMUNIÓN",
-    "ok": 1
-   },
-   {
-    "w": "BENDICIÓN",
-    "ok": 1
-   },
-   {
-    "w": "GLORIA",
-    "ok": 1
-   },
-   {
-    "w": "MATRIMONIO",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Milagros de Jesús",
-  "f": [
-   {
-    "w": "CIEGO DE NACIMIENTO",
-    "ok": 1
-   },
-   {
-    "w": "TEMPESTAD CALMADA",
-    "ok": 1
-   },
-   {
-    "w": "BODAS DE CANÁ",
-    "ok": 1
-   },
-   {
-    "w": "PANES Y PECES",
-    "ok": 1
-   },
-   {
-    "w": "LÁZARO",
-    "ok": 1
-   },
-   {
-    "w": "HIJA DE JAIRO",
-    "ok": 1
-   },
-   {
-    "w": "PESCA MILAGROSA",
-    "ok": 1
-   },
-   {
-    "w": "DAR DE BEBER",
-    "ok": 0
-   },
-   {
-    "w": "HIJO AMADO",
-    "ok": 0
-   },
-   {
-    "w": "HAZME POBRE",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Ciudades argentinas con nombre de santo",
-  "f": [
-   {
-    "w": "SAN RAFAEL",
-    "ok": 1
-   },
-   {
-    "w": "SAN LUIS",
-    "ok": 1
-   },
-   {
-    "w": "SAN ISIDRO",
-    "ok": 1
-   },
-   {
-    "w": "SAN FERNANDO",
-    "ok": 1
-   },
-   {
-    "w": "SAN JUAN",
-    "ok": 1
-   },
-   {
-    "w": "SANTA ROSA",
-    "ok": 1
-   },
-   {
-    "w": "SAN NICOLÁS",
-    "ok": 1
-   },
-   {
-    "w": "ÉUFRATES",
-    "ok": 0
-   },
-   {
-    "w": "PADUA",
-    "ok": 0
-   },
-   {
-    "w": "NILO",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Fiestas del año litúrgico",
-  "f": [
-   {
-    "w": "PENTECOSTÉS",
-    "ok": 1
-   },
-   {
-    "w": "CORPUS CHRISTI",
-    "ok": 1
-   },
-   {
-    "w": "CRISTO REY",
-    "ok": 1
-   },
-   {
-    "w": "ASCENSIÓN",
-    "ok": 1
-   },
-   {
-    "w": "TODOS LOS SANTOS",
-    "ok": 1
-   },
-   {
-    "w": "EPIFANÍA",
-    "ok": 1
-   },
-   {
-    "w": "TRINIDAD",
-    "ok": 1
-   },
-   {
-    "w": "CUARESMA",
-    "ok": 0
-   },
-   {
-    "w": "VISITACIÓN",
-    "ok": 0
-   },
-   {
-    "w": "ARRODILLARSE",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Parábolas de Jesús",
-  "f": [
-   {
-    "w": "VIÑADORES",
-    "ok": 1
-   },
-   {
-    "w": "OVEJA PERDIDA",
-    "ok": 1
-   },
-   {
-    "w": "LEVADURA",
-    "ok": 1
-   },
-   {
-    "w": "HIJO PRÓDIGO",
-    "ok": 1
-   },
-   {
-    "w": "BUEN SAMARITANO",
-    "ok": 1
-   },
-   {
-    "w": "GRANO DE MOSTAZA",
-    "ok": 1
-   },
-   {
-    "w": "PERLA",
-    "ok": 1
-   },
-   {
-    "w": "TALENTOS",
-    "ok": 1
-   },
-   {
-    "w": "SEMBRADOR",
-    "ok": 1
-   },
-   {
-    "w": "CIEGO DE NACIMIENTO",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Pecados capitales",
-  "f": [
-   {
-    "w": "SOBERBIA",
-    "ok": 1
-   },
-   {
-    "w": "LUJURIA",
-    "ok": 1
-   },
-   {
-    "w": "PEREZA",
-    "ok": 1
-   },
-   {
-    "w": "IRA",
-    "ok": 1
-   },
-   {
-    "w": "ENVIDIA",
-    "ok": 1
-   },
-   {
-    "w": "AVARICIA",
-    "ok": 1
-   },
-   {
-    "w": "GULA",
-    "ok": 1
-   },
-   {
-    "w": "REDENTOR",
-    "ok": 0
-   },
-   {
-    "w": "MESÍAS",
-    "ok": 0
-   },
-   {
-    "w": "PUBLICANO",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Cosas que se usan en misa",
-  "f": [
-   {
-    "w": "PATENA",
-    "ok": 1
-   },
-   {
-    "w": "VINAJERAS",
-    "ok": 1
-   },
-   {
-    "w": "MISAL",
-    "ok": 1
-   },
-   {
-    "w": "INCENSARIO",
-    "ok": 1
-   },
-   {
-    "w": "COPÓN",
-    "ok": 1
-   },
-   {
-    "w": "PURIFICADOR",
-    "ok": 1
-   },
-   {
-    "w": "CÁLIZ",
-    "ok": 1
-   },
-   {
-    "w": "LECCIONARIO",
-    "ok": 1
-   },
-   {
-    "w": "PALIA",
-    "ok": 1
-   },
-   {
-    "w": "RANAS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Lugares de la vida de Jesús",
-  "f": [
-   {
-    "w": "GETSEMANÍ",
-    "ok": 1
-   },
-   {
-    "w": "EMAÚS",
-    "ok": 1
-   },
-   {
-    "w": "CAFARNAÚM",
-    "ok": 1
-   },
-   {
-    "w": "JERICÓ",
-    "ok": 1
-   },
-   {
-    "w": "BELÉN",
-    "ok": 1
-   },
-   {
-    "w": "JERUSALÉN",
-    "ok": 1
-   },
-   {
-    "w": "NAZARET",
-    "ok": 1
-   },
-   {
-    "w": "CANÁ",
-    "ok": 1
-   },
-   {
-    "w": "BETANIA",
-    "ok": 1
-   },
-   {
-    "w": "LOURDES",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Nombres de papas",
-  "f": [
-   {
-    "w": "INOCENCIO",
-    "ok": 1
-   },
-   {
-    "w": "GREGORIO",
-    "ok": 1
-   },
-   {
-    "w": "LEÓN",
-    "ok": 1
-   },
-   {
-    "w": "FRANCISCO",
-    "ok": 1
-   },
-   {
-    "w": "CLEMENTE",
-    "ok": 1
-   },
-   {
-    "w": "PÍO",
-    "ok": 1
-   },
-   {
-    "w": "BENEDICTO",
-    "ok": 1
-   },
-   {
-    "w": "URBANO",
-    "ok": 1
-   },
-   {
-    "w": "CARLO ACUTIS",
-    "ok": 0
-   },
-   {
-    "w": "RONCALLI",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Liturgia de las Horas",
-  "f": [
-   {
-    "w": "LAUDES",
-    "ok": 1
-   },
-   {
-    "w": "COMPLETAS",
-    "ok": 1
-   },
-   {
-    "w": "NONA",
-    "ok": 1
-   },
-   {
-    "w": "TERCIA",
-    "ok": 1
-   },
-   {
-    "w": "OFICIO DE LECTURA",
-    "ok": 1
-   },
-   {
-    "w": "VÍSPERAS",
-    "ok": 1
-   },
-   {
-    "w": "SEXTA",
-    "ok": 1
-   },
-   {
-    "w": "CANDELARIA",
-    "ok": 0
-   },
-   {
-    "w": "BENDICIÓN",
-    "ok": 0
-   },
-   {
-    "w": "DAR LA PAZ",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Reyes de Israel y Judá",
-  "f": [
-   {
-    "w": "EZEQUÍAS",
-    "ok": 1
-   },
-   {
-    "w": "SALOMÓN",
-    "ok": 1
-   },
-   {
-    "w": "JOSÍAS",
-    "ok": 1
-   },
-   {
-    "w": "JEROBOAM",
-    "ok": 1
-   },
-   {
-    "w": "AJAB",
-    "ok": 1
-   },
-   {
-    "w": "ROBOAM",
-    "ok": 1
-   },
-   {
-    "w": "DAVID",
-    "ok": 1
-   },
-   {
-    "w": "SAÚL",
-    "ok": 1
-   },
-   {
-    "w": "PILATOS",
-    "ok": 0
-   },
-   {
-    "w": "ADÁN",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Mujeres del Antiguo Testamento",
-  "f": [
-   {
-    "w": "ESTER",
-    "ok": 1
-   },
-   {
-    "w": "NOEMÍ",
-    "ok": 1
-   },
-   {
-    "w": "ANA",
-    "ok": 1
-   },
-   {
-    "w": "RUT",
-    "ok": 1
-   },
-   {
-    "w": "LÍA",
-    "ok": 1
-   },
-   {
-    "w": "REBECA",
-    "ok": 1
-   },
-   {
-    "w": "RAQUEL",
-    "ok": 1
-   },
-   {
-    "w": "JUDIT",
-    "ok": 1
-   },
-   {
-    "w": "SARA",
-    "ok": 1
-   },
-   {
-    "w": "JEROBOAM",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Advocaciones de la Virgen",
-  "f": [
-   {
-    "w": "FÁTIMA",
-    "ok": 1
-   },
-   {
-    "w": "ITATÍ",
-    "ok": 1
-   },
-   {
-    "w": "COPACABANA",
-    "ok": 1
-   },
-   {
-    "w": "LUJÁN",
-    "ok": 1
-   },
-   {
-    "w": "GUADALUPE",
-    "ok": 1
-   },
-   {
-    "w": "LORETO",
-    "ok": 1
-   },
-   {
-    "w": "POMPEYA",
-    "ok": 1
-   },
-   {
-    "w": "LOURDES",
-    "ok": 1
-   },
-   {
-    "w": "OLIVOS",
-    "ok": 0
-   },
-   {
-    "w": "NAZARET",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Mártires de los primeros siglos",
-  "f": [
-   {
-    "w": "LUCÍA",
-    "ok": 1
    },
    {
     "w": "LORENZO",
-    "ok": 1
-   },
-   {
-    "w": "PERPETUA",
-    "ok": 1
-   },
-   {
-    "w": "TARCISIO",
-    "ok": 1
-   },
-   {
-    "w": "SEBASTIÁN",
-    "ok": 1
-   },
-   {
-    "w": "ÁGUEDA",
-    "ok": 1
-   },
-   {
-    "w": "CECILIA",
-    "ok": 1
-   },
-   {
-    "w": "POLICARPO",
-    "ok": 1
-   },
-   {
-    "w": "CRESCENCIA",
-    "ok": 0
-   },
-   {
-    "w": "BERGOGLIO",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Hijos de Jacob",
-  "f": [
-   {
-    "w": "RUBÉN",
-    "ok": 1
-   },
-   {
-    "w": "ISACAR",
-    "ok": 1
-   },
-   {
-    "w": "JUDÁ",
-    "ok": 1
-   },
-   {
-    "w": "ASER",
-    "ok": 1
-   },
-   {
-    "w": "JOSÉ",
-    "ok": 1
-   },
-   {
-    "w": "DAN",
-    "ok": 1
-   },
-   {
-    "w": "BENJAMÍN",
-    "ok": 1
-   },
-   {
-    "w": "SIMEÓN",
-    "ok": 1
-   },
-   {
-    "w": "ZABULÓN",
-    "ok": 1
-   },
-   {
-    "w": "SIMÓN DE CIRENE",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Cartas de san Pablo",
-  "f": [
-   {
-    "w": "ROMANOS",
-    "ok": 1
-   },
-   {
-    "w": "TIMOTEO",
-    "ok": 1
-   },
-   {
-    "w": "EFESIOS",
-    "ok": 1
-   },
-   {
-    "w": "FILEMÓN",
-    "ok": 1
-   },
-   {
-    "w": "GÁLATAS",
-    "ok": 1
-   },
-   {
-    "w": "TESALONICENSES",
-    "ok": 1
-   },
-   {
-    "w": "CORINTIOS",
-    "ok": 1
-   },
-   {
-    "w": "FILIPENSES",
-    "ok": 1
-   },
-   {
-    "w": "COLOSENSES",
-    "ok": 1
-   },
-   {
-    "w": "FILISTEOS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Profetas menores",
-  "f": [
-   {
-    "w": "MIQUEAS",
-    "ok": 1
-   },
-   {
-    "w": "MALAQUÍAS",
-    "ok": 1
-   },
-   {
-    "w": "AGEO",
-    "ok": 1
-   },
-   {
-    "w": "OSEAS",
-    "ok": 1
-   },
-   {
-    "w": "NAHÚM",
-    "ok": 1
-   },
-   {
-    "w": "JONÁS",
-    "ok": 1
-   },
-   {
-    "w": "ABDÍAS",
-    "ok": 1
-   },
-   {
-    "w": "JOEL",
-    "ok": 1
-   },
-   {
-    "w": "SOFONÍAS",
-    "ok": 1
-   },
-   {
-    "w": "DAVID",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Sacramentos",
-  "f": [
-   {
-    "w": "UNCIÓN",
-    "ok": 1
-   },
-   {
-    "w": "CONFIRMACIÓN",
-    "ok": 1
-   },
-   {
-    "w": "ORDEN",
-    "ok": 1
-   },
-   {
-    "w": "BAUTISMO",
-    "ok": 1
-   },
-   {
-    "w": "RECONCILIACIÓN",
-    "ok": 1
-   },
-   {
-    "w": "EUCARISTÍA",
-    "ok": 1
-   },
-   {
-    "w": "MATRIMONIO",
-    "ok": 1
-   },
-   {
-    "w": "OFICIO DE LECTURA",
-    "ok": 0
-   },
-   {
-    "w": "PENTECOSTÉS",
-    "ok": 0
-   },
-   {
-    "w": "ADVIENTO",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Obras de misericordia corporales",
-  "f": [
-   {
-    "w": "DAR POSADA",
-    "ok": 1
-   },
-   {
-    "w": "ENTERRAR MUERTOS",
-    "ok": 1
-   },
-   {
-    "w": "VESTIR AL DESNUDO",
-    "ok": 1
-   },
-   {
-    "w": "DAR DE COMER",
-    "ok": 1
-   },
-   {
-    "w": "VISITAR ENFERMOS",
-    "ok": 1
-   },
-   {
-    "w": "VISITAR PRESOS",
-    "ok": 1
-   },
-   {
-    "w": "DAR DE BEBER",
-    "ok": 1
-   },
-   {
-    "w": "QUÉDATE SEÑOR",
-    "ok": 0
-   },
-   {
-    "w": "LÁZARO",
-    "ok": 0
-   },
-   {
-    "w": "VINE A ADORARTE",
     "ok": 0
    }
   ]
@@ -4862,6 +2612,10 @@
  {
   "c": "Oraciones",
   "f": [
+   {
+    "w": "ACORDAOS",
+    "ok": 1
+   },
    {
     "w": "PADRENUESTRO",
     "ok": 1
@@ -4875,15 +2629,7 @@
     "ok": 1
    },
    {
-    "w": "ÁNGELUS",
-    "ok": 1
-   },
-   {
     "w": "SALVE",
-    "ok": 1
-   },
-   {
-    "w": "ACORDAOS",
     "ok": 1
    },
    {
@@ -4891,817 +2637,48 @@
     "ok": 1
    },
    {
-    "w": "COMPLETAS",
-    "ok": 0
-   },
-   {
-    "w": "MATRIMONIO",
-    "ok": 0
-   },
-   {
-    "w": "EUCARISTÍA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Personajes de la Pasión",
-  "f": [
-   {
-    "w": "CAIFÁS",
-    "ok": 1
-   },
-   {
-    "w": "MALCO",
-    "ok": 1
-   },
-   {
-    "w": "VERÓNICA",
-    "ok": 1
-   },
-   {
-    "w": "NICODEMO",
-    "ok": 1
-   },
-   {
-    "w": "JOSÉ DE ARIMATEA",
-    "ok": 1
-   },
-   {
-    "w": "BARRABÁS",
-    "ok": 1
-   },
-   {
-    "w": "SIMÓN DE CIRENE",
-    "ok": 1
-   },
-   {
-    "w": "PILATOS",
-    "ok": 1
-   },
-   {
-    "w": "JUDIT",
-    "ok": 0
-   },
-   {
-    "w": "ABEL",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Personajes del Éxodo",
-  "f": [
-   {
-    "w": "SÉFORA",
-    "ok": 1
-   },
-   {
-    "w": "MIRIAM",
-    "ok": 1
-   },
-   {
-    "w": "JOSUÉ",
-    "ok": 1
-   },
-   {
-    "w": "AARÓN",
-    "ok": 1
-   },
-   {
-    "w": "JETRÓ",
-    "ok": 1
-   },
-   {
-    "w": "MOISÉS",
-    "ok": 1
-   },
-   {
-    "w": "FARAÓN",
-    "ok": 1
-   },
-   {
-    "w": "JUANA",
-    "ok": 0
-   },
-   {
-    "w": "PILATOS",
-    "ok": 0
-   },
-   {
-    "w": "LOT",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Personajes del Génesis",
-  "f": [
-   {
-    "w": "ISAAC",
-    "ok": 1
-   },
-   {
-    "w": "EVA",
-    "ok": 1
-   },
-   {
-    "w": "ABRAHAM",
-    "ok": 1
-   },
-   {
-    "w": "ADÁN",
-    "ok": 1
-   },
-   {
-    "w": "NOÉ",
-    "ok": 1
-   },
-   {
-    "w": "ESAÚ",
-    "ok": 1
-   },
-   {
-    "w": "LOT",
-    "ok": 1
-   },
-   {
-    "w": "ABEL",
-    "ok": 1
-   },
-   {
-    "w": "CAÍN",
-    "ok": 1
-   },
-   {
-    "w": "SOFONÍAS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Santos jóvenes",
-  "f": [
-   {
-    "w": "FRASSATI",
-    "ok": 1
-   },
-   {
-    "w": "LAURA VICUÑA",
-    "ok": 1
-   },
-   {
-    "w": "LUIS GONZAGA",
-    "ok": 1
-   },
-   {
-    "w": "INÉS",
-    "ok": 1
-   },
-   {
-    "w": "DOMINGO SAVIO",
-    "ok": 1
-   },
-   {
-    "w": "JACINTA",
-    "ok": 1
-   },
-   {
-    "w": "FRANCISCO MARTO",
-    "ok": 1
-   },
-   {
-    "w": "CARLO ACUTIS",
-    "ok": 1
-   },
-   {
-    "w": "PAPINI",
-    "ok": 0
-   },
-   {
-    "w": "BENEDICTO",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Obras de misericordia espirituales",
-  "f": [
-   {
-    "w": "TENER PACIENCIA",
-    "ok": 1
-   },
-   {
-    "w": "REZAR POR OTROS",
-    "ok": 1
-   },
-   {
-    "w": "PERDONAR",
-    "ok": 1
-   },
-   {
-    "w": "ACONSEJAR",
-    "ok": 1
-   },
-   {
-    "w": "CORREGIR",
-    "ok": 1
-   },
-   {
-    "w": "CONSOLAR",
-    "ok": 1
-   },
-   {
-    "w": "ENSEÑAR",
-    "ok": 1
-   },
-   {
-    "w": "TEMPESTAD CALMADA",
-    "ok": 0
-   },
-   {
-    "w": "BUEN SAMARITANO",
-    "ok": 0
-   },
-   {
-    "w": "GRANO DE MOSTAZA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Partes de la misa",
-  "f": [
-   {
-    "w": "AGNUS DEI",
-    "ok": 1
-   },
-   {
-    "w": "CREDO",
-    "ok": 1
-   },
-   {
-    "w": "COMUNIÓN",
-    "ok": 1
-   },
-   {
-    "w": "OFERTORIO",
-    "ok": 1
-   },
-   {
-    "w": "ALELUYA",
-    "ok": 1
-   },
-   {
-    "w": "CONSAGRACIÓN",
-    "ok": 1
-   },
-   {
-    "w": "KYRIE",
-    "ok": 1
-   },
-   {
-    "w": "SANCTUS",
-    "ok": 1
-   },
-   {
-    "w": "HOMILÍA",
+    "w": "ÁNGELUS",
     "ok": 1
    },
    {
     "w": "TERCIA",
     "ok": 0
-   }
-  ]
- },
- {
-  "c": "Escritores católicos",
-  "f": [
-   {
-    "w": "TOLKIEN",
-    "ok": 1
-   },
-   {
-    "w": "PÉGUY",
-    "ok": 1
-   },
-   {
-    "w": "MARECHAL",
-    "ok": 1
-   },
-   {
-    "w": "CLAUDEL",
-    "ok": 1
-   },
-   {
-    "w": "NEWMAN",
-    "ok": 1
-   },
-   {
-    "w": "PAPINI",
-    "ok": 1
-   },
-   {
-    "w": "CHESTERTON",
-    "ok": 1
-   },
-   {
-    "w": "BERNANOS",
-    "ok": 1
-   },
-   {
-    "w": "LORENZO",
-    "ok": 0
-   },
-   {
-    "w": "GREGORIO",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Mujeres del Nuevo Testamento",
-  "f": [
-   {
-    "w": "SALOMÉ",
-    "ok": 1
-   },
-   {
-    "w": "PRISCILA",
-    "ok": 1
-   },
-   {
-    "w": "SUSANA",
-    "ok": 1
-   },
-   {
-    "w": "MARTA",
-    "ok": 1
-   },
-   {
-    "w": "TABITA",
-    "ok": 1
-   },
-   {
-    "w": "ISABEL",
-    "ok": 1
-   },
-   {
-    "w": "JUANA",
-    "ok": 1
-   },
-   {
-    "w": "LIDIA",
-    "ok": 1
-   },
-   {
-    "w": "ABEL",
-    "ok": 0
-   },
-   {
-    "w": "ISAÍAS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Órdenes religiosas",
-  "f": [
-   {
-    "w": "DOMINICOS",
-    "ok": 1
-   },
-   {
-    "w": "SALESIANOS",
-    "ok": 1
-   },
-   {
-    "w": "JESUITAS",
-    "ok": 1
-   },
-   {
-    "w": "FRANCISCANOS",
-    "ok": 1
-   },
-   {
-    "w": "CARMELITAS",
-    "ok": 1
-   },
-   {
-    "w": "BENEDICTINOS",
-    "ok": 1
-   },
-   {
-    "w": "AGUSTINOS",
-    "ok": 1
-   },
-   {
-    "w": "TRAPENSES",
-    "ok": 1
-   },
-   {
-    "w": "AMALECITAS",
-    "ok": 0
-   },
-   {
-    "w": "TITO",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Títulos de María en las letanías",
-  "f": [
-   {
-    "w": "PUERTA DEL CIELO",
-    "ok": 1
-   },
-   {
-    "w": "ROSA MÍSTICA",
-    "ok": 1
-   },
-   {
-    "w": "ARCA DE LA ALIANZA",
-    "ok": 1
-   },
-   {
-    "w": "ESTRELLA DE LA MAÑANA",
-    "ok": 1
-   },
-   {
-    "w": "ESPEJO DE JUSTICIA",
-    "ok": 1
-   },
-   {
-    "w": "TORRE DE MARFIL",
-    "ok": 1
-   },
-   {
-    "w": "TRONO DE LA SABIDURÍA",
-    "ok": 1
-   },
-   {
-    "w": "CASA DE ORO",
-    "ok": 1
-   },
-   {
-    "w": "PACIENTES",
-    "ok": 0
-   },
-   {
-    "w": "BUEN PASTOR",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Fiestas del año litúrgico",
-  "f": [
-   {
-    "w": "TODOS LOS SANTOS",
-    "ok": 1
-   },
-   {
-    "w": "EPIFANÍA",
-    "ok": 1
-   },
-   {
-    "w": "CRISTO REY",
-    "ok": 1
-   },
-   {
-    "w": "ASCENSIÓN",
-    "ok": 1
-   },
-   {
-    "w": "CORPUS CHRISTI",
-    "ok": 1
-   },
-   {
-    "w": "PENTECOSTÉS",
-    "ok": 1
-   },
-   {
-    "w": "TRINIDAD",
-    "ok": 1
-   },
-   {
-    "w": "DAR LA PAZ",
-    "ok": 0
-   },
-   {
-    "w": "VISITACIÓN",
-    "ok": 0
-   },
-   {
-    "w": "SANCTUS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Gestos en misa",
-  "f": [
-   {
-    "w": "PONERSE DE PIE",
-    "ok": 1
-   },
-   {
-    "w": "INCLINARSE",
-    "ok": 1
-   },
-   {
-    "w": "SENTARSE",
-    "ok": 1
-   },
-   {
-    "w": "PERSIGNARSE",
-    "ok": 1
-   },
-   {
-    "w": "GENUFLEXIÓN",
-    "ok": 1
-   },
-   {
-    "w": "DAR LA PAZ",
-    "ok": 1
-   },
-   {
-    "w": "ARRODILLARSE",
-    "ok": 1
-   },
-   {
-    "w": "HOMILÍA",
-    "ok": 0
-   },
-   {
-    "w": "OFERTORIO",
-    "ok": 0
-   },
-   {
-    "w": "COMPLETAS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Oficios y cargos en el Evangelio",
-  "f": [
-   {
-    "w": "ESCRIBA",
-    "ok": 1
-   },
-   {
-    "w": "SUMO SACERDOTE",
-    "ok": 1
-   },
-   {
-    "w": "PASTOR",
-    "ok": 1
-   },
-   {
-    "w": "PUBLICANO",
-    "ok": 1
-   },
-   {
-    "w": "CENTURIÓN",
-    "ok": 1
-   },
-   {
-    "w": "FARISEO",
-    "ok": 1
-   },
-   {
-    "w": "CARPINTERO",
-    "ok": 1
-   },
-   {
-    "w": "PESCADOR",
-    "ok": 1
-   },
-   {
-    "w": "PUERTA DEL CIELO",
-    "ok": 0
-   },
-   {
-    "w": "TEMPLANZA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Nombres de Jesús",
-  "f": [
-   {
-    "w": "VERBO",
-    "ok": 1
-   },
-   {
-    "w": "MAESTRO",
-    "ok": 1
-   },
-   {
-    "w": "BUEN PASTOR",
-    "ok": 1
-   },
-   {
-    "w": "NAZARENO",
-    "ok": 1
-   },
-   {
-    "w": "REDENTOR",
-    "ok": 1
-   },
-   {
-    "w": "MESÍAS",
-    "ok": 1
-   },
-   {
-    "w": "EMANUEL",
-    "ok": 1
-   },
-   {
-    "w": "TORRE DE MARFIL",
-    "ok": 0
-   },
-   {
-    "w": "CARPINTERO",
-    "ok": 0
-   },
-   {
-    "w": "ENVIDIA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Fiestas de la Virgen",
-  "f": [
-   {
-    "w": "ASUNCIÓN",
-    "ok": 1
-   },
-   {
-    "w": "ANUNCIACIÓN",
-    "ok": 1
-   },
-   {
-    "w": "INMACULADA",
-    "ok": 1
-   },
-   {
-    "w": "PRESENTACIÓN",
-    "ok": 1
-   },
-   {
-    "w": "NATIVIDAD DE MARÍA",
-    "ok": 1
-   },
-   {
-    "w": "VISITACIÓN",
-    "ok": 1
    },
    {
     "w": "CANDELARIA",
-    "ok": 1
-   },
-   {
-    "w": "CONSAGRACIÓN",
     "ok": 0
    },
    {
-    "w": "BAUTISMO",
-    "ok": 0
-   },
-   {
-    "w": "GLORIA",
+    "w": "ARRODILLARSE",
     "ok": 0
    }
   ]
  },
  {
-  "c": "Pueblos vecinos de Israel",
+  "c": "Lugares de peregrinación",
   "f": [
    {
-    "w": "BABILONIOS",
+    "w": "PADUA",
     "ok": 1
    },
    {
-    "w": "CANANEOS",
+    "w": "CZESTOCHOWA",
     "ok": 1
    },
    {
-    "w": "EGIPCIOS",
+    "w": "COMPOSTELA",
     "ok": 1
    },
    {
-    "w": "ASIRIOS",
+    "w": "ROMA",
     "ok": 1
    },
    {
-    "w": "PERSAS",
+    "w": "TIERRA SANTA",
     "ok": 1
    },
    {
-    "w": "MOABITAS",
-    "ok": 1
-   },
-   {
-    "w": "FILISTEOS",
-    "ok": 1
-   },
-   {
-    "w": "AMALECITAS",
-    "ok": 1
-   },
-   {
-    "w": "TRONOS",
-    "ok": 0
-   },
-   {
-    "w": "TRAPENSES",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Apóstoles",
-  "f": [
-   {
-    "w": "BARTOLOMÉ",
-    "ok": 1
-   },
-   {
-    "w": "JUDAS",
-    "ok": 1
-   },
-   {
-    "w": "MATEO",
-    "ok": 1
-   },
-   {
-    "w": "PEDRO",
-    "ok": 1
-   },
-   {
-    "w": "JUAN",
-    "ok": 1
-   },
-   {
-    "w": "ANDRÉS",
-    "ok": 1
-   },
-   {
-    "w": "TOMÁS",
-    "ok": 1
-   },
-   {
-    "w": "SANTIAGO",
-    "ok": 1
-   },
-   {
-    "w": "FELIPE",
-    "ok": 1
-   },
-   {
-    "w": "AGEO",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Advocaciones de la Virgen",
-  "f": [
-   {
-    "w": "GUADALUPE",
-    "ok": 1
-   },
-   {
-    "w": "ITATÍ",
-    "ok": 1
-   },
-   {
-    "w": "COPACABANA",
-    "ok": 1
-   },
-   {
-    "w": "POMPEYA",
-    "ok": 1
-   },
-   {
-    "w": "LUJÁN",
-    "ok": 1
-   },
-   {
-    "w": "LORETO",
-    "ok": 1
-   },
-   {
-    "w": "LOURDES",
-    "ok": 1
-   },
-   {
-    "w": "FÁTIMA",
+    "w": "ASÍS",
     "ok": 1
    },
    {
@@ -5709,7 +2686,690 @@
     "ok": 0
    },
    {
-    "w": "CANÁ",
+    "w": "MORIA",
+    "ok": 0
+   },
+   {
+    "w": "SANTA ROSA",
+    "ok": 0
+   },
+   {
+    "w": "CAFARNAÚM",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Liturgia de las Horas",
+  "f": [
+   {
+    "w": "NONA",
+    "ok": 1
+   },
+   {
+    "w": "COMPLETAS",
+    "ok": 1
+   },
+   {
+    "w": "LAUDES",
+    "ok": 1
+   },
+   {
+    "w": "SEXTA",
+    "ok": 1
+   },
+   {
+    "w": "OFICIO DE LECTURA",
+    "ok": 1
+   },
+   {
+    "w": "VÍSPERAS",
+    "ok": 1
+   },
+   {
+    "w": "TERCIA",
+    "ok": 1
+   },
+   {
+    "w": "GENUFLEXIÓN",
+    "ok": 0
+   },
+   {
+    "w": "SANCTUS",
+    "ok": 0
+   },
+   {
+    "w": "MATRIMONIO",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Nombres de papas",
+  "f": [
+   {
+    "w": "URBANO",
+    "ok": 1
+   },
+   {
+    "w": "LEÓN",
+    "ok": 1
+   },
+   {
+    "w": "PÍO",
+    "ok": 1
+   },
+   {
+    "w": "INOCENCIO",
+    "ok": 1
+   },
+   {
+    "w": "CLEMENTE",
+    "ok": 1
+   },
+   {
+    "w": "BENEDICTO",
+    "ok": 1
+   },
+   {
+    "w": "FRANCISCO",
+    "ok": 1
+   },
+   {
+    "w": "GREGORIO",
+    "ok": 1
+   },
+   {
+    "w": "TERESITA",
+    "ok": 0
+   },
+   {
+    "w": "FRANCISCO MARTO",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Obras de misericordia corporales",
+  "f": [
+   {
+    "w": "VESTIR AL DESNUDO",
+    "ok": 1
+   },
+   {
+    "w": "VISITAR PRESOS",
+    "ok": 1
+   },
+   {
+    "w": "DAR DE BEBER",
+    "ok": 1
+   },
+   {
+    "w": "ENTERRAR MUERTOS",
+    "ok": 1
+   },
+   {
+    "w": "DAR POSADA",
+    "ok": 1
+   },
+   {
+    "w": "DAR DE COMER",
+    "ok": 1
+   },
+   {
+    "w": "VISITAR ENFERMOS",
+    "ok": 1
+   },
+   {
+    "w": "OCÉANOS",
+    "ok": 0
+   },
+   {
+    "w": "BODAS DE CANÁ",
+    "ok": 0
+   },
+   {
+    "w": "HIJO PRÓDIGO",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Obras de misericordia espirituales",
+  "f": [
+   {
+    "w": "CORREGIR",
+    "ok": 1
+   },
+   {
+    "w": "ENSEÑAR",
+    "ok": 1
+   },
+   {
+    "w": "REZAR POR OTROS",
+    "ok": 1
+   },
+   {
+    "w": "PERDONAR",
+    "ok": 1
+   },
+   {
+    "w": "ACONSEJAR",
+    "ok": 1
+   },
+   {
+    "w": "CONSOLAR",
+    "ok": 1
+   },
+   {
+    "w": "TENER PACIENCIA",
+    "ok": 1
+   },
+   {
+    "w": "BODAS DE CANÁ",
+    "ok": 0
+   },
+   {
+    "w": "VISITAR PRESOS",
+    "ok": 0
+   },
+   {
+    "w": "PESCA MILAGROSA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Órdenes religiosas",
+  "f": [
+   {
+    "w": "CARMELITAS",
+    "ok": 1
+   },
+   {
+    "w": "BENEDICTINOS",
+    "ok": 1
+   },
+   {
+    "w": "FRANCISCANOS",
+    "ok": 1
+   },
+   {
+    "w": "AGUSTINOS",
+    "ok": 1
+   },
+   {
+    "w": "JESUITAS",
+    "ok": 1
+   },
+   {
+    "w": "TRAPENSES",
+    "ok": 1
+   },
+   {
+    "w": "DOMINICOS",
+    "ok": 1
+   },
+   {
+    "w": "SALESIANOS",
+    "ok": 1
+   },
+   {
+    "w": "PRINCIPADOS",
+    "ok": 0
+   },
+   {
+    "w": "ARCÁNGELES",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Plagas de Egipto",
+  "f": [
+   {
+    "w": "RANAS",
+    "ok": 1
+   },
+   {
+    "w": "TÁBANOS",
+    "ok": 1
+   },
+   {
+    "w": "TINIEBLAS",
+    "ok": 1
+   },
+   {
+    "w": "SANGRE",
+    "ok": 1
+   },
+   {
+    "w": "ÚLCERAS",
+    "ok": 1
+   },
+   {
+    "w": "PESTE",
+    "ok": 1
+   },
+   {
+    "w": "GRANIZO",
+    "ok": 1
+   },
+   {
+    "w": "LANGOSTAS",
+    "ok": 1
+   },
+   {
+    "w": "MOSQUITOS",
+    "ok": 1
+   },
+   {
+    "w": "LECCIONARIO",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Mujeres del Nuevo Testamento",
+  "f": [
+   {
+    "w": "PRISCILA",
+    "ok": 1
+   },
+   {
+    "w": "SUSANA",
+    "ok": 1
+   },
+   {
+    "w": "TABITA",
+    "ok": 1
+   },
+   {
+    "w": "JUANA",
+    "ok": 1
+   },
+   {
+    "w": "SALOMÉ",
+    "ok": 1
+   },
+   {
+    "w": "LIDIA",
+    "ok": 1
+   },
+   {
+    "w": "ISABEL",
+    "ok": 1
+   },
+   {
+    "w": "MARTA",
+    "ok": 1
+   },
+   {
+    "w": "DAVID",
+    "ok": 0
+   },
+   {
+    "w": "SOFONÍAS",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Fiestas del año litúrgico",
+  "f": [
+   {
+    "w": "ASCENSIÓN",
+    "ok": 1
+   },
+   {
+    "w": "CORPUS CHRISTI",
+    "ok": 1
+   },
+   {
+    "w": "EPIFANÍA",
+    "ok": 1
+   },
+   {
+    "w": "TODOS LOS SANTOS",
+    "ok": 1
+   },
+   {
+    "w": "CRISTO REY",
+    "ok": 1
+   },
+   {
+    "w": "PENTECOSTÉS",
+    "ok": 1
+   },
+   {
+    "w": "TRINIDAD",
+    "ok": 1
+   },
+   {
+    "w": "SANCTUS",
+    "ok": 0
+   },
+   {
+    "w": "CONSAGRACIÓN",
+    "ok": 0
+   },
+   {
+    "w": "PRESENTACIÓN",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Vestiduras litúrgicas",
+  "f": [
+   {
+    "w": "AMITO",
+    "ok": 1
+   },
+   {
+    "w": "DALMÁTICA",
+    "ok": 1
+   },
+   {
+    "w": "CASULLA",
+    "ok": 1
+   },
+   {
+    "w": "ESTOLA",
+    "ok": 1
+   },
+   {
+    "w": "ALBA",
+    "ok": 1
+   },
+   {
+    "w": "CÍNGULO",
+    "ok": 1
+   },
+   {
+    "w": "CONFESIONARIO",
+    "ok": 0
+   },
+   {
+    "w": "CUERVO",
+    "ok": 0
+   },
+   {
+    "w": "CAMELLO",
+    "ok": 0
+   },
+   {
+    "w": "ZARZA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Instrumentos de la Biblia",
+  "f": [
+   {
+    "w": "SALTERIO",
+    "ok": 1
+   },
+   {
+    "w": "FLAUTA",
+    "ok": 1
+   },
+   {
+    "w": "CÍMBALO",
+    "ok": 1
+   },
+   {
+    "w": "TROMPETA",
+    "ok": 1
+   },
+   {
+    "w": "SHOFAR",
+    "ok": 1
+   },
+   {
+    "w": "ARPA",
+    "ok": 1
+   },
+   {
+    "w": "PANDERO",
+    "ok": 1
+   },
+   {
+    "w": "CÍTARA",
+    "ok": 1
+   },
+   {
+    "w": "BOLSA DE DORMIR",
+    "ok": 0
+   },
+   {
+    "w": "RANAS",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Mártires de los primeros siglos",
+  "f": [
+   {
+    "w": "LUCÍA",
+    "ok": 1
+   },
+   {
+    "w": "POLICARPO",
+    "ok": 1
+   },
+   {
+    "w": "TARCISIO",
+    "ok": 1
+   },
+   {
+    "w": "SEBASTIÁN",
+    "ok": 1
+   },
+   {
+    "w": "PERPETUA",
+    "ok": 1
+   },
+   {
+    "w": "ÁGUEDA",
+    "ok": 1
+   },
+   {
+    "w": "CECILIA",
+    "ok": 1
+   },
+   {
+    "w": "LORENZO",
+    "ok": 1
+   },
+   {
+    "w": "NEWMAN",
+    "ok": 0
+   },
+   {
+    "w": "PÉGUY",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Dones del Espíritu Santo",
+  "f": [
+   {
+    "w": "CONSEJO",
+    "ok": 1
+   },
+   {
+    "w": "SABIDURÍA",
+    "ok": 1
+   },
+   {
+    "w": "TEMOR DE DIOS",
+    "ok": 1
+   },
+   {
+    "w": "PIEDAD",
+    "ok": 1
+   },
+   {
+    "w": "ENTENDIMIENTO",
+    "ok": 1
+   },
+   {
+    "w": "FORTALEZA",
+    "ok": 1
+   },
+   {
+    "w": "CIENCIA",
+    "ok": 1
+   },
+   {
+    "w": "MAESTRO",
+    "ok": 0
+   },
+   {
+    "w": "PRUDENCIA",
+    "ok": 0
+   },
+   {
+    "w": "AMOR",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Pueblos vecinos de Israel",
+  "f": [
+   {
+    "w": "MOABITAS",
+    "ok": 1
+   },
+   {
+    "w": "FILISTEOS",
+    "ok": 1
+   },
+   {
+    "w": "PERSAS",
+    "ok": 1
+   },
+   {
+    "w": "BABILONIOS",
+    "ok": 1
+   },
+   {
+    "w": "CANANEOS",
+    "ok": 1
+   },
+   {
+    "w": "EGIPCIOS",
+    "ok": 1
+   },
+   {
+    "w": "AMALECITAS",
+    "ok": 1
+   },
+   {
+    "w": "ASIRIOS",
+    "ok": 1
+   },
+   {
+    "w": "TRONOS",
+    "ok": 0
+   },
+   {
+    "w": "POTESTADES",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Profetas menores",
+  "f": [
+   {
+    "w": "MALAQUÍAS",
+    "ok": 1
+   },
+   {
+    "w": "JOEL",
+    "ok": 1
+   },
+   {
+    "w": "JONÁS",
+    "ok": 1
+   },
+   {
+    "w": "OSEAS",
+    "ok": 1
+   },
+   {
+    "w": "MIQUEAS",
+    "ok": 1
+   },
+   {
+    "w": "HABACUC",
+    "ok": 1
+   },
+   {
+    "w": "ABDÍAS",
+    "ok": 1
+   },
+   {
+    "w": "AMÓS",
+    "ok": 1
+   },
+   {
+    "w": "AGEO",
+    "ok": 1
+   },
+   {
+    "w": "RAQUEL",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Coros de ángeles",
+  "f": [
+   {
+    "w": "QUERUBINES",
+    "ok": 1
+   },
+   {
+    "w": "DOMINACIONES",
+    "ok": 1
+   },
+   {
+    "w": "ÁNGELES",
+    "ok": 1
+   },
+   {
+    "w": "POTESTADES",
+    "ok": 1
+   },
+   {
+    "w": "PRINCIPADOS",
+    "ok": 1
+   },
+   {
+    "w": "SERAFINES",
+    "ok": 1
+   },
+   {
+    "w": "ARCÁNGELES",
+    "ok": 1
+   },
+   {
+    "w": "VIRTUDES",
+    "ok": 1
+   },
+   {
+    "w": "TRONOS",
+    "ok": 1
+   },
+   {
+    "w": "CANANEOS",
     "ok": 0
    }
   ]
@@ -5718,15 +3378,11 @@
   "c": "Frutos del Espíritu Santo",
   "f": [
    {
-    "w": "BENIGNIDAD",
+    "w": "ALEGRÍA",
     "ok": 1
    },
    {
-    "w": "AMOR",
-    "ok": 1
-   },
-   {
-    "w": "FIDELIDAD",
+    "w": "MODESTIA",
     "ok": 1
    },
    {
@@ -5734,7 +3390,7 @@
     "ok": 1
    },
    {
-    "w": "ALEGRÍA",
+    "w": "BENIGNIDAD",
     "ok": 1
    },
    {
@@ -5746,60 +3402,1729 @@
     "ok": 1
    },
    {
-    "w": "MODESTIA",
+    "w": "FIDELIDAD",
     "ok": 1
    },
    {
-    "w": "ESTRELLA DE LA MAÑANA",
+    "w": "AMOR",
+    "ok": 1
+   },
+   {
+    "w": "PRUDENCIA",
     "ok": 0
    },
    {
-    "w": "GULA",
+    "w": "PACÍFICOS",
     "ok": 0
    }
   ]
  },
  {
-  "c": "«Felices los…» (Bienaventuranzas)",
+  "c": "Ciudades argentinas con nombre de santo",
   "f": [
    {
-    "w": "PACÍFICOS",
+    "w": "SAN RAFAEL",
     "ok": 1
    },
    {
-    "w": "PUROS",
+    "w": "SAN NICOLÁS",
     "ok": 1
    },
    {
-    "w": "HAMBRIENTOS",
+    "w": "SAN JUAN",
     "ok": 1
    },
    {
-    "w": "MISERICORDIOSOS",
+    "w": "SAN ISIDRO",
     "ok": 1
    },
    {
-    "w": "POBRES",
+    "w": "SAN LUIS",
     "ok": 1
    },
    {
-    "w": "AFLIGIDOS",
+    "w": "SANTA ROSA",
     "ok": 1
    },
    {
-    "w": "PERSEGUIDOS",
+    "w": "SAN FERNANDO",
     "ok": 1
    },
    {
-    "w": "PACIENTES",
-    "ok": 1
-   },
-   {
-    "w": "GULA",
+    "w": "HOREB",
     "ok": 0
    },
    {
+    "w": "TIERRA SANTA",
+    "ok": 0
+   },
+   {
+    "w": "EMAÚS",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Cosas de un campamento",
+  "f": [
+   {
+    "w": "GUITARRA",
+    "ok": 1
+   },
+   {
+    "w": "FOGÓN",
+    "ok": 1
+   },
+   {
+    "w": "MOCHILA",
+    "ok": 1
+   },
+   {
+    "w": "LINTERNA",
+    "ok": 1
+   },
+   {
+    "w": "MATE",
+    "ok": 1
+   },
+   {
+    "w": "CARPA",
+    "ok": 1
+   },
+   {
+    "w": "BOLSA DE DORMIR",
+    "ok": 1
+   },
+   {
+    "w": "CONEJO",
+    "ok": 0
+   },
+   {
+    "w": "DÁTILES",
+    "ok": 0
+   },
+   {
+    "w": "VILLANCICO",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Reyes de Israel y Judá",
+  "f": [
+   {
+    "w": "SALOMÓN",
+    "ok": 1
+   },
+   {
+    "w": "AJAB",
+    "ok": 1
+   },
+   {
+    "w": "JOSÍAS",
+    "ok": 1
+   },
+   {
+    "w": "EZEQUÍAS",
+    "ok": 1
+   },
+   {
+    "w": "JEROBOAM",
+    "ok": 1
+   },
+   {
+    "w": "SAÚL",
+    "ok": 1
+   },
+   {
+    "w": "ROBOAM",
+    "ok": 1
+   },
+   {
+    "w": "DAVID",
+    "ok": 1
+   },
+   {
+    "w": "SIMÓN",
+    "ok": 0
+   },
+   {
+    "w": "LEVÍ",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Títulos de María en las letanías",
+  "f": [
+   {
+    "w": "ESPEJO DE JUSTICIA",
+    "ok": 1
+   },
+   {
+    "w": "ROSA MÍSTICA",
+    "ok": 1
+   },
+   {
+    "w": "ESTRELLA DE LA MAÑANA",
+    "ok": 1
+   },
+   {
+    "w": "TRONO DE LA SABIDURÍA",
+    "ok": 1
+   },
+   {
+    "w": "CASA DE ORO",
+    "ok": 1
+   },
+   {
+    "w": "PUERTA DEL CIELO",
+    "ok": 1
+   },
+   {
+    "w": "TORRE DE MARFIL",
+    "ok": 1
+   },
+   {
+    "w": "ARCA DE LA ALIANZA",
+    "ok": 1
+   },
+   {
+    "w": "BUEN PASTOR",
+    "ok": 0
+   },
+   {
+    "w": "SOBERBIA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Advocaciones de la Virgen",
+  "f": [
+   {
+    "w": "LORETO",
+    "ok": 1
+   },
+   {
+    "w": "LOURDES",
+    "ok": 1
+   },
+   {
+    "w": "LUJÁN",
+    "ok": 1
+   },
+   {
+    "w": "ITATÍ",
+    "ok": 1
+   },
+   {
+    "w": "FÁTIMA",
+    "ok": 1
+   },
+   {
+    "w": "POMPEYA",
+    "ok": 1
+   },
+   {
+    "w": "COPACABANA",
+    "ok": 1
+   },
+   {
+    "w": "GUADALUPE",
+    "ok": 1
+   },
+   {
+    "w": "MAR MUERTO",
+    "ok": 0
+   },
+   {
+    "w": "HOREB",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Libros sapienciales",
+  "f": [
+   {
+    "w": "PROVERBIOS",
+    "ok": 1
+   },
+   {
+    "w": "SALMOS",
+    "ok": 1
+   },
+   {
+    "w": "ECLESIÁSTICO",
+    "ok": 1
+   },
+   {
+    "w": "JOB",
+    "ok": 1
+   },
+   {
+    "w": "ECLESIASTÉS",
+    "ok": 1
+   },
+   {
+    "w": "CANTAR DE LOS CANTARES",
+    "ok": 1
+   },
+   {
+    "w": "EFESIOS",
+    "ok": 0
+   },
+   {
+    "w": "FILIPENSES",
+    "ok": 0
+   },
+   {
+    "w": "GÉNESIS",
+    "ok": 0
+   },
+   {
+    "w": "NÚMEROS",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Cartas de san Pablo",
+  "f": [
+   {
+    "w": "TITO",
+    "ok": 1
+   },
+   {
+    "w": "COLOSENSES",
+    "ok": 1
+   },
+   {
+    "w": "CORINTIOS",
+    "ok": 1
+   },
+   {
+    "w": "TIMOTEO",
+    "ok": 1
+   },
+   {
+    "w": "GÁLATAS",
+    "ok": 1
+   },
+   {
+    "w": "ROMANOS",
+    "ok": 1
+   },
+   {
+    "w": "EFESIOS",
+    "ok": 1
+   },
+   {
+    "w": "FILIPENSES",
+    "ok": 1
+   },
+   {
+    "w": "FILEMÓN",
+    "ok": 1
+   },
+   {
+    "w": "ÉXODO",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Canciones de misa en Sagrada",
+  "f": [
+   {
+    "w": "DAME TUS OJOS",
+    "ok": 1
+   },
+   {
+    "w": "CRISTO REINA",
+    "ok": 1
+   },
+   {
+    "w": "CARA A CARA",
+    "ok": 1
+   },
+   {
+    "w": "DIME REY",
+    "ok": 1
+   },
+   {
+    "w": "MAR ADENTRO",
+    "ok": 1
+   },
+   {
+    "w": "VINE A ADORARTE",
+    "ok": 1
+   },
+   {
+    "w": "NUEVA MAÑANA",
+    "ok": 1
+   },
+   {
+    "w": "SUMÉRGEME",
+    "ok": 1
+   },
+   {
+    "w": "HIJO AMADO",
+    "ok": 1
+   },
+   {
+    "w": "GRANO DE MOSTAZA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Apóstoles",
+  "f": [
+   {
+    "w": "BARTOLOMÉ",
+    "ok": 1
+   },
+   {
+    "w": "MATÍAS",
+    "ok": 1
+   },
+   {
+    "w": "TADEO",
+    "ok": 1
+   },
+   {
+    "w": "JUDAS",
+    "ok": 1
+   },
+   {
+    "w": "TOMÁS",
+    "ok": 1
+   },
+   {
+    "w": "PEDRO",
+    "ok": 1
+   },
+   {
+    "w": "MATEO",
+    "ok": 1
+   },
+   {
+    "w": "ANDRÉS",
+    "ok": 1
+   },
+   {
+    "w": "JUAN",
+    "ok": 1
+   },
+   {
+    "w": "BENJAMÍN",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Personajes del Génesis",
+  "f": [
+   {
+    "w": "NOÉ",
+    "ok": 1
+   },
+   {
+    "w": "ABRAHAM",
+    "ok": 1
+   },
+   {
+    "w": "EVA",
+    "ok": 1
+   },
+   {
+    "w": "CAÍN",
+    "ok": 1
+   },
+   {
+    "w": "LOT",
+    "ok": 1
+   },
+   {
+    "w": "ISAAC",
+    "ok": 1
+   },
+   {
+    "w": "ESAÚ",
+    "ok": 1
+   },
+   {
+    "w": "ABEL",
+    "ok": 1
+   },
+   {
+    "w": "ADÁN",
+    "ok": 1
+   },
+   {
+    "w": "BARTOLOMÉ",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Parábolas de Jesús",
+  "f": [
+   {
+    "w": "PERLA",
+    "ok": 1
+   },
+   {
+    "w": "TALENTOS",
+    "ok": 1
+   },
+   {
+    "w": "SEMBRADOR",
+    "ok": 1
+   },
+   {
+    "w": "BUEN SAMARITANO",
+    "ok": 1
+   },
+   {
+    "w": "HIJO PRÓDIGO",
+    "ok": 1
+   },
+   {
+    "w": "LEVADURA",
+    "ok": 1
+   },
+   {
+    "w": "GRANO DE MOSTAZA",
+    "ok": 1
+   },
+   {
+    "w": "OVEJA PERDIDA",
+    "ok": 1
+   },
+   {
+    "w": "VIÑADORES",
+    "ok": 1
+   },
+   {
+    "w": "HIJA DE JAIRO",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Gestos en misa",
+  "f": [
+   {
+    "w": "PERSIGNARSE",
+    "ok": 1
+   },
+   {
+    "w": "SENTARSE",
+    "ok": 1
+   },
+   {
+    "w": "INCLINARSE",
+    "ok": 1
+   },
+   {
+    "w": "DAR LA PAZ",
+    "ok": 1
+   },
+   {
+    "w": "ARRODILLARSE",
+    "ok": 1
+   },
+   {
+    "w": "GENUFLEXIÓN",
+    "ok": 1
+   },
+   {
+    "w": "PONERSE DE PIE",
+    "ok": 1
+   },
+   {
+    "w": "BAUTISMO",
+    "ok": 0
+   },
+   {
+    "w": "NATIVIDAD DE MARÍA",
+    "ok": 0
+   },
+   {
+    "w": "COMPLETAS",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Apellidos de papas",
+  "f": [
+   {
+    "w": "PACELLI",
+    "ok": 1
+   },
+   {
+    "w": "RATZINGER",
+    "ok": 1
+   },
+   {
+    "w": "LUCIANI",
+    "ok": 1
+   },
+   {
+    "w": "MONTINI",
+    "ok": 1
+   },
+   {
+    "w": "BERGOGLIO",
+    "ok": 1
+   },
+   {
+    "w": "PREVOST",
+    "ok": 1
+   },
+   {
+    "w": "RONCALLI",
+    "ok": 1
+   },
+   {
+    "w": "WOJTYLA",
+    "ok": 1
+   },
+   {
+    "w": "JACINTA",
+    "ok": 0
+   },
+   {
+    "w": "LUIS GONZAGA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Mujeres del Nuevo Testamento",
+  "f": [
+   {
+    "w": "SALOMÉ",
+    "ok": 1
+   },
+   {
+    "w": "TABITA",
+    "ok": 1
+   },
+   {
+    "w": "ISABEL",
+    "ok": 1
+   },
+   {
+    "w": "LIDIA",
+    "ok": 1
+   },
+   {
+    "w": "SUSANA",
+    "ok": 1
+   },
+   {
+    "w": "MARTA",
+    "ok": 1
+   },
+   {
+    "w": "PRISCILA",
+    "ok": 1
+   },
+   {
+    "w": "JUANA",
+    "ok": 1
+   },
+   {
+    "w": "AJAB",
+    "ok": 0
+   },
+   {
+    "w": "BARRABÁS",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Nombres de papas",
+  "f": [
+   {
+    "w": "BENEDICTO",
+    "ok": 1
+   },
+   {
+    "w": "FRANCISCO",
+    "ok": 1
+   },
+   {
+    "w": "INOCENCIO",
+    "ok": 1
+   },
+   {
+    "w": "URBANO",
+    "ok": 1
+   },
+   {
+    "w": "GREGORIO",
+    "ok": 1
+   },
+   {
+    "w": "LEÓN",
+    "ok": 1
+   },
+   {
+    "w": "PÍO",
+    "ok": 1
+   },
+   {
+    "w": "CLEMENTE",
+    "ok": 1
+   },
+   {
+    "w": "CHESTERTON",
+    "ok": 0
+   },
+   {
+    "w": "ANGELELLI",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Instrumentos de la Biblia",
+  "f": [
+   {
+    "w": "SALTERIO",
+    "ok": 1
+   },
+   {
+    "w": "CÍMBALO",
+    "ok": 1
+   },
+   {
+    "w": "SHOFAR",
+    "ok": 1
+   },
+   {
+    "w": "FLAUTA",
+    "ok": 1
+   },
+   {
+    "w": "ARPA",
+    "ok": 1
+   },
+   {
+    "w": "PANDERO",
+    "ok": 1
+   },
+   {
+    "w": "TROMPETA",
+    "ok": 1
+   },
+   {
+    "w": "CÍTARA",
+    "ok": 1
+   },
+   {
+    "w": "CAMPANARIO",
+    "ok": 0
+   },
+   {
+    "w": "ATRIO",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Plantas de la Biblia",
+  "f": [
+   {
+    "w": "CEDRO",
+    "ok": 1
+   },
+   {
+    "w": "VID",
+    "ok": 1
+   },
+   {
+    "w": "PALMERA",
+    "ok": 1
+   },
+   {
+    "w": "HIGUERA",
+    "ok": 1
+   },
+   {
+    "w": "MOSTAZA",
+    "ok": 1
+   },
+   {
+    "w": "OLIVO",
+    "ok": 1
+   },
+   {
+    "w": "ZARZA",
+    "ok": 1
+   },
+   {
+    "w": "ACACIA",
+    "ok": 1
+   },
+   {
+    "w": "CÁLIZ",
+    "ok": 0
+   },
+   {
+    "w": "PESTE",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Fiestas del año litúrgico",
+  "f": [
+   {
+    "w": "CORPUS CHRISTI",
+    "ok": 1
+   },
+   {
+    "w": "CRISTO REY",
+    "ok": 1
+   },
+   {
+    "w": "ASCENSIÓN",
+    "ok": 1
+   },
+   {
+    "w": "TRINIDAD",
+    "ok": 1
+   },
+   {
+    "w": "EPIFANÍA",
+    "ok": 1
+   },
+   {
+    "w": "PENTECOSTÉS",
+    "ok": 1
+   },
+   {
+    "w": "TODOS LOS SANTOS",
+    "ok": 1
+   },
+   {
+    "w": "SANCTUS",
+    "ok": 0
+   },
+   {
+    "w": "PONERSE DE PIE",
+    "ok": 0
+   },
+   {
+    "w": "GENUFLEXIÓN",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Sacramentos",
+  "f": [
+   {
+    "w": "RECONCILIACIÓN",
+    "ok": 1
+   },
+   {
+    "w": "UNCIÓN",
+    "ok": 1
+   },
+   {
+    "w": "CONFIRMACIÓN",
+    "ok": 1
+   },
+   {
+    "w": "EUCARISTÍA",
+    "ok": 1
+   },
+   {
+    "w": "MATRIMONIO",
+    "ok": 1
+   },
+   {
+    "w": "ORDEN",
+    "ok": 1
+   },
+   {
+    "w": "BAUTISMO",
+    "ok": 1
+   },
+   {
+    "w": "TODOS LOS SANTOS",
+    "ok": 0
+   },
+   {
+    "w": "GLORIA",
+    "ok": 0
+   },
+   {
+    "w": "ORDINARIO",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Fiestas de la Virgen",
+  "f": [
+   {
+    "w": "ANUNCIACIÓN",
+    "ok": 1
+   },
+   {
+    "w": "ASUNCIÓN",
+    "ok": 1
+   },
+   {
+    "w": "INMACULADA",
+    "ok": 1
+   },
+   {
+    "w": "NATIVIDAD DE MARÍA",
+    "ok": 1
+   },
+   {
+    "w": "CANDELARIA",
+    "ok": 1
+   },
+   {
+    "w": "VISITACIÓN",
+    "ok": 1
+   },
+   {
+    "w": "PRESENTACIÓN",
+    "ok": 1
+   },
+   {
+    "w": "DAR LA PAZ",
+    "ok": 0
+   },
+   {
+    "w": "BENDICIÓN",
+    "ok": 0
+   },
+   {
+    "w": "PENTECOSTÉS",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Nombres de Jesús",
+  "f": [
+   {
+    "w": "MESÍAS",
+    "ok": 1
+   },
+   {
+    "w": "MAESTRO",
+    "ok": 1
+   },
+   {
+    "w": "BUEN PASTOR",
+    "ok": 1
+   },
+   {
+    "w": "EMANUEL",
+    "ok": 1
+   },
+   {
+    "w": "NAZARENO",
+    "ok": 1
+   },
+   {
+    "w": "REDENTOR",
+    "ok": 1
+   },
+   {
     "w": "VERBO",
+    "ok": 1
+   },
+   {
+    "w": "AVARICIA",
+    "ok": 0
+   },
+   {
+    "w": "PACIENTES",
+    "ok": 0
+   },
+   {
+    "w": "CASA DE ORO",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Mujeres del Antiguo Testamento",
+  "f": [
+   {
+    "w": "NOEMÍ",
+    "ok": 1
+   },
+   {
+    "w": "ESTER",
+    "ok": 1
+   },
+   {
+    "w": "REBECA",
+    "ok": 1
+   },
+   {
+    "w": "JUDIT",
+    "ok": 1
+   },
+   {
+    "w": "ANA",
+    "ok": 1
+   },
+   {
+    "w": "LÍA",
+    "ok": 1
+   },
+   {
+    "w": "SARA",
+    "ok": 1
+   },
+   {
+    "w": "RUT",
+    "ok": 1
+   },
+   {
+    "w": "RAQUEL",
+    "ok": 1
+   },
+   {
+    "w": "GAD",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Instrumentos de la Pasión",
+  "f": [
+   {
+    "w": "CORONA DE ESPINAS",
+    "ok": 1
+   },
+   {
+    "w": "TÚNICA",
+    "ok": 1
+   },
+   {
+    "w": "CLAVOS",
+    "ok": 1
+   },
+   {
+    "w": "LANZA",
+    "ok": 1
+   },
+   {
+    "w": "TREINTA MONEDAS",
+    "ok": 1
+   },
+   {
+    "w": "LÁTIGO",
+    "ok": 1
+   },
+   {
+    "w": "ESPONJA",
+    "ok": 1
+   },
+   {
+    "w": "DADOS",
+    "ok": 1
+   },
+   {
+    "w": "AGUA",
+    "ok": 0
+   },
+   {
+    "w": "MOSTAZA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Hijos de Jacob",
+  "f": [
+   {
+    "w": "JOSÉ",
+    "ok": 1
+   },
+   {
+    "w": "RUBÉN",
+    "ok": 1
+   },
+   {
+    "w": "ASER",
+    "ok": 1
+   },
+   {
+    "w": "ZABULÓN",
+    "ok": 1
+   },
+   {
+    "w": "ISACAR",
+    "ok": 1
+   },
+   {
+    "w": "DAN",
+    "ok": 1
+   },
+   {
+    "w": "LEVÍ",
+    "ok": 1
+   },
+   {
+    "w": "SIMEÓN",
+    "ok": 1
+   },
+   {
+    "w": "JUDÁ",
+    "ok": 1
+   },
+   {
+    "w": "SARA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Cosas que se usan en misa",
+  "f": [
+   {
+    "w": "VINAJERAS",
+    "ok": 1
+   },
+   {
+    "w": "MISAL",
+    "ok": 1
+   },
+   {
+    "w": "CORPORAL",
+    "ok": 1
+   },
+   {
+    "w": "COPÓN",
+    "ok": 1
+   },
+   {
+    "w": "LECCIONARIO",
+    "ok": 1
+   },
+   {
+    "w": "INCENSARIO",
+    "ok": 1
+   },
+   {
+    "w": "CÁLIZ",
+    "ok": 1
+   },
+   {
+    "w": "PURIFICADOR",
+    "ok": 1
+   },
+   {
+    "w": "PATENA",
+    "ok": 1
+   },
+   {
+    "w": "PECES",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Profetas menores",
+  "f": [
+   {
+    "w": "NAHÚM",
+    "ok": 1
+   },
+   {
+    "w": "MALAQUÍAS",
+    "ok": 1
+   },
+   {
+    "w": "SOFONÍAS",
+    "ok": 1
+   },
+   {
+    "w": "MIQUEAS",
+    "ok": 1
+   },
+   {
+    "w": "AMÓS",
+    "ok": 1
+   },
+   {
+    "w": "OSEAS",
+    "ok": 1
+   },
+   {
+    "w": "JOEL",
+    "ok": 1
+   },
+   {
+    "w": "JONÁS",
+    "ok": 1
+   },
+   {
+    "w": "HABACUC",
+    "ok": 1
+   },
+   {
+    "w": "JOSÍAS",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Partes de la misa",
+  "f": [
+   {
+    "w": "AGNUS DEI",
+    "ok": 1
+   },
+   {
+    "w": "CREDO",
+    "ok": 1
+   },
+   {
+    "w": "OFERTORIO",
+    "ok": 1
+   },
+   {
+    "w": "ALELUYA",
+    "ok": 1
+   },
+   {
+    "w": "COMUNIÓN",
+    "ok": 1
+   },
+   {
+    "w": "HOMILÍA",
+    "ok": 1
+   },
+   {
+    "w": "KYRIE",
+    "ok": 1
+   },
+   {
+    "w": "GLORIA",
+    "ok": 1
+   },
+   {
+    "w": "BENDICIÓN",
+    "ok": 1
+   },
+   {
+    "w": "SENTARSE",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Coros de ángeles",
+  "f": [
+   {
+    "w": "QUERUBINES",
+    "ok": 1
+   },
+   {
+    "w": "ÁNGELES",
+    "ok": 1
+   },
+   {
+    "w": "SERAFINES",
+    "ok": 1
+   },
+   {
+    "w": "DOMINACIONES",
+    "ok": 1
+   },
+   {
+    "w": "POTESTADES",
+    "ok": 1
+   },
+   {
+    "w": "TRONOS",
+    "ok": 1
+   },
+   {
+    "w": "PRINCIPADOS",
+    "ok": 1
+   },
+   {
+    "w": "VIRTUDES",
+    "ok": 1
+   },
+   {
+    "w": "ARCÁNGELES",
+    "ok": 1
+   },
+   {
+    "w": "FILISTEOS",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Plagas de Egipto",
+  "f": [
+   {
+    "w": "LANGOSTAS",
+    "ok": 1
+   },
+   {
+    "w": "TINIEBLAS",
+    "ok": 1
+   },
+   {
+    "w": "ÚLCERAS",
+    "ok": 1
+   },
+   {
+    "w": "TÁBANOS",
+    "ok": 1
+   },
+   {
+    "w": "SANGRE",
+    "ok": 1
+   },
+   {
+    "w": "GRANIZO",
+    "ok": 1
+   },
+   {
+    "w": "PESTE",
+    "ok": 1
+   },
+   {
+    "w": "RANAS",
+    "ok": 1
+   },
+   {
+    "w": "MOSQUITOS",
+    "ok": 1
+   },
+   {
+    "w": "ALBA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Oraciones",
+  "f": [
+   {
+    "w": "ÁNGELUS",
+    "ok": 1
+   },
+   {
+    "w": "SALVE",
+    "ok": 1
+   },
+   {
+    "w": "PADRENUESTRO",
+    "ok": 1
+   },
+   {
+    "w": "REGINA COELI",
+    "ok": 1
+   },
+   {
+    "w": "ACORDAOS",
+    "ok": 1
+   },
+   {
+    "w": "AVEMARÍA",
+    "ok": 1
+   },
+   {
+    "w": "MAGNÍFICAT",
+    "ok": 1
+   },
+   {
+    "w": "ORDINARIO",
+    "ok": 0
+   },
+   {
+    "w": "EPIFANÍA",
+    "ok": 0
+   },
+   {
+    "w": "INCLINARSE",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Milagros de Jesús",
+  "f": [
+   {
+    "w": "CIEGO DE NACIMIENTO",
+    "ok": 1
+   },
+   {
+    "w": "LÁZARO",
+    "ok": 1
+   },
+   {
+    "w": "PANES Y PECES",
+    "ok": 1
+   },
+   {
+    "w": "TEMPESTAD CALMADA",
+    "ok": 1
+   },
+   {
+    "w": "PESCA MILAGROSA",
+    "ok": 1
+   },
+   {
+    "w": "HIJA DE JAIRO",
+    "ok": 1
+   },
+   {
+    "w": "BODAS DE CANÁ",
+    "ok": 1
+   },
+   {
+    "w": "DAR POSADA",
+    "ok": 0
+   },
+   {
+    "w": "ENSEÑAR",
+    "ok": 0
+   },
+   {
+    "w": "TALENTOS",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Canciones de misa en Sagrada",
+  "f": [
+   {
+    "w": "QUÉDATE SEÑOR",
+    "ok": 1
+   },
+   {
+    "w": "RECIBE MI CORAZÓN",
+    "ok": 1
+   },
+   {
+    "w": "ALÁBENLO",
+    "ok": 1
+   },
+   {
+    "w": "DAME TUS OJOS",
+    "ok": 1
+   },
+   {
+    "w": "HAZME POBRE",
+    "ok": 1
+   },
+   {
+    "w": "OCÉANOS",
+    "ok": 1
+   },
+   {
+    "w": "MAR ADENTRO",
+    "ok": 1
+   },
+   {
+    "w": "NUEVA MAÑANA",
+    "ok": 1
+   },
+   {
+    "w": "CARA A CARA",
+    "ok": 1
+   },
+   {
+    "w": "VIÑADORES",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Liturgia de las Horas",
+  "f": [
+   {
+    "w": "OFICIO DE LECTURA",
+    "ok": 1
+   },
+   {
+    "w": "NONA",
+    "ok": 1
+   },
+   {
+    "w": "SEXTA",
+    "ok": 1
+   },
+   {
+    "w": "VÍSPERAS",
+    "ok": 1
+   },
+   {
+    "w": "LAUDES",
+    "ok": 1
+   },
+   {
+    "w": "TERCIA",
+    "ok": 1
+   },
+   {
+    "w": "COMPLETAS",
+    "ok": 1
+   },
+   {
+    "w": "INMACULADA",
+    "ok": 0
+   },
+   {
+    "w": "MATRIMONIO",
+    "ok": 0
+   },
+   {
+    "w": "BENDICIÓN",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Gestos en misa",
+  "f": [
+   {
+    "w": "PERSIGNARSE",
+    "ok": 1
+   },
+   {
+    "w": "SENTARSE",
+    "ok": 1
+   },
+   {
+    "w": "DAR LA PAZ",
+    "ok": 1
+   },
+   {
+    "w": "INCLINARSE",
+    "ok": 1
+   },
+   {
+    "w": "ARRODILLARSE",
+    "ok": 1
+   },
+   {
+    "w": "GENUFLEXIÓN",
+    "ok": 1
+   },
+   {
+    "w": "PONERSE DE PIE",
+    "ok": 1
+   },
+   {
+    "w": "ADVIENTO",
+    "ok": 0
+   },
+   {
+    "w": "NATIVIDAD DE MARÍA",
+    "ok": 0
+   },
+   {
+    "w": "NAVIDAD",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Cosas que hay en una iglesia",
+  "f": [
+   {
+    "w": "VITRALES",
+    "ok": 1
+   },
+   {
+    "w": "PILA BAUTISMAL",
+    "ok": 1
+   },
+   {
+    "w": "ATRIO",
+    "ok": 1
+   },
+   {
+    "w": "CONFESIONARIO",
+    "ok": 1
+   },
+   {
+    "w": "PÚLPITO",
+    "ok": 1
+   },
+   {
+    "w": "BANCOS",
+    "ok": 1
+   },
+   {
+    "w": "CAMPANARIO",
+    "ok": 1
+   },
+   {
+    "w": "BURRO",
+    "ok": 0
+   },
+   {
+    "w": "PECES",
+    "ok": 0
+   },
+   {
+    "w": "MOCHILA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Personajes del Éxodo",
+  "f": [
+   {
+    "w": "SÉFORA",
+    "ok": 1
+   },
+   {
+    "w": "JETRÓ",
+    "ok": 1
+   },
+   {
+    "w": "MOISÉS",
+    "ok": 1
+   },
+   {
+    "w": "FARAÓN",
+    "ok": 1
+   },
+   {
+    "w": "JOSUÉ",
+    "ok": 1
+   },
+   {
+    "w": "AARÓN",
+    "ok": 1
+   },
+   {
+    "w": "MIRIAM",
+    "ok": 1
+   },
+   {
+    "w": "JOEL",
+    "ok": 0
+   },
+   {
+    "w": "SUSANA",
+    "ok": 0
+   },
+   {
+    "w": "JUDÁ",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Parábolas de Jesús",
+  "f": [
+   {
+    "w": "SEMBRADOR",
+    "ok": 1
+   },
+   {
+    "w": "PERLA",
+    "ok": 1
+   },
+   {
+    "w": "BUEN SAMARITANO",
+    "ok": 1
+   },
+   {
+    "w": "LEVADURA",
+    "ok": 1
+   },
+   {
+    "w": "GRANO DE MOSTAZA",
+    "ok": 1
+   },
+   {
+    "w": "OVEJA PERDIDA",
+    "ok": 1
+   },
+   {
+    "w": "HIJO PRÓDIGO",
+    "ok": 1
+   },
+   {
+    "w": "TALENTOS",
+    "ok": 1
+   },
+   {
+    "w": "VIÑADORES",
+    "ok": 1
+   },
+   {
+    "w": "VESTIR AL DESNUDO",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Pueblos vecinos de Israel",
+  "f": [
+   {
+    "w": "PERSAS",
+    "ok": 1
+   },
+   {
+    "w": "MOABITAS",
+    "ok": 1
+   },
+   {
+    "w": "BABILONIOS",
+    "ok": 1
+   },
+   {
+    "w": "EGIPCIOS",
+    "ok": 1
+   },
+   {
+    "w": "AMALECITAS",
+    "ok": 1
+   },
+   {
+    "w": "CANANEOS",
+    "ok": 1
+   },
+   {
+    "w": "FILISTEOS",
+    "ok": 1
+   },
+   {
+    "w": "ASIRIOS",
+    "ok": 1
+   },
+   {
+    "w": "TRAPENSES",
+    "ok": 0
+   },
+   {
+    "w": "AGUSTINOS",
     "ok": 0
    }
   ]
@@ -5808,15 +5133,15 @@
   "c": "Jueces de Israel",
   "f": [
    {
-    "w": "GEDEÓN",
-    "ok": 1
-   },
-   {
     "w": "SANSÓN",
     "ok": 1
    },
    {
     "w": "JEFTÉ",
+    "ok": 1
+   },
+   {
+    "w": "GEDEÓN",
     "ok": 1
    },
    {
@@ -5836,150 +5161,150 @@
     "ok": 1
    },
    {
-    "w": "LÍA",
+    "w": "SANTIAGO",
     "ok": 0
    },
    {
-    "w": "ISAÍAS",
+    "w": "JUDAS",
     "ok": 0
    },
    {
-    "w": "VERÓNICA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Reyes de Israel y Judá",
-  "f": [
-   {
-    "w": "JOSÍAS",
-    "ok": 1
-   },
-   {
-    "w": "SALOMÓN",
-    "ok": 1
-   },
-   {
-    "w": "ROBOAM",
-    "ok": 1
-   },
-   {
-    "w": "EZEQUÍAS",
-    "ok": 1
-   },
-   {
-    "w": "AJAB",
-    "ok": 1
-   },
-   {
-    "w": "JEROBOAM",
-    "ok": 1
-   },
-   {
-    "w": "DAVID",
-    "ok": 1
-   },
-   {
-    "w": "SAÚL",
-    "ok": 1
-   },
-   {
-    "w": "EVA",
-    "ok": 0
-   },
-   {
-    "w": "NOEMÍ",
+    "w": "MALAQUÍAS",
     "ok": 0
    }
   ]
  },
  {
-  "c": "Hijos de Jacob",
+  "c": "Dones del Espíritu Santo",
   "f": [
    {
-    "w": "RUBÉN",
+    "w": "CONSEJO",
     "ok": 1
    },
    {
-    "w": "NEFTALÍ",
+    "w": "CIENCIA",
     "ok": 1
    },
    {
-    "w": "LEVÍ",
+    "w": "TEMOR DE DIOS",
     "ok": 1
    },
    {
-    "w": "SIMEÓN",
+    "w": "PIEDAD",
     "ok": 1
    },
    {
-    "w": "JUDÁ",
+    "w": "ENTENDIMIENTO",
     "ok": 1
    },
    {
-    "w": "ASER",
+    "w": "FORTALEZA",
     "ok": 1
    },
    {
-    "w": "JOSÉ",
+    "w": "SABIDURÍA",
     "ok": 1
    },
    {
-    "w": "ISACAR",
-    "ok": 1
+    "w": "TEMPLANZA",
+    "ok": 0
    },
    {
-    "w": "BENJAMÍN",
-    "ok": 1
+    "w": "JUSTICIA",
+    "ok": 0
    },
    {
-    "w": "MIRIAM",
+    "w": "SOBERBIA",
     "ok": 0
    }
   ]
  },
  {
-  "c": "Montes de la Biblia",
+  "c": "Títulos de María en las letanías",
   "f": [
    {
-    "w": "CALVARIO",
+    "w": "PUERTA DEL CIELO",
     "ok": 1
    },
    {
-    "w": "TABOR",
+    "w": "ROSA MÍSTICA",
     "ok": 1
    },
    {
-    "w": "SINAÍ",
+    "w": "ESPEJO DE JUSTICIA",
     "ok": 1
    },
    {
-    "w": "OLIVOS",
+    "w": "TRONO DE LA SABIDURÍA",
     "ok": 1
    },
    {
-    "w": "HOREB",
+    "w": "TORRE DE MARFIL",
     "ok": 1
    },
    {
-    "w": "ARARAT",
+    "w": "ESTRELLA DE LA MAÑANA",
     "ok": 1
    },
    {
-    "w": "CARMELO",
+    "w": "ARCA DE LA ALIANZA",
     "ok": 1
    },
    {
-    "w": "SION",
+    "w": "CASA DE ORO",
     "ok": 1
    },
    {
-    "w": "MORIA",
+    "w": "ENVIDIA",
+    "ok": 0
+   },
+   {
+    "w": "SOBERBIA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Pecados capitales",
+  "f": [
+   {
+    "w": "PEREZA",
     "ok": 1
    },
    {
-    "w": "ROMA",
+    "w": "IRA",
+    "ok": 1
+   },
+   {
+    "w": "GULA",
+    "ok": 1
+   },
+   {
+    "w": "LUJURIA",
+    "ok": 1
+   },
+   {
+    "w": "ENVIDIA",
+    "ok": 1
+   },
+   {
+    "w": "AVARICIA",
+    "ok": 1
+   },
+   {
+    "w": "SOBERBIA",
+    "ok": 1
+   },
+   {
+    "w": "PESCADOR",
+    "ok": 0
+   },
+   {
+    "w": "VERBO",
+    "ok": 0
+   },
+   {
+    "w": "MANSEDUMBRE",
     "ok": 0
    }
   ]
@@ -5988,15 +5313,23 @@
   "c": "Cosas de Navidad",
   "f": [
    {
+    "w": "ESTRELLA",
+    "ok": 1
+   },
+   {
     "w": "ÁRBOL",
     "ok": 1
    },
    {
-    "w": "PESEBRE",
+    "w": "NOCHEBUENA",
     "ok": 1
    },
    {
     "w": "REYES MAGOS",
+    "ok": 1
+   },
+   {
+    "w": "PESEBRE",
     "ok": 1
    },
    {
@@ -6008,19 +5341,596 @@
     "ok": 1
    },
    {
-    "w": "NOCHEBUENA",
-    "ok": 1
-   },
-   {
-    "w": "ESTRELLA",
-    "ok": 1
-   },
-   {
-    "w": "PALMERA",
+    "w": "CORPORAL",
     "ok": 0
    },
    {
-    "w": "VID",
+    "w": "ÚLCERAS",
+    "ok": 0
+   },
+   {
+    "w": "OLIVO",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Oficios y cargos en el Evangelio",
+  "f": [
+   {
+    "w": "FARISEO",
+    "ok": 1
+   },
+   {
+    "w": "PASTOR",
+    "ok": 1
+   },
+   {
+    "w": "CARPINTERO",
+    "ok": 1
+   },
+   {
+    "w": "CENTURIÓN",
+    "ok": 1
+   },
+   {
+    "w": "PUBLICANO",
+    "ok": 1
+   },
+   {
+    "w": "ESCRIBA",
+    "ok": 1
+   },
+   {
+    "w": "PESCADOR",
+    "ok": 1
+   },
+   {
+    "w": "SUMO SACERDOTE",
+    "ok": 1
+   },
+   {
+    "w": "NAZARENO",
+    "ok": 0
+   },
+   {
+    "w": "ROSA MÍSTICA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Personajes de la Pasión",
+  "f": [
+   {
+    "w": "VERÓNICA",
+    "ok": 1
+   },
+   {
+    "w": "JOSÉ DE ARIMATEA",
+    "ok": 1
+   },
+   {
+    "w": "CAIFÁS",
+    "ok": 1
+   },
+   {
+    "w": "SIMÓN DE CIRENE",
+    "ok": 1
+   },
+   {
+    "w": "MALCO",
+    "ok": 1
+   },
+   {
+    "w": "NICODEMO",
+    "ok": 1
+   },
+   {
+    "w": "PILATOS",
+    "ok": 1
+   },
+   {
+    "w": "BARRABÁS",
+    "ok": 1
+   },
+   {
+    "w": "EZEQUIEL",
+    "ok": 0
+   },
+   {
+    "w": "ASER",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Fiestas de la Virgen",
+  "f": [
+   {
+    "w": "ANUNCIACIÓN",
+    "ok": 1
+   },
+   {
+    "w": "VISITACIÓN",
+    "ok": 1
+   },
+   {
+    "w": "CANDELARIA",
+    "ok": 1
+   },
+   {
+    "w": "PRESENTACIÓN",
+    "ok": 1
+   },
+   {
+    "w": "INMACULADA",
+    "ok": 1
+   },
+   {
+    "w": "ASUNCIÓN",
+    "ok": 1
+   },
+   {
+    "w": "NATIVIDAD DE MARÍA",
+    "ok": 1
+   },
+   {
+    "w": "KYRIE",
+    "ok": 0
+   },
+   {
+    "w": "LAUDES",
+    "ok": 0
+   },
+   {
+    "w": "RECONCILIACIÓN",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Cosas que se usan en misa",
+  "f": [
+   {
+    "w": "MISAL",
+    "ok": 1
+   },
+   {
+    "w": "COPÓN",
+    "ok": 1
+   },
+   {
+    "w": "PATENA",
+    "ok": 1
+   },
+   {
+    "w": "PURIFICADOR",
+    "ok": 1
+   },
+   {
+    "w": "VINAJERAS",
+    "ok": 1
+   },
+   {
+    "w": "INCENSARIO",
+    "ok": 1
+   },
+   {
+    "w": "LECCIONARIO",
+    "ok": 1
+   },
+   {
+    "w": "CORPORAL",
+    "ok": 1
+   },
+   {
+    "w": "PALIA",
+    "ok": 1
+   },
+   {
+    "w": "ÓLEO",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Órdenes religiosas",
+  "f": [
+   {
+    "w": "JESUITAS",
+    "ok": 1
+   },
+   {
+    "w": "DOMINICOS",
+    "ok": 1
+   },
+   {
+    "w": "FRANCISCANOS",
+    "ok": 1
+   },
+   {
+    "w": "BENEDICTINOS",
+    "ok": 1
+   },
+   {
+    "w": "CARMELITAS",
+    "ok": 1
+   },
+   {
+    "w": "TRAPENSES",
+    "ok": 1
+   },
+   {
+    "w": "AGUSTINOS",
+    "ok": 1
+   },
+   {
+    "w": "SALESIANOS",
+    "ok": 1
+   },
+   {
+    "w": "FILISTEOS",
+    "ok": 0
+   },
+   {
+    "w": "DOMINACIONES",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Hijos de Jacob",
+  "f": [
+   {
+    "w": "NEFTALÍ",
+    "ok": 1
+   },
+   {
+    "w": "JOSÉ",
+    "ok": 1
+   },
+   {
+    "w": "BENJAMÍN",
+    "ok": 1
+   },
+   {
+    "w": "ISACAR",
+    "ok": 1
+   },
+   {
+    "w": "ZABULÓN",
+    "ok": 1
+   },
+   {
+    "w": "GAD",
+    "ok": 1
+   },
+   {
+    "w": "DAN",
+    "ok": 1
+   },
+   {
+    "w": "RUBÉN",
+    "ok": 1
+   },
+   {
+    "w": "JUDÁ",
+    "ok": 1
+   },
+   {
+    "w": "LOT",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Ríos y mares de la Biblia",
+  "f": [
+   {
+    "w": "TIGRIS",
+    "ok": 1
+   },
+   {
+    "w": "MAR ROJO",
+    "ok": 1
+   },
+   {
+    "w": "NILO",
+    "ok": 1
+   },
+   {
+    "w": "ÉUFRATES",
+    "ok": 1
+   },
+   {
+    "w": "JORDÁN",
+    "ok": 1
+   },
+   {
+    "w": "MAR MUERTO",
+    "ok": 1
+   },
+   {
+    "w": "TIERRA SANTA",
+    "ok": 0
+   },
+   {
+    "w": "CALVARIO",
+    "ok": 0
+   },
+   {
+    "w": "BELÉN",
+    "ok": 0
+   },
+   {
+    "w": "HOREB",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Profetas menores",
+  "f": [
+   {
+    "w": "ABDÍAS",
+    "ok": 1
+   },
+   {
+    "w": "NAHÚM",
+    "ok": 1
+   },
+   {
+    "w": "AGEO",
+    "ok": 1
+   },
+   {
+    "w": "SOFONÍAS",
+    "ok": 1
+   },
+   {
+    "w": "MALAQUÍAS",
+    "ok": 1
+   },
+   {
+    "w": "JONÁS",
+    "ok": 1
+   },
+   {
+    "w": "OSEAS",
+    "ok": 1
+   },
+   {
+    "w": "AMÓS",
+    "ok": 1
+   },
+   {
+    "w": "MIQUEAS",
+    "ok": 1
+   },
+   {
+    "w": "VERÓNICA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Lugares de la vida de Jesús",
+  "f": [
+   {
+    "w": "JERUSALÉN",
+    "ok": 1
+   },
+   {
+    "w": "CANÁ",
+    "ok": 1
+   },
+   {
+    "w": "NAZARET",
+    "ok": 1
+   },
+   {
+    "w": "CAFARNAÚM",
+    "ok": 1
+   },
+   {
+    "w": "GETSEMANÍ",
+    "ok": 1
+   },
+   {
+    "w": "JERICÓ",
+    "ok": 1
+   },
+   {
+    "w": "BELÉN",
+    "ok": 1
+   },
+   {
+    "w": "EMAÚS",
+    "ok": 1
+   },
+   {
+    "w": "BETANIA",
+    "ok": 1
+   },
+   {
+    "w": "COPACABANA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Canciones de misa en Sagrada",
+  "f": [
+   {
+    "w": "DIME REY",
+    "ok": 1
+   },
+   {
+    "w": "ALÁBENLO",
+    "ok": 1
+   },
+   {
+    "w": "HAZME POBRE",
+    "ok": 1
+   },
+   {
+    "w": "CRISTO REINA",
+    "ok": 1
+   },
+   {
+    "w": "RECIBE MI CORAZÓN",
+    "ok": 1
+   },
+   {
+    "w": "VINE A ADORARTE",
+    "ok": 1
+   },
+   {
+    "w": "QUÉDATE SEÑOR",
+    "ok": 1
+   },
+   {
+    "w": "DAME TUS OJOS",
+    "ok": 1
+   },
+   {
+    "w": "SUMÉRGEME",
+    "ok": 1
+   },
+   {
+    "w": "PERLA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Cartas de san Pablo",
+  "f": [
+   {
+    "w": "TITO",
+    "ok": 1
+   },
+   {
+    "w": "COLOSENSES",
+    "ok": 1
+   },
+   {
+    "w": "TIMOTEO",
+    "ok": 1
+   },
+   {
+    "w": "CORINTIOS",
+    "ok": 1
+   },
+   {
+    "w": "FILEMÓN",
+    "ok": 1
+   },
+   {
+    "w": "GÁLATAS",
+    "ok": 1
+   },
+   {
+    "w": "TESALONICENSES",
+    "ok": 1
+   },
+   {
+    "w": "ROMANOS",
+    "ok": 1
+   },
+   {
+    "w": "EFESIOS",
+    "ok": 1
+   },
+   {
+    "w": "PROVERBIOS",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Santos jóvenes",
+  "f": [
+   {
+    "w": "INÉS",
+    "ok": 1
+   },
+   {
+    "w": "LAURA VICUÑA",
+    "ok": 1
+   },
+   {
+    "w": "DOMINGO SAVIO",
+    "ok": 1
+   },
+   {
+    "w": "CARLO ACUTIS",
+    "ok": 1
+   },
+   {
+    "w": "FRASSATI",
+    "ok": 1
+   },
+   {
+    "w": "JACINTA",
+    "ok": 1
+   },
+   {
+    "w": "FRANCISCO MARTO",
+    "ok": 1
+   },
+   {
+    "w": "LUIS GONZAGA",
+    "ok": 1
+   },
+   {
+    "w": "PERPETUA",
+    "ok": 0
+   },
+   {
+    "w": "POLICARPO",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Cosas que hay en una iglesia",
+  "f": [
+   {
+    "w": "VITRALES",
+    "ok": 1
+   },
+   {
+    "w": "PILA BAUTISMAL",
+    "ok": 1
+   },
+   {
+    "w": "CONFESIONARIO",
+    "ok": 1
+   },
+   {
+    "w": "PÚLPITO",
+    "ok": 1
+   },
+   {
+    "w": "BANCOS",
+    "ok": 1
+   },
+   {
+    "w": "ATRIO",
+    "ok": 1
+   },
+   {
+    "w": "CAMPANARIO",
+    "ok": 1
+   },
+   {
+    "w": "TÚNICA",
+    "ok": 0
+   },
+   {
+    "w": "LÁTIGO",
     "ok": 0
    },
    {
@@ -6033,7 +5943,7 @@
   "c": "Instrumentos de la Biblia",
   "f": [
    {
-    "w": "PANDERO",
+    "w": "FLAUTA",
     "ok": 1
    },
    {
@@ -6045,7 +5955,7 @@
     "ok": 1
    },
    {
-    "w": "CÍTARA",
+    "w": "SALTERIO",
     "ok": 1
    },
    {
@@ -6053,113 +5963,113 @@
     "ok": 1
    },
    {
-    "w": "SALTERIO",
-    "ok": 1
-   },
-   {
     "w": "ARPA",
     "ok": 1
    },
    {
-    "w": "FLAUTA",
+    "w": "PANDERO",
     "ok": 1
    },
    {
-    "w": "RANAS",
+    "w": "CÍTARA",
+    "ok": 1
+   },
+   {
+    "w": "GUIRNALDA",
     "ok": 0
    },
    {
-    "w": "SANGRE",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Canciones de misa en Sagrada",
-  "f": [
-   {
-    "w": "RECIBE MI CORAZÓN",
-    "ok": 1
-   },
-   {
-    "w": "NUEVA MAÑANA",
-    "ok": 1
-   },
-   {
-    "w": "CARA A CARA",
-    "ok": 1
-   },
-   {
-    "w": "SUMÉRGEME",
-    "ok": 1
-   },
-   {
-    "w": "DAME TUS OJOS",
-    "ok": 1
-   },
-   {
-    "w": "QUÉDATE SEÑOR",
-    "ok": 1
-   },
-   {
-    "w": "MAR ADENTRO",
-    "ok": 1
-   },
-   {
-    "w": "ALÁBENLO",
-    "ok": 1
-   },
-   {
-    "w": "DIME REY",
-    "ok": 1
-   },
-   {
-    "w": "PANES Y PECES",
+    "w": "CORDERO",
     "ok": 0
    }
   ]
  },
  {
-  "c": "Santos jóvenes",
+  "c": "Libros sapienciales",
   "f": [
    {
-    "w": "FRASSATI",
+    "w": "ECLESIASTÉS",
     "ok": 1
    },
    {
-    "w": "LUIS GONZAGA",
+    "w": "ECLESIÁSTICO",
     "ok": 1
    },
    {
-    "w": "LAURA VICUÑA",
+    "w": "JOB",
     "ok": 1
    },
    {
-    "w": "INÉS",
+    "w": "CANTAR DE LOS CANTARES",
     "ok": 1
    },
    {
-    "w": "DOMINGO SAVIO",
+    "w": "SALMOS",
     "ok": 1
    },
    {
-    "w": "JACINTA",
+    "w": "PROVERBIOS",
     "ok": 1
    },
    {
-    "w": "FRANCISCO MARTO",
-    "ok": 1
-   },
-   {
-    "w": "CARLO ACUTIS",
-    "ok": 1
-   },
-   {
-    "w": "ANGELELLI",
+    "w": "TIMOTEO",
     "ok": 0
    },
    {
-    "w": "LUCIANI",
+    "w": "DEUTERONOMIO",
+    "ok": 0
+   },
+   {
+    "w": "FILEMÓN",
+    "ok": 0
+   },
+   {
+    "w": "ROMANOS",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Montes de la Biblia",
+  "f": [
+   {
+    "w": "ARARAT",
+    "ok": 1
+   },
+   {
+    "w": "TABOR",
+    "ok": 1
+   },
+   {
+    "w": "OLIVOS",
+    "ok": 1
+   },
+   {
+    "w": "SION",
+    "ok": 1
+   },
+   {
+    "w": "MORIA",
+    "ok": 1
+   },
+   {
+    "w": "CARMELO",
+    "ok": 1
+   },
+   {
+    "w": "CALVARIO",
+    "ok": 1
+   },
+   {
+    "w": "SINAÍ",
+    "ok": 1
+   },
+   {
+    "w": "HOREB",
+    "ok": 1
+   },
+   {
+    "w": "MAR MUERTO",
     "ok": 0
    }
   ]
@@ -6168,23 +6078,7 @@
   "c": "Cosas de un campamento",
   "f": [
    {
-    "w": "MOCHILA",
-    "ok": 1
-   },
-   {
-    "w": "FOGÓN",
-    "ok": 1
-   },
-   {
     "w": "MATE",
-    "ok": 1
-   },
-   {
-    "w": "BOLSA DE DORMIR",
-    "ok": 1
-   },
-   {
-    "w": "GUITARRA",
     "ok": 1
    },
    {
@@ -6192,64 +6086,35 @@
     "ok": 1
    },
    {
+    "w": "FOGÓN",
+    "ok": 1
+   },
+   {
+    "w": "GUITARRA",
+    "ok": 1
+   },
+   {
     "w": "LINTERNA",
     "ok": 1
    },
    {
-    "w": "HIGUERA",
+    "w": "MOCHILA",
+    "ok": 1
+   },
+   {
+    "w": "BOLSA DE DORMIR",
+    "ok": 1
+   },
+   {
+    "w": "PAN",
     "ok": 0
    },
    {
-    "w": "PANDERO",
+    "w": "VINO",
     "ok": 0
    },
    {
-    "w": "ACACIA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Escritores católicos",
-  "f": [
-   {
-    "w": "CLAUDEL",
-    "ok": 1
-   },
-   {
-    "w": "PÉGUY",
-    "ok": 1
-   },
-   {
-    "w": "TOLKIEN",
-    "ok": 1
-   },
-   {
-    "w": "NEWMAN",
-    "ok": 1
-   },
-   {
-    "w": "MARECHAL",
-    "ok": 1
-   },
-   {
-    "w": "CHESTERTON",
-    "ok": 1
-   },
-   {
-    "w": "BERNANOS",
-    "ok": 1
-   },
-   {
-    "w": "PAPINI",
-    "ok": 1
-   },
-   {
-    "w": "URBANO",
-    "ok": 0
-   },
-   {
-    "w": "HILDEGARDA",
+    "w": "BURRO",
     "ok": 0
    }
   ]
@@ -6258,27 +6123,7 @@
   "c": "Ciudades argentinas con nombre de santo",
   "f": [
    {
-    "w": "SAN ISIDRO",
-    "ok": 1
-   },
-   {
-    "w": "SAN FERNANDO",
-    "ok": 1
-   },
-   {
-    "w": "SAN RAFAEL",
-    "ok": 1
-   },
-   {
-    "w": "SANTA ROSA",
-    "ok": 1
-   },
-   {
     "w": "SAN NICOLÁS",
-    "ok": 1
-   },
-   {
-    "w": "SAN LUIS",
     "ok": 1
    },
    {
@@ -6286,240 +6131,260 @@
     "ok": 1
    },
    {
-    "w": "CAFARNAÚM",
+    "w": "SAN RAFAEL",
+    "ok": 1
+   },
+   {
+    "w": "SAN LUIS",
+    "ok": 1
+   },
+   {
+    "w": "SAN ISIDRO",
+    "ok": 1
+   },
+   {
+    "w": "SANTA ROSA",
+    "ok": 1
+   },
+   {
+    "w": "SAN FERNANDO",
+    "ok": 1
+   },
+   {
+    "w": "OLIVOS",
     "ok": 0
    },
    {
+    "w": "CARMELO",
+    "ok": 0
+   },
+   {
+    "w": "LOURDES",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Partes de la misa",
+  "f": [
+   {
+    "w": "AGNUS DEI",
+    "ok": 1
+   },
+   {
+    "w": "OFERTORIO",
+    "ok": 1
+   },
+   {
+    "w": "CREDO",
+    "ok": 1
+   },
+   {
+    "w": "HOMILÍA",
+    "ok": 1
+   },
+   {
+    "w": "ALELUYA",
+    "ok": 1
+   },
+   {
+    "w": "COMUNIÓN",
+    "ok": 1
+   },
+   {
+    "w": "CONSAGRACIÓN",
+    "ok": 1
+   },
+   {
+    "w": "SANCTUS",
+    "ok": 1
+   },
+   {
+    "w": "KYRIE",
+    "ok": 1
+   },
+   {
+    "w": "SEXTA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Lugares de peregrinación",
+  "f": [
+   {
+    "w": "CZESTOCHOWA",
+    "ok": 1
+   },
+   {
+    "w": "PADUA",
+    "ok": 1
+   },
+   {
+    "w": "COMPOSTELA",
+    "ok": 1
+   },
+   {
     "w": "ROMA",
+    "ok": 1
+   },
+   {
+    "w": "ASÍS",
+    "ok": 1
+   },
+   {
+    "w": "TIERRA SANTA",
+    "ok": 1
+   },
+   {
+    "w": "CALVARIO",
+    "ok": 0
+   },
+   {
+    "w": "HOREB",
     "ok": 0
    },
    {
     "w": "TIGRIS",
     "ok": 0
-   }
-  ]
- },
- {
-  "c": "Pecados capitales",
-  "f": [
-   {
-    "w": "IRA",
-    "ok": 1
    },
    {
-    "w": "PEREZA",
-    "ok": 1
-   },
-   {
-    "w": "SOBERBIA",
-    "ok": 1
-   },
-   {
-    "w": "LUJURIA",
-    "ok": 1
-   },
-   {
-    "w": "AVARICIA",
-    "ok": 1
-   },
-   {
-    "w": "ENVIDIA",
-    "ok": 1
-   },
-   {
-    "w": "GULA",
-    "ok": 1
-   },
-   {
-    "w": "PIEDAD",
-    "ok": 0
-   },
-   {
-    "w": "REDENTOR",
-    "ok": 0
-   },
-   {
-    "w": "SABIDURÍA",
+    "w": "CAFARNAÚM",
     "ok": 0
    }
   ]
  },
  {
-  "c": "Comidas de la Biblia",
+  "c": "Nombres de papas",
   "f": [
    {
-    "w": "HIGOS",
+    "w": "URBANO",
     "ok": 1
    },
    {
-    "w": "LENTEJAS",
+    "w": "INOCENCIO",
     "ok": 1
    },
    {
-    "w": "DÁTILES",
+    "w": "CLEMENTE",
     "ok": 1
    },
    {
-    "w": "MANÁ",
+    "w": "BENEDICTO",
     "ok": 1
    },
    {
-    "w": "MIEL",
+    "w": "PÍO",
     "ok": 1
    },
    {
-    "w": "CODORNICES",
+    "w": "LEÓN",
     "ok": 1
    },
    {
-    "w": "PECES",
+    "w": "FRANCISCO",
     "ok": 1
    },
    {
-    "w": "TINIEBLAS",
+    "w": "GREGORIO",
+    "ok": 1
+   },
+   {
+    "w": "ÁGUEDA",
     "ok": 0
    },
    {
-    "w": "PURIFICADOR",
-    "ok": 0
-   },
-   {
-    "w": "CARPA",
+    "w": "LUCÍA",
     "ok": 0
    }
   ]
  },
  {
-  "c": "Coros de ángeles",
+  "c": "Apellidos de papas",
   "f": [
    {
-    "w": "VIRTUDES",
+    "w": "PREVOST",
+    "ok": 1
+   },
+   {
+    "w": "PACELLI",
+    "ok": 1
+   },
+   {
+    "w": "BERGOGLIO",
+    "ok": 1
+   },
+   {
+    "w": "LUCIANI",
+    "ok": 1
+   },
+   {
+    "w": "MONTINI",
+    "ok": 1
+   },
+   {
+    "w": "WOJTYLA",
+    "ok": 1
+   },
+   {
+    "w": "RATZINGER",
+    "ok": 1
+   },
+   {
+    "w": "RONCALLI",
+    "ok": 1
+   },
+   {
+    "w": "PAPINI",
+    "ok": 0
+   },
+   {
+    "w": "CHESTERTON",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Pueblos vecinos de Israel",
+  "f": [
+   {
+    "w": "PERSAS",
+    "ok": 1
+   },
+   {
+    "w": "MOABITAS",
+    "ok": 1
+   },
+   {
+    "w": "BABILONIOS",
+    "ok": 1
+   },
+   {
+    "w": "EGIPCIOS",
+    "ok": 1
+   },
+   {
+    "w": "AMALECITAS",
+    "ok": 1
+   },
+   {
+    "w": "ASIRIOS",
+    "ok": 1
+   },
+   {
+    "w": "CANANEOS",
+    "ok": 1
+   },
+   {
+    "w": "FILISTEOS",
     "ok": 1
    },
    {
     "w": "ÁNGELES",
-    "ok": 1
-   },
-   {
-    "w": "ARCÁNGELES",
-    "ok": 1
-   },
-   {
-    "w": "POTESTADES",
-    "ok": 1
-   },
-   {
-    "w": "PRINCIPADOS",
-    "ok": 1
-   },
-   {
-    "w": "QUERUBINES",
-    "ok": 1
-   },
-   {
-    "w": "DOMINACIONES",
-    "ok": 1
-   },
-   {
-    "w": "TRONOS",
-    "ok": 1
-   },
-   {
-    "w": "SERAFINES",
-    "ok": 1
-   },
-   {
-    "w": "COLOSENSES",
     "ok": 0
-   }
-  ]
- },
- {
-  "c": "Mujeres del Antiguo Testamento",
-  "f": [
-   {
-    "w": "ESTER",
-    "ok": 1
    },
    {
-    "w": "RUT",
-    "ok": 1
-   },
-   {
-    "w": "ANA",
-    "ok": 1
-   },
-   {
-    "w": "SARA",
-    "ok": 1
-   },
-   {
-    "w": "REBECA",
-    "ok": 1
-   },
-   {
-    "w": "LÍA",
-    "ok": 1
-   },
-   {
-    "w": "RAQUEL",
-    "ok": 1
-   },
-   {
-    "w": "NOEMÍ",
-    "ok": 1
-   },
-   {
-    "w": "DÉBORA",
-    "ok": 1
-   },
-   {
-    "w": "AMÓS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Profetas menores",
-  "f": [
-   {
-    "w": "MALAQUÍAS",
-    "ok": 1
-   },
-   {
-    "w": "NAHÚM",
-    "ok": 1
-   },
-   {
-    "w": "JOEL",
-    "ok": 1
-   },
-   {
-    "w": "HABACUC",
-    "ok": 1
-   },
-   {
-    "w": "OSEAS",
-    "ok": 1
-   },
-   {
-    "w": "JONÁS",
-    "ok": 1
-   },
-   {
-    "w": "MIQUEAS",
-    "ok": 1
-   },
-   {
-    "w": "ABDÍAS",
-    "ok": 1
-   },
-   {
-    "w": "SOFONÍAS",
-    "ok": 1
-   },
-   {
-    "w": "BENJAMÍN",
+    "w": "FRANCISCANOS",
     "ok": 0
    }
   ]
@@ -6528,11 +6393,7 @@
   "c": "Personajes del Éxodo",
   "f": [
    {
-    "w": "JOSUÉ",
-    "ok": 1
-   },
-   {
-    "w": "AARÓN",
+    "w": "MOISÉS",
     "ok": 1
    },
    {
@@ -6540,15 +6401,11 @@
     "ok": 1
    },
    {
+    "w": "AARÓN",
+    "ok": 1
+   },
+   {
     "w": "SÉFORA",
-    "ok": 1
-   },
-   {
-    "w": "MOISÉS",
-    "ok": 1
-   },
-   {
-    "w": "MIRIAM",
     "ok": 1
    },
    {
@@ -6556,15 +6413,338 @@
     "ok": 1
    },
    {
-    "w": "SARA",
+    "w": "JOSUÉ",
+    "ok": 1
+   },
+   {
+    "w": "MIRIAM",
+    "ok": 1
+   },
+   {
+    "w": "DAVID",
     "ok": 0
    },
    {
-    "w": "ADÁN",
+    "w": "DAN",
     "ok": 0
+   },
+   {
+    "w": "LIDIA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Obras de misericordia corporales",
+  "f": [
+   {
+    "w": "ENTERRAR MUERTOS",
+    "ok": 1
+   },
+   {
+    "w": "DAR DE BEBER",
+    "ok": 1
+   },
+   {
+    "w": "VISITAR ENFERMOS",
+    "ok": 1
+   },
+   {
+    "w": "VISITAR PRESOS",
+    "ok": 1
+   },
+   {
+    "w": "DAR DE COMER",
+    "ok": 1
+   },
+   {
+    "w": "DAR POSADA",
+    "ok": 1
+   },
+   {
+    "w": "VESTIR AL DESNUDO",
+    "ok": 1
+   },
+   {
+    "w": "PERLA",
+    "ok": 0
+   },
+   {
+    "w": "OVEJA PERDIDA",
+    "ok": 0
+   },
+   {
+    "w": "BUEN SAMARITANO",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Animales de la Biblia",
+  "f": [
+   {
+    "w": "SERPIENTE",
+    "ok": 1
+   },
+   {
+    "w": "CORDERO",
+    "ok": 1
+   },
+   {
+    "w": "PALOMA",
+    "ok": 1
+   },
+   {
+    "w": "CAMELLO",
+    "ok": 1
+   },
+   {
+    "w": "BURRO",
+    "ok": 1
+   },
+   {
+    "w": "CUERVO",
+    "ok": 1
+   },
+   {
+    "w": "VINO",
+    "ok": 0
+   },
+   {
+    "w": "CORPORAL",
+    "ok": 0
+   },
+   {
+    "w": "AMITO",
+    "ok": 0
+   },
+   {
+    "w": "HIGUERA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Personajes de la Pasión",
+  "f": [
+   {
+    "w": "MALCO",
+    "ok": 1
+   },
+   {
+    "w": "SIMÓN DE CIRENE",
+    "ok": 1
+   },
+   {
+    "w": "CAIFÁS",
+    "ok": 1
+   },
+   {
+    "w": "JOSÉ DE ARIMATEA",
+    "ok": 1
+   },
+   {
+    "w": "NICODEMO",
+    "ok": 1
+   },
+   {
+    "w": "VERÓNICA",
+    "ok": 1
+   },
+   {
+    "w": "PILATOS",
+    "ok": 1
+   },
+   {
+    "w": "BARRABÁS",
+    "ok": 1
+   },
+   {
+    "w": "EHUD",
+    "ok": 0
+   },
+   {
+    "w": "AARÓN",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Hijos de Jacob",
+  "f": [
+   {
+    "w": "NEFTALÍ",
+    "ok": 1
    },
    {
     "w": "SIMEÓN",
+    "ok": 1
+   },
+   {
+    "w": "LEVÍ",
+    "ok": 1
+   },
+   {
+    "w": "ASER",
+    "ok": 1
+   },
+   {
+    "w": "ZABULÓN",
+    "ok": 1
+   },
+   {
+    "w": "BENJAMÍN",
+    "ok": 1
+   },
+   {
+    "w": "ISACAR",
+    "ok": 1
+   },
+   {
+    "w": "RUBÉN",
+    "ok": 1
+   },
+   {
+    "w": "JOSÉ",
+    "ok": 1
+   },
+   {
+    "w": "MOISÉS",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Sacramentos",
+  "f": [
+   {
+    "w": "CONFIRMACIÓN",
+    "ok": 1
+   },
+   {
+    "w": "UNCIÓN",
+    "ok": 1
+   },
+   {
+    "w": "EUCARISTÍA",
+    "ok": 1
+   },
+   {
+    "w": "RECONCILIACIÓN",
+    "ok": 1
+   },
+   {
+    "w": "ORDEN",
+    "ok": 1
+   },
+   {
+    "w": "BAUTISMO",
+    "ok": 1
+   },
+   {
+    "w": "MATRIMONIO",
+    "ok": 1
+   },
+   {
+    "w": "ORDINARIO",
+    "ok": 0
+   },
+   {
+    "w": "JUEVES SANTO",
+    "ok": 0
+   },
+   {
+    "w": "TODOS LOS SANTOS",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Nombres de Jesús",
+  "f": [
+   {
+    "w": "MESÍAS",
+    "ok": 1
+   },
+   {
+    "w": "EMANUEL",
+    "ok": 1
+   },
+   {
+    "w": "BUEN PASTOR",
+    "ok": 1
+   },
+   {
+    "w": "MAESTRO",
+    "ok": 1
+   },
+   {
+    "w": "REDENTOR",
+    "ok": 1
+   },
+   {
+    "w": "NAZARENO",
+    "ok": 1
+   },
+   {
+    "w": "VERBO",
+    "ok": 1
+   },
+   {
+    "w": "FORTALEZA",
+    "ok": 0
+   },
+   {
+    "w": "PACÍFICOS",
+    "ok": 0
+   },
+   {
+    "w": "AMOR",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Reyes de Israel y Judá",
+  "f": [
+   {
+    "w": "ROBOAM",
+    "ok": 1
+   },
+   {
+    "w": "JEROBOAM",
+    "ok": 1
+   },
+   {
+    "w": "EZEQUÍAS",
+    "ok": 1
+   },
+   {
+    "w": "SAÚL",
+    "ok": 1
+   },
+   {
+    "w": "SALOMÓN",
+    "ok": 1
+   },
+   {
+    "w": "AJAB",
+    "ok": 1
+   },
+   {
+    "w": "JOSÍAS",
+    "ok": 1
+   },
+   {
+    "w": "DAVID",
+    "ok": 1
+   },
+   {
+    "w": "JOSÉ DE ARIMATEA",
+    "ok": 0
+   },
+   {
+    "w": "SOFONÍAS",
     "ok": 0
    }
   ]
@@ -6585,7 +6765,7 @@
     "ok": 1
    },
    {
-    "w": "TODOS LOS SANTOS",
+    "w": "TRINIDAD",
     "ok": 1
    },
    {
@@ -6597,64 +6777,244 @@
     "ok": 1
    },
    {
-    "w": "TRINIDAD",
+    "w": "TODOS LOS SANTOS",
     "ok": 1
    },
    {
-    "w": "NONA",
+    "w": "REGINA COELI",
+    "ok": 0
+   },
+   {
+    "w": "INCLINARSE",
     "ok": 0
    },
    {
     "w": "ACORDAOS",
     "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Fiestas de la Virgen",
+  "f": [
+   {
+    "w": "ANUNCIACIÓN",
+    "ok": 1
    },
    {
-    "w": "LAUDES",
+    "w": "CANDELARIA",
+    "ok": 1
+   },
+   {
+    "w": "INMACULADA",
+    "ok": 1
+   },
+   {
+    "w": "PRESENTACIÓN",
+    "ok": 1
+   },
+   {
+    "w": "ASUNCIÓN",
+    "ok": 1
+   },
+   {
+    "w": "VISITACIÓN",
+    "ok": 1
+   },
+   {
+    "w": "NATIVIDAD DE MARÍA",
+    "ok": 1
+   },
+   {
+    "w": "ÁNGELUS",
+    "ok": 0
+   },
+   {
+    "w": "DOMINGO DE PASCUA",
+    "ok": 0
+   },
+   {
+    "w": "MAGNÍFICAT",
     "ok": 0
    }
   ]
  },
  {
-  "c": "Parábolas de Jesús",
+  "c": "Plagas de Egipto",
   "f": [
    {
-    "w": "VIÑADORES",
+    "w": "TINIEBLAS",
     "ok": 1
    },
    {
-    "w": "OVEJA PERDIDA",
+    "w": "SANGRE",
     "ok": 1
    },
    {
-    "w": "HIJO PRÓDIGO",
+    "w": "LANGOSTAS",
     "ok": 1
    },
    {
-    "w": "BUEN SAMARITANO",
+    "w": "TÁBANOS",
     "ok": 1
    },
    {
-    "w": "PERLA",
+    "w": "RANAS",
     "ok": 1
    },
    {
-    "w": "LEVADURA",
+    "w": "ÚLCERAS",
     "ok": 1
    },
    {
-    "w": "SEMBRADOR",
+    "w": "GRANIZO",
     "ok": 1
    },
    {
-    "w": "GRANO DE MOSTAZA",
+    "w": "MOSQUITOS",
     "ok": 1
    },
    {
-    "w": "TALENTOS",
+    "w": "PESTE",
     "ok": 1
    },
    {
-    "w": "DAME TUS OJOS",
+    "w": "ACACIA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Cosas que hay en una iglesia",
+  "f": [
+   {
+    "w": "VITRALES",
+    "ok": 1
+   },
+   {
+    "w": "PILA BAUTISMAL",
+    "ok": 1
+   },
+   {
+    "w": "BANCOS",
+    "ok": 1
+   },
+   {
+    "w": "CONFESIONARIO",
+    "ok": 1
+   },
+   {
+    "w": "ATRIO",
+    "ok": 1
+   },
+   {
+    "w": "PÚLPITO",
+    "ok": 1
+   },
+   {
+    "w": "CAMPANARIO",
+    "ok": 1
+   },
+   {
+    "w": "TINIEBLAS",
+    "ok": 0
+   },
+   {
+    "w": "BOLSA DE DORMIR",
+    "ok": 0
+   },
+   {
+    "w": "ARPA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Mártires de los primeros siglos",
+  "f": [
+   {
+    "w": "CECILIA",
+    "ok": 1
+   },
+   {
+    "w": "TARCISIO",
+    "ok": 1
+   },
+   {
+    "w": "SEBASTIÁN",
+    "ok": 1
+   },
+   {
+    "w": "PERPETUA",
+    "ok": 1
+   },
+   {
+    "w": "LUCÍA",
+    "ok": 1
+   },
+   {
+    "w": "POLICARPO",
+    "ok": 1
+   },
+   {
+    "w": "LORENZO",
+    "ok": 1
+   },
+   {
+    "w": "ÁGUEDA",
+    "ok": 1
+   },
+   {
+    "w": "WOJTYLA",
+    "ok": 0
+   },
+   {
+    "w": "MAMA ANTULA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Liturgia de las Horas",
+  "f": [
+   {
+    "w": "NONA",
+    "ok": 1
+   },
+   {
+    "w": "VÍSPERAS",
+    "ok": 1
+   },
+   {
+    "w": "TERCIA",
+    "ok": 1
+   },
+   {
+    "w": "OFICIO DE LECTURA",
+    "ok": 1
+   },
+   {
+    "w": "COMPLETAS",
+    "ok": 1
+   },
+   {
+    "w": "SEXTA",
+    "ok": 1
+   },
+   {
+    "w": "LAUDES",
+    "ok": 1
+   },
+   {
+    "w": "VISITACIÓN",
+    "ok": 0
+   },
+   {
+    "w": "DAR LA PAZ",
+    "ok": 0
+   },
+   {
+    "w": "AVEMARÍA",
     "ok": 0
    }
   ]
@@ -6663,23 +7023,7 @@
   "c": "Dones del Espíritu Santo",
   "f": [
    {
-    "w": "FORTALEZA",
-    "ok": 1
-   },
-   {
-    "w": "CONSEJO",
-    "ok": 1
-   },
-   {
     "w": "TEMOR DE DIOS",
-    "ok": 1
-   },
-   {
-    "w": "ENTENDIMIENTO",
-    "ok": 1
-   },
-   {
-    "w": "CIENCIA",
     "ok": 1
    },
    {
@@ -6691,150 +7035,76 @@
     "ok": 1
    },
    {
-    "w": "ARCA DE LA ALIANZA",
-    "ok": 0
-   },
-   {
-    "w": "MANSEDUMBRE",
-    "ok": 0
-   },
-   {
-    "w": "MISERICORDIOSOS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Órdenes religiosas",
-  "f": [
-   {
-    "w": "DOMINICOS",
+    "w": "CONSEJO",
     "ok": 1
    },
    {
-    "w": "BENEDICTINOS",
+    "w": "ENTENDIMIENTO",
     "ok": 1
    },
    {
-    "w": "JESUITAS",
-    "ok": 1
-   },
-   {
-    "w": "FRANCISCANOS",
-    "ok": 1
-   },
-   {
-    "w": "CARMELITAS",
-    "ok": 1
-   },
-   {
-    "w": "SALESIANOS",
-    "ok": 1
-   },
-   {
-    "w": "AGUSTINOS",
-    "ok": 1
-   },
-   {
-    "w": "TRAPENSES",
-    "ok": 1
-   },
-   {
-    "w": "SERAFINES",
-    "ok": 0
-   },
-   {
-    "w": "EFESIOS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Títulos de María en las letanías",
-  "f": [
-   {
-    "w": "ROSA MÍSTICA",
-    "ok": 1
-   },
-   {
-    "w": "ESPEJO DE JUSTICIA",
-    "ok": 1
-   },
-   {
-    "w": "ESTRELLA DE LA MAÑANA",
-    "ok": 1
-   },
-   {
-    "w": "TRONO DE LA SABIDURÍA",
-    "ok": 1
-   },
-   {
-    "w": "PUERTA DEL CIELO",
-    "ok": 1
-   },
-   {
-    "w": "ARCA DE LA ALIANZA",
-    "ok": 1
-   },
-   {
-    "w": "TORRE DE MARFIL",
-    "ok": 1
-   },
-   {
-    "w": "CASA DE ORO",
+    "w": "CIENCIA",
     "ok": 1
    },
    {
     "w": "FORTALEZA",
+    "ok": 1
+   },
+   {
+    "w": "CASA DE ORO",
     "ok": 0
    },
    {
-    "w": "MODESTIA",
+    "w": "MAESTRO",
+    "ok": 0
+   },
+   {
+    "w": "SUMO SACERDOTE",
     "ok": 0
    }
   ]
  },
  {
-  "c": "Gestos en misa",
+  "c": "Oficios y cargos en el Evangelio",
   "f": [
    {
-    "w": "INCLINARSE",
+    "w": "PASTOR",
     "ok": 1
    },
    {
-    "w": "PONERSE DE PIE",
+    "w": "CARPINTERO",
     "ok": 1
    },
    {
-    "w": "ARRODILLARSE",
+    "w": "ESCRIBA",
     "ok": 1
    },
    {
-    "w": "GENUFLEXIÓN",
+    "w": "FARISEO",
     "ok": 1
    },
    {
-    "w": "SENTARSE",
+    "w": "CENTURIÓN",
     "ok": 1
    },
    {
-    "w": "PERSIGNARSE",
+    "w": "PESCADOR",
     "ok": 1
    },
    {
-    "w": "DAR LA PAZ",
+    "w": "PUBLICANO",
     "ok": 1
    },
    {
-    "w": "ANUNCIACIÓN",
+    "w": "SUMO SACERDOTE",
+    "ok": 1
+   },
+   {
+    "w": "MESÍAS",
     "ok": 0
    },
    {
-    "w": "ORDINARIO",
-    "ok": 0
-   },
-   {
-    "w": "BENDICIÓN",
+    "w": "MANSEDUMBRE",
     "ok": 0
    }
   ]
@@ -6847,18 +7117,6 @@
     "ok": 1
    },
    {
-    "w": "BODAS DE CANÁ",
-    "ok": 1
-   },
-   {
-    "w": "TEMPESTAD CALMADA",
-    "ok": 1
-   },
-   {
-    "w": "HIJA DE JAIRO",
-    "ok": 1
-   },
-   {
     "w": "LÁZARO",
     "ok": 1
    },
@@ -6867,11 +7125,23 @@
     "ok": 1
    },
    {
+    "w": "HIJA DE JAIRO",
+    "ok": 1
+   },
+   {
     "w": "PESCA MILAGROSA",
     "ok": 1
    },
    {
-    "w": "VISITAR PRESOS",
+    "w": "TEMPESTAD CALMADA",
+    "ok": 1
+   },
+   {
+    "w": "BODAS DE CANÁ",
+    "ok": 1
+   },
+   {
+    "w": "CORREGIR",
     "ok": 0
    },
    {
@@ -6879,772 +7149,7 @@
     "ok": 0
    },
    {
-    "w": "CORREGIR",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Frutos del Espíritu Santo",
-  "f": [
-   {
-    "w": "BENIGNIDAD",
-    "ok": 1
-   },
-   {
-    "w": "FIDELIDAD",
-    "ok": 1
-   },
-   {
-    "w": "ALEGRÍA",
-    "ok": 1
-   },
-   {
-    "w": "LONGANIMIDAD",
-    "ok": 1
-   },
-   {
-    "w": "BONDAD",
-    "ok": 1
-   },
-   {
-    "w": "AMOR",
-    "ok": 1
-   },
-   {
-    "w": "MANSEDUMBRE",
-    "ok": 1
-   },
-   {
-    "w": "MODESTIA",
-    "ok": 1
-   },
-   {
-    "w": "POBRES",
-    "ok": 0
-   },
-   {
-    "w": "ESCRIBA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Apellidos de papas",
-  "f": [
-   {
-    "w": "RATZINGER",
-    "ok": 1
-   },
-   {
-    "w": "PACELLI",
-    "ok": 1
-   },
-   {
-    "w": "MONTINI",
-    "ok": 1
-   },
-   {
-    "w": "WOJTYLA",
-    "ok": 1
-   },
-   {
-    "w": "PREVOST",
-    "ok": 1
-   },
-   {
-    "w": "RONCALLI",
-    "ok": 1
-   },
-   {
-    "w": "LUCIANI",
-    "ok": 1
-   },
-   {
-    "w": "BERGOGLIO",
-    "ok": 1
-   },
-   {
-    "w": "NEWMAN",
-    "ok": 0
-   },
-   {
-    "w": "LEÓN",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Instrumentos de la Biblia",
-  "f": [
-   {
-    "w": "CÍMBALO",
-    "ok": 1
-   },
-   {
-    "w": "CÍTARA",
-    "ok": 1
-   },
-   {
-    "w": "SALTERIO",
-    "ok": 1
-   },
-   {
-    "w": "PANDERO",
-    "ok": 1
-   },
-   {
-    "w": "TROMPETA",
-    "ok": 1
-   },
-   {
-    "w": "SHOFAR",
-    "ok": 1
-   },
-   {
-    "w": "ARPA",
-    "ok": 1
-   },
-   {
-    "w": "FLAUTA",
-    "ok": 1
-   },
-   {
-    "w": "FOGÓN",
-    "ok": 0
-   },
-   {
-    "w": "ÁRBOL",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Sacramentos",
-  "f": [
-   {
-    "w": "RECONCILIACIÓN",
-    "ok": 1
-   },
-   {
-    "w": "CONFIRMACIÓN",
-    "ok": 1
-   },
-   {
-    "w": "ORDEN",
-    "ok": 1
-   },
-   {
-    "w": "UNCIÓN",
-    "ok": 1
-   },
-   {
-    "w": "EUCARISTÍA",
-    "ok": 1
-   },
-   {
-    "w": "BAUTISMO",
-    "ok": 1
-   },
-   {
-    "w": "MATRIMONIO",
-    "ok": 1
-   },
-   {
-    "w": "ÁNGELUS",
-    "ok": 0
-   },
-   {
-    "w": "AGNUS DEI",
-    "ok": 0
-   },
-   {
-    "w": "SALVE",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Cosas que hay en una iglesia",
-  "f": [
-   {
-    "w": "PÚLPITO",
-    "ok": 1
-   },
-   {
-    "w": "ATRIO",
-    "ok": 1
-   },
-   {
-    "w": "CONFESIONARIO",
-    "ok": 1
-   },
-   {
-    "w": "PILA BAUTISMAL",
-    "ok": 1
-   },
-   {
-    "w": "VITRALES",
-    "ok": 1
-   },
-   {
-    "w": "BANCOS",
-    "ok": 1
-   },
-   {
-    "w": "CAMPANARIO",
-    "ok": 1
-   },
-   {
-    "w": "TÚNICA",
-    "ok": 0
-   },
-   {
-    "w": "PANDERO",
-    "ok": 0
-   },
-   {
-    "w": "MIEL",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Liturgia de las Horas",
-  "f": [
-   {
-    "w": "LAUDES",
-    "ok": 1
-   },
-   {
-    "w": "NONA",
-    "ok": 1
-   },
-   {
-    "w": "VÍSPERAS",
-    "ok": 1
-   },
-   {
-    "w": "OFICIO DE LECTURA",
-    "ok": 1
-   },
-   {
-    "w": "SEXTA",
-    "ok": 1
-   },
-   {
-    "w": "TERCIA",
-    "ok": 1
-   },
-   {
-    "w": "COMPLETAS",
-    "ok": 1
-   },
-   {
-    "w": "PRESENTACIÓN",
-    "ok": 0
-   },
-   {
-    "w": "UNCIÓN",
-    "ok": 0
-   },
-   {
-    "w": "PONERSE DE PIE",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Mártires de los primeros siglos",
-  "f": [
-   {
-    "w": "LUCÍA",
-    "ok": 1
-   },
-   {
-    "w": "TARCISIO",
-    "ok": 1
-   },
-   {
-    "w": "PERPETUA",
-    "ok": 1
-   },
-   {
-    "w": "SEBASTIÁN",
-    "ok": 1
-   },
-   {
-    "w": "ÁGUEDA",
-    "ok": 1
-   },
-   {
-    "w": "POLICARPO",
-    "ok": 1
-   },
-   {
-    "w": "LORENZO",
-    "ok": 1
-   },
-   {
-    "w": "CECILIA",
-    "ok": 1
-   },
-   {
-    "w": "MARECHAL",
-    "ok": 0
-   },
-   {
-    "w": "PAPINI",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Fiestas de la Virgen",
-  "f": [
-   {
-    "w": "ASUNCIÓN",
-    "ok": 1
-   },
-   {
-    "w": "NATIVIDAD DE MARÍA",
-    "ok": 1
-   },
-   {
-    "w": "PRESENTACIÓN",
-    "ok": 1
-   },
-   {
-    "w": "INMACULADA",
-    "ok": 1
-   },
-   {
-    "w": "ANUNCIACIÓN",
-    "ok": 1
-   },
-   {
-    "w": "VISITACIÓN",
-    "ok": 1
-   },
-   {
-    "w": "CANDELARIA",
-    "ok": 1
-   },
-   {
-    "w": "AGNUS DEI",
-    "ok": 0
-   },
-   {
-    "w": "DOMINGO DE RAMOS",
-    "ok": 0
-   },
-   {
-    "w": "CRISTO REY",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Personajes de la Pasión",
-  "f": [
-   {
-    "w": "BARRABÁS",
-    "ok": 1
-   },
-   {
-    "w": "CAIFÁS",
-    "ok": 1
-   },
-   {
-    "w": "NICODEMO",
-    "ok": 1
-   },
-   {
-    "w": "MALCO",
-    "ok": 1
-   },
-   {
-    "w": "SIMÓN DE CIRENE",
-    "ok": 1
-   },
-   {
-    "w": "VERÓNICA",
-    "ok": 1
-   },
-   {
-    "w": "JOSÉ DE ARIMATEA",
-    "ok": 1
-   },
-   {
-    "w": "PILATOS",
-    "ok": 1
-   },
-   {
-    "w": "CAÍN",
-    "ok": 0
-   },
-   {
-    "w": "SALOMÉ",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Jueces de Israel",
-  "f": [
-   {
-    "w": "JEFTÉ",
-    "ok": 1
-   },
-   {
-    "w": "EHUD",
-    "ok": 1
-   },
-   {
-    "w": "GEDEÓN",
-    "ok": 1
-   },
-   {
-    "w": "SANSÓN",
-    "ok": 1
-   },
-   {
-    "w": "SAMUEL",
-    "ok": 1
-   },
-   {
-    "w": "OTONIEL",
-    "ok": 1
-   },
-   {
-    "w": "DÉBORA",
-    "ok": 1
-   },
-   {
-    "w": "ADÁN",
-    "ok": 0
-   },
-   {
-    "w": "ESTER",
-    "ok": 0
-   },
-   {
-    "w": "SÉFORA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Cosas que se usan en misa",
-  "f": [
-   {
-    "w": "PATENA",
-    "ok": 1
-   },
-   {
-    "w": "MISAL",
-    "ok": 1
-   },
-   {
-    "w": "CORPORAL",
-    "ok": 1
-   },
-   {
-    "w": "INCENSARIO",
-    "ok": 1
-   },
-   {
-    "w": "VINAJERAS",
-    "ok": 1
-   },
-   {
-    "w": "COPÓN",
-    "ok": 1
-   },
-   {
-    "w": "CÁLIZ",
-    "ok": 1
-   },
-   {
-    "w": "LECCIONARIO",
-    "ok": 1
-   },
-   {
-    "w": "PALIA",
-    "ok": 1
-   },
-   {
-    "w": "DÁTILES",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Oficios y cargos en el Evangelio",
-  "f": [
-   {
-    "w": "ESCRIBA",
-    "ok": 1
-   },
-   {
-    "w": "SUMO SACERDOTE",
-    "ok": 1
-   },
-   {
-    "w": "PUBLICANO",
-    "ok": 1
-   },
-   {
-    "w": "PASTOR",
-    "ok": 1
-   },
-   {
-    "w": "CENTURIÓN",
-    "ok": 1
-   },
-   {
-    "w": "CARPINTERO",
-    "ok": 1
-   },
-   {
-    "w": "FARISEO",
-    "ok": 1
-   },
-   {
-    "w": "PESCADOR",
-    "ok": 1
-   },
-   {
-    "w": "PEREZA",
-    "ok": 0
-   },
-   {
-    "w": "HAMBRIENTOS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Obras de misericordia espirituales",
-  "f": [
-   {
-    "w": "ACONSEJAR",
-    "ok": 1
-   },
-   {
-    "w": "REZAR POR OTROS",
-    "ok": 1
-   },
-   {
-    "w": "PERDONAR",
-    "ok": 1
-   },
-   {
-    "w": "CONSOLAR",
-    "ok": 1
-   },
-   {
-    "w": "ENSEÑAR",
-    "ok": 1
-   },
-   {
-    "w": "TENER PACIENCIA",
-    "ok": 1
-   },
-   {
-    "w": "CORREGIR",
-    "ok": 1
-   },
-   {
-    "w": "LÁZARO",
-    "ok": 0
-   },
-   {
-    "w": "TALENTOS",
-    "ok": 0
-   },
-   {
-    "w": "CRISTO REINA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Plagas de Egipto",
-  "f": [
-   {
-    "w": "LANGOSTAS",
-    "ok": 1
-   },
-   {
-    "w": "TÁBANOS",
-    "ok": 1
-   },
-   {
-    "w": "PESTE",
-    "ok": 1
-   },
-   {
-    "w": "GRANIZO",
-    "ok": 1
-   },
-   {
-    "w": "ÚLCERAS",
-    "ok": 1
-   },
-   {
-    "w": "SANGRE",
-    "ok": 1
-   },
-   {
-    "w": "TINIEBLAS",
-    "ok": 1
-   },
-   {
-    "w": "MOSQUITOS",
-    "ok": 1
-   },
-   {
-    "w": "RANAS",
-    "ok": 1
-   },
-   {
-    "w": "INCENSARIO",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Montes de la Biblia",
-  "f": [
-   {
-    "w": "CARMELO",
-    "ok": 1
-   },
-   {
-    "w": "SION",
-    "ok": 1
-   },
-   {
-    "w": "CALVARIO",
-    "ok": 1
-   },
-   {
-    "w": "HOREB",
-    "ok": 1
-   },
-   {
-    "w": "SINAÍ",
-    "ok": 1
-   },
-   {
-    "w": "TABOR",
-    "ok": 1
-   },
-   {
-    "w": "OLIVOS",
-    "ok": 1
-   },
-   {
-    "w": "MORIA",
-    "ok": 1
-   },
-   {
-    "w": "ARARAT",
-    "ok": 1
-   },
-   {
-    "w": "MAR MUERTO",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Coros de ángeles",
-  "f": [
-   {
-    "w": "POTESTADES",
-    "ok": 1
-   },
-   {
-    "w": "QUERUBINES",
-    "ok": 1
-   },
-   {
-    "w": "VIRTUDES",
-    "ok": 1
-   },
-   {
-    "w": "ÁNGELES",
-    "ok": 1
-   },
-   {
-    "w": "DOMINACIONES",
-    "ok": 1
-   },
-   {
-    "w": "PRINCIPADOS",
-    "ok": 1
-   },
-   {
-    "w": "ARCÁNGELES",
-    "ok": 1
-   },
-   {
-    "w": "TRONOS",
-    "ok": 1
-   },
-   {
-    "w": "SERAFINES",
-    "ok": 1
-   },
-   {
-    "w": "CORINTIOS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Oraciones",
-  "f": [
-   {
-    "w": "REGINA COELI",
-    "ok": 1
-   },
-   {
-    "w": "PADRENUESTRO",
-    "ok": 1
-   },
-   {
-    "w": "AVEMARÍA",
-    "ok": 1
-   },
-   {
-    "w": "MAGNÍFICAT",
-    "ok": 1
-   },
-   {
-    "w": "SALVE",
-    "ok": 1
-   },
-   {
-    "w": "ÁNGELUS",
-    "ok": 1
-   },
-   {
-    "w": "ACORDAOS",
-    "ok": 1
-   },
-   {
-    "w": "SENTARSE",
-    "ok": 0
-   },
-   {
-    "w": "NONA",
-    "ok": 0
-   },
-   {
-    "w": "DAR LA PAZ",
+    "w": "ENTERRAR MUERTOS",
     "ok": 0
    }
   ]
@@ -7657,7 +7162,11 @@
     "ok": 1
    },
    {
-    "w": "BELÉN",
+    "w": "CANÁ",
+    "ok": 1
+   },
+   {
+    "w": "NAZARET",
     "ok": 1
    },
    {
@@ -7669,15 +7178,11 @@
     "ok": 1
    },
    {
+    "w": "BELÉN",
+    "ok": 1
+   },
+   {
     "w": "EMAÚS",
-    "ok": 1
-   },
-   {
-    "w": "BETANIA",
-    "ok": 1
-   },
-   {
-    "w": "CANÁ",
     "ok": 1
    },
    {
@@ -7685,236 +7190,146 @@
     "ok": 1
    },
    {
-    "w": "NAZARET",
+    "w": "BETANIA",
     "ok": 1
    },
    {
-    "w": "PADUA",
+    "w": "ITATÍ",
     "ok": 0
    }
   ]
  },
  {
-  "c": "Apóstoles",
+  "c": "Mujeres del Nuevo Testamento",
   "f": [
    {
-    "w": "BARTOLOMÉ",
+    "w": "JUANA",
     "ok": 1
    },
    {
-    "w": "TADEO",
+    "w": "PRISCILA",
     "ok": 1
    },
    {
-    "w": "MATÍAS",
+    "w": "ISABEL",
     "ok": 1
    },
    {
-    "w": "SIMÓN",
+    "w": "TABITA",
     "ok": 1
    },
    {
-    "w": "JUDAS",
+    "w": "SALOMÉ",
     "ok": 1
    },
    {
-    "w": "ANDRÉS",
+    "w": "MARTA",
     "ok": 1
    },
    {
-    "w": "SANTIAGO",
+    "w": "SUSANA",
     "ok": 1
    },
    {
-    "w": "JUAN",
+    "w": "LIDIA",
     "ok": 1
    },
    {
-    "w": "TOMÁS",
-    "ok": 1
+    "w": "FELIPE",
+    "ok": 0
    },
    {
-    "w": "PILATOS",
+    "w": "JETRÓ",
     "ok": 0
    }
   ]
  },
  {
-  "c": "Nombres de Jesús",
+  "c": "Frutos del Espíritu Santo",
   "f": [
    {
-    "w": "MAESTRO",
+    "w": "MODESTIA",
     "ok": 1
    },
    {
-    "w": "NAZARENO",
+    "w": "ALEGRÍA",
     "ok": 1
    },
    {
-    "w": "BUEN PASTOR",
+    "w": "BONDAD",
     "ok": 1
    },
    {
-    "w": "MESÍAS",
+    "w": "LONGANIMIDAD",
     "ok": 1
    },
    {
-    "w": "VERBO",
+    "w": "BENIGNIDAD",
     "ok": 1
    },
    {
-    "w": "REDENTOR",
+    "w": "FIDELIDAD",
     "ok": 1
    },
    {
-    "w": "EMANUEL",
+    "w": "MANSEDUMBRE",
     "ok": 1
    },
    {
-    "w": "ESCRIBA",
+    "w": "AMOR",
+    "ok": 1
+   },
+   {
+    "w": "PACÍFICOS",
     "ok": 0
    },
    {
-    "w": "TORRE DE MARFIL",
-    "ok": 0
-   },
-   {
-    "w": "ENTENDIMIENTO",
+    "w": "IRA",
     "ok": 0
    }
   ]
  },
  {
-  "c": "Obras de misericordia corporales",
+  "c": "Pueblos vecinos de Israel",
   "f": [
    {
-    "w": "DAR POSADA",
+    "w": "EGIPCIOS",
     "ok": 1
    },
    {
-    "w": "DAR DE COMER",
+    "w": "PERSAS",
     "ok": 1
    },
    {
-    "w": "VESTIR AL DESNUDO",
+    "w": "BABILONIOS",
     "ok": 1
    },
    {
-    "w": "VISITAR ENFERMOS",
+    "w": "AMALECITAS",
     "ok": 1
    },
    {
-    "w": "ENTERRAR MUERTOS",
+    "w": "MOABITAS",
     "ok": 1
    },
    {
-    "w": "VISITAR PRESOS",
+    "w": "CANANEOS",
     "ok": 1
    },
    {
-    "w": "DAR DE BEBER",
+    "w": "ASIRIOS",
     "ok": 1
    },
    {
-    "w": "TEMPESTAD CALMADA",
+    "w": "FILISTEOS",
+    "ok": 1
+   },
+   {
+    "w": "ARCÁNGELES",
     "ok": 0
    },
    {
-    "w": "REZAR POR OTROS",
-    "ok": 0
-   },
-   {
-    "w": "CIEGO DE NACIMIENTO",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Partes de la misa",
-  "f": [
-   {
-    "w": "CREDO",
-    "ok": 1
-   },
-   {
-    "w": "COMUNIÓN",
-    "ok": 1
-   },
-   {
-    "w": "ALELUYA",
-    "ok": 1
-   },
-   {
-    "w": "SANCTUS",
-    "ok": 1
-   },
-   {
-    "w": "BENDICIÓN",
-    "ok": 1
-   },
-   {
-    "w": "KYRIE",
-    "ok": 1
-   },
-   {
-    "w": "AGNUS DEI",
-    "ok": 1
-   },
-   {
-    "w": "GLORIA",
-    "ok": 1
-   },
-   {
-    "w": "CONSAGRACIÓN",
-    "ok": 1
-   },
-   {
-    "w": "NATIVIDAD DE MARÍA",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Santos jóvenes",
-  "f": [
-   {
-    "w": "FRASSATI",
-    "ok": 1
-   },
-   {
-    "w": "LUIS GONZAGA",
-    "ok": 1
-   },
-   {
-    "w": "LAURA VICUÑA",
-    "ok": 1
-   },
-   {
-    "w": "INÉS",
-    "ok": 1
-   },
-   {
-    "w": "DOMINGO SAVIO",
-    "ok": 1
-   },
-   {
-    "w": "FRANCISCO MARTO",
-    "ok": 1
-   },
-   {
-    "w": "JACINTA",
-    "ok": 1
-   },
-   {
-    "w": "CARLO ACUTIS",
-    "ok": 1
-   },
-   {
-    "w": "CHESTERTON",
-    "ok": 0
-   },
-   {
-    "w": "URBANO",
+    "w": "SALESIANOS",
     "ok": 0
    }
   ]
@@ -7923,7 +7338,11 @@
   "c": "Plantas de la Biblia",
   "f": [
    {
-    "w": "ZARZA",
+    "w": "VID",
+    "ok": 1
+   },
+   {
+    "w": "PALMERA",
     "ok": 1
    },
    {
@@ -7935,10 +7354,6 @@
     "ok": 1
    },
    {
-    "w": "OLIVO",
-    "ok": 1
-   },
-   {
     "w": "MOSTAZA",
     "ok": 1
    },
@@ -7947,334 +7362,199 @@
     "ok": 1
    },
    {
-    "w": "VID",
+    "w": "ZARZA",
     "ok": 1
-   },
-   {
-    "w": "PALMERA",
-    "ok": 1
-   },
-   {
-    "w": "FOGÓN",
-    "ok": 0
-   },
-   {
-    "w": "SANGRE",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Instrumentos de la Pasión",
-  "f": [
-   {
-    "w": "CORONA DE ESPINAS",
-    "ok": 1
-   },
-   {
-    "w": "ESPONJA",
-    "ok": 1
-   },
-   {
-    "w": "DADOS",
-    "ok": 1
-   },
-   {
-    "w": "TREINTA MONEDAS",
-    "ok": 1
-   },
-   {
-    "w": "LANZA",
-    "ok": 1
-   },
-   {
-    "w": "LÁTIGO",
-    "ok": 1
-   },
-   {
-    "w": "CLAVOS",
-    "ok": 1
-   },
-   {
-    "w": "TÚNICA",
-    "ok": 1
-   },
-   {
-    "w": "LENTEJAS",
-    "ok": 0
    },
    {
     "w": "OLIVO",
+    "ok": 1
+   },
+   {
+    "w": "PESTE",
     "ok": 0
-   }
-  ]
- },
- {
-  "c": "Cartas de san Pablo",
-  "f": [
-   {
-    "w": "TIMOTEO",
-    "ok": 1
    },
-   {
-    "w": "GÁLATAS",
-    "ok": 1
-   },
-   {
-    "w": "FILEMÓN",
-    "ok": 1
-   },
-   {
-    "w": "FILIPENSES",
-    "ok": 1
-   },
-   {
-    "w": "TESALONICENSES",
-    "ok": 1
-   },
-   {
-    "w": "EFESIOS",
-    "ok": 1
-   },
-   {
-    "w": "ROMANOS",
-    "ok": 1
-   },
-   {
-    "w": "COLOSENSES",
-    "ok": 1
-   },
-   {
-    "w": "TITO",
-    "ok": 1
-   },
-   {
-    "w": "PERSAS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Cosas que hay en una iglesia",
-  "f": [
    {
     "w": "VITRALES",
-    "ok": 1
-   },
-   {
-    "w": "PÚLPITO",
-    "ok": 1
-   },
-   {
-    "w": "BANCOS",
-    "ok": 1
-   },
-   {
-    "w": "PILA BAUTISMAL",
-    "ok": 1
-   },
-   {
-    "w": "ATRIO",
-    "ok": 1
-   },
-   {
-    "w": "CONFESIONARIO",
-    "ok": 1
-   },
-   {
-    "w": "CAMPANARIO",
-    "ok": 1
-   },
-   {
-    "w": "ÓLEO",
-    "ok": 0
-   },
-   {
-    "w": "LINTERNA",
-    "ok": 0
-   },
-   {
-    "w": "RANAS",
     "ok": 0
    }
   ]
  },
  {
-  "c": "Dones del Espíritu Santo",
+  "c": "Obras de misericordia corporales",
   "f": [
    {
-    "w": "TEMOR DE DIOS",
+    "w": "DAR DE BEBER",
     "ok": 1
    },
    {
-    "w": "CONSEJO",
+    "w": "ENTERRAR MUERTOS",
     "ok": 1
    },
    {
-    "w": "ENTENDIMIENTO",
+    "w": "DAR POSADA",
     "ok": 1
    },
    {
-    "w": "CIENCIA",
+    "w": "DAR DE COMER",
     "ok": 1
    },
    {
-    "w": "SABIDURÍA",
+    "w": "VISITAR ENFERMOS",
     "ok": 1
    },
    {
-    "w": "FORTALEZA",
+    "w": "VISITAR PRESOS",
     "ok": 1
    },
    {
-    "w": "PIEDAD",
+    "w": "VESTIR AL DESNUDO",
     "ok": 1
    },
    {
-    "w": "MODESTIA",
+    "w": "REZAR POR OTROS",
     "ok": 0
    },
    {
-    "w": "CASA DE ORO",
+    "w": "PESCA MILAGROSA",
     "ok": 0
    },
    {
-    "w": "PESCADOR",
+    "w": "ACONSEJAR",
     "ok": 0
    }
   ]
  },
  {
-  "c": "Sacramentos",
+  "c": "Advocaciones de la Virgen",
   "f": [
    {
-    "w": "ORDEN",
+    "w": "POMPEYA",
     "ok": 1
    },
    {
-    "w": "RECONCILIACIÓN",
+    "w": "FÁTIMA",
     "ok": 1
    },
    {
-    "w": "UNCIÓN",
+    "w": "LORETO",
     "ok": 1
    },
    {
-    "w": "CONFIRMACIÓN",
+    "w": "LUJÁN",
     "ok": 1
    },
    {
-    "w": "BAUTISMO",
+    "w": "ITATÍ",
     "ok": 1
    },
    {
-    "w": "EUCARISTÍA",
+    "w": "LOURDES",
     "ok": 1
    },
    {
-    "w": "MATRIMONIO",
+    "w": "GUADALUPE",
     "ok": 1
    },
    {
-    "w": "EPIFANÍA",
+    "w": "COPACABANA",
+    "ok": 1
+   },
+   {
+    "w": "GETSEMANÍ",
     "ok": 0
    },
    {
-    "w": "PRESENTACIÓN",
-    "ok": 0
-   },
-   {
-    "w": "ARRODILLARSE",
+    "w": "CZESTOCHOWA",
     "ok": 0
    }
   ]
  },
  {
-  "c": "Cosas de Navidad",
+  "c": "«Felices los…» (Bienaventuranzas)",
   "f": [
    {
-    "w": "REYES MAGOS",
+    "w": "HAMBRIENTOS",
     "ok": 1
    },
    {
-    "w": "GUIRNALDA",
+    "w": "AFLIGIDOS",
     "ok": 1
    },
    {
-    "w": "NOCHEBUENA",
+    "w": "MISERICORDIOSOS",
     "ok": 1
    },
    {
-    "w": "PESEBRE",
+    "w": "POBRES",
     "ok": 1
    },
    {
-    "w": "ESTRELLA",
+    "w": "PUROS",
     "ok": 1
    },
    {
-    "w": "ÁRBOL",
+    "w": "PERSEGUIDOS",
     "ok": 1
    },
    {
-    "w": "VILLANCICO",
+    "w": "PACIENTES",
     "ok": 1
    },
    {
-    "w": "CÍTARA",
+    "w": "PACÍFICOS",
+    "ok": 1
+   },
+   {
+    "w": "TEMPLANZA",
     "ok": 0
    },
    {
-    "w": "ESPONJA",
-    "ok": 0
-   },
-   {
-    "w": "MOSTAZA",
+    "w": "TORRE DE MARFIL",
     "ok": 0
    }
   ]
  },
  {
-  "c": "Instrumentos de la Biblia",
+  "c": "Coros de ángeles",
   "f": [
    {
-    "w": "CÍMBALO",
+    "w": "QUERUBINES",
     "ok": 1
    },
    {
-    "w": "CÍTARA",
+    "w": "TRONOS",
     "ok": 1
    },
    {
-    "w": "ARPA",
+    "w": "DOMINACIONES",
     "ok": 1
    },
    {
-    "w": "SHOFAR",
+    "w": "VIRTUDES",
     "ok": 1
    },
    {
-    "w": "TROMPETA",
+    "w": "PRINCIPADOS",
     "ok": 1
    },
    {
-    "w": "SALTERIO",
+    "w": "POTESTADES",
     "ok": 1
    },
    {
-    "w": "PANDERO",
+    "w": "ÁNGELES",
     "ok": 1
    },
    {
-    "w": "FLAUTA",
+    "w": "SERAFINES",
     "ok": 1
    },
    {
-    "w": "AMITO",
-    "ok": 0
+    "w": "ARCÁNGELES",
+    "ok": 1
    },
    {
-    "w": "ESTRELLA",
+    "w": "DOMINICOS",
     "ok": 0
    }
   ]
@@ -8282,6 +7562,14 @@
  {
   "c": "Personajes del Éxodo",
   "f": [
+   {
+    "w": "SÉFORA",
+    "ok": 1
+   },
+   {
+    "w": "FARAÓN",
+    "ok": 1
+   },
    {
     "w": "JETRÓ",
     "ok": 1
@@ -8291,11 +7579,11 @@
     "ok": 1
    },
    {
-    "w": "AARÓN",
+    "w": "MOISÉS",
     "ok": 1
    },
    {
-    "w": "MOISÉS",
+    "w": "AARÓN",
     "ok": 1
    },
    {
@@ -8303,338 +7591,375 @@
     "ok": 1
    },
    {
-    "w": "FARAÓN",
-    "ok": 1
-   },
-   {
-    "w": "SÉFORA",
-    "ok": 1
-   },
-   {
-    "w": "JUANA",
+    "w": "ABRAHAM",
     "ok": 0
    },
    {
-    "w": "JOSÍAS",
+    "w": "DAN",
     "ok": 0
    },
    {
-    "w": "SIMÓN",
+    "w": "JUDÁ",
     "ok": 0
    }
   ]
  },
  {
-  "c": "Profetas menores",
+  "c": "Jueces de Israel",
   "f": [
    {
-    "w": "AMÓS",
+    "w": "SANSÓN",
     "ok": 1
    },
    {
-    "w": "AGEO",
+    "w": "JEFTÉ",
     "ok": 1
    },
    {
-    "w": "OSEAS",
+    "w": "GEDEÓN",
     "ok": 1
    },
    {
-    "w": "HABACUC",
+    "w": "SAMUEL",
     "ok": 1
    },
    {
-    "w": "MIQUEAS",
+    "w": "DÉBORA",
     "ok": 1
    },
    {
-    "w": "JOEL",
+    "w": "OTONIEL",
     "ok": 1
    },
    {
-    "w": "NAHÚM",
+    "w": "EHUD",
     "ok": 1
    },
    {
-    "w": "MALAQUÍAS",
-    "ok": 1
+    "w": "LIDIA",
+    "ok": 0
+   },
+   {
+    "w": "ISAAC",
+    "ok": 0
    },
    {
     "w": "JONÁS",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Apóstoles",
+  "f": [
+   {
+    "w": "SANTIAGO",
+    "ok": 1
+   },
+   {
+    "w": "MATEO",
+    "ok": 1
+   },
+   {
+    "w": "MATÍAS",
+    "ok": 1
+   },
+   {
+    "w": "SIMÓN",
+    "ok": 1
+   },
+   {
+    "w": "ANDRÉS",
+    "ok": 1
+   },
+   {
+    "w": "TADEO",
+    "ok": 1
+   },
+   {
+    "w": "TOMÁS",
+    "ok": 1
+   },
+   {
+    "w": "JUAN",
+    "ok": 1
+   },
+   {
+    "w": "PEDRO",
+    "ok": 1
+   },
+   {
+    "w": "ESTER",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Mujeres del Antiguo Testamento",
+  "f": [
+   {
+    "w": "JUDIT",
     "ok": 1
    },
    {
     "w": "REBECA",
+    "ok": 1
+   },
+   {
+    "w": "NOEMÍ",
+    "ok": 1
+   },
+   {
+    "w": "LÍA",
+    "ok": 1
+   },
+   {
+    "w": "ANA",
+    "ok": 1
+   },
+   {
+    "w": "RUT",
+    "ok": 1
+   },
+   {
+    "w": "ESTER",
+    "ok": 1
+   },
+   {
+    "w": "SARA",
+    "ok": 1
+   },
+   {
+    "w": "RAQUEL",
+    "ok": 1
+   },
+   {
+    "w": "SALOMÓN",
     "ok": 0
    }
   ]
  },
  {
-  "c": "Oficios y cargos en el Evangelio",
+  "c": "Parábolas de Jesús",
   "f": [
    {
-    "w": "SUMO SACERDOTE",
+    "w": "SEMBRADOR",
     "ok": 1
    },
    {
-    "w": "PUBLICANO",
+    "w": "LEVADURA",
     "ok": 1
    },
    {
-    "w": "PASTOR",
+    "w": "BUEN SAMARITANO",
     "ok": 1
    },
    {
-    "w": "ESCRIBA",
+    "w": "TALENTOS",
     "ok": 1
    },
    {
-    "w": "CENTURIÓN",
+    "w": "HIJO PRÓDIGO",
     "ok": 1
    },
    {
-    "w": "CARPINTERO",
+    "w": "GRANO DE MOSTAZA",
     "ok": 1
    },
    {
-    "w": "FARISEO",
+    "w": "PERLA",
     "ok": 1
    },
    {
-    "w": "PESCADOR",
+    "w": "OVEJA PERDIDA",
     "ok": 1
    },
    {
-    "w": "PEREZA",
-    "ok": 0
+    "w": "VIÑADORES",
+    "ok": 1
    },
    {
-    "w": "BONDAD",
+    "w": "QUÉDATE SEÑOR",
     "ok": 0
    }
   ]
  },
  {
-  "c": "Nombres de papas",
+  "c": "Personajes del Génesis",
   "f": [
    {
-    "w": "INOCENCIO",
+    "w": "CAÍN",
     "ok": 1
    },
    {
-    "w": "FRANCISCO",
+    "w": "NOÉ",
     "ok": 1
    },
    {
-    "w": "PÍO",
+    "w": "ESAÚ",
     "ok": 1
    },
    {
-    "w": "GREGORIO",
+    "w": "ADÁN",
     "ok": 1
    },
    {
-    "w": "LEÓN",
+    "w": "EVA",
     "ok": 1
    },
    {
-    "w": "CLEMENTE",
+    "w": "ABEL",
     "ok": 1
    },
    {
-    "w": "BENEDICTO",
+    "w": "ABRAHAM",
     "ok": 1
    },
    {
-    "w": "URBANO",
+    "w": "LOT",
     "ok": 1
    },
    {
-    "w": "ÁGUEDA",
-    "ok": 0
+    "w": "ISAAC",
+    "ok": 1
    },
    {
-    "w": "FRANCISCO MARTO",
+    "w": "ISAÍAS",
     "ok": 0
    }
   ]
  },
  {
-  "c": "Pecados capitales",
+  "c": "Cosas de un campamento",
   "f": [
    {
-    "w": "LUJURIA",
+    "w": "CARPA",
     "ok": 1
    },
    {
-    "w": "IRA",
+    "w": "LINTERNA",
     "ok": 1
    },
    {
-    "w": "SOBERBIA",
+    "w": "FOGÓN",
     "ok": 1
    },
    {
-    "w": "AVARICIA",
+    "w": "GUITARRA",
     "ok": 1
    },
    {
-    "w": "ENVIDIA",
+    "w": "MATE",
     "ok": 1
    },
    {
-    "w": "GULA",
+    "w": "MOCHILA",
     "ok": 1
    },
    {
-    "w": "PEREZA",
+    "w": "BOLSA DE DORMIR",
     "ok": 1
    },
    {
-    "w": "VERBO",
+    "w": "TREINTA MONEDAS",
     "ok": 0
    },
    {
-    "w": "FORTALEZA",
+    "w": "SERPIENTE",
     "ok": 0
    },
    {
-    "w": "SUMO SACERDOTE",
+    "w": "BANCOS",
     "ok": 0
    }
   ]
  },
  {
-  "c": "Escritores católicos",
+  "c": "Cosas que se usan en misa",
   "f": [
    {
-    "w": "CLAUDEL",
+    "w": "PURIFICADOR",
     "ok": 1
    },
    {
-    "w": "TOLKIEN",
+    "w": "CÁLIZ",
     "ok": 1
    },
    {
-    "w": "PÉGUY",
+    "w": "PATENA",
     "ok": 1
    },
    {
-    "w": "NEWMAN",
+    "w": "VINAJERAS",
     "ok": 1
    },
    {
-    "w": "BERNANOS",
+    "w": "MISAL",
     "ok": 1
    },
    {
-    "w": "PAPINI",
+    "w": "COPÓN",
     "ok": 1
    },
    {
-    "w": "MARECHAL",
+    "w": "INCENSARIO",
     "ok": 1
    },
    {
-    "w": "CHESTERTON",
+    "w": "PALIA",
     "ok": 1
    },
    {
-    "w": "GREGORIO",
-    "ok": 0
+    "w": "CORPORAL",
+    "ok": 1
    },
    {
-    "w": "LEÓN",
+    "w": "PESTE",
     "ok": 0
    }
   ]
  },
  {
-  "c": "Canciones de misa en Sagrada",
+  "c": "Sacramentos",
   "f": [
    {
-    "w": "DIME REY",
+    "w": "EUCARISTÍA",
     "ok": 1
    },
    {
-    "w": "NUEVA MAÑANA",
+    "w": "CONFIRMACIÓN",
     "ok": 1
    },
    {
-    "w": "OCÉANOS",
+    "w": "UNCIÓN",
     "ok": 1
    },
    {
-    "w": "RECIBE MI CORAZÓN",
+    "w": "ORDEN",
     "ok": 1
    },
    {
-    "w": "SUMÉRGEME",
+    "w": "MATRIMONIO",
     "ok": 1
    },
    {
-    "w": "CRISTO REINA",
+    "w": "RECONCILIACIÓN",
     "ok": 1
    },
    {
-    "w": "CARA A CARA",
+    "w": "BAUTISMO",
     "ok": 1
    },
    {
-    "w": "MAR ADENTRO",
-    "ok": 1
-   },
-   {
-    "w": "VINE A ADORARTE",
-    "ok": 1
-   },
-   {
-    "w": "ENTERRAR MUERTOS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Pueblos vecinos de Israel",
-  "f": [
-   {
-    "w": "CANANEOS",
-    "ok": 1
-   },
-   {
-    "w": "EGIPCIOS",
-    "ok": 1
-   },
-   {
-    "w": "PERSAS",
-    "ok": 1
-   },
-   {
-    "w": "ASIRIOS",
-    "ok": 1
-   },
-   {
-    "w": "BABILONIOS",
-    "ok": 1
-   },
-   {
-    "w": "MOABITAS",
-    "ok": 1
-   },
-   {
-    "w": "FILISTEOS",
-    "ok": 1
-   },
-   {
-    "w": "AMALECITAS",
-    "ok": 1
-   },
-   {
-    "w": "TESALONICENSES",
+    "w": "TRINIDAD",
     "ok": 0
    },
    {
-    "w": "ARCÁNGELES",
+    "w": "ASCENSIÓN",
+    "ok": 0
+   },
+   {
+    "w": "PONERSE DE PIE",
     "ok": 0
    }
   ]
@@ -8651,11 +7976,15 @@
     "ok": 1
    },
    {
-    "w": "CODORNICES",
+    "w": "DÁTILES",
     "ok": 1
    },
    {
     "w": "MIEL",
+    "ok": 1
+   },
+   {
+    "w": "CODORNICES",
     "ok": 1
    },
    {
@@ -8667,109 +7996,420 @@
     "ok": 1
    },
    {
-    "w": "DÁTILES",
-    "ok": 1
-   },
-   {
-    "w": "CIRIO PASCUAL",
+    "w": "CÍTARA",
     "ok": 0
    },
    {
-    "w": "MOSQUITOS",
+    "w": "CRISMA",
     "ok": 0
    },
    {
-    "w": "VINAJERAS",
+    "w": "MATE",
     "ok": 0
    }
   ]
  },
  {
-  "c": "Milagros de Jesús",
+  "c": "Pecados capitales",
   "f": [
    {
-    "w": "BODAS DE CANÁ",
+    "w": "PEREZA",
     "ok": 1
    },
    {
-    "w": "HIJA DE JAIRO",
+    "w": "LUJURIA",
     "ok": 1
    },
    {
-    "w": "PANES Y PECES",
+    "w": "GULA",
     "ok": 1
    },
    {
-    "w": "CIEGO DE NACIMIENTO",
+    "w": "IRA",
     "ok": 1
    },
    {
-    "w": "PESCA MILAGROSA",
+    "w": "ENVIDIA",
     "ok": 1
    },
    {
-    "w": "TEMPESTAD CALMADA",
+    "w": "SOBERBIA",
     "ok": 1
    },
    {
-    "w": "LÁZARO",
+    "w": "AVARICIA",
     "ok": 1
    },
    {
-    "w": "DAR DE BEBER",
+    "w": "TRONO DE LA SABIDURÍA",
     "ok": 0
    },
    {
-    "w": "CRISTO REINA",
+    "w": "ROSA MÍSTICA",
     "ok": 0
    },
    {
-    "w": "DIME REY",
+    "w": "ARCA DE LA ALIANZA",
     "ok": 0
    }
   ]
  },
  {
-  "c": "Montes de la Biblia",
+  "c": "Ríos y mares de la Biblia",
   "f": [
    {
-    "w": "SINAÍ",
+    "w": "MAR ROJO",
     "ok": 1
    },
    {
-    "w": "CARMELO",
+    "w": "NILO",
     "ok": 1
    },
    {
-    "w": "SION",
+    "w": "ÉUFRATES",
+    "ok": 1
+   },
+   {
+    "w": "TIGRIS",
+    "ok": 1
+   },
+   {
+    "w": "JORDÁN",
+    "ok": 1
+   },
+   {
+    "w": "MAR MUERTO",
     "ok": 1
    },
    {
     "w": "TABOR",
+    "ok": 0
+   },
+   {
+    "w": "COMPOSTELA",
+    "ok": 0
+   },
+   {
+    "w": "PADUA",
+    "ok": 0
+   },
+   {
+    "w": "SAN LUIS",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Cartas de san Pablo",
+  "f": [
+   {
+    "w": "GÁLATAS",
     "ok": 1
    },
    {
-    "w": "HOREB",
+    "w": "CORINTIOS",
     "ok": 1
    },
    {
-    "w": "CALVARIO",
+    "w": "TESALONICENSES",
     "ok": 1
    },
    {
-    "w": "OLIVOS",
+    "w": "TITO",
     "ok": 1
    },
    {
-    "w": "MORIA",
+    "w": "COLOSENSES",
     "ok": 1
    },
    {
-    "w": "ARARAT",
+    "w": "FILIPENSES",
     "ok": 1
    },
    {
-    "w": "GETSEMANÍ",
+    "w": "ROMANOS",
+    "ok": 1
+   },
+   {
+    "w": "EFESIOS",
+    "ok": 1
+   },
+   {
+    "w": "TIMOTEO",
+    "ok": 1
+   },
+   {
+    "w": "SALMOS",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Escritores católicos",
+  "f": [
+   {
+    "w": "BERNANOS",
+    "ok": 1
+   },
+   {
+    "w": "MARECHAL",
+    "ok": 1
+   },
+   {
+    "w": "TOLKIEN",
+    "ok": 1
+   },
+   {
+    "w": "CLAUDEL",
+    "ok": 1
+   },
+   {
+    "w": "PÉGUY",
+    "ok": 1
+   },
+   {
+    "w": "NEWMAN",
+    "ok": 1
+   },
+   {
+    "w": "PAPINI",
+    "ok": 1
+   },
+   {
+    "w": "CHESTERTON",
+    "ok": 1
+   },
+   {
+    "w": "CARLO ACUTIS",
+    "ok": 0
+   },
+   {
+    "w": "FRASSATI",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Profetas menores",
+  "f": [
+   {
+    "w": "AGEO",
+    "ok": 1
+   },
+   {
+    "w": "ABDÍAS",
+    "ok": 1
+   },
+   {
+    "w": "MALAQUÍAS",
+    "ok": 1
+   },
+   {
+    "w": "NAHÚM",
+    "ok": 1
+   },
+   {
+    "w": "HABACUC",
+    "ok": 1
+   },
+   {
+    "w": "AMÓS",
+    "ok": 1
+   },
+   {
+    "w": "MIQUEAS",
+    "ok": 1
+   },
+   {
+    "w": "SOFONÍAS",
+    "ok": 1
+   },
+   {
+    "w": "OSEAS",
+    "ok": 1
+   },
+   {
+    "w": "AARÓN",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Plagas de Egipto",
+  "f": [
+   {
+    "w": "LANGOSTAS",
+    "ok": 1
+   },
+   {
+    "w": "RANAS",
+    "ok": 1
+   },
+   {
+    "w": "SANGRE",
+    "ok": 1
+   },
+   {
+    "w": "TÁBANOS",
+    "ok": 1
+   },
+   {
+    "w": "ÚLCERAS",
+    "ok": 1
+   },
+   {
+    "w": "TINIEBLAS",
+    "ok": 1
+   },
+   {
+    "w": "GRANIZO",
+    "ok": 1
+   },
+   {
+    "w": "MOSQUITOS",
+    "ok": 1
+   },
+   {
+    "w": "PESTE",
+    "ok": 1
+   },
+   {
+    "w": "OLIVO",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Cosas de Navidad",
+  "f": [
+   {
+    "w": "ÁRBOL",
+    "ok": 1
+   },
+   {
+    "w": "ESTRELLA",
+    "ok": 1
+   },
+   {
+    "w": "NOCHEBUENA",
+    "ok": 1
+   },
+   {
+    "w": "REYES MAGOS",
+    "ok": 1
+   },
+   {
+    "w": "PESEBRE",
+    "ok": 1
+   },
+   {
+    "w": "GUIRNALDA",
+    "ok": 1
+   },
+   {
+    "w": "VILLANCICO",
+    "ok": 1
+   },
+   {
+    "w": "SALTERIO",
+    "ok": 0
+   },
+   {
+    "w": "SANGRE",
+    "ok": 0
+   },
+   {
+    "w": "CLAVOS",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Obras de misericordia corporales",
+  "f": [
+   {
+    "w": "DAR DE BEBER",
+    "ok": 1
+   },
+   {
+    "w": "DAR DE COMER",
+    "ok": 1
+   },
+   {
+    "w": "DAR POSADA",
+    "ok": 1
+   },
+   {
+    "w": "VISITAR PRESOS",
+    "ok": 1
+   },
+   {
+    "w": "VISITAR ENFERMOS",
+    "ok": 1
+   },
+   {
+    "w": "ENTERRAR MUERTOS",
+    "ok": 1
+   },
+   {
+    "w": "VESTIR AL DESNUDO",
+    "ok": 1
+   },
+   {
+    "w": "LEVADURA",
+    "ok": 0
+   },
+   {
+    "w": "BODAS DE CANÁ",
+    "ok": 0
+   },
+   {
+    "w": "OCÉANOS",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Instrumentos de la Biblia",
+  "f": [
+   {
+    "w": "TROMPETA",
+    "ok": 1
+   },
+   {
+    "w": "SHOFAR",
+    "ok": 1
+   },
+   {
+    "w": "FLAUTA",
+    "ok": 1
+   },
+   {
+    "w": "CÍMBALO",
+    "ok": 1
+   },
+   {
+    "w": "PANDERO",
+    "ok": 1
+   },
+   {
+    "w": "SALTERIO",
+    "ok": 1
+   },
+   {
+    "w": "ARPA",
+    "ok": 1
+   },
+   {
+    "w": "CÍTARA",
+    "ok": 1
+   },
+   {
+    "w": "CONEJO",
+    "ok": 0
+   },
+   {
+    "w": "PECES",
     "ok": 0
    }
   ]
@@ -8782,15 +8422,11 @@
     "ok": 1
    },
    {
-    "w": "TENER PACIENCIA",
-    "ok": 1
-   },
-   {
     "w": "CONSOLAR",
     "ok": 1
    },
    {
-    "w": "ENSEÑAR",
+    "w": "TENER PACIENCIA",
     "ok": 1
    },
    {
@@ -8798,23 +8434,207 @@
     "ok": 1
    },
    {
-    "w": "CORREGIR",
-    "ok": 1
-   },
-   {
     "w": "REZAR POR OTROS",
     "ok": 1
    },
    {
-    "w": "BODAS DE CANÁ",
+    "w": "ENSEÑAR",
+    "ok": 1
+   },
+   {
+    "w": "CORREGIR",
+    "ok": 1
+   },
+   {
+    "w": "VESTIR AL DESNUDO",
     "ok": 0
    },
    {
-    "w": "ALÁBENLO",
+    "w": "SEMBRADOR",
     "ok": 0
    },
    {
-    "w": "MAR ADENTRO",
+    "w": "ENTERRAR MUERTOS",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Oficios y cargos en el Evangelio",
+  "f": [
+   {
+    "w": "CARPINTERO",
+    "ok": 1
+   },
+   {
+    "w": "PUBLICANO",
+    "ok": 1
+   },
+   {
+    "w": "PASTOR",
+    "ok": 1
+   },
+   {
+    "w": "FARISEO",
+    "ok": 1
+   },
+   {
+    "w": "CENTURIÓN",
+    "ok": 1
+   },
+   {
+    "w": "PESCADOR",
+    "ok": 1
+   },
+   {
+    "w": "ESCRIBA",
+    "ok": 1
+   },
+   {
+    "w": "SUMO SACERDOTE",
+    "ok": 1
+   },
+   {
+    "w": "PACIENTES",
+    "ok": 0
+   },
+   {
+    "w": "REDENTOR",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Libros sapienciales",
+  "f": [
+   {
+    "w": "JOB",
+    "ok": 1
+   },
+   {
+    "w": "ECLESIASTÉS",
+    "ok": 1
+   },
+   {
+    "w": "ECLESIÁSTICO",
+    "ok": 1
+   },
+   {
+    "w": "CANTAR DE LOS CANTARES",
+    "ok": 1
+   },
+   {
+    "w": "SALMOS",
+    "ok": 1
+   },
+   {
+    "w": "PROVERBIOS",
+    "ok": 1
+   },
+   {
+    "w": "FILIPENSES",
+    "ok": 0
+   },
+   {
+    "w": "LEVÍTICO",
+    "ok": 0
+   },
+   {
+    "w": "COLOSENSES",
+    "ok": 0
+   },
+   {
+    "w": "FILEMÓN",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Santos jóvenes",
+  "f": [
+   {
+    "w": "INÉS",
+    "ok": 1
+   },
+   {
+    "w": "LAURA VICUÑA",
+    "ok": 1
+   },
+   {
+    "w": "DOMINGO SAVIO",
+    "ok": 1
+   },
+   {
+    "w": "JACINTA",
+    "ok": 1
+   },
+   {
+    "w": "CARLO ACUTIS",
+    "ok": 1
+   },
+   {
+    "w": "FRANCISCO MARTO",
+    "ok": 1
+   },
+   {
+    "w": "FRASSATI",
+    "ok": 1
+   },
+   {
+    "w": "LUIS GONZAGA",
+    "ok": 1
+   },
+   {
+    "w": "CLEMENTE",
+    "ok": 0
+   },
+   {
+    "w": "PÍO",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Advocaciones de la Virgen",
+  "f": [
+   {
+    "w": "POMPEYA",
+    "ok": 1
+   },
+   {
+    "w": "LUJÁN",
+    "ok": 1
+   },
+   {
+    "w": "LORETO",
+    "ok": 1
+   },
+   {
+    "w": "ITATÍ",
+    "ok": 1
+   },
+   {
+    "w": "FÁTIMA",
+    "ok": 1
+   },
+   {
+    "w": "COPACABANA",
+    "ok": 1
+   },
+   {
+    "w": "LOURDES",
+    "ok": 1
+   },
+   {
+    "w": "GUADALUPE",
+    "ok": 1
+   },
+   {
+    "w": "CARMELO",
+    "ok": 0
+   },
+   {
+    "w": "ARARAT",
     "ok": 0
    }
   ]
@@ -8822,30 +8642,6 @@
  {
   "c": "Frutos del Espíritu Santo",
   "f": [
-   {
-    "w": "FIDELIDAD",
-    "ok": 1
-   },
-   {
-    "w": "BENIGNIDAD",
-    "ok": 1
-   },
-   {
-    "w": "ALEGRÍA",
-    "ok": 1
-   },
-   {
-    "w": "AMOR",
-    "ok": 1
-   },
-   {
-    "w": "LONGANIMIDAD",
-    "ok": 1
-   },
-   {
-    "w": "MANSEDUMBRE",
-    "ok": 1
-   },
    {
     "w": "BONDAD",
     "ok": 1
@@ -8855,11 +8651,260 @@
     "ok": 1
    },
    {
-    "w": "FORTALEZA",
+    "w": "LONGANIMIDAD",
+    "ok": 1
+   },
+   {
+    "w": "ALEGRÍA",
+    "ok": 1
+   },
+   {
+    "w": "BENIGNIDAD",
+    "ok": 1
+   },
+   {
+    "w": "FIDELIDAD",
+    "ok": 1
+   },
+   {
+    "w": "MANSEDUMBRE",
+    "ok": 1
+   },
+   {
+    "w": "AMOR",
+    "ok": 1
+   },
+   {
+    "w": "SUMO SACERDOTE",
     "ok": 0
    },
    {
-    "w": "MAESTRO",
+    "w": "AVARICIA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Canciones de misa en Sagrada",
+  "f": [
+   {
+    "w": "MAR ADENTRO",
+    "ok": 1
+   },
+   {
+    "w": "HIJO AMADO",
+    "ok": 1
+   },
+   {
+    "w": "CRISTO REINA",
+    "ok": 1
+   },
+   {
+    "w": "SUMÉRGEME",
+    "ok": 1
+   },
+   {
+    "w": "CARA A CARA",
+    "ok": 1
+   },
+   {
+    "w": "VINE A ADORARTE",
+    "ok": 1
+   },
+   {
+    "w": "NUEVA MAÑANA",
+    "ok": 1
+   },
+   {
+    "w": "RECIBE MI CORAZÓN",
+    "ok": 1
+   },
+   {
+    "w": "HAZME POBRE",
+    "ok": 1
+   },
+   {
+    "w": "REZAR POR OTROS",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Ciudades argentinas con nombre de santo",
+  "f": [
+   {
+    "w": "SAN ISIDRO",
+    "ok": 1
+   },
+   {
+    "w": "SAN RAFAEL",
+    "ok": 1
+   },
+   {
+    "w": "SAN JUAN",
+    "ok": 1
+   },
+   {
+    "w": "SAN NICOLÁS",
+    "ok": 1
+   },
+   {
+    "w": "SAN LUIS",
+    "ok": 1
+   },
+   {
+    "w": "SANTA ROSA",
+    "ok": 1
+   },
+   {
+    "w": "SAN FERNANDO",
+    "ok": 1
+   },
+   {
+    "w": "ASÍS",
+    "ok": 0
+   },
+   {
+    "w": "PADUA",
+    "ok": 0
+   },
+   {
+    "w": "ARARAT",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Apóstoles",
+  "f": [
+   {
+    "w": "JUDAS",
+    "ok": 1
+   },
+   {
+    "w": "JUAN",
+    "ok": 1
+   },
+   {
+    "w": "MATÍAS",
+    "ok": 1
+   },
+   {
+    "w": "SANTIAGO",
+    "ok": 1
+   },
+   {
+    "w": "TOMÁS",
+    "ok": 1
+   },
+   {
+    "w": "MATEO",
+    "ok": 1
+   },
+   {
+    "w": "TADEO",
+    "ok": 1
+   },
+   {
+    "w": "ANDRÉS",
+    "ok": 1
+   },
+   {
+    "w": "FELIPE",
+    "ok": 1
+   },
+   {
+    "w": "LIDIA",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Gestos en misa",
+  "f": [
+   {
+    "w": "SENTARSE",
+    "ok": 1
+   },
+   {
+    "w": "PERSIGNARSE",
+    "ok": 1
+   },
+   {
+    "w": "ARRODILLARSE",
+    "ok": 1
+   },
+   {
+    "w": "GENUFLEXIÓN",
+    "ok": 1
+   },
+   {
+    "w": "INCLINARSE",
+    "ok": 1
+   },
+   {
+    "w": "DAR LA PAZ",
+    "ok": 1
+   },
+   {
+    "w": "PONERSE DE PIE",
+    "ok": 1
+   },
+   {
+    "w": "MATRIMONIO",
+    "ok": 0
+   },
+   {
+    "w": "ORDINARIO",
+    "ok": 0
+   },
+   {
+    "w": "PADRENUESTRO",
+    "ok": 0
+   }
+  ]
+ },
+ {
+  "c": "Plantas de la Biblia",
+  "f": [
+   {
+    "w": "VID",
+    "ok": 1
+   },
+   {
+    "w": "CEDRO",
+    "ok": 1
+   },
+   {
+    "w": "PALMERA",
+    "ok": 1
+   },
+   {
+    "w": "ZARZA",
+    "ok": 1
+   },
+   {
+    "w": "HIGUERA",
+    "ok": 1
+   },
+   {
+    "w": "MOSTAZA",
+    "ok": 1
+   },
+   {
+    "w": "OLIVO",
+    "ok": 1
+   },
+   {
+    "w": "ACACIA",
+    "ok": 1
+   },
+   {
+    "w": "PESEBRE",
+    "ok": 0
+   },
+   {
+    "w": "TROMPETA",
     "ok": 0
    }
   ]
@@ -8868,23 +8913,7 @@
   "c": "Reyes de Israel y Judá",
   "f": [
    {
-    "w": "EZEQUÍAS",
-    "ok": 1
-   },
-   {
-    "w": "ROBOAM",
-    "ok": 1
-   },
-   {
-    "w": "JOSÍAS",
-    "ok": 1
-   },
-   {
-    "w": "SALOMÓN",
-    "ok": 1
-   },
-   {
-    "w": "AJAB",
+    "w": "JEROBOAM",
     "ok": 1
    },
    {
@@ -8892,7 +8921,23 @@
     "ok": 1
    },
    {
-    "w": "JEROBOAM",
+    "w": "ROBOAM",
+    "ok": 1
+   },
+   {
+    "w": "EZEQUÍAS",
+    "ok": 1
+   },
+   {
+    "w": "SALOMÓN",
+    "ok": 1
+   },
+   {
+    "w": "JOSÍAS",
+    "ok": 1
+   },
+   {
+    "w": "AJAB",
     "ok": 1
    },
    {
@@ -8900,101 +8945,56 @@
     "ok": 1
    },
    {
-    "w": "FELIPE",
+    "w": "ISAÍAS",
     "ok": 0
    },
    {
-    "w": "JUDAS",
-    "ok": 0
-   }
-  ]
- },
- {
-  "c": "Apellidos de papas",
-  "f": [
-   {
-    "w": "PACELLI",
-    "ok": 1
-   },
-   {
-    "w": "MONTINI",
-    "ok": 1
-   },
-   {
-    "w": "RATZINGER",
-    "ok": 1
-   },
-   {
-    "w": "WOJTYLA",
-    "ok": 1
-   },
-   {
-    "w": "PREVOST",
-    "ok": 1
-   },
-   {
-    "w": "RONCALLI",
-    "ok": 1
-   },
-   {
-    "w": "LUCIANI",
-    "ok": 1
-   },
-   {
-    "w": "BERGOGLIO",
-    "ok": 1
-   },
-   {
-    "w": "JACINTA",
-    "ok": 0
-   },
-   {
-    "w": "CLEMENTE",
+    "w": "JEFTÉ",
     "ok": 0
    }
   ]
  },
  {
-  "c": "Lugares de la vida de Jesús",
+  "c": "Pueblos vecinos de Israel",
   "f": [
    {
-    "w": "JERICÓ",
+    "w": "PERSAS",
     "ok": 1
    },
    {
-    "w": "EMAÚS",
+    "w": "MOABITAS",
     "ok": 1
    },
    {
-    "w": "BELÉN",
+    "w": "EGIPCIOS",
     "ok": 1
    },
    {
-    "w": "JERUSALÉN",
+    "w": "CANANEOS",
     "ok": 1
    },
    {
-    "w": "BETANIA",
+    "w": "BABILONIOS",
     "ok": 1
    },
    {
-    "w": "GETSEMANÍ",
+    "w": "AMALECITAS",
     "ok": 1
    },
    {
-    "w": "CAFARNAÚM",
+    "w": "ASIRIOS",
     "ok": 1
    },
    {
-    "w": "CANÁ",
+    "w": "FILISTEOS",
     "ok": 1
    },
    {
-    "w": "NAZARET",
-    "ok": 1
+    "w": "AGUSTINOS",
+    "ok": 0
    },
    {
-    "w": "MAR MUERTO",
+    "w": "JESUITAS",
     "ok": 0
    }
   ]

@@ -3,8 +3,8 @@
 Uso:  python herramientas/generar_impostor.py                    (genera 200, REEMPLAZA las actuales)
       python herramientas/generar_impostor.py --rehacer-desde 13 (deja igual los días 1 a 13 y rehace los siguientes)
 
-Cada partida: una categoría y 10 fichas. Entre 7 y 9 son de la categoría (de su lista «usar») y el resto
-(1 a 3) son impostores: palabras de otra categoría DEL MISMO TIPO (ver TIPOS), que NO encajan en esta
+Cada partida: una categoría y 10 fichas. Entre 6 y 9 son de la categoría (de su lista «usar») y el resto
+(1 a 4) son impostores (el juego no dice cuántos): palabras de otra categoría DEL MISMO TIPO (ver TIPOS), que NO encajan en esta
 (se controla contra «usar» y «tambien», así no hay impostores discutibles).
 """
 import json
@@ -32,7 +32,7 @@ def miembros(c):
     return {norm(w) for w in c['usar'] + c['tambien']}
 
 
-CATS = [c for c in C if len(c['usar']) >= 7 and c['nombre'] not in EXCLUIR]
+CATS = [c for c in C if len(c['usar']) >= 6 and c['nombre'] not in EXCLUIR]
 
 # Los impostores salen de categorías del MISMO TIPO, así engañan de verdad
 # (un apóstol entre los hijos de Jacob, una carta de Pablo entre los pueblos vecinos, etc.).
@@ -44,10 +44,11 @@ TIPOS = {
                                'Santos y beatos argentinos', 'Doctoras de la Iglesia'],
     'lugares': ['Lugares de la vida de Jesús', 'Montes de la Biblia', 'Advocaciones de la Virgen', 'Ciudades argentinas con nombre de santo',
                 'Lugares de peregrinación', 'Ríos y mares de la Biblia'],
-    'grupos en plural': ['Pueblos vecinos de Israel', 'Órdenes religiosas', 'Coros de ángeles', 'Cartas de san Pablo'],
+    'grupos en plural': ['Pueblos vecinos de Israel', 'Órdenes religiosas', 'Coros de ángeles'],
+    'libros de la Biblia': ['Cartas de san Pablo', 'Libros sapienciales', 'Libros del Pentateuco'],
     'cosas': ['Cosas que se usan en misa', 'Cosas que hay en una iglesia', 'Instrumentos de la Pasión', 'Cosas de Navidad', 'Cosas de un campamento',
               'Instrumentos de la Biblia', 'Plantas de la Biblia', 'Comidas de la Biblia', 'Plagas de Egipto', 'Vestiduras litúrgicas',
-              'Símbolos de Pascua', 'Materia de los sacramentos'],
+              'Símbolos de Pascua', 'Materia de los sacramentos', 'Animales de la Biblia'],
     'liturgia': ['Partes de la misa', 'Oraciones', 'Liturgia de las Horas', 'Fiestas del año litúrgico', 'Fiestas de la Virgen', 'Gestos en misa',
                  'Sacramentos', 'Tiempos litúrgicos', 'Días de Semana Santa'],
     'virtudes y conceptos': ['Pecados capitales', 'Dones del Espíritu Santo', 'Frutos del Espíritu Santo', '«Felices los…» (Bienaventuranzas)',
@@ -114,7 +115,7 @@ def main():
     json.dump(todas, open(SALIDA, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     imp = [sum(1 for f in p['f'] if not f['ok']) for p in todas]
     print(f'Impostor: {len(todas)} partidas · {len(CATS)} categorías · impostores por partida: '
-          f'{min(imp)} a {max(imp)} (con 1: {imp.count(1)}, con 2: {imp.count(2)}, con 3: {imp.count(3)})')
+          f'{min(imp)} a {max(imp)} ' + str({n: imp.count(n) for n in sorted(set(imp))}))
 
 
 if __name__ == '__main__':

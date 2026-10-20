@@ -31,9 +31,9 @@
     if (id === "santo") return s.puntos * 20;
     if (id === "versiculo") return s.gano ? (s.malas.length ? 50 : 100) : 0;
     if (id === "crucigrama") {
-      /* el tiempo y el castigo por palabra revelada dependen del tamaño: 40 segundos por palabra.
-         Cada letra pedida resta 3 (hasta 5 por día). Los crucigramas viejos (sin "n") siguen con 26 s por palabra. */
-      var n = s.n || 8, libre = (s.n && s.n > 12 ? 40 : 26) * n, porAyuda = Math.round(120 / n);
+      /* 10 minutos sin que reste (los crucigramas chicos de antes: 26 s por palabra).
+         Cada letra pedida resta 3 (hasta 5 por día) y cada palabra revelada resta según el tamaño. */
+      var n = s.n || 8, libre = s.n && s.n > 12 ? 600 : 26 * n, porAyuda = Math.round(120 / n);
       return Math.max(20, Math.min(100, 100 - porAyuda * (s.ayudas || 0) - 3 * (s.letras || 0) - Math.max(0, Math.floor(((s.t || 0) - libre) / 30))));
     }
     return s.puntos;
@@ -1355,7 +1355,7 @@
     /* --- El impostor: tocá las que son de la categoría; si tocás un impostor, se termina --- */
     if ($("diario-impostor") && JG.impostor) {
       var IM = delDia(JG.impostor, "impostor").item, KI = "diario:impostor:" + claveFecha(HOY);
-      var nOk = IM.f.filter(function (f) { return f.ok; }).length, nImp = IM.f.length - nOk;
+      var nOk = IM.f.filter(function (f) { return f.ok; }).length;
       var ei = leer(KI) || { orden: mezclarCon(IM.f.map(function (_, i) { return i; }), azar(semilla("impostor:" + NUM))), toques: [], fin: false, gano: false, puntos: 0 };
       var contI = $("diario-impostor");
       var puntosI = function () {
@@ -1375,9 +1375,8 @@
         }).join("") + "</div>";
         if (!ei.fin) {
           contI.innerHTML = cab +
-            '<p class="daily__hint">Tocá las ' + nOk + " palabras que son de la categoría. Hay " + nImp + (nImp === 1 ? " impostor" : " impostores") +
-            ": si tocás uno, se termina. Cuantas más encontrás, más puntos.</p>" + fichasHtml +
-            '<p class="imp__estado">Llevás <strong>' + buenos + " de " + nOk + "</strong> · " + puntosI() + " puntos</p>" + pieHtml("impostor");
+            '<p class="daily__hint">Tocá solo las palabras que son de la categoría. Ojo: entre las 10 se esconden impostores, y si tocás uno, se termina. Cuantas más encontrás, más puntos.</p>' + fichasHtml +
+            '<p class="imp__estado">Llevás <strong>' + buenos + (buenos === 1 ? " correcta" : " correctas") + "</strong> · " + puntosI() + " puntos</p>" + pieHtml("impostor");
           return;
         }
         var fila = ei.toques.map(function (i) { return IM.f[i].ok ? "✅" : "🕵️"; }).join("");
@@ -1655,7 +1654,7 @@
             "<li><strong>Santo del día:</strong> 100 con 1 pista, 80 con 2, 60 con 3, 40 con 4 y 20 con 5.</li>" +
             "<li><strong>Versículo del día:</strong> 100 al primer intento, 50 al segundo y 0 si no sale.</li>" +
             "<li><strong>Conexiones:</strong> 100 sin errores, 80 con 1, 60 con 2 y 40 con 3. Si perdés, 10 por cada grupo encontrado.</li>" +
-            "<li><strong>Crucigrama:</strong> tenés 40 segundos por palabra (unos 12 minutos si tiene 18): si lo terminás en ese tiempo sin ayudas, 100. Después, −1 por cada 30 segundos. Podés pedir hasta 5 letras por día (−3 cada una) y revelar palabras enteras (cada una resta unos 7). Mínimo 20.</li>" +
+            "<li><strong>Crucigrama:</strong> si lo terminás en menos de 10 minutos sin ayudas, 100. Después, −1 por cada 30 segundos. Podés pedir hasta 5 letras por día (−3 cada una) y revelar palabras enteras (cada una resta unos 7). Mínimo 20.</li>" +
             "<li><strong>El impostor:</strong> 100 si encontrás todas sin tocar ningún impostor. Si te agarra, sumás según cuántas encontraste (hasta 90).</li>" +
           "</ul></details></div>" +
           '<div id="rk-tablas"><p class="muted">Cargando ranking…</p></div>';
