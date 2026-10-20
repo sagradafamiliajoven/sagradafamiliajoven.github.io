@@ -29,7 +29,11 @@
     if (!s || !s.fin) return null;
     if (id === "santo") return s.puntos * 20;
     if (id === "versiculo") return s.gano ? (s.malas.length ? 50 : 100) : 0;
-    if (id === "crucigrama") return Math.max(20, Math.min(100, 100 - 15 * (s.ayudas || 0) - Math.max(0, Math.floor(((s.t || 0) - 180) / 30))));
+    if (id === "crucigrama") {
+      /* el tiempo y el castigo por palabra revelada dependen del tamaño: unos 26 segundos por palabra */
+      var n = s.n || 8, libre = 26 * n, porAyuda = Math.round(120 / n);
+      return Math.max(20, Math.min(100, 100 - porAyuda * (s.ayudas || 0) - Math.max(0, Math.floor(((s.t || 0) - libre) / 30))));
+    }
     return s.puntos;
   }
   function mejorRacha() {
@@ -1361,6 +1365,7 @@
       }
       var celdasDe = function (e) { var out = []; for (var j = 0; j < e.w.length; j++) out.push(clave(e.r + (e.d ? j : 0), e.c + (e.d ? 0 : j))); return out; };
       var estC = leer(KC) || { l: {}, rev: {}, fin: false, ayudas: 0, t: 0 };
+      estC.n = CR.e.length; /* cantidad de palabras: define el tiempo para sacar 100 */
       var act = { k: clave(CR.e[0].r, CR.e[0].c), d: CR.e[0].d };
       var normal = function (s) { s = String(s || "").toUpperCase(); if (s === "Ñ") return s; return s.normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^A-ZÑ]/g, ""); };
       var reloj = function (t) { return Math.floor(t / 60) + ":" + dosD(t % 60); };
@@ -1579,7 +1584,7 @@
             "<li><strong>Santo del día:</strong> 100 con 1 pista, 80 con 2, 60 con 3, 40 con 4 y 20 con 5.</li>" +
             "<li><strong>Versículo del día:</strong> 100 al primer intento, 50 al segundo y 0 si no sale.</li>" +
             "<li><strong>Conexiones:</strong> 100 sin errores, 80 con 1, 60 con 2 y 40 con 3. Si perdés, 10 por cada grupo encontrado.</li>" +
-            "<li><strong>Crucigrama:</strong> 100 si lo terminás en menos de 3:30 sin revelar palabras. Después, −1 por cada 30 segundos y −15 por cada palabra revelada (mínimo 20).</li>" +
+            "<li><strong>Crucigrama:</strong> tenés unos 26 segundos por palabra (unos 7 minutos si tiene 16): si lo terminás en ese tiempo sin revelar palabras, 100. Después, −1 por cada 30 segundos, y cada palabra revelada resta (más en los crucigramas chicos). Mínimo 20.</li>" +
           "</ul></details></div>" +
           '<div id="rk-tablas"><p class="muted">Cargando ranking…</p></div>';
       }

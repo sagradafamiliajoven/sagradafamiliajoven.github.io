@@ -4,6 +4,7 @@ Cada santo tiene:
   nombre       Como aparece en el juego. Empezá con San/Santo/Santa/Beato/Beata/Venerable:
                las opciones incorrectas salen del mismo género (Santa/Beata = mujer).
   pistas       Cinco pistas en primera persona, de la más difícil a la más fácil.
+               La primera es «Me conocen por…»: algo por lo que es famoso, sin decir el nombre.
   fiesta       "12 de octubre" (o vacío si no tiene). Aparece en el calendario.
   ficha        id de la historia completa en js/contenido.js (santos[]), o vacío.
   foto         Foto ya optimizada dentro de la web (img/...). Si está vacía, se genera desde foto_origen.
@@ -16,7 +17,7 @@ SANTOS = [
     {"nombre": "San Carlo Acutis", "fiesta": "12 de octubre", "ficha": "carlo-acutis",
      "foto": "img/santos/carlo-acutis.jpg", "foto_origen": "",
      "pistas": [
-        "Nací en Londres, pero crecí en Milán.",
+        "Me conocen por mi aporte digital.",
         "Me encantaba programar y armar páginas web.",
         "Armé una exposición sobre los milagros eucarísticos del mundo.",
         "Decía que la Eucaristía era mi autopista al cielo.",
@@ -24,7 +25,7 @@ SANTOS = [
     {"nombre": "San Pier Giorgio Frassati", "fiesta": "4 de julio", "ficha": "pier-giorgio-frassati",
      "foto": "img/santos/pier-giorgio-frassati.jpg", "foto_origen": "",
      "pistas": [
-        "Nací en Turín en 1901, en una familia acomodada.",
+        "Me conocen por mi alegría, el deporte y la aventura.",
         "Estudiaba ingeniería en minas.",
         "Ayudaba en secreto a los pobres con la Sociedad de San Vicente de Paúl.",
         "Me encantaba escalar montañas con mis amigos.",
@@ -32,7 +33,7 @@ SANTOS = [
     {"nombre": "Santa Teresita del Niño Jesús", "fiesta": "1 de octubre", "ficha": "teresita",
      "foto": "img/santos/teresita.jpg", "foto_origen": "",
      "pistas": [
-        "Entré al convento con solo 15 años.",
+        "Me conocen por querer pasar mi cielo haciendo el bien en la tierra.",
         "Nunca salí de mi convento en Francia, pero soy patrona de las misiones.",
         "Escribí Historia de un alma.",
         "Propuse un «caminito» de cosas pequeñas hechas con mucho amor.",
@@ -40,7 +41,7 @@ SANTOS = [
     {"nombre": "San Maximiliano Kolbe", "fiesta": "14 de agosto", "ficha": "maximiliano-kolbe",
      "foto": "img/santos/maximiliano-kolbe.jpg", "foto_origen": "",
      "pistas": [
-        "Fui sacerdote franciscano en Polonia.",
+        "Me conocen como un mártir de la caridad.",
         "Fundé la Milicia de la Inmaculada.",
         "Usé la imprenta y la radio para anunciar el Evangelio.",
         "Los nazis me llevaron preso a un campo de concentración.",
@@ -48,7 +49,7 @@ SANTOS = [
     {"nombre": "San Agustín", "fiesta": "28 de agosto", "ficha": "agustin",
      "foto": "img/santos/agustin.jpg", "foto_origen": "",
      "pistas": [
-        "Nací en el norte de África en el siglo IV.",
+        "Me conocen por haber sido un gran pecador que terminó siendo un gran santo.",
         "Pasé años buscando la verdad en filosofías y placeres.",
         "Mi madre rezó por mí durante muchos años.",
         "Escribí las Confesiones.",
@@ -56,7 +57,7 @@ SANTOS = [
     {"nombre": "Santa Mónica", "fiesta": "27 de agosto", "ficha": "",
      "foto": "img/santos-juego/santa-monica.jpg", "foto_origen": "Santa-monica.jpg",
      "pistas": [
-        "Viví en el norte de África en el siglo IV.",
+        "Me conocen por mi paciencia y por mis lágrimas.",
         "Mi esposo tenía mal carácter y se convirtió al final de su vida.",
         "Recé durante muchos años por la conversión de mi hijo.",
         "Mi fiesta es el 27 de agosto, un día antes que la de mi hijo.",
@@ -64,7 +65,7 @@ SANTOS = [
     {"nombre": "San Francisco de Asís", "fiesta": "4 de octubre", "ficha": "",
      "foto": "img/santos-juego/san-francisco-de-asis.jpg", "foto_origen": "san-francisco-de-asis.jpg",
      "pistas": [
-        "Era hijo de un rico comerciante de telas.",
+        "Me conocen por armar el primer pesebre viviente.",
         "Dejé todo, hasta mi ropa, para vivir en pobreza.",
         "Escuché: «Francisco, reconstruye mi Iglesia».",
         "Escribí el Cántico de las criaturas.",
@@ -72,7 +73,7 @@ SANTOS = [
     {"nombre": "Santa Clara de Asís", "fiesta": "11 de agosto", "ficha": "",
      "foto": "img/santos-juego/santa-clara-de-asis.jpg", "foto_origen": "santa-clara-de-asis.jpg",
      "pistas": [
-        "Nací en Asís, en una familia noble.",
+        "Me conocen por frenar a un ejército mostrando la Eucaristía.",
         "Me escapé de mi casa de noche para consagrarme a Dios.",
         "Fundé una orden de monjas que viven en pobreza.",
         "Fui gran amiga de San Francisco.",
@@ -80,7 +81,7 @@ SANTOS = [
     {"nombre": "San José", "fiesta": "19 de marzo", "ficha": "",
      "foto": "img/santos-juego/san-jose.jpg", "foto_origen": "san-jose.jpg",
      "pistas": [
-        "Era carpintero.",
+        "Me conocen por cuidar en silencio a la familia más importante de la historia.",
         "Dios me habló en sueños varias veces.",
         "Llevé a mi familia a Egipto para protegerla.",
         "En la Biblia no aparece ninguna palabra mía.",
@@ -88,7 +89,7 @@ SANTOS = [
     {"nombre": "San Juan Pablo II", "fiesta": "22 de octubre", "ficha": "juan-pablo-ii",
      "foto": "img/santos-juego/san-juan-pablo-ii.jpg", "foto_origen": "san-juan-pabloii.jpg",
      "pistas": [
-        "Nací en Polonia en 1920.",
+        "Me conocen como el Papa viajero.",
         "De joven fui actor de teatro y trabajé en una cantera.",
         "Fui Papa durante casi 27 años.",
         "Creé las Jornadas Mundiales de la Juventud.",
@@ -96,7 +97,7 @@ SANTOS = [
     {"nombre": "Santa Teresa de Calcuta", "fiesta": "5 de septiembre", "ficha": "teresa-de-calcuta",
      "foto": "img/santos-juego/santa-teresa-de-calcuta.jpg", "foto_origen": "santa-teresa-de-calcuta.jpg",
      "pistas": [
-        "Nací en Skopie, en una familia albanesa.",
+        "Me conocen por cuidar a los más pobres entre los pobres.",
         "Fui profesora en un colegio de Calcuta.",
         "Fundé las Misioneras de la Caridad.",
         "Recibí el Premio Nobel de la Paz en 1979.",
@@ -104,7 +105,7 @@ SANTOS = [
     {"nombre": "San José Gabriel del Rosario Brochero", "fiesta": "16 de marzo", "ficha": "cura-brochero",
      "foto": "img/santos-juego/san-jose-gabriel-del-rosario-brochero.jpg", "foto_origen": "cura-brochero.jpg",
      "pistas": [
-        "Nací en Córdoba en 1840.",
+        "Me conocen por mi manera de hablar, bien criolla y campechana.",
         "Recorría las sierras a lomo de mula.",
         "Construí caminos, acequias y una casa de ejercicios espirituales.",
         "Me enfermé de lepra por estar cerca de los enfermos.",
@@ -112,15 +113,15 @@ SANTOS = [
     {"nombre": "Santa María Antonia de Paz y Figueroa (Mama Antula)", "fiesta": "7 de marzo", "ficha": "",
      "foto": "img/santos-juego/santa-maria-antonia-de-paz-y-figueroa-ma.jpg", "foto_origen": "mama-antula.jpg",
      "pistas": [
+        "Me conocen por caminar descalza miles de kilómetros.",
         "Nací en Santiago del Estero.",
-        "Caminé descalza miles de kilómetros.",
         "Organicé los ejercicios espirituales de San Ignacio cuando los jesuitas fueron expulsados.",
         "Fundé la Santa Casa de Ejercicios en Buenos Aires.",
         "Soy la primera santa argentina, canonizada en 2024."]},
     {"nombre": "Beato Ceferino Namuncurá", "fiesta": "26 de agosto", "ficha": "ceferino-namuncura",
      "foto": "img/santos-juego/beato-ceferino-namuncura.jpg", "foto_origen": "ceferino-namuncura.jpg",
      "pistas": [
-        "Era hijo de un cacique mapuche.",
+        "Me conocen como el lirio de la Patagonia.",
         "Estudié con los salesianos.",
         "Quería ser sacerdote para ayudar a mi pueblo.",
         "Morí de tuberculosis en Roma a los 18 años.",
@@ -128,7 +129,7 @@ SANTOS = [
     {"nombre": "Santa Josefina Bakhita", "fiesta": "8 de febrero", "ficha": "",
      "foto": "img/santos-juego/santa-josefina-bakhita.jpg", "foto_origen": "josefina-bakhita.jpg",
      "pistas": [
-        "Nací en Sudán.",
+        "Me conocen por perdonar a quienes me esclavizaron.",
         "Me secuestraron de chica y me vendieron como esclava.",
         "Mis captores me pusieron un nombre que significa «afortunada».",
         "En Italia conocí a Jesús y me hice religiosa canosiana.",
@@ -136,7 +137,7 @@ SANTOS = [
     {"nombre": "Santo Tomás Moro", "fiesta": "22 de junio", "ficha": "tomas-moro",
      "foto": "img/santos-juego/santo-tomas-moro.jpg", "foto_origen": "santo-tomas-moro.jpg",
      "pistas": [
-        "Fui abogado y canciller de Inglaterra.",
+        "Me conocen por preferir perder la cabeza antes que la conciencia.",
         "Escribí Utopía.",
         "Me negué a aceptar al rey como jefe de la Iglesia.",
         "Me decapitaron en 1535.",
@@ -144,7 +145,7 @@ SANTOS = [
     {"nombre": "Santa Teresa de Ávila", "fiesta": "15 de octubre", "ficha": "",
      "foto": "img/santos-juego/santa-teresa-de-avila.jpg", "foto_origen": "santa-teresa-de-avila.jpg",
      "pistas": [
-        "Nací en España en 1515.",
+        "Me conocen por mis éxtasis y por un ángel que me atravesó el corazón.",
         "Reformé la orden del Carmelo.",
         "Escribí Las Moradas.",
         "Dije: «Nada te turbe, nada te espante… solo Dios basta».",
@@ -152,7 +153,7 @@ SANTOS = [
     {"nombre": "Santa Catalina de Siena", "fiesta": "29 de abril", "ficha": "catalina-de-siena",
      "foto": "img/santos-juego/santa-catalina-de-siena.jpg", "foto_origen": "santa-catalina-de-siena.jpg",
      "pistas": [
-        "Viví en Italia en el siglo XIV.",
+        "Me conocen por haber aprendido a leer de grande y terminar siendo Doctora de la Iglesia.",
         "Fui laica dominica, sin entrar a un convento.",
         "Convencí al Papa de volver de Aviñón a Roma.",
         "Dicté el libro El Diálogo.",
@@ -160,7 +161,7 @@ SANTOS = [
     {"nombre": "San Juan Bosco", "fiesta": "31 de enero", "ficha": "juan-bosco",
      "foto": "img/santos-juego/san-juan-bosco.jpg", "foto_origen": "san-juan-bosco.jpg",
      "pistas": [
-        "Nací en Italia en 1815.",
+        "Me conocen por mis sueños proféticos.",
         "De chico hacía malabares para atraer a otros chicos y enseñarles a rezar.",
         "Fundé los salesianos.",
         "Me dedicaba a los jóvenes pobres de Turín.",
@@ -168,7 +169,7 @@ SANTOS = [
     {"nombre": "Santo Domingo Savio", "fiesta": "6 de mayo", "ficha": "",
      "foto": "img/santos-juego/santo-domingo-savio.jpg", "foto_origen": "santo-domingo-savio.jpg",
      "pistas": [
-        "Fui alumno de Don Bosco.",
+        "Me conocen por ser santo siendo un chico de colegio.",
         "Mi lema era: «Antes morir que pecar».",
         "Fundé con mis amigos la Compañía de la Inmaculada.",
         "Morí a los 14 años.",
@@ -176,7 +177,7 @@ SANTOS = [
     {"nombre": "San Ignacio de Loyola", "fiesta": "31 de julio", "ficha": "ignacio-de-loyola",
      "foto": "img/santos-juego/san-ignacio-de-loyola.jpg", "foto_origen": "san-ignacio-de-loyola.jpg",
      "pistas": [
-        "Fui soldado y me hirieron en una batalla en Pamplona.",
+        "Me conocen por enseñar a buscar y hallar a Dios en todas las cosas.",
         "Me convertí leyendo vidas de santos mientras me recuperaba.",
         "Escribí los Ejercicios Espirituales.",
         "Fundé la Compañía de Jesús.",
@@ -184,7 +185,7 @@ SANTOS = [
     {"nombre": "San Francisco Javier", "fiesta": "3 de diciembre", "ficha": "francisco-javier",
      "foto": "img/santos-juego/san-francisco-javier.jpg", "foto_origen": "san-francisco-javier.jpg",
      "pistas": [
-        "Fui compañero de estudios de San Ignacio en París.",
+        "Me conocen por haber bautizado a miles de personas en Asia.",
         "Fui uno de los primeros jesuitas.",
         "Misioné en la India y en Japón.",
         "Morí a las puertas de China.",
@@ -192,7 +193,7 @@ SANTOS = [
     {"nombre": "Santa Rosa de Lima", "fiesta": "23 de agosto", "ficha": "",
      "foto": "img/santos-juego/santa-rosa-de-lima.jpg", "foto_origen": "santa-rosa-de-lima.jpg",
      "pistas": [
-        "Nací en Lima en 1586.",
+        "Me conocen por esconder una corona de espinas debajo de una corona de flores.",
         "Fui terciaria dominica.",
         "Cuidaba enfermos y pobres en la casa de mi familia.",
         "Fui la primera santa de América.",
@@ -200,7 +201,7 @@ SANTOS = [
     {"nombre": "San Martín de Porres", "fiesta": "3 de noviembre", "ficha": "martin-de-porres",
      "foto": "img/santos-juego/san-martin-de-porres.jpg", "foto_origen": "san-martin-de-porres.jpg",
      "pistas": [
-        "Nací en Lima, hijo de un español y de una mujer liberta.",
+        "Me conocen por hacer comer del mismo plato a un perro, un gato y un ratón.",
         "Fui hermano dominico.",
         "Cuidaba enfermos y también a los animales.",
         "Me dicen el santo de la escoba.",
@@ -208,7 +209,7 @@ SANTOS = [
     {"nombre": "Santa Faustina Kowalska", "fiesta": "5 de octubre", "ficha": "faustina-kowalska",
      "foto": "img/santos-juego/santa-faustina-kowalska.jpg", "foto_origen": "santa-faustina.jpg",
      "pistas": [
-        "Fui monja en Polonia.",
+        "Me conocen como la secretaria de la Divina Misericordia.",
         "Escribí un diario con mensajes de Jesús.",
         "Jesús me pidió pintar una imagen con la frase «Jesús, en vos confío».",
         "Difundí la Coronilla de la Divina Misericordia.",
@@ -216,7 +217,7 @@ SANTOS = [
     {"nombre": "San Pío de Pietrelcina (Padre Pío)", "fiesta": "23 de septiembre", "ficha": "padre-pio",
      "foto": "img/santos-juego/san-pio-de-pietrelcina-padre-pio.jpg", "foto_origen": "san-pio.jpg",
      "pistas": [
-        "Fui fraile capuchino en Italia.",
+        "Me conocen por pelearme con el diablo.",
         "Tuve los estigmas durante cincuenta años.",
         "Pasaba muchas horas por día confesando.",
         "Fundé un hospital: la Casa Alivio del Sufrimiento.",
@@ -224,7 +225,7 @@ SANTOS = [
     {"nombre": "San Pedro", "fiesta": "29 de junio", "ficha": "",
      "foto": "img/santos-juego/san-pedro.jpg", "foto_origen": "san-pedro.jpg",
      "pistas": [
-        "Era pescador en Galilea.",
+        "Me conocen por caminar sobre el agua… y empezar a hundirme.",
         "Mi hermano se llamaba Andrés.",
         "Negué a Jesús tres veces.",
         "Jesús me cambió el nombre.",
@@ -232,7 +233,7 @@ SANTOS = [
     {"nombre": "San Pablo", "fiesta": "29 de junio", "ficha": "san-pablo",
      "foto": "img/santos-juego/san-pablo.jpg", "foto_origen": "san-pablo.jpg",
      "pistas": [
-        "Perseguía a los cristianos.",
+        "Me conocen como el apóstol de los gentiles.",
         "Jesús se me apareció en el camino a Damasco.",
         "Quedé ciego durante tres días.",
         "Escribí muchas cartas del Nuevo Testamento.",
@@ -240,7 +241,7 @@ SANTOS = [
     {"nombre": "Santa María Magdalena", "fiesta": "22 de julio", "ficha": "",
      "foto": "img/santos-juego/santa-maria-magdalena.jpg", "foto_origen": "santa-maria-magdalena.jpg",
      "pistas": [
-        "Jesús expulsó de mí siete demonios.",
+        "Me conocen por no separarme de Jesús ni en el peor momento.",
         "Acompañé a Jesús hasta la cruz.",
         "Fui al sepulcro el domingo bien temprano.",
         "Fui la primera en ver a Jesús resucitado.",
@@ -248,7 +249,7 @@ SANTOS = [
     {"nombre": "San Juan Evangelista", "fiesta": "27 de diciembre", "ficha": "",
      "foto": "img/santos-juego/san-juan-evangelista.jpg", "foto_origen": "san-juan-evangelista.jpg",
      "pistas": [
-        "Era pescador, hijo de Zebedeo.",
+        "Me conocen por apoyar la cabeza en el pecho de Jesús en la Última Cena.",
         "Mi hermano era Santiago.",
         "Al pie de la cruz, Jesús me confió a su Madre.",
         "La tradición me atribuye un Evangelio y el Apocalipsis.",
@@ -256,7 +257,7 @@ SANTOS = [
     {"nombre": "Santa Juana de Arco", "fiesta": "30 de mayo", "ficha": "",
      "foto": "img/santos-juego/santa-juana-de-arco.jpg", "foto_origen": "santa-juana-de-arco.jpg",
      "pistas": [
-        "Fui una campesina francesa.",
+        "Me conocen como la doncella de Orleans.",
         "Escuchaba las voces de algunos santos.",
         "Lideré al ejército francés con 17 años.",
         "Me quemaron en la hoguera a los 19.",
@@ -264,7 +265,7 @@ SANTOS = [
     {"nombre": "San Óscar Romero", "fiesta": "24 de marzo", "ficha": "",
      "foto": "img/santos-juego/san-oscar-romero.jpg", "foto_origen": "san-oscar-romero.jpg",
      "pistas": [
-        "Fui arzobispo de San Salvador.",
+        "Me conocen como la voz de los que no tenían voz.",
         "Defendí a los pobres en medio de la violencia.",
         "Me asesinaron mientras celebraba misa en 1980.",
         "El Papa Francisco me canonizó en 2018.",
@@ -272,7 +273,7 @@ SANTOS = [
     {"nombre": "Santa Gianna Beretta Molla", "fiesta": "28 de abril", "ficha": "",
      "foto": "img/santos-juego/santa-gianna-beretta-molla.jpg", "foto_origen": "santa-gianna.jpg",
      "pistas": [
-        "Fui médica pediatra en Italia.",
+        "Me conocen por ser médica, esposa, mamá… y santa.",
         "Me casé y tuve cuatro hijos.",
         "En mi último embarazo elegí salvar la vida de mi hija.",
         "Morí en 1962.",
@@ -280,7 +281,7 @@ SANTOS = [
     {"nombre": "San Luis Gonzaga", "fiesta": "21 de junio", "ficha": "",
      "foto": "img/santos-juego/san-luis-gonzaga.jpg", "foto_origen": "san-luis-gonzaga.jpg",
      "pistas": [
-        "Renuncié a ser marqués para hacerme jesuita.",
+        "Me conocen por mi pureza y por decidirme por Dios desde muy chico.",
         "Cuidé enfermos de peste en Roma.",
         "Me contagié y morí a los 23 años.",
         "Mi fiesta es el 21 de junio.",
@@ -288,7 +289,7 @@ SANTOS = [
     {"nombre": "San Benito", "fiesta": "11 de julio", "ficha": "san-benito",
      "foto": "img/santos-juego/san-benito.jpg", "foto_origen": "san-benito.jpg",
      "pistas": [
-        "Viví como ermitaño en una cueva en Subiaco.",
+        "Me conocen por una medalla que se usa para protegerse del mal.",
         "Fundé el monasterio de Montecassino.",
         "Escribí una regla para los monjes.",
         "Mi lema es «Ora et labora».",
@@ -296,7 +297,7 @@ SANTOS = [
     {"nombre": "Santo Tomás de Aquino", "fiesta": "28 de enero", "ficha": "tomas-de-aquino",
      "foto": "img/santos-juego/santo-tomas-de-aquino.jpg", "foto_origen": "santo-tomas-aquino.jpg",
      "pistas": [
-        "Mi familia me encerró para que no me hiciera dominico.",
+        "Me conocen como una de las mentes más brillantes de la Iglesia.",
         "Mis compañeros me decían «el buey mudo».",
         "Escribí la Suma Teológica.",
         "Compuse himnos a la Eucaristía, como el Pange lingua.",
@@ -304,7 +305,7 @@ SANTOS = [
     {"nombre": "San John Henry Newman", "fiesta": "9 de octubre", "ficha": "john-henry-newman",
      "foto": "img/santos-juego/san-john-henry-newman.jpg", "foto_origen": "san-john-henry.jpg",
      "pistas": [
-        "Fui pastor anglicano en Oxford.",
+        "Me conocen por buscar la verdad aunque me costara todo.",
         "Me convertí al catolicismo en 1845.",
         "Fui nombrado cardenal.",
         "Escribí el poema «Guíame, luz amable».",
@@ -312,7 +313,7 @@ SANTOS = [
     {"nombre": "San Juan Diego", "fiesta": "9 de diciembre", "ficha": "",
      "foto": "img/santos-juego/san-juan-diego.jpg", "foto_origen": "san-juan-diego.jpg",
      "pistas": [
-        "Era un indígena de México.",
+        "Me conocen por ser un hombre sencillo al que la Virgen eligió como mensajero.",
         "La Virgen se me apareció en el cerro del Tepeyac.",
         "Le llevé rosas al obispo envueltas en mi tilma.",
         "En mi tilma quedó estampada la imagen de la Virgen.",
@@ -320,7 +321,7 @@ SANTOS = [
     {"nombre": "Santa Bernardita Soubirous", "fiesta": "16 de abril", "ficha": "",
      "foto": "img/santos-juego/santa-bernardita-soubirous.jpg", "foto_origen": "santa-bernardita.jpg",
      "pistas": [
-        "Era una chica pobre de Francia.",
+        "Me conocen por ver a una Señora que nadie más veía.",
         "Vi a la Virgen dieciocho veces en una gruta.",
         "La Señora me dijo: «Yo soy la Inmaculada Concepción».",
         "Por su pedido brotó un manantial que todavía corre.",
@@ -328,7 +329,7 @@ SANTOS = [
     {"nombre": "San José Sánchez del Río", "fiesta": "10 de febrero", "ficha": "",
      "foto": "img/santos-juego/san-jose-sanchez-del-rio.jpg", "foto_origen": "san-jose-sanchez.jpg",
      "pistas": [
-        "Fui un adolescente mexicano.",
+        "Me conocen por dar la vida por Cristo siendo un adolescente.",
         "Me uní a los cristeros a los 14 años.",
         "Me torturaron para que renegara de mi fe.",
         "Morí gritando «¡Viva Cristo Rey!».",
@@ -336,7 +337,7 @@ SANTOS = [
     {"nombre": "Santos Mártires de Canadá (Juan de Brébeuf, Isaac Jogues y compañeros)", "fiesta": "19 de octubre", "ficha": "martires-de-canada",
      "foto": "img/santos-juego/santos-martires-de-canada-juan-de-brebeu.jpg", "foto_origen": "santos-martires-de-canada.jpg",
      "pistas": [
-        "Siglo XVII, en las tierras que hoy son Canadá y Estados Unidos.",
+        "Conocidos por anunciar el Evangelio en los bosques de Norteamérica.",
         "Misión entre el pueblo hurón, aprendiendo su lengua y sus costumbres.",
         "Una vida entregada a anunciar el Evangelio, hasta el martirio.",
         "Fiesta: 19 de octubre (en Canadá, el 26 de septiembre).",
@@ -344,7 +345,7 @@ SANTOS = [
     {"nombre": "San Antonio de Padua", "fiesta": "13 de junio", "ficha": "",
      "foto": "img/santos-juego/san-antonio-de-padua.jpg", "foto_origen": "san-antonio-de-padua.jpg",
      "pistas": [
-        "Nací en Lisboa, Portugal.",
+        "Me conocen por aparecer en las imágenes con el Niño Jesús en brazos.",
         "Primero fui canónigo agustino y después me hice franciscano.",
         "Fui un gran predicador: se cuenta que hasta los peces se acercaron a escucharme.",
         "Soy Doctor de la Iglesia.",
@@ -352,7 +353,7 @@ SANTOS = [
     {"nombre": "San Felipe Neri", "fiesta": "26 de mayo", "ficha": "felipe-neri",
      "foto": "img/santos-juego/san-felipe-neri.jpg", "foto_origen": "san-felipe-neri.jpg",
      "pistas": [
-        "Nací en Florencia en 1515.",
+        "Me conocen como el segundo apóstol de Roma.",
         "Fui sacerdote en Roma y fundé el Oratorio.",
         "Usaba el humor y las bromas para acercar a la gente a Dios.",
         "Les decía a los jóvenes: «Sean buenos, si pueden».",
@@ -360,7 +361,7 @@ SANTOS = [
     {"nombre": "San Juan María Vianney (Santo Cura de Ars)", "fiesta": "4 de agosto", "ficha": "",
      "foto": "img/santos-juego/san-juan-maria-vianney-santo-cura-de-ars.jpg", "foto_origen": "san-juan-maria-vianney.jpg",
      "pistas": [
-        "Me costaba muchísimo estudiar y casi no me ordenan sacerdote.",
+        "Me conocen por convertir un pueblo entero sin ser un gran estudioso.",
         "Me mandaron a un pueblito de Francia de unos 230 habitantes.",
         "Pasaba muchísimas horas por día confesando.",
         "Gente de toda Francia viajaba para confesarse conmigo.",
@@ -368,7 +369,7 @@ SANTOS = [
     {"nombre": "San Damián de Molokai", "fiesta": "10 de mayo", "ficha": "damian-de-molokai",
      "foto": "img/santos-juego/san-damian-de-molokai.jpg", "foto_origen": "san-damian-de-molokai.jpg",
      "pistas": [
-        "Nací en Bélgica en 1840.",
+        "Me conocen como el apóstol de los leprosos.",
         "Fui misionero en Hawái.",
         "Pedí ir a vivir con los enfermos de lepra aislados en una isla.",
         "Me contagié lepra y seguí sirviéndolos hasta morir.",
@@ -376,7 +377,7 @@ SANTOS = [
     {"nombre": "San Charbel Makhlouf", "fiesta": "24 de julio", "ficha": "",
      "foto": "img/santos-juego/san-charbel-makhlouf.jpg", "foto_origen": "san-charbel.jpg",
      "pistas": [
-        "Nací en el Líbano.",
+        "Me conocen por mi silencio y mi vida de oración en la montaña.",
         "Fui monje de la Iglesia maronita.",
         "Viví mis últimos 23 años como ermitaño.",
         "Después de mi muerte se atribuyeron muchísimos milagros a mi intercesión.",
@@ -384,7 +385,7 @@ SANTOS = [
     {"nombre": "San Francisco de Sales", "fiesta": "24 de enero", "ficha": "francisco-de-sales",
      "foto": "img/santos-juego/san-francisco-de-sales.jpg", "foto_origen": "san-francisco-de-sales.jpg",
      "pistas": [
-        "Nací en Saboya en 1567.",
+        "Me conocen como el santo de la amabilidad.",
         "Fui obispo de Ginebra.",
         "Escribí Introducción a la vida devota.",
         "Fundé con Santa Juana de Chantal la orden de la Visitación.",
@@ -392,7 +393,7 @@ SANTOS = [
     {"nombre": "Venerable Guido Schäffer", "fiesta": "", "ficha": "guido-schaffer",
      "foto": "img/santos-juego/venerable-guido-schaffer.jpg", "foto_origen": "guido-schaffer.jpg",
      "pistas": [
-        "Nací en Brasil en 1974.",
+        "Me conocen por unir la fe, la medicina y el mar.",
         "Fui médico y atendía gratis a los pobres.",
         "Me encantaba surfear.",
         "Estaba en el seminario para ser sacerdote.",
@@ -400,7 +401,7 @@ SANTOS = [
     {"nombre": "Enrique Shaw", "fiesta": "", "ficha": "enrique-shaw",
      "foto": "img/santos-juego/enrique-shaw.jpg", "foto_origen": "enrique-shaw.jpg",
      "pistas": [
-        "Nací en París en 1921, en una familia argentina.",
+        "Me conocen por ser un empresario que quiso ser santo en la oficina.",
         "Fui oficial de la Marina argentina.",
         "Dejé la Marina para ser empresario y vivir la fe en el trabajo.",
         "Fundé la Asociación Cristiana de Dirigentes de Empresa (ACDE).",
@@ -408,7 +409,7 @@ SANTOS = [
     {"nombre": "Santa Inés", "fiesta": "21 de enero", "ficha": "",
      "foto": "img/santos-juego/santa-ines.jpg", "foto_origen": "Santa-ines.jpg",
      "pistas": [
-        "Viví en Roma a comienzos del siglo IV.",
+        "Me conocen por mi valentía siendo casi una nena.",
         "Era muy joven: tenía unos doce o trece años.",
         "Rechacé casarme porque me había consagrado a Cristo.",
         "Morí mártir por no renunciar a mi fe.",
@@ -416,7 +417,7 @@ SANTOS = [
     {"nombre": "Santa Cecilia", "fiesta": "22 de noviembre", "ficha": "",
      "foto": "img/santos-juego/santa-cecilia.jpg", "foto_origen": "santa-cecilia.jpg",
      "pistas": [
-        "Viví en Roma en los primeros siglos del cristianismo.",
+        "Me conocen por cantarle a Dios en mi corazón.",
         "Fui una joven noble que se consagró a Dios.",
         "Según la tradición, ayudé a convertir a mi esposo, Valeriano.",
         "Morí mártir.",
@@ -424,7 +425,7 @@ SANTOS = [
     {"nombre": "Santa Rita de Casia", "fiesta": "22 de mayo", "ficha": "",
      "foto": "img/santos-juego/santa-rita-de-casia.jpg", "foto_origen": "santa-rita.jpg",
      "pistas": [
-        "Nací en Italia en el siglo XIV.",
+        "Me conocen por una rosa y unos higos que aparecieron en pleno invierno.",
         "Estuve casada con un hombre violento y perdoné a quienes lo mataron.",
         "Al quedar viuda entré en un convento agustino.",
         "Tenía en la frente una herida como la de una espina.",
@@ -432,7 +433,7 @@ SANTOS = [
     {"nombre": "Santa Ana", "fiesta": "26 de julio", "ficha": "",
      "foto": "img/santos-juego/santa-ana.jpg", "foto_origen": "santa-ana.jpg",
      "pistas": [
-        "No aparezco en la Biblia: me conocemos por la tradición.",
+        "Me conocen por haber esperado muchos años para tener una hija.",
         "Mi esposo se llamaba Joaquín.",
         "Mi fiesta es el 26 de julio.",
         "Soy la patrona de las abuelas.",
@@ -440,7 +441,7 @@ SANTOS = [
     {"nombre": "Santa Jacinta Marto", "fiesta": "20 de febrero", "ficha": "",
      "foto": "img/santos-juego/santa-jacinta-marto.jpg", "foto_origen": "santa-jacinta-marto.jpg",
      "pistas": [
-        "Nací en Portugal en 1910.",
+        "Me conocen por ofrecer sacrificios por los pecadores siendo muy chica.",
         "Era la más chica de tres primos que cuidaban ovejas.",
         "Mi hermano Francisco también es santo.",
         "Morí en 1920, con solo 9 años.",
@@ -448,15 +449,15 @@ SANTOS = [
     {"nombre": "Santa Escolástica", "fiesta": "10 de febrero", "ficha": "",
      "foto": "img/santos-juego/santa-escolastica.jpg", "foto_origen": "santa-ecolastica.jpg",
      "pistas": [
+        "Me conocen por ganarle una discusión a mi hermano rezando.",
         "Viví en Italia en el siglo VI.",
         "Fundé un monasterio de monjas cerca de Montecassino.",
         "Según la tradición, mi hermano y yo éramos mellizos.",
-        "Recé y se desató una tormenta para que mi hermano se quedara a conversar conmigo.",
         "Soy la hermana de San Benito."]},
     {"nombre": "Santa Águeda", "fiesta": "5 de febrero", "ficha": "",
      "foto": "img/santos-juego/santa-agueda.jpg", "foto_origen": "santa-agueda.jpg",
      "pistas": [
-        "Viví en Sicilia en el siglo III.",
+        "Me conocen por proteger a mi ciudad de un volcán.",
         "Me consagré a Dios y rechacé a un gobernador romano.",
         "Me torturaron cruelmente por mi fe.",
         "Morí mártir en Catania.",
@@ -464,7 +465,7 @@ SANTOS = [
     {"nombre": "Santa Catalina Labouré", "fiesta": "28 de noviembre", "ficha": "",
      "foto": "img/santos-juego/santa-catalina-laboure.jpg", "foto_origen": "santa-catalina-laboure.jpg",
      "pistas": [
-        "Nací en Francia en 1806.",
+        "Me conocen por guardar un secreto del cielo durante 46 años.",
         "Fui Hija de la Caridad, la congregación de San Vicente de Paúl.",
         "La Virgen se me apareció en una capilla de París en 1830.",
         "Me pidió que hiciera acuñar una medalla.",
@@ -472,7 +473,7 @@ SANTOS = [
     {"nombre": "San Esteban", "fiesta": "26 de diciembre", "ficha": "",
      "foto": "img/santos-juego/san-esteban.jpg", "foto_origen": "san-esteban.jpg",
      "pistas": [
-        "Fui uno de los siete diáconos elegidos por los apóstoles.",
+        "Me conocen por ver el cielo abierto en el momento de morir.",
         "Los Hechos dicen que estaba lleno de gracia y de poder.",
         "Me apedrearon en Jerusalén, y Saulo estaba presente.",
         "Antes de morir perdoné a los que me mataban.",
@@ -480,7 +481,7 @@ SANTOS = [
     {"nombre": "San Alberto Hurtado", "fiesta": "18 de agosto", "ficha": "alberto-hurtado",
      "foto": "img/santos-juego/san-alberto-hurtado.jpg", "foto_origen": "san-alberto-hurtado.jpg",
      "pistas": [
-        "Nací en Chile en 1901.",
+        "Me conocen como el apóstol de los pobres de Chile.",
         "Fui sacerdote jesuita.",
         "Recorría Santiago en una camioneta verde buscando a los que vivían en la calle.",
         "Fundé el Hogar de Cristo.",
@@ -488,7 +489,7 @@ SANTOS = [
     {"nombre": "San Juan de la Cruz", "fiesta": "14 de diciembre", "ficha": "",
      "foto": "img/santos-juego/san-juan-de-la-cruz.jpg", "foto_origen": "san-juan-de-la-cruz.jpg",
      "pistas": [
-        "Nací en España en 1542.",
+        "Me conocen por ser bajito de estatura pero gigante en la mística.",
         "Fui fraile carmelita.",
         "Ayudé a Santa Teresa de Ávila a reformar el Carmelo.",
         "Mis propios hermanos de orden me encerraron en una celda.",
@@ -496,7 +497,7 @@ SANTOS = [
     {"nombre": "San Vicente de Paúl", "fiesta": "27 de septiembre", "ficha": "",
      "foto": "img/santos-juego/san-vicente-de-paul.jpg", "foto_origen": "san-vicente-de-paul.jpg",
      "pistas": [
-        "Nací en Francia en 1581.",
+        "Me conocen como el apóstol de la caridad.",
         "Fundé la Congregación de la Misión.",
         "Con Santa Luisa de Marillac fundé las Hijas de la Caridad.",
         "Una sociedad que lleva mi nombre ayuda hoy a los pobres en todo el mundo.",
@@ -504,7 +505,7 @@ SANTOS = [
     {"nombre": "San Ramón Nonato", "fiesta": "31 de agosto", "ficha": "",
      "foto": "img/santos-juego/san-ramon-nonato.jpg", "foto_origen": "san-ramon-nonato.jpg",
      "pistas": [
-        "Nací en Cataluña en el siglo XIII.",
+        "Me conocen por un candado que me pusieron en la boca.",
         "Me llaman «no nacido» porque me sacaron del vientre de mi madre ya muerta.",
         "Fui fraile mercedario.",
         "Me entregué como rehén para liberar a cristianos cautivos.",
@@ -512,7 +513,7 @@ SANTOS = [
     {"nombre": "San Dimas", "fiesta": "25 de marzo", "ficha": "",
      "foto": "img/santos-juego/san-dimas.jpg", "foto_origen": "san-dimas.jpg",
      "pistas": [
-        "Viví en tiempos de Jesús.",
+        "Me conocen por robarme el cielo en el último minuto.",
         "Fui ladrón.",
         "Me crucificaron al lado de Jesús.",
         "Le pedí a Jesús que se acordara de mí cuando llegara a su Reino.",
@@ -520,7 +521,7 @@ SANTOS = [
     {"nombre": "San Cristóbal", "fiesta": "25 de julio", "ficha": "",
      "foto": "img/santos-juego/san-cristobal.jpg", "foto_origen": "san-cristobal.jpg",
      "pistas": [
-        "Según la tradición, era un hombre gigante.",
+        "Me conocen por usar mi fuerza enorme para ayudar a los demás.",
         "Ayudaba a la gente a cruzar un río llevándola sobre los hombros.",
         "Un día cargué a un niño que pesaba como el mundo entero.",
         "Mi nombre significa «el que lleva a Cristo».",
@@ -528,7 +529,7 @@ SANTOS = [
     {"nombre": "San Camilo de Lelis", "fiesta": "14 de julio", "ficha": "",
      "foto": "img/santos-juego/san-camilo-de-lelis.jpg", "foto_origen": "san-camilo-lelis.jpg",
      "pistas": [
-        "Nací en Italia en 1550.",
+        "Me conocen por cuidar a los enfermos como si fueran el mismo Jesús.",
         "De joven fui soldado y jugador.",
         "Una herida en la pierna me llevó a un hospital, donde descubrí mi vocación.",
         "Fundé una orden que lleva una cruz roja en el hábito.",
@@ -536,7 +537,7 @@ SANTOS = [
     {"nombre": "Santiago Apóstol", "fiesta": "25 de julio", "ficha": "santiago-apostol",
      "foto": "img/santos-juego/santiago-apostol.jpg", "foto_origen": "santiago-apostol.jpg",
      "pistas": [
-        "Era pescador en Galilea.",
+        "Me conocen como el patrono de España.",
         "Mi padre se llamaba Zebedeo.",
         "Jesús nos llamó a mi hermano y a mí «hijos del trueno».",
         "Fui el primer apóstol en morir mártir.",
@@ -544,7 +545,7 @@ SANTOS = [
     {"nombre": "San Bernardo de Claraval", "fiesta": "20 de agosto", "ficha": "",
      "foto": "img/santos-juego/san-bernardo-de-claraval.jpg", "foto_origen": "san-bernardo-de-claraval.jpg",
      "pistas": [
-        "Nací en Francia en 1090.",
+        "Me conocen por llenar Europa de monasterios.",
         "Entré al Císter con unos treinta compañeros, varios de ellos hermanos míos.",
         "Fundé la abadía de Claraval.",
         "Fui un gran predicador y amaba mucho a la Virgen.",

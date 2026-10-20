@@ -2,8 +2,10 @@
 
 Uso:  python herramientas/generar_crucigramas.py            (genera 100 nuevos, REEMPLAZA los actuales)
       python herramientas/generar_crucigramas.py --sumar 50 (agrega 50 al final, sin tocar los que ya hay)
+      python herramientas/generar_crucigramas.py --rehacer-desde 12
+            (deja igual los crucigramas de los días 1 a 12 —los que ya salieron— y rehace los siguientes)
 
-Reglas: grillas de hasta 11x11, 7 a 9 palabras, las palabras solo se tocan donde se cruzan,
+Reglas: grillas de hasta 13x13, 14 a 17 palabras (si no sabés una, te ayudan los cruces), las palabras solo se tocan donde se cruzan,
 todo conectado. Cada crucigrama pasa por un control independiente antes de guardarse.
 """
 import collections
@@ -16,7 +18,8 @@ AQUI = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, AQUI)
 from banco_crucigrama import B  # noqa: E402
 
-MAX_LARGO, MAX_ANCHO, MAX_ALTO = 11, 11, 11
+MAX_LARGO, MAX_ANCHO, MAX_ALTO = 11, 13, 13
+MINIMO, OBJETIVOS = 14, [14, 15, 16, 16, 17]
 SALIDA = os.path.join(AQUI, 'datos', 'crucigramas.json')
 
 pistas, categoria = collections.OrderedDict(), {}
@@ -140,8 +143,8 @@ def generar(cantidad, existentes, semilla):
     firmas = {frozenset(e['w'] for e in p['e']) for p in existentes}
     nuevos = []
     while len(nuevos) < cantidad:
-        grid, puestas = armar(rnd, uso, rnd.choice([7, 8, 8, 9]))
-        if len(puestas) < 7:
+        grid, puestas = armar(rnd, uso, rnd.choice(OBJETIVOS))
+        if len(puestas) < MINIMO:
             continue
         firma = frozenset(w for w, *_ in puestas)
         if firma in firmas:
@@ -158,7 +161,29 @@ def generar(cantidad, existentes, semilla):
     return nuevos
 
 
+def rehacer(desde, total):
+    """Deja igual los crucigramas de los días 1..desde (en el orden en que salieron) y genera nuevos para los días siguientes."""
+    ruta_orden = os.path.join(AQUI, 'datos', 'orden.json')
+    orden = json.load(open(ruta_orden, encoding='utf-8'))
+    previos = json.load(open(SALIDA, encoding='utf-8'))
+    salieron = [previos[int(i)] for i in orden['crucigramas'][:desde]]
+    for p in salieron:
+        p.pop('id', None)
+    todos = salieron + generar(total - desde, salieron, 2026 * 7 + desde)
+    json.dump(todos, open(SALIDA, 'w', encoding='utf-8'), ensure_ascii=False)
+    orden['crucigramas'] = [str(i) for i in range(len(todos))]
+    json.dump(orden, open(ruta_orden, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+    nuevos = todos[desde:]
+    uso = collections.Counter(e['w'] for p in nuevos for e in p['e'])
+    print(f'Crucigramas: {len(todos)} ({desde} se mantienen) | palabras por crucigrama nuevo: '
+          f'{min(len(p["e"]) for p in nuevos)} a {max(len(p["e"]) for p in nuevos)} | grilla máx: '
+          f'{max(p["w"] for p in nuevos)}x{max(p["h"] for p in nuevos)} | más repetidas: {uso.most_common(5)}')
+
+
 def main():
+    if '--rehacer-desde' in sys.argv:
+        rehacer(int(sys.argv[sys.argv.index('--rehacer-desde') + 1]), 120)
+        return
     existentes = json.load(open(SALIDA, encoding='utf-8')) if os.path.exists(SALIDA) else []
     if '--sumar' in sys.argv:
         cantidad = int(sys.argv[sys.argv.index('--sumar') + 1])
