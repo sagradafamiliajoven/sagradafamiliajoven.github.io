@@ -181,6 +181,16 @@ C = [
          tambien=['CEFERINO', 'TERESITA', 'JOSÉ SÁNCHEZ DEL RÍO', 'TARCISIO', 'MARÍA GORETTI', 'CHIARA BADANO', 'ÁGUEDA', 'CECILIA', 'LUCÍA',
                   'JUANA DE ARCO', 'GUIDO SCHÄFFER', 'SAN TARCISIO']),
 
+    dict(nombre='Canciones de misa en Sagrada', nivel=2,  # títulos del cancionero de Sagrada (docs/cancionero-sagrada-familia.pdf)
+         usar=['OCÉANOS', 'SUMÉRGEME', 'MAR ADENTRO', 'HAZME POBRE', 'CRISTO REINA', 'CARA A CARA', 'DIME REY', 'HIJO AMADO',
+               'QUÉDATE SEÑOR', 'VINE A ADORARTE', 'RECIBE MI CORAZÓN', 'ALÁBENLO', 'DAME TUS OJOS', 'NUEVA MAÑANA'],
+         tambien=['RUAH', 'SAL Y LUZ', 'NADA TE TURBE', 'PERDÓN', 'CON VOS', 'FÁTIMA', 'TREINTA MONEDAS', 'ALMA DE CRISTO', 'CRISTO CALLA',
+                  'A TI MARÍA', 'DIOS TE SALVE', 'DE CIRENE', 'PRECIOSO JESÚS', 'JESÚS MI ALEGRÍA', 'ESPÍRITU DE VIDA', 'MAR', 'ALGO DE PAZ',
+                  'AL DESPERTAR', 'CONOZCO TU CORAZÓN', 'DE TAL MANERA', 'DESPUÉS DE CAER', 'ENCIENDE UNA LUZ', 'ESPÍRITU DESCIENDE',
+                  'FRENTE A TU TRONO', 'JOVEN LEVANTATE', 'LA NIÑA DE TUS OJOS', 'ME DICE QUE ME AMA', 'PERFUME A TUS PIES', 'QUIERO SER SANTO',
+                  'ROMPE ESAS CADENAS', 'SALMO 17', 'TU ESTÁS AQUÍ', 'UNA VEZ MÁS REZARÉ', 'VIDA EN ABUNDANCIA', 'VUELVE A DARME VIDA',
+                  'SECUENCIA DEL ESPÍRITU SANTO', 'ORACIÓN DEL REMANSO', 'HIJO PRÓDIGO']),
+
     # ---------------- nivel 3 ----------------
     dict(nombre='Frutos del Espíritu Santo', nivel=3,
          usar=['AMOR', 'ALEGRÍA', 'BONDAD', 'FIDELIDAD', 'MANSEDUMBRE', 'BENIGNIDAD', 'LONGANIMIDAD', 'MODESTIA'],
