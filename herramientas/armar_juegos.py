@@ -2,7 +2,7 @@
 
 Uso:  python herramientas/armar_juegos.py
 
-Toma:  banco_santos.py · datos/versiculos.json (de verificar_versiculos.py) · datos/crucigramas.json · datos/conexiones.json
+Toma:  banco_santos.py · datos/versiculos.json (de verificar_versiculos.py) · datos/crucigramas.json · datos/conexiones.json · datos/impostor.json
 Orden: datos/orden.json guarda en qué orden salen los desafíos. Lo que ya está no se mueve;
        lo nuevo se agrega al final (mezclado entre sí). Así sumar contenido no cambia el desafío de hoy.
 """
@@ -78,12 +78,16 @@ def main():
     conexiones = json.load(open(os.path.join(AQUI, 'datos', 'conexiones.json'), encoding='utf-8'))
     for i, c in enumerate(conexiones):
         c['id'] = i
+    impostor = json.load(open(os.path.join(AQUI, 'datos', 'impostor.json'), encoding='utf-8'))
+    for i, c in enumerate(impostor):
+        c['id'] = i
     datos = {
         'inicio': INICIO,
         'santos': ordenar('santos', santos, lambda x: x['id']),
         'versiculos': ordenar('versiculos', versiculos, lambda x: x['cita']),
         'crucigramas': ordenar('crucigramas', crucigramas, lambda x: str(x['id'])),
         'conexiones': ordenar('conexiones', conexiones, lambda x: str(x['id'])),
+        'impostor': ordenar('impostor', impostor, lambda x: str(x['id'])),
     }
     js = ('/* Datos de los juegos diarios y del Diccionario de santos.\n'
           '   NO editar a mano: se genera con  python herramientas/armar_juegos.py\n'
@@ -92,7 +96,7 @@ def main():
     open(os.path.join(WEB, 'js', 'juegos-datos.js'), 'w', encoding='utf-8', newline='\n').write(js)
     f = sum(s['g'] == 'f' for s in santos)
     print(f'Listo: {len(santos)} santos ({f} santas, {len(santos) - f} santos) · {len(versiculos)} versículos · '
-          f'{len(crucigramas)} crucigramas · {len(conexiones)} conexiones · {round(len(js.encode()) / 1024)} KB')
+          f'{len(crucigramas)} crucigramas · {len(conexiones)} conexiones · {len(impostor)} impostor · {round(len(js.encode()) / 1024)} KB')
     sin_fiesta = [s['n'] for s in santos if not s['fiesta']]
     if sin_fiesta:
         print('  Sin fecha de fiesta:', ', '.join(sin_fiesta))

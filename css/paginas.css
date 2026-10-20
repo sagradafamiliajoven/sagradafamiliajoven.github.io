@@ -903,3 +903,23 @@ a.ac-btn { display: inline-block; text-decoration: none; }
 .ac-dlg__box img { display: block; width: 100%; height: auto; max-height: 62vh; object-fit: contain; margin: 0 auto 14px; }
 .ac-dlg__btns { display: flex; flex-wrap: wrap; gap: .6rem; justify-content: center; }
 @media (max-width: 560px) { .ac-det-head { flex-direction: column; align-items: flex-start; } }
+
+/* El impostor */
+.imp__cat { display: flex; flex-direction: column; align-items: center; gap: 2px; margin: 4px 0 14px; padding: 14px 18px; border-radius: 14px; background: var(--ink); color: #fff; text-align: center; }
+.imp__cat span { font-size: .72rem; letter-spacing: .14em; text-transform: uppercase; opacity: .7; }
+.imp__cat strong { font-family: var(--head); font-size: 1.35rem; line-height: 1.15; }
+.imp__grid { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 8px; }
+.imp__ficha { position: relative; font: inherit; font-family: "League Spartan", sans-serif; font-weight: 600; font-size: .95rem; letter-spacing: .02em; line-height: 1.1;
+  min-height: 64px; padding: 10px 6px; border-radius: 12px; border: 1.5px solid var(--line); background: #fff; color: var(--ink); cursor: pointer; text-align: center; word-break: break-word; }
+.imp__ficha:hover:not([disabled]) { border-color: var(--ink); }
+.imp__ficha.is-larga { font-size: .78rem; }
+.imp__ficha.is-ok { background: #e4f1ea; border-color: #2f6b4f; color: #2f6b4f; }
+.imp__ficha.is-imp { background: #f8e7e4; border-color: #a5463d; color: #a5463d; }
+.imp__ficha.is-falto { background: #f2f8f4; border-style: dashed; border-color: #8fbfa3; color: #3b6b52; }
+.imp__ficha.is-imp-rev { background: #fbf1ef; border-color: #d8a39c; color: #a5463d; }
+.imp__ficha[disabled] { cursor: default; }
+.imp__marca { position: absolute; top: 4px; right: 7px; font-size: .8rem; }
+.imp__estado { margin: 12px 0 0; color: var(--muted); }
+.imp__estado strong { color: var(--ink); }
+.imp__nota { font-size: .85rem; color: var(--muted); margin: 4px 0 0; }
+@media (max-width: 620px) { .imp__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; } .imp__ficha { min-height: 52px; font-size: .88rem; } }

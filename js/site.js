@@ -19,7 +19,8 @@
     { id: "santo", clave: "santo", nombre: "Santo del día", icono: "🕊️", ancla: "diario-santo" },
     { id: "versiculo", clave: "versiculo", nombre: "Versículo del día", icono: "📖", ancla: "diario-versiculo" },
     { id: "conexiones", clave: "conex", nombre: "Conexiones", icono: "🧩", ancla: "diario-conex" },
-    { id: "crucigrama", clave: "cruci", nombre: "Crucigrama", icono: "✏️", ancla: "diario-cruci" }
+    { id: "crucigrama", clave: "cruci", nombre: "Crucigrama", icono: "✏️", ancla: "diario-cruci" },
+    { id: "impostor", clave: "impostor", nombre: "El impostor", icono: "🕵️", ancla: "diario-impostor" }
   ];
   function fechaLocal(d) { return d.getFullYear() + "-" + (d.getMonth() < 9 ? "0" : "") + (d.getMonth() + 1) + "-" + (d.getDate() < 10 ? "0" : "") + d.getDate(); }
   function leerLS(k) { try { return JSON.parse(localStorage.getItem(k)); } catch (e) { return null; } }
@@ -30,9 +31,10 @@
     if (id === "santo") return s.puntos * 20;
     if (id === "versiculo") return s.gano ? (s.malas.length ? 50 : 100) : 0;
     if (id === "crucigrama") {
-      /* el tiempo y el castigo por palabra revelada dependen del tamaño: unos 26 segundos por palabra */
-      var n = s.n || 8, libre = 26 * n, porAyuda = Math.round(120 / n);
-      return Math.max(20, Math.min(100, 100 - porAyuda * (s.ayudas || 0) - Math.max(0, Math.floor(((s.t || 0) - libre) / 30))));
+      /* el tiempo y el castigo por palabra revelada dependen del tamaño: 40 segundos por palabra.
+         Cada letra pedida resta 3 (hasta 5 por día). Los crucigramas viejos (sin "n") siguen con 26 s por palabra. */
+      var n = s.n || 8, libre = (s.n && s.n > 12 ? 40 : 26) * n, porAyuda = Math.round(120 / n);
+      return Math.max(20, Math.min(100, 100 - porAyuda * (s.ayudas || 0) - 3 * (s.letras || 0) - Math.max(0, Math.floor(((s.t || 0) - libre) / 30))));
     }
     return s.puntos;
   }
@@ -551,10 +553,10 @@
     }).join("");
     return '<section class="section section--tight" id="hoy-juegos"><div class="wrap"><div class="hoyj">' +
       '<div class="hoyj__top"><div><p class="eyebrow">Juegos</p><h2 class="hoyj__title">Desafíos de hoy</h2>' +
-        '<p class="muted">' + (hechos === 4 ? "¡Hiciste los 4! Sumaste " + total + " de 400 puntos. Volvé mañana." : hechos ? "Te " + (4 - hechos === 1 ? "falta 1" : "faltan " + (4 - hechos)) + ". Llevás " + total + " puntos hoy." : "Cuatro desafíos nuevos cada día, iguales para todos.") + "</p></div>" +
+        '<p class="muted">' + (hechos === DESAFIOS.length ? "¡Hiciste los " + DESAFIOS.length + "! Sumaste " + total + " de " + 100 * DESAFIOS.length + " puntos. Volvé mañana." : hechos ? "Te " + (DESAFIOS.length - hechos === 1 ? "falta 1" : "faltan " + (DESAFIOS.length - hechos)) + ". Llevás " + total + " puntos hoy." : "Cinco desafíos nuevos cada día, iguales para todos.") + "</p></div>" +
         (racha ? '<span class="daily__racha">🔥 Racha de ' + racha + (racha === 1 ? " día" : " días") + "</span>" : "") + "</div>" +
       '<ul class="hoyj__lista">' + items + "</ul>" +
-      '<div class="hoyj__pie"><div id="hoyj-podio"></div><a class="btn btn--small" href="' + (hechos === 4 ? "juegos.html#ranking-seccion" : "juegos.html#diarios") + '">' + (hechos === 4 ? "Ver el ranking" : "Jugar ahora") + "</a></div>" +
+      '<div class="hoyj__pie"><div id="hoyj-podio"></div><a class="btn btn--small" href="' + (hechos === DESAFIOS.length ? "juegos.html#ranking-seccion" : "juegos.html#diarios") + '">' + (hechos === DESAFIOS.length ? "Ver el ranking" : "Jugar ahora") + "</a></div>" +
     "</div></div></section>";
   }
 
@@ -826,13 +828,14 @@
   };
 
   P.juegos = function () {
-    return pagehead("Juegos", "Jugá y aprendé", "Cuatro desafíos nuevos cada día, iguales para todos, un ranking parroquial y un quiz para jugar cuando quieras.") +
+    return pagehead("Juegos", "Jugá y aprendé", "Cinco desafíos nuevos cada día, iguales para todos, un ranking parroquial y un quiz para jugar cuando quieras.") +
       '<section class="section section--first" id="diarios"><div class="wrap">' +
         head("Desafíos del día", "Uno nuevo cada día", "Se juegan una vez por día. Volvé mañana para sumar a tu racha.") +
         '<div id="tip-inicio"></div>' +
         '<div class="dailies"><div class="daily" id="diario-santo"><p class="muted">Cargando…</p></div>' +
         '<div class="daily" id="diario-versiculo"><p class="muted">Cargando…</p></div>' +
         '<div class="daily daily--wide" id="diario-conex"><p class="muted">Cargando…</p></div>' +
+        '<div class="daily daily--wide" id="diario-impostor"><p class="muted">Cargando…</p></div>' +
         '<div class="daily daily--wide" id="diario-cruci"><p class="muted">Cargando…</p></div></div>' +
       "</div></section>" +
       '<section class="section section--tint" id="ranking-seccion"><div class="wrap">' +
@@ -1118,7 +1121,7 @@
   }
 
   /* ---------- juegos diarios: Santo, Versículo, Conexiones, Crucigrama y ranking ---------- */
-  if (window.JUEGOS && ($("diario-santo") || $("diario-versiculo") || $("diario-cruci") || $("diario-conex"))) {
+  if (window.JUEGOS && ($("diario-santo") || $("diario-versiculo") || $("diario-cruci") || $("diario-conex") || $("diario-impostor"))) {
     var JG = window.JUEGOS;
     var dosD = function (n) { return (n < 10 ? "0" : "") + n; };
     var claveFecha = function (d) { return d.getFullYear() + "-" + dosD(d.getMonth() + 1) + "-" + dosD(d.getDate()); };
@@ -1349,6 +1352,59 @@
       pintarX();
     }
 
+    /* --- El impostor: tocá las que son de la categoría; si tocás un impostor, se termina --- */
+    if ($("diario-impostor") && JG.impostor) {
+      var IM = delDia(JG.impostor, "impostor").item, KI = "diario:impostor:" + claveFecha(HOY);
+      var nOk = IM.f.filter(function (f) { return f.ok; }).length, nImp = IM.f.length - nOk;
+      var ei = leer(KI) || { orden: mezclarCon(IM.f.map(function (_, i) { return i; }), azar(semilla("impostor:" + NUM))), toques: [], fin: false, gano: false, puntos: 0 };
+      var contI = $("diario-impostor");
+      var puntosI = function () {
+        var buenos = ei.toques.filter(function (i) { return IM.f[i].ok; }).length;
+        return buenos === nOk ? 100 : Math.round(90 * buenos / nOk);
+      };
+      var pintarI = function () {
+        var buenos = ei.toques.filter(function (i) { return IM.f[i].ok; }).length;
+        var cab = '<div class="daily__head"><p class="eyebrow">El impostor · #' + NUM + "</p><h3>¿Quién no es de acá?</h3></div>" +
+          '<div class="imp__cat"><span>Categoría</span><strong>' + esc(IM.c) + "</strong></div>";
+        var fichasHtml = '<div class="imp__grid">' + ei.orden.map(function (i) {
+          var f = IM.f[i], tocada = ei.toques.indexOf(i) >= 0, cls = "imp__ficha";
+          if (tocada) cls += f.ok ? " is-ok" : " is-imp";
+          else if (ei.fin) cls += f.ok ? " is-falto" : " is-imp-rev";
+          return '<button type="button" class="' + cls + (f.w.length > 13 ? " is-larga" : "") + '" data-i="' + i + '"' + (tocada || ei.fin ? " disabled" : "") + ">" +
+            '<span class="imp__marca" aria-hidden="true">' + (tocada ? (f.ok ? "✓" : "✗") : ei.fin && !f.ok ? "🕵️" : "") + "</span>" + esc(f.w) + "</button>";
+        }).join("") + "</div>";
+        if (!ei.fin) {
+          contI.innerHTML = cab +
+            '<p class="daily__hint">Tocá las ' + nOk + " palabras que son de la categoría. Hay " + nImp + (nImp === 1 ? " impostor" : " impostores") +
+            ": si tocás uno, se termina. Cuantas más encontrás, más puntos.</p>" + fichasHtml +
+            '<p class="imp__estado">Llevás <strong>' + buenos + " de " + nOk + "</strong> · " + puntosI() + " puntos</p>" + pieHtml("impostor");
+          return;
+        }
+        var fila = ei.toques.map(function (i) { return IM.f[i].ok ? "✅" : "🕵️"; }).join("");
+        var texto = "El impostor #" + NUM + " 🕵️\n" + IM.c + "\n" + fila + " " + ei.puntos + " pts" +
+          (verRacha("impostor") > 1 ? "\nRacha de " + verRacha("impostor") + " días 🔥" : "") + "\n" + urlJuegos;
+        contI.innerHTML = cab + fichasHtml +
+          '<p class="daily__result-v ' + (ei.gano ? "is-ok" : "is-bad") + '">' +
+          (ei.gano ? "¡Las encontraste todas sin tocar ningún impostor! +bonus: 100 puntos." :
+            "¡Te agarró el impostor! Encontraste " + buenos + " de " + nOk + ": " + ei.puntos + " puntos.") + "</p>" +
+          (ei.gano ? "" : '<p class="imp__nota">En verde claro, las que te faltaron; con 🕵️, los impostores.</p>') +
+          compartirHtml(texto) + pieHtml("impostor");
+      };
+      contI.addEventListener("click", function (ev) {
+        var b = ev.target.closest("[data-i]"); if (!b || ei.fin) return;
+        var i = +b.getAttribute("data-i"); if (ei.toques.indexOf(i) >= 0) return;
+        ei.toques.push(i);
+        var buenos = ei.toques.filter(function (j) { return IM.f[j].ok; }).length;
+        if (!IM.f[i].ok) { ei.fin = true; ei.gano = false; }
+        else if (buenos === nOk) { ei.fin = true; ei.gano = true; }
+        ei.puntos = puntosI();
+        if (ei.fin) sumarRacha("impostor");
+        guardar(KI, ei); pintarI();
+        if (ei.fin) avisarPuntaje("impostor");
+      });
+      pintarI();
+    }
+
     /* --- Crucigrama del día --- */
     if ($("diario-cruci") && JG.crucigramas) {
       var CR = delDia(JG.crucigramas, "crucigrama").item, KC = "diario:cruci:" + claveFecha(HOY);
@@ -1368,7 +1424,8 @@
         if (arranca.length) { num++; numDe[clave(rr, cc)] = num; arranca.forEach(function (e) { e.n = num; }); }
       }
       var celdasDe = function (e) { var out = []; for (var j = 0; j < e.w.length; j++) out.push(clave(e.r + (e.d ? j : 0), e.c + (e.d ? 0 : j))); return out; };
-      var estC = leer(KC) || { l: {}, rev: {}, fin: false, ayudas: 0, t: 0 };
+      var estC = leer(KC) || { l: {}, rev: {}, fin: false, ayudas: 0, letras: 0, t: 0 };
+      var MAX_LETRAS = 5;
       estC.n = CR.e.length; /* cantidad de palabras: define el tiempo para sacar 100 */
       var act = { k: clave(CR.e[0].r, CR.e[0].c), d: CR.e[0].d };
       var normal = function (s) { s = String(s || "").toUpperCase(); if (s === "Ñ") return s; return s.normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^A-ZÑ]/g, ""); };
@@ -1419,17 +1476,22 @@
         $("cw-bar").innerHTML = estC.fin ? "<strong>¡Completo!</strong>" : "<strong>" + e.n + " " + (e.d ? "Vertical" : "Horizontal") + "</strong>" + esc(e.p) + " <span>(" + e.w.length + ")</span>";
         $("cw-tools").innerHTML = estC.fin ? "" :
           '<button type="button" class="btn btn--small" data-cw="comprobar">Comprobar</button>' +
+          '<button type="button" class="btn btn--small btn--ghost" data-cw="letra"' + ((estC.letras || 0) >= MAX_LETRAS || estC.l[act.k] === cel[act.k].ch ? " disabled" : "") +
+            ' title="Te muestra la letra de la casilla marcada">Pedir letra (' + (MAX_LETRAS - (estC.letras || 0)) + ")</button>" +
           '<button type="button" class="btn btn--small btn--ghost" data-cw="revelar">Revelar palabra</button>' +
           '<span class="cw__time" id="cw-time">' + reloj(estC.t) + "</span>" +
           (recordC() ? '<span class="cw__record" title="Tu mejor tiempo sin revelar palabras">🏆 ' + reloj(recordC().t) + "</span>" : "");
         if (estC.fin) {
-          var ayudaTxt = estC.ayudas ? (estC.ayudas === 1 ? "con 1 ayuda" : "con " + estC.ayudas + " ayudas") : "sin ayudas";
+          var partes = [];
+          if (estC.ayudas) partes.push(estC.ayudas === 1 ? "1 palabra revelada" : estC.ayudas + " palabras reveladas");
+          if (estC.letras) partes.push(estC.letras === 1 ? "1 letra pedida" : estC.letras + " letras pedidas");
+          var ayudaTxt = partes.length ? "con " + partes.join(" y ") : "sin ayudas";
           var texto = "Crucigrama del día #" + NUM + " ✏️\n✅ en " + reloj(estC.t) + " · " + ayudaTxt + (estC.record ? " · 🏆 ¡Nuevo récord!" : "") +
             (verRacha("crucigrama") > 1 ? " · Racha de " + verRacha("crucigrama") + " días 🔥" : "") + "\n" + urlJuegos;
           var rec = recordC();
           var recTxt = estC.record ? '<p class="cw__nuevo">🏆 ¡Nuevo récord personal!</p>'
             : estC.primero ? '<p class="cw__rec-txt">🏆 Tu primer récord: ' + reloj(estC.t) + ". A ver si lo superás mañana.</p>"
-            : rec ? '<p class="cw__rec-txt">🏆 Tu récord: ' + reloj(rec.t) + (estC.ayudas ? " (solo cuenta si no revelás palabras)" : "") + "</p>" : "";
+            : rec ? '<p class="cw__rec-txt">🏆 Tu récord: ' + reloj(rec.t) + (estC.ayudas || estC.letras ? " (solo cuenta si no usás ayudas)" : "") + "</p>" : "";
           $("cw-fin").innerHTML = '<p class="daily__result-v is-ok">¡Lo completaste en ' + reloj(estC.t) + " " + ayudaTxt + "!</p>" + recTxt + compartirHtml(texto) + pieHtml("crucigrama");
         } else $("cw-fin").innerHTML = pieHtml("crucigrama");
       };
@@ -1442,7 +1504,7 @@
       var terminar = function () {
         if (estC.fin || !completo()) return;
         estC.fin = true; sumarRacha("crucigrama");
-        if (!estC.ayudas) {
+        if (!estC.ayudas && !estC.letras) {
           var rec = recordC();
           if (!rec || estC.t < rec.t) { estC.record = !!rec; estC.primero = !rec; guardar("record:crucigrama", { t: estC.t, num: NUM, fecha: claveFecha(HOY) }); }
         }
@@ -1472,6 +1534,11 @@
             });
             $("cw-bar").innerHTML = malas ? "<strong>Ojo:</strong> hay " + malas + (malas === 1 ? " letra que no va." : " letras que no van.") : "<strong>¡Vas bien!</strong> Todo lo que escribiste está correcto.";
             terminar();
+          } else if (btn.getAttribute("data-cw") === "letra") {
+            if ((estC.letras || 0) >= MAX_LETRAS || estC.l[act.k] === cel[act.k].ch) return;
+            estC.l[act.k] = cel[act.k].ch; estC.rev[act.k] = true; estC.letras = (estC.letras || 0) + 1;
+            var cBad = contC.querySelector('.cw__cell[data-k="' + act.k + '"]'); if (cBad) cBad.classList.remove("is-bad");
+            mover(1); guardar(KC, estC); pintarC(); foco(); terminar();
           } else {
             var en = entradaActiva();
             celdasDe(en).forEach(function (k) { if (estC.l[k] !== cel[k].ch) { estC.l[k] = cel[k].ch; estC.rev[k] = true; } });
@@ -1507,10 +1574,10 @@
       });
     }
 
-    /* --- Ranking parroquial: suma de los 4 desafíos del día (máximo 100 puntos cada uno) ---
+    /* --- Ranking parroquial: suma de los 5 desafíos del día (máximo 100 puntos cada uno) ---
        Los puntajes viven en la planilla de la Academia (ver herramientas/ranking/LEEME.md).
        Suman quienes entran con su cuenta de Google y fueron aprobados. */
-    var JUEGOS_RK = ["santo", "versiculo", "crucigrama", "conexiones"];
+    var JUEGOS_RK = ["santo", "versiculo", "crucigrama", "conexiones", "impostor"];
     var puntosDe = puntosHoy;
     var RK = CUENTA.url;
     var enviarRK = function (juego, cb) {
@@ -1582,13 +1649,14 @@
         }).join("");
         cont.innerHTML = '<div class="rk__yo"><p>Jugás como <strong>' + esc(yo.nombre) + "</strong>" + (yo.grupo ? grupoRK(yo.grupo) : "") + ' · <button type="button" class="link" data-rk="salir">Salir</button></p>' +
           (yo.estado === "pendiente" ? '<p class="rk__msg">' + CUENTA.mensaje("pendiente") + "</p>" : "") +
-          '<p class="rk__hoy">Hoy: <strong>' + hoy + "</strong> de 400 puntos · " + jugados + " de 4 desafíos</p>" +
+          '<p class="rk__hoy">Hoy: <strong>' + hoy + "</strong> de " + 100 * DESAFIOS.length + " puntos · " + jugados + " de " + DESAFIOS.length + " desafíos</p>" +
           '<ul class="rk__desglose">' + desglose + "</ul>" +
           '<details class="rk__reglas"><summary>¿Cómo se calculan los puntos?</summary><ul>' +
             "<li><strong>Santo del día:</strong> 100 con 1 pista, 80 con 2, 60 con 3, 40 con 4 y 20 con 5.</li>" +
             "<li><strong>Versículo del día:</strong> 100 al primer intento, 50 al segundo y 0 si no sale.</li>" +
             "<li><strong>Conexiones:</strong> 100 sin errores, 80 con 1, 60 con 2 y 40 con 3. Si perdés, 10 por cada grupo encontrado.</li>" +
-            "<li><strong>Crucigrama:</strong> tenés unos 26 segundos por palabra (unos 7 minutos si tiene 16): si lo terminás en ese tiempo sin revelar palabras, 100. Después, −1 por cada 30 segundos, y cada palabra revelada resta (más en los crucigramas chicos). Mínimo 20.</li>" +
+            "<li><strong>Crucigrama:</strong> tenés 40 segundos por palabra (unos 12 minutos si tiene 18): si lo terminás en ese tiempo sin ayudas, 100. Después, −1 por cada 30 segundos. Podés pedir hasta 5 letras por día (−3 cada una) y revelar palabras enteras (cada una resta unos 7). Mínimo 20.</li>" +
+            "<li><strong>El impostor:</strong> 100 si encontrás todas sin tocar ningún impostor. Si te agarra, sumás según cuántas encontraste (hasta 90).</li>" +
           "</ul></details></div>" +
           '<div id="rk-tablas"><p class="muted">Cargando ranking…</p></div>';
       }

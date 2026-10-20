@@ -21,7 +21,7 @@
  */
 
 var CLIENT_ID = '938247619466-bc1mftrsnnrbh9f3hk1i3j1o5r3stoq2.apps.googleusercontent.com';
-var JUEGOS = ['santo', 'versiculo', 'crucigrama', 'conexiones'];
+var JUEGOS = ['santo', 'versiculo', 'crucigrama', 'conexiones', 'impostor'];
 var CURSOS = { 'sacramentos': '🕯️', 'misa': '⛪', 'coordinador': '🧭', 'hablar-de-jesus': '💬' };
 var ESTADOS = ['pendiente', 'aprobado', 'baja'];
 var ZONA = 'America/Argentina/Buenos_Aires';

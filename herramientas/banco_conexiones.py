@@ -137,7 +137,10 @@ C = [
     dict(nombre='Cosas que hay en una iglesia', nivel=1,
          usar=['CONFESIONARIO', 'PILA BAUTISMAL', 'BANCOS', 'VITRALES', 'CAMPANARIO', 'ATRIO', 'PÚLPITO'],
          tambien=['ALTAR', 'AMBÓN', 'SAGRARIO', 'CRUZ', 'CRUCIFIJO', 'CIRIO', 'VELA', 'IMÁGENES', 'ÓRGANO', 'CORO', 'NAVE', 'CUSTODIA',
-                  'CAMPANA', 'SACRISTÍA', 'RECLINATORIO', 'PILA DE AGUA BENDITA']),
+                  'CAMPANA', 'SACRISTÍA', 'RECLINATORIO', 'PILA DE AGUA BENDITA',
+                  # todo lo que se usa en misa también está en una iglesia
+                  'CÁLIZ', 'PATENA', 'COPÓN', 'CORPORAL', 'PURIFICADOR', 'VINAJERAS', 'PALIA', 'MISAL', 'LECCIONARIO', 'INCENSARIO',
+                  'ALBA', 'ESTOLA', 'CASULLA', 'AMITO', 'CÍNGULO', 'DALMÁTICA', 'HOSTIA', 'MANTEL', 'CIRIO PASCUAL']),
     dict(nombre='Cosas de un campamento', nivel=1,
          usar=['CARPA', 'FOGÓN', 'LINTERNA', 'BOLSA DE DORMIR', 'MATE', 'GUITARRA', 'MOCHILA'],
          tambien=['FUEGO', 'LEÑA', 'AISLANTE', 'CANTIMPLORA', 'TOALLA', 'BIBLIA', 'ROSARIO', 'CUADERNO', 'ESTRELLA']),
