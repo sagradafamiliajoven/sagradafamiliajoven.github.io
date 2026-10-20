@@ -5,7 +5,7 @@ Uso:  python herramientas/generar_crucigramas.py            (genera 100 nuevos, 
       python herramientas/generar_crucigramas.py --rehacer-desde 12
             (deja igual los crucigramas de los días 1 a 12 —los que ya salieron— y rehace los siguientes)
 
-Reglas: grillas de hasta 13x13, 14 a 17 palabras (si no sabés una, te ayudan los cruces), las palabras solo se tocan donde se cruzan,
+Reglas: grillas de hasta 13x13, 16 a 20 palabras (si no sabés una, te ayudan los cruces), las palabras solo se tocan donde se cruzan,
 todo conectado. Cada crucigrama pasa por un control independiente antes de guardarse.
 """
 import collections
@@ -19,13 +19,49 @@ sys.path.insert(0, AQUI)
 from banco_crucigrama import B  # noqa: E402
 
 MAX_LARGO, MAX_ANCHO, MAX_ALTO = 11, 13, 13
-MINIMO, OBJETIVOS = 14, [14, 15, 16, 16, 17]
+MINIMO, OBJETIVOS = 16, [16, 17, 18, 19, 20]
 SALIDA = os.path.join(AQUI, 'datos', 'crucigramas.json')
 
 pistas, categoria = collections.OrderedDict(), {}
 for palabra, pista, cat in B:
     if not (3 <= len(palabra) <= MAX_LARGO) or not palabra.isalpha():
         continue
+    pistas.setdefault(palabra, [])
+    if pista not in pistas[palabra]:
+        pistas[palabra].append(pista)
+    categoria[palabra] = cat
+
+
+def pistas_propias():
+    """Lee herramientas/datos/pistas_propias.xlsx (columnas: Respuesta | Pista | Categoría), si existe.
+    Ahí cargan ustedes sus pistas: no hace falta tocar código."""
+    ruta = os.path.join(AQUI, 'datos', 'pistas_propias.xlsx')
+    if not os.path.exists(ruta):
+        return []
+    import unicodedata
+    from openpyxl import load_workbook
+    out = []
+    hoja = load_workbook(ruta, read_only=True, data_only=True).worksheets[0]
+    for n, fila in enumerate(hoja.iter_rows(min_row=2, values_only=True), start=2):
+        resp, pista = (fila[0] if len(fila) > 0 else None), (fila[1] if len(fila) > 1 else None)
+        cat = (fila[2] if len(fila) > 2 else None) or 'Propias'
+        if not resp and not pista:
+            continue
+        palabra = ''.join(ch for ch in unicodedata.normalize('NFD', str(resp or '').upper().replace('Ñ', '#'))
+                          if unicodedata.category(ch) != 'Mn').replace('#', 'Ñ')
+        palabra = ''.join(ch for ch in palabra if ch.isalpha())
+        if not (3 <= len(palabra) <= MAX_LARGO):
+            print(f'  ! pistas_propias.xlsx fila {n}: la respuesta «{resp}» tiene que tener entre 3 y {MAX_LARGO} letras')
+            continue
+        if not pista or not str(pista).strip():
+            print(f'  ! pistas_propias.xlsx fila {n}: falta la pista')
+            continue
+        out.append((palabra, ' '.join(str(pista).split()), str(cat)))
+    print(f'  pistas propias: {len(out)}')
+    return out
+
+
+for palabra, pista, cat in pistas_propias():
     pistas.setdefault(palabra, [])
     if pista not in pistas[palabra]:
         pistas[palabra].append(pista)
@@ -91,7 +127,7 @@ def armar(rnd, uso, objetivo):
                     r0, r1, c0, c1 = caja(g2)
                     if r1 - r0 + 1 > MAX_ALTO or c1 - c0 + 1 > MAX_ANCHO:
                         continue
-                    opciones.append((x * 10 - (r1 - r0 + 1) * (c1 - c0 + 1) * 0.05 + rnd.random(), rr, cc, d))
+                    opciones.append((x * 14 - (r1 - r0 + 1) * (c1 - c0 + 1) * 0.08 + rnd.random(), rr, cc, d))
         if opciones:
             _, rr, cc, d = max(opciones)
             poner(grid, w, rr, cc, d)
