@@ -9,12 +9,14 @@ Scripts que generan el contenido de los juegos y del diccionario de santos. Ver 
 | `banco_crucigrama.py`       | Palabras y pistas del crucigrama                                       |
 | `banco_conexiones.py`       | Categorías de Conexiones (4 grupos de 4)                               |
 | `generar_conexiones.py`     | Arma y controla las partidas → `datos/conexiones.json`                 |
+| `generar_impostor.py`       | Arma las partidas de El impostor con esas categorías → `datos/impostor.json` (usar `--rehacer-desde N` para no tocar las que ya salieron) |
 | `banco_formacion.py`        | Cursos de Formación: lecturas y preguntas (con la fuente de cada una)  |
 | `armar_formacion.py`        | Controla los cursos → `../js/formacion-datos.js` y Excel para revisar  |
 | `cuadernillos/`             | Cuadernillos PDF de la Academia: `textos.py` baja los textos oficiales, `contenido.py` tiene lo que escribimos (guías, destacados, «Para detenerse», cumbre 04) y `generar.py` arma los PDF en `docs/academia/` |
 | `ranking/`                  | Script de Google para el ranking parroquial (ver `ranking/LEEME.md`)   |
 | `verificar_versiculos.py`   | Verifica los versículos contra vatican.va → `datos/versiculos.json`    |
 | `generar_crucigramas.py`    | Arma y verifica crucigramas → `datos/crucigramas.json`                 |
+| `actualizar_crucigrama.py`  | Rehace los crucigramas desde mañana con `datos/pistas_propias.xlsx` y arma los juegos (lo corre `Actualizar crucigrama.bat`) |
 | `armar_juegos.py`           | Junta todo → `../js/juegos-datos.js` (y optimiza fotos nuevas)         |
 | `generar_paginas.py`        | Regenera los `.html` de la web                                         |
 | `lpd.py`                    | Lee El Libro del Pueblo de Dios desde vatican.va (con copia local)     |

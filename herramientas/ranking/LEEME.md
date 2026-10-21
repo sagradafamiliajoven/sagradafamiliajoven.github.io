@@ -45,8 +45,9 @@ Los mails y los IDs **nunca** salen a la web. Política de privacidad: https://s
 |---|---|
 | Santo del día | 100 con 1 pista, 80 con 2, 60 con 3, 40 con 4, 20 con 5 |
 | Versículo del día | 100 al primer intento, 50 al segundo, 0 si no sale |
-| Crucigrama | 100 si lo terminás en menos de 3:30 sin revelar palabras; después −1 por cada 30 segundos y −15 por cada palabra revelada (mínimo 20) |
+| Crucigrama | 100 si lo terminás en menos de 10 minutos sin ayudas; después −1 por cada 30 segundos. Cada letra pedida resta 3 (hasta 5 por día) y cada palabra revelada unos 7 (según el tamaño de la grilla). Mínimo 20 |
 | Conexiones | 100 sin errores, 80 con 1, 60 con 2, 40 con 3; si perdés, 10 por grupo encontrado |
+| El impostor | 100 si encontrás todas las palabras de la categoría sin tocar ningún impostor; si tocás uno, según cuántas encontraste (hasta 90) |
 
 - Solo cuenta el desafío **del día** y **una vez** por persona. Semana: lunes a domingo (hora de Argentina).
 

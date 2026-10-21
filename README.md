@@ -22,7 +22,8 @@ gratis en **GitHub Pages**.
 | Santos del juego / diccionario                       | `herramientas/banco_santos.py` y después correr `armar_juegos.py` |
 | Versículos del día                                   | `herramientas/banco_versiculos.py` y después `verificar_versiculos.py` + `armar_juegos.py` |
 | Palabras del crucigrama                              | `herramientas/banco_crucigrama.py` y después `generar_crucigramas.py --sumar N` + `armar_juegos.py` |
-| Categorías de Conexiones                             | `herramientas/banco_conexiones.py` y después `generar_conexiones.py --sumar N` + `armar_juegos.py` |
+| Pistas propias del crucigrama (sin programar)        | `herramientas/datos/pistas_propias.xlsx` y doble clic en `Actualizar crucigrama.bat` |
+| Categorías de Conexiones y de El impostor            | `herramientas/banco_conexiones.py` y después `generar_conexiones.py --sumar N` (y, si querés, `generar_impostor.py --rehacer-desde N`) + `armar_juegos.py` |
 | Jugadores del ranking                                | La planilla de Google del ranking (ver `herramientas/ranking/LEEME.md`) |
 | Cursos de la Academia Frassati                  | `herramientas/banco_formacion.py` y después `python herramientas/armar_formacion.py` |
 | Fotos                                                | carpeta `img/` (reemplazá el archivo con el mismo nombre) |
@@ -55,7 +56,7 @@ Nochebuena, Navidad, Sagrada Familia, las fiestas de los santos del diccionario 
 
 ## Juegos diarios y diccionario de santos (`herramientas/`)
 
-Los juegos (Santo del día, Versículo del día, Crucigrama del día, Conexiones) y el Diccionario de santos salen de
+Los juegos (Santo del día, Versículo del día, Crucigrama del día, Conexiones y El impostor) y el Diccionario de santos salen de
 `js/juegos-datos.js`, que **no se edita a mano**: se genera con los scripts de `herramientas/`.
 
 Necesitás Python 3 y la librería Pillow (`pip install pillow`). Se corren desde esta carpeta:
@@ -64,6 +65,7 @@ Necesitás Python 3 y la librería Pillow (`pip install pillow`). Se corren desd
 python herramientas/verificar_versiculos.py     # si cambiaste versículos
 python herramientas/generar_crucigramas.py --sumar 50   # si querés más crucigramas
 python herramientas/generar_conexiones.py --sumar 50    # si querés más partidas de Conexiones
+python herramientas/generar_impostor.py --rehacer-desde N   # si cambiaste categorías y querés usarlas en El impostor
 python herramientas/armar_juegos.py             # siempre, al final
 ```
 
@@ -73,7 +75,14 @@ python herramientas/armar_juegos.py             # siempre, al final
   su nombre en `foto_origen`; `armar_juegos.py` la optimiza y la copia a `img/santos-juego/`.
 - **Orden de los desafíos:** `herramientas/datos/orden.json` guarda en qué orden salen. Lo nuevo se suma al final,
   así agregar contenido no cambia el desafío de hoy. No borres ese archivo.
-- `generar_crucigramas.py` sin `--sumar` **reemplaza los 100 crucigramas** por otros nuevos. Usalo solo si querés empezar de cero.
+- `generar_crucigramas.py` sin `--sumar` **reemplaza todos los crucigramas** por otros nuevos. Usalo solo si querés empezar de cero.
+- **Pistas propias del crucigrama:** cualquiera del equipo puede cargar pistas en `herramientas/datos/pistas_propias.xlsx` y hacer
+  doble clic en `Actualizar crucigrama.bat`. Rehace los crucigramas desde mañana (los que ya salieron no cambian), arma
+  `js/juegos-datos.js` y lo sube a la web. Por dentro corre `herramientas/actualizar_crucigrama.py`.
+- **El impostor:** usa las categorías de `banco_conexiones.py` (cada partida: una categoría y 10 palabras, con 1 a 4 impostores
+  que el juego no avisa). `generar_impostor.py` sin opciones **reemplaza las 200 partidas**, incluidas las que ya salieron.
+  Para no cambiar el pasado ni el día de hoy, usá `--rehacer-desde N` con N = número del desafío de hoy
+  (deja igual del 1 al N y rehace desde mañana).
 - `herramientas/generar_paginas.py`: regenera los `.html` (solo si agregás una página nueva).
 
 ---
